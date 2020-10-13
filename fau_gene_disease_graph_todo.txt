@@ -1,0 +1,239 @@
+> Chronic Obstructive Pulmonary Disease
+
+>columns
+(number) (number or words) (number) (number) (number#number) (words anf the rest of the sentence)
+
+=======================
+=== Doing
+=======================
+> How can I add weight between gene and disease?
+    : MCI is used in assigning weight to edges of proteins
+        >>can it be used gene and disease?
+    :
+> create a function to determine find disease distribution of each classs.
+> list features of nodes that can be used as features (before feeding node embedding to it) such as
+    : node degree, centrality, and so on.
+    : this is to observe whether or not the dataset can be learnt and Do adding more features help model learn?
+> writing draft paper.
+
+copd_terminiology_extract.py
+    > create copd_commorbidities_label.txt
+        : in dataset/disease_mappings.umls
+    > create copd_uniq_cuis.label_mappting.txt
+        : in dataset/diseasemapping_umls
+
+all_gene_disease_pmid_associateions.py
+    >create copd_lable.txt
+        : in dataset/generated_dataset
+
+#####FIX PLOTTING
+> in bipartite = True, there should be 2 options.
+    1. use community detection and plot color of nodes in each community
+    2. plot graph where gene has 1 color and disease has another color
+
+> fix subplot method so that it shows legend's and color its member's node.
+    >>fix: mismatch of number of color_ist and nodes in G
+        line: 497 in plotGraph_with_legend()
+
+
+> In all_gene_disease_pmid_association.py ( I should run this at fau)
+    >>use gene_disease_uniq_DO_mapping to create /generated/all_gene_disease_pmid_no_None.txt
+    >> after than, use map_umls.py to create /demo/all_gene_disease_pmid.txt
+
+
+
+## spring 2019 final project tasks (check if I have finished all of them)
+1. List of copd related diseas and genes extracted (disease names, genee names, also number of members in each category)
+2. Show the copd related gene neworks, disae networks, and gene-disease networks (including network characteristics, such as degree distributions)
+3. Find a community of (gene-disease), report who are the genes and diseases in these communities.
+
+====================
+===Error
+====================
+
+> createEdges return unique pair.
+> bipartite = False has more edges than bipartite = True
+
+> fix so that setEdgesOffset uses collection.Count
+
+> fix so that createBipartite return edges of selected keys
+> create a function that input = keys, output = list of each key's member
+> pass the vertices whose key = pair
+    :should i use key to choose vertices?
+
+> def plot_bipartite = 466
+
+> def setEdges_len_offset = 513
+> def setColor_legend = 554
+
+> def plot_networkx = 575
+> def plotGraph_with_legend = 312
+
+> def plotGraph = 630
+> def plotGraph_with_legend = 318
+
+> def plot_bipartite = 466
+
+> main:
+    >copd_graph = COPD_grpah() => 690
+    >copd_graph.plot_bipartite() = 704
+    >cop_graph.plotGraph() = 710
+
+
+HERE>> figure out how to combine plot_networkx and plot_subgrpah
+>report the following
+    :getDisconnected Graph
+    :number of disconnected-component
+    :edge Density
+
+    >network Centrality
+    >node similarity
+    >network community detection
+    >link-prediction
+
+ValueError: 'c' argument has 1242 elements, which is not acceptable for use with 'x' with size 621, 'y' with size 621.
+
+> make vertices_flat, color_legend, global
+>what is the different between get_node_color and getColor_list
+> what is setup() for??
+
+
+>report_Graph_properties( G, degree_dist = None)
+
+> get graph and nodes characteristic
+
+> community detection steps
+    :plot bipartite graph (the graph allow for disconnected subgraph)
+        steps
+        >get seperated bipartite graph
+        >convert to adjacency matrix
+        >use igrpah in r to do more intensive work
+            :igraph is more flexible
+        >create program so that
+            :there is no need to run both in r and in python
+
+    :get pattern of common node edges structure.
+            > design a generic wya fo detect specific pattern in the grpah?
+                read: "Spectral measures of bipartivity in complex networks"
+    :get disconnected graph
+    :use method availble in
+        netwokx.algorithms.bipartite
+
+>report charcteristic
+    :create method to support it
+        >> desgin it carefully
+
+    :what should I report?
+        :Graph degree
+        :clustering
+        :centrality
+        :adjacency matrix?
+            >(generate it then it would be very easy to transfer to differen platform
+        :clique?
+            >number of clique, max clique
+
+>detect bipartite of every pair of cols.
+    >detect community of it
+    url: https://networkx.github.io/documentation/stable/reference/algorithms/community.html
+    3 criteria
+    Bipartite
+    > network measure
+        *:degree distribution
+            eg Poisson vs Power-law
+            >plot freqeuncey vs Degree
+            >plot Cumulative Distritubtion
+        :number of disconnected-component
+        *:clustering
+            >triangles
+            >transitivity (?)
+            >clustring
+
+    > network Centrality
+        *:degree Centrl
+        *: eigenvector Ventral
+        :between Centrl
+            >(probly we don't need it because it's bipartite)
+        :Closeness Centrl (
+            >do i need it for bipartite?
+            > I get a feeling that it will be very similar to degree central
+        >Group Centrality?
+            >(I doubt that we gonna need it at all)
+
+    > node similarity
+        >> similarity of nodes in the sme group
+        :common nodes
+        :jaccard's coefficient
+        :RootedPageRank
+        :SimRAnk
+        >>represent similarity in lower dimension
+            :lower rank approximation
+            eg SVD
+    >network community detection
+        :node-centric community
+        :Group-centric community
+            :MDS
+        :network-centric community
+            :k-clique, k-club
+            :k-plex, k-core ( probly not)
+            >>cut-minimization
+                :karger, ford-fulkerson
+    > link-prediction
+        >collaborated-filetering
+        >supervised learning (ML)
+    > or just use existed community detection available
+        >  python-louvain on pypi
+
+        > Generators
+            : functions for generating grphs with commnity structure
+        :K-clique
+        :Partitions via centrality measures
+        :Validating partitions (?)
+        :label propagation (?)
+        :Bipartitions (?)
+            >what is the piont of this?
+
+
+
+
+    full graph
+    > network measure
+        :degree distriubtion
+        :number of disconnected-component
+        :Diameters
+        :edge Density
+        :Clustering Coefficient
+        :shortest Path
+
+    > netowkr Centrality
+        :degree
+    > node similarity
+        :common neight
+        :Jaccard coeff
+        :Katz
+    > or just use existed community detection available
+        :or api
+
+
+> disease_naem in gene_disease_5000 has different columns
+    > columns of disease Name is not correct.
+        >>( lets ignore it for now)
+        >>figure out a way to deal with this embiguity
+
+    Q: is Pradoxical in DiseaseType or diseaseName?
+        diseaseType = "Paradoxical disease"
+    > how to separate value of DiseaseType to value of diseaseName?
+        :some of them is separated by "," some of them is separated by " "
+            >> how to use regularexpression with it tho ?
+
+
+> link diseaseId and geneId from PubAnnotator to all_gene_disease_pmid_associations
+    >figure the differnet between val of col of the same name
+    :geneId of the two file followed different convention
+        >>undetstnd what is the different between the two convention
+
+> use NER to collect disease Name or Gene Name mention in sentence
+    :Then search these new collection of  disease to Gene in PubAnnotator
+        col = "sentence" to get even more number of gene, disease
+        >> save number of iteration to be uses as path length from COPD later on
+
+    :repeat the process until no new info is collected

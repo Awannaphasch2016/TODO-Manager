@@ -1,0 +1,70 @@
+> work on GeneDisease Project. 
+	: check suspicious method or function that are used in create_split_by_nodes
+	: check suspicious method or function that are used in run_clf_Using_cross_validation
+	: running KFold either with SplitByEdges or SplitByNodes output low accuracy (0.5)
+		: save 1 fold of KFold=5
+		Goal: to see what are differences when splitting with KFold vs train_test
+
+	: in run_task, compare run_split_train_test_for_link_prediction vs run_cross_validation_for_link_prediction
+		Is there any differences in how NN is used to run the result?
+			>> data_with_features vs x_with_features.
+				:: run to check it
+					1. cv => input to run_neural_network_for_each_fold is x_train, x_test, y_train, y_test
+					2. split => input to run_neural_network_for_each_fold is x_train_with_featurse, x_test_with_featurse, y_train, y_train. 
+				note: cv does not have the correct split. its split resemble split_by_nodes rather than split_by_edges.
+			>> check why cv with split_by_edges resemble split form split_by_nodes
+				: check why pickle.dump is train_test for split_by_node not split_by_edges	
+					> after finish running kfold=5, check input argument that is passed to node2vec. to make sure that existing_edges in test_set is removed from the graph.
+			>> when is arg edges_as_data used?
+				:is it used in both split_train_test and split_cross_vaidation? 
+					:if it is used in both, is there any differences in how it is used? 
+		How can I validate this? 
+			>> running 1 fold generated from Kfold in run_split_train_test_for_link_prediction should validate the correctness of the code. I expect the performance output from Kfold vs performance output from split_train_test to be the same ( maybe in the process, stochasticity is introduced and cause slight variation in the performance) 
+	:Figure out why prediction using splitbyedges are alot better than splitbynodes
+	: There are 4 options to check
+		: splitbynode\trainningsplit==0.8
+			: test set = 0.5
+			note: if it is not 0.5, then there are something wrong with split_cross_validation
+				: check split_cross_validation and list possibility that the value could be worong. 
+		: splitbynode\kfold==4
+			: test set = 0.5
+		: splitbyedges\trainingsplit==0.8
+			: test set = 0.7
+		: splitbyedges\kfold=4
+			: test_set = 0.5. (This is incorrect)
+
+			Goal is to inspect that split_by_node is False.
+	: check if input to run_clf_using_cross_validation is correct?
+		>> is slicing correct?
+		>> does drop_duplicate cause unexpected output?
+		>> use train and test from applying spliy by cross validation to simple train/test to see if there is any changes in accuracy score. 
+			note: if it is alot higher or not the same in significant way, there is some thing wrong in data.split_cross_validation or preprocess step right before the input got fed in the classifier
+	> what is the split for TraningSplit == 0.8? 
+		>> add splitted_edges to TrainingSplit == 0.8
+			problem: currently embedding that is used is not calcualted from the actual training split 
+			: where do I put code for splitted_edges.bin?
+			: here>> what contain in splitted_edges.bin?
+		>> is it repeatable? 
+			:if it is repeatable, use the split and save it to TRainSpli==0.8 manually
+			:if it is not repeatablem, just add code to saved split to file.
+		>> implement code and will save split to file called splitted_by_edges
+	> performance of shuffled disease vs not shuffled disease?
+	> what else could cause this performance deteriration?
+		:try to run train_test_split first
+
+here at line 179
+> read report by Povis
+> work on double-Q learning (reinforcement learning)
+	:look at the Canvas/reinforcement learning/file/ to find article or program that he posted on the subject.
+> work on project 2 of reinforcement learning
+> follow up with professor on my grade of the first project
+> read and summarize reading assignment 2
+> work on kaggle projects. 
+	Goal:finish as many project as I can.
+	Goal:Understand how to do machine learning project quickly
+	Goal:Increase speed of doing machine learning project.
+	Goal:create a method that I can use to manage project and increase speed to reproduce project. 
+> work on GAN project. try to reproduce, result from the recreating  DNA paper
+	:Learn how to build GAN using pytorch
+	:pick the paper to reproduce and try to reproduce it
+>  

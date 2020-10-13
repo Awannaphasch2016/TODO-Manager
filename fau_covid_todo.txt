@@ -1,0 +1,94 @@
+> how to set .vimrc in the cluster??  ( high priority because I cant work directly on the cluster) 
+
+
+waiting to join slack via email: 
+	: if by 2pm, no respond, resubmitted and 
+
+clineicla effectiveness -> vaccine finding 
+
+task-ts = work related to time serires prediction and forecasting of coronavirus
+
+task-geo = help us understand how geography affect virality
+
+task-vt = what do we know about vaccines and therapeutics
+
+task-risk = what do we know about coid-19 risk factors? 
+task-ties = what is known about transmission, incubation,adn environemntal stability? 
+
+> what is the relationsihp between SARs and Covid? 
+	: covid-19 caused by a sars-cov2 corona virus
+> idea to work on 
+	: use location and rate of change of cases to predict infected rate.
+		: What is the best DL tools?
+			:GCN? 
+> understanding library and method taht daniel wolfram uses.
+	: how did he preprocess with NKLP?
+		: tagger vs parser vs ner?
+	: cluster is selected with k_nearest neighnour.
+
+> look at 1 more paper cluster 	
+> read state of art of topic modeling 
+> What is topic modeling? 
+	: what is state of art in topic modeling?
+	: methods
+		: LDA
+	: GCN for topic modelign?
+	: What does BERT do in Topic modeling?
+> how can I use NLP to help covid? 
+	: read question answering paper. 
+	: state of art of relation extraction
+	: state of art of entity extraction.
+>task
+	: predict covid 19 cases time series
+
+> work on clustering paper
+	: read kernel on the chllenge 1
+		https://www.kaggle.com/search?q=covid
+	: read research paper on paper clustering state of art.
+> work on forcasting corona virus ( covid-19 forcsting challenge)
+> improve NLP skill (essential skill to have) 
+
+
+> where should I learn about corana virus? 
+	: from github of coronawhy
+	: from 
+
+Ans the following
+> what is the content of the dataset? 
+	: biorxiv_merixiv?
+	: common_use_subset?
+	: cord_19_embeddings_4-17?
+		: how is embedding calcualted? 
+	: nonocomm_use_subset?
+	: metadata.csv?? 
+columns		
+cord_uid sha soruce_x title doi pmcid, pubmed_id, abstract, publish_time, authors, journal, Microsoft Academic paper, who #Covidence, has_pdf_parse, has_pmc_xml_parse, full tsext_File, url
+
+> solid Machine learning backgroud, currently doing PhD about AI on graph dataset.
+
+> here>> read about coronaWhy? 
+	: understand the structure and goal of this groiup
+	: Can i join?
+		: what department do i join?
+		: what is the expected task that i need to do.
+	: watch the video just to get the glime on wtf is it all about? 
+	time + 1.30 hrs: time = 2.15
+
+> waht si the features? to apply clustering? 
+
+> read general medical concept about covid-19.
+	> find research paper on the subject. 
+	> maybe read kernel would do?? 
+		: better yet for computational background 
+	: what is it?
+	: what make it contagious?
+	: what is it consisted of?
+	: what do we know about its effect to the body?
+	: what do we know about its infectious behavior?
+	
+> understand how edges in the graph is form?
+	node = drug 
+
+
+
+
