@@ -1,0 +1,2 @@
+about 2 hours
+    try to finish of the TwitterRedditCrawler project

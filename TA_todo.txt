@@ -1,0 +1,23 @@
+Note:
+lab 1
+    comment:
+        yes, it does support, but it is not built it.
+        incorrect. -1
+        My mistake. You are correct.
+        to avoid, noise interfere with intended value. -1
+        no video provided. I cannot grade. Once video is submitted.
+         (post in comment.), I will update your grade.
+        R7 is 2. -1
+#=====================
+#== TODO
+#=====================
+Lab1
+
+    003
+        here> #20
+
+    004
+        -
+
+
+

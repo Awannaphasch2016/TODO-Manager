@@ -6,6 +6,9 @@ skillshare
 auto insurance? (why do I have this still?)
 la annualfee 2 times ( go to LA fitness to cancle the membership)
 vesta * at*t prepaid  (call austin and ask him how to check it)
+    finishe the folowing email and send it to la fitness. Then move it to waiting
+        https://mail.google.com/mail/u/0/#drafts?compose=GTvVlcRwRrwJHKvJTXbcNQjFzvnqzDmkVKHBdrTXVvhGlQKqvgRRbpWVFmBVWrdCCFMFjwRrhGNNs
+
 Security NATL in Des:INS paymt ID:G00  on august  24
     146.68 dollars
 ACH hold security natl in ins paymt on 09/22
@@ -14,39 +17,13 @@ Lucidchart $540 (waiting for reply email)
 at&t
 make notes about udemy pytest course and cancle it
 
-send dr Alhabi his zip file
-==============
 #=====================
 #== Resources
 #=====================
-read the following
-    type system reference
-        type inference and type annotations
-        kidns of ytpes
-            Type alises
-
-        More types
-            Totality ?
-                what is Totality
-            TypeDict **
-                how does TypeDict.keys() works
-
-            protocols and structual subtyping  ?
-            Dynamically typed code
-            Duck type compatibity
-
-
-    Miscellaneous
-        Common issues and solutions
-        freqently Asked questiosn
 
 #=====================
 #==Questions
 #=====================
-how to write linked list in functional programming?
-    https://dbader.org/blog/functional-linked-lists-in-python
-        code doesn't really work, you have to figure out how to run the code
-
 how to scale ML infrastructure to train on larger data?
     https://www.codementor.io/blog/scalable-ml-models-6rvtbf8dsd
     https://towardsdatascience.com/deploy-ml-models-at-scale-151204549f41
@@ -54,37 +31,15 @@ how to scale ML infrastructure to train on larger data?
     https://mlconf.com/blog/deep-learning-infrastructure-at-scale-an-overview/
     https://www.bing.com/videos/search?q=how+to+scale+ml+infrastructure&docid=608026889531689956&mid=ACF32F9750A519DBB869ACF32F9750A519DBB869&view=detail&FORM=VIREHT
 
-Does waiting for respond from api consider IO?
-    Is mine IO/bound operation?
-        how long do i need to wait for the respond from the site?
-
-
-what are type of raise error that I may need ot use
-    ValueError
-        raise hwen a function gets a nargument of correct but but improper
-        value
-    NotImplementedERror
-        ONly raised in abstract methods?
-        or used for TODO marker
-    TypeERror ( when to use it?)
-        raised when a function or operation is applied to an object of
-        incorrectype
-    attribute
-        raise when an ttributereference or assignemnt fails
-    Name
-        you've tried to use a variable that does not yet exists
-    Lookup
-        NOTE: there was an issureretriing the kye you whereloking for
-        KyeERror is a type lookup
-            semantic menaing is that thek ye bieng looked for could not be
-            found
-
 Mypy Typing
     Can I use Tagged unions for reddit and twitter at all? think about it
 
 #=====================
-#==TODO
+#== TODO
 #=====================
+
+wash clothes.
+
 --cov-report html --cov=CodeCoverage_Example --cov-branch
 add pytest-cov in cacher
 
@@ -112,9 +67,6 @@ check whether someone has implemented the twittercrawler already
 
 if I finish both of them early, => work on running it on HPC
 
-
-fix logging in psaw
-    check why log is not output?
 
 what am I solving?
     here> how can I get data, aggs, and metadata keys from response?
@@ -171,40 +123,25 @@ what am I solving?
                                          that for every n record, function
                                          yield data.
 
-                                            here> create version control for
-                                            todo
-                                                with no specific name
-                                                    AWSCLloudService todo
-                                                    HackerRank todo
-                                                    Gene_Disease_graph todo
+                                            here> refactor into the main code
+                                            base
+
+                                                move the part that iterator
+                                                throught generator outside,
+                                                so that data can be iterate
+                                                and saved (while using the
+                                                current architecture)
+
+                                                why covid subreddit = no
+                                                output?
+
+                                                validate that multiple query
+                                                 behave the same way
+
+                                                refactor save func to be in
+                                                utility
 
 
-
-                                            figure out asnwer for
-                                            real-time
-                                                clock question
-                                                http://web.eng.fiu.edu/watsonh/eel4730/slap113.pdf
-
-                                            write progress report on send to
-                                             dr Zhu.
-
-                                            edit video and uploda to youtube.
-
-                                            add teh following question to
-                                            discuession.
-                                                1. code from lab manual is
-                                                different from skel. Which
-                                                one to use?
-                                                2. make sure you understand
-                                                how to "implement" list in
-                                                assembly.
-
-
-                                            here> make the current test pass
-                                                figure it out why sort=desc
-                                                is not consistent?
-
-                                                here> fix get_date_func
 
                                             check mypy
                                             check styling
@@ -216,28 +153,14 @@ what am I solving?
                                             percent ont the
                                             test_psaw_example_from_github page.
 
-                                            refactor into the main coe base
 
                                         2. when new date is detected, data
                                         is saved to Ouput/..
 
 
-                                Can I use yields so that I can have
-                                save_file at in the run_reddit_crawler?
-
-                                test query for country, region, state tags
-                                for aspects
-
-                        test save folder
-                        implement code so that output of reddit_crawler is
-                            always contains full day of data response.
-
                         test database that there are data for each date.
                             basically, test that database is consistent.
                             (data from interval is retrived)
-
-
-
 
 > rate limit nfo of pushshift.
     use psaw api

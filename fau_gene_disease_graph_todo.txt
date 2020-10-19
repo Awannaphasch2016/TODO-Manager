@@ -1,3 +1,13 @@
+#=====================
+#==TODO
+#=====================
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEAD
+run the code
+    if not successfull, make it run
+    if successful, list things that I need to validate before working on it.
+
+------------------------------------------
 > Chronic Obstructive Pulmonary Disease
 
 >columns
@@ -237,3 +247,4 @@ ValueError: 'c' argument has 1242 elements, which is not acceptable for use with
         >> save number of iteration to be uses as path length from COPD later on
 
     :repeat the process until no new info is collected
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<END

@@ -1,43 +1,6 @@
 #=====================
-#== PRInciple
-#=====================
-before attempt to program I must know all requiredment to make the program
-    work
-when visualize algorithm I have to keep in mind few things
-    Object in my visualization must be completely distinct
-        1. what is object's attribute (what are its compoenents?)
-        2. what are object's method (what can it do?)
-
-    I have to apply sequence of actions to my visualization
-        1. what are interactions between objects?
-            it has to be clear Subject --action--> object
-
-    I must understand Rule/conditions/constraint of Algorithsm.
-        ( How does algorithm evolves?)
-        1. Rule when starting algorithm. ( initial conditions)
-        2. Rule when running algorithms. ( process)
-        3. Rule when terminal algorithme. ( terminal conditions)
-Always use visual test before writing the real test
-    thsi is because when writing the real test. you added 1 more things you
-        need to manage. This means that while code may work perfectly, you
-            test may not be correct.
-        In summary, using writing unit test required you to validate more
-            things
-I shouldn't trying to understand code that I cannot run, so that I
-    can compare the actual result from running against my prediction.
-        [] run the code
-        [] come up with prediction.
-        [] modify the code to validate your prediction
-        [] if you complete above. you understand it.
-
-
-
-
-#=====================
 #== TODO
 #=====================
-how does np.uint8 -> turn true to 1
-1.36
 
 # impementement link list
 > implement doublinklist
