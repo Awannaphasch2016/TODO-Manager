@@ -37,7 +37,10 @@ Mypy Typing
 #=====================
 #== TODO
 #=====================
-
+here> Go to fau_gene_disease_graph and finished the first here>.
+    finish it
+send zhabiz url example of reddit and twitter.
+---5.30pm-------
 wash clothes.
 
 --cov-report html --cov=CodeCoverage_Example --cov-branch
@@ -987,3 +990,4 @@ Goal:
 
 read about 10 TIPS TO HOST YOUR WEB APPS FOR FREE
     https://blog.patricktriest.com/host-webapps-free/
+

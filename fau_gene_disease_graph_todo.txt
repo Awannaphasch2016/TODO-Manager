@@ -1,13 +1,31 @@
 #=====================
-#==TODO
+#==NOTE
 #=====================
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEAD
-run the code
+#=====================
+#==QUESTION
+#=====================
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+here> run the code
+    here> ModuleNotFoundError: No module named 'Sources'
+    error when import Source in console
+        ImportError: DLL load failed: The specified module could not be found.
+
     if not successfull, make it run
     if successful, list things that I need to validate before working on it.
 
-------------------------------------------
+DO i need install sklearn?
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEAD
+
 > Chronic Obstructive Pulmonary Disease
 
 >columns

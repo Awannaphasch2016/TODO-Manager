@@ -1,3 +1,6 @@
-here> finish related work section.
-    goal: focus on categorizing. practice this new way of reading research.
-spoted problem. then I can write post about it.
+here> read and sumary in roam
+    name: Learning Attention-based Embeddings for Relation Prediction in
+        here> read architecture of the paper.
+Knowledge Graphs
+    roam: https://roamresearch.com/#/app/AdaptiveGraphStucture/page/dG796hlxi
+    paper: https://arxiv.org/pdf/1906.01195.pdf

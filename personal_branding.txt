@@ -2,6 +2,11 @@ here> consolidate TA_todo from 2 sources.
 #=====================
 #==TODO
 #=====================
+fill out branding related question on Amta.
+    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/78LSghSdR
+here> put cotent in Seedling: Categroized and Synthesized - a new paradigm
+of readin research.
+    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/HUxw0M4bh
 
 >>>>>>>>>>>>>>>>>>>>>HEAD
 chere> reate an article on todo architecture design
