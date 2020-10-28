@@ -1,12 +1,126 @@
-here> consolidate TA_todo from 2 sources.
+#=====================
+#==NOTE
+#=====================
+for research paper page, list things that I want to be searchable.
+    a must.
+        dataset that is being used.
+        related architecutre.
+        key contribution.
+        picture
+            table
+            figure
+        experiment details.
+            experiments setup.
+            paramters setting
+            result
+                performance on each dataset
+                    use "performance tags"
+    optional detail
+        related work
+            categorize by task
+            categorize by dataset
+            categorize by timeline
+            cateogorize by model types.
+        problem formation
+        introduction
+        summary
+        equation.
+            note: I really want this to be "a must" (because I am bad at it,
+             and having nicely organized, I can learn better.),
+            but I can't an easy way
+                for it.
+            note: papers use differnt symbol for the same concept, so symbol
+             should be in the papers, and
+            how to capture equation proof?
+            how to capture process in which equation is derived?
+                top-down vs bottom-up
+                    Note: bottom-up makes its easier to understand, but
+                        top-down can capture neccessary information alot
+                        quickler. (due to principle of notes searchability,
+                        top-down should be employed)
+
+
+
+#=====================
+#==QUESTION
+#=====================
+
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
 #=====================
 #==TODO
 #=====================
-fill out branding related question on Amta.
-    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/78LSghSdR
-here> put cotent in Seedling: Categroized and Synthesized - a new paradigm
-of readin research.
-    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/HUxw0M4bh
+
+write an article about The next species of genius.
+    smart = how much you remember
+    smart = how fast you access information.
+        note: many things are online but most are crap, so you have to an
+        ability to access the right information.
+        note: you must have ability to filter for good info.
+    smart = how fast you filter and retrived quality information.
+        note: many things are online and there are many high quality
+        content, so you have to be able to store/update when new more
+        refined/previse information is discovered. (learning from best
+        content.)
+        note: you must have ability to retrive good info. no need to filter
+        alot becaue good content is already there. just store and retrived.
+write an artivle on "stagnate era of note taking" explaining the fact that
+technology of note taking advancement is completely stagment.
+    write about list of strategy in which people make notes.
+    whrite about "what is the properties of good notes?"
+    write about "what is the problem with the current notes taking technique?"
+        style of note taking in 'fact heavy', 'concept heavy', 'domain
+        syntax heavy'
+make tutorial on how to intiaate 'discussion', and 'conversation' tags
+
+wrtie in roam research under seedling: should I purposed idea of IDE for note
+taking (for
+curated
+knowledge)
+    what should be funcationality of IDE for curated knowledge?
+        basic function of bi-directaion link (basically roam research)
+            allow for more complex query that what is current offer in roam
+            research
+                what are other functionality of query do I want?
+        easy way to convert equation into "latex" or "wolfram language"
+        separate block types by tags.
+            Note: types of tags should be add on.
+            use case
+            introduction
+            ...
+        optimize searchability + cohension + coupling + DRY.
+        integrate smoothly with internet or other people's knowledge base
+            navigation between internet and IDE.
+        integrate smoothly with online notes. (PDF, jpg, code)
+            when highlight a note -> ask if you want to re-written it in
+            your own word -> become a block in which can be link by the rest
+             of your knowledge base. (all steps are saved)
+        include version control for ease of collaboration.
+        have add-on to enhance
+            synthesize, categorization, and exploration experience.
+        enable keybinding such as vim, emacs, etc.
+
+write aricle to answer the following question
+    Question: is the new seedling page [Seedling: Document your level of code
+    understanding by writing narrative.] another to describe to capture sequence
+    diagram?
+        ans same idea but doesn't use any component or class to describe. only
+        care about hwo the works work.
+
+
+
+fill out branding related question.
+    Note: make sure to keep the previous version.
+    Forward
+        https://roamresearch.com/#/app/AdaptiveGraphStucture/page/MZkZddle6
 
 >>>>>>>>>>>>>>>>>>>>>HEAD
 chere> reate an article on todo architecture design

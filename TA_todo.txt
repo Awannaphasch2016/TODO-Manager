@@ -1,23 +1,96 @@
-Note:
+#=====================
+#==NOTE
+#=====================
+
+
+students that i need to look watch code + video
+
+    --002 004
+        lab 01
+            Noelle Meline
+            Raven Ruggs
+
+    --003
+        lab 02
+            Johnathan Jorgensen
+
 lab 1
     comment:
+
         yes, it does support, but it is not built it.
-        incorrect. -1
+
         My mistake. You are correct.
+
+        incorrect. -1
+
         to avoid, noise interfere with intended value. -1
+
         no video provided. I cannot grade. Once video is submitted.
          (post in comment.), I will update your grade.
+
         R7 is 2. -1
-#=====================
-#== TODO
-#=====================
-Lab1
 
-    003
-        here> #20
+        Yes, it does support Real-time Clock, read this document for more details (http://web.eng.fiu.edu/watsonh/eel4730/slap113.pdf) (-0.5)
 
-    004
-        -
+        Yes, it does support Real-time Clock, read this document for more
+        details (http://web.eng.fiu.edu/watsonh/eel4730/slap113.pdf) (-1)
+
+          NZVC 0001. -0.5
+
+lab 2
+    comment:
+
+        no video provided. I cannot grade. Once video is submitted. submit or
+         comment link to the video and I will update the grade. After lab 2,
+          I cannot update the score after the deadline, so please keep that
+          in mind. Also please submit your .asm file, so I can provide
+          partial point whenever possible.
+
+        Answer from video submission is incorrect. you need to submit the code
+        for me to check for correctess and recieved partial point.
+
+        "Write the hex value in order".-2
+    Ans:
+        ARY1
+        10 43 -19 77 -44 24 -82 -55 16 -18 99
+        10 -82 -55 -44 -19 -18 16 24 43 77 99
+        lab 01
+
+        R4 0004
+        R5 0003
+        R6 000A
+        R10 000F
+        R7 0002
+        NZVC 0001
+        0004 0002 000A 000F 0002
+
+
+        lab 02
+        0A  AE  C9  D4  ED  EE F0 18 2B 4D 63
+        AE0A D4C9 EEED 18F0 4D2B 0063
+
+        ARY2
+        10 25 12 61 -76 -90 23 98 97 60 -77
+        10 -90 -77 -76 12 23 25 60 61 97 98
+        0A A6  B3  B4  0C 17 19 3C 3D 61 62
+        A60A B4B3 170C 3C19 613D 0062
+#=====================
+#==QUESTION
+#=====================
+What is header file?
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+create lab 3 discussion page
+here> not sure what left for lab1-2-3 of 003 and 004, so check then proceed
+    to finished all the left over.
+
 
 
 

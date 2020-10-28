@@ -1,0 +1,31 @@
+#=====================
+#==NOTE
+#=====================
+dataset
+    I can use email to create network.
+
+#=====================
+#==QUESTION
+#=====================
+Q can I use dataset from panama paper to create network?
+As
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
+#=====================
+#==TODO
+#=====================
+here> find paper that use network analysis + deep learning model + cyber bullying.
+    Goal: reproduce the performance from scratch.
+    May be 'temporal' is a key word to get graph like dataset?
+        url: https://roamresearch.com/#/app/AdaptiveGraphStucture/page/F-U0561Q6
+
+find misinformation dataset that I can create network out of and do analysis
+ on it.

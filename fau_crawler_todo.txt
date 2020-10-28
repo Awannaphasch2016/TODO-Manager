@@ -1,2 +1,7 @@
-about 2 hours
-    try to finish of the TwitterRedditCrawler project
+here> finish integrating request function (using psaw)
+    note: I believe if I clearly stated what I need to do in the lastest log
+get reddit dataset from it
+
+create test on twitter crawler
+    what do i need to crawl?
+        What do i need to test?

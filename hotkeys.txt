@@ -1,0 +1,952 @@
+CHROME
+>CRTL+SHIFT+T = last closed tap in chrome
+>CRTL+T = open new blank tab and switch to it
+>CRTL+W = close current tap
+>crtl+n = open new chrome window
+>crtl+shift+w = close all tap in selected window
+>CRTL+ALT+LEFT-CLICK = open a link in a new tab in the background
+>CTRL+SHIFT+LEFT-CLICK = open a link in a new tab and swtich to the new tab.
+>Shift+Alt+left/right = move current tab to left or right
+>Shift+Alt+down/up    = move current tab to most left/ most right
+> Alt + Enter = open url in new tap
+> Alt + D = highlight url
+> Alt + D -> Alt +Enter = duplicate tab
+> Alt + E = open customized and control google chrome
+> Alt + F = open customized and control google chrome
+> B = enter bookmerks
+> control + E = search google
+> Shift + w = move tab to new chrome screen
+> shift + o = search open tabs by name
+> shift + t = list most recents tabs that were visited
+
+chrome plugin
+tab to window
+> alt + x = Tabs to windows
+> Alt + z = Tabs to new screen
+
+SET PATH AND CLASSPATH
+>set PATH=%PATH%;C:\Program Files\Java\JDK1.6.20\bin
+>set CLASSPATH=%CLASSPATH%;C:\Program Files\Java\JDK1.6.20\lib
+
+
+
+
+sublime
+>CRTL+SHIFT+I = install packages
+>CRTL+R = go to the function definition on the page
+>f12 = go to the function definition on the page
+>CRTL+SHFIT+DELETE = delete everything on the left of the cursor
+>CRTL+shift+K = delete the whole time
+>ATL+shift+number_of_cols = spit into a given number of column window specified
+>ATL+shift+number_of_rows = split into a given number of row window specified
+>crtl+shift+target_window = move file to the target_window OR open new tab in the target_window
+>crtl+h = find and replace
+>crtl+d = copy targeted word to find tap
+	>>shift + enter = previous word
+	>>enter = next word
+>crtl+b = toggle sidebar
+
+PICKLE DUMP
+# featuresets_f = open("featuresets.pickle", "wb")
+# pickle.dump(featuresets, featuresets_f)
+# featuresets_f.close()
+
+PICKLE LOAD
+# featuresets_f = open("featuresets.pickle", "rb")
+# featuresets = pickle.load(featuresets_f)
+# featuresets_f.close()
+
+Word document
+underline =
+bold = ctrl + b
+auto correct = alt + f7 S
+
+Window cmd|commandline
+close folder = Alt + f4
+go to desktop, nagivate thorught folder on desktop = window + d
+go to desktop = window + m
+open file explorer = window + e
+navigate thorught quick access in file explore = shift + tab
+open cmd = window + r
+navigate to pin folder = window + t
+serch in window bar = window + q
+new filder = ctrl+shift + n
+open setting = window + u
+search in window setting = window + i
+check mail = window + s
+logout = window + l
+bluetooth = window + k
+right click = window + x
+go to utility tab ( buttom-right) = window + b
+create a file = type nul >name
+delete a file = del name
+create directory = mkdir name
+remove directory = rmdir /s name
+move between virtual destop = ctrl + window + left/rightkey
+
+
+Window apps
+>QuickLook
+	: Spacebar = show preview of the file
+>ShareX
+	: Ctrl + Print Screen  = Capture region
+	: Print SCreen = Capture entrie screen
+	: Alt + Print SCreen = Capture active window
+	: Shift + Print Screen = strat/stop screen recording using custon region
+	: Ctrl + Shift + Print Screen = Strat/Strop screen recoding (GIF) using custon region
+> Wox
+	: Alt + space = open Wox
+> Wox like things on Chrome (don't remember plugin name)
+	: shift + o = open typable tab to search for open chromes tabs to go to
+	: shift + t = open list of recently visit tabs.
+> ditto
+	: Ctrl + ' = show history of clipboard
+> Clover
+	: Ctrl + N = Open a new Clover window
+	: Ctrl + T = Open a new Tab
+	: Ctrl + W = Close current Tab
+	: Ctrl + shift + t = re-open alst closed tab
+	: Ctrl + D = Bookmark current folders
+	: Ctrl + Shift + F = Place all opened tabs into a bookmarked folder
+	: Ctrl + Tab = switch to next TAb
+	: Ctrl + Shift + Tab = Switch to previous tab
+	: Crl + shift + B = Enable or diable bookmark bar
+	: Ctrl + number = go to tab in order = "number" (counting up from the left)
+> Groupy
+	: win + ` = move to the right tab
+	: win + ctrl + ` = move to the left tab
+> Cmder
+	: ctrl + number = go to tab in order = "number" (counting up from the left)
+	: ctrl + tab = move to the right tab
+	: ctrl + shift + tab = move to the left tab
+	: ctrl + ` = toggle between open and close cmder
+
+
+Pycharm (to use console/debug/install a file, open pycharm from anadaca cmd)
+ALT+SHIFT+10 = run program
+close tab = ctrl + f4
+reoepn close tab = ctrl + E
+select terminal/python console = control + shift +tab
+select editor = ctrl + tab
+look up python funciton definition = ctrl + shift + I
+backward/forward= ctrl + alt + right/left
+delete line = ctrl + y
+look up document = ctrl + Q
+jump to any declaration = ctrl + B
+cut the entire line = Ctrl + x
+copy the entire line = Ctrl + cten
+instant copy to the current line to below lien = Ctrl + d
+trace back to previous line that I have edited=ctrl+shift +del
+select block of code = Ctrl + w
+go to previous line that my cursor was on = Ctrl + Atl + left
+go to line = ctrl + G
+ctrl+alt+T = surroudn with eg if-else, quote, while, for loop etc.
+ctrl+. = select the entire line
+ctrl+1 = go to the next screen split
+alt+home = go to the navigation bar
+ctrl+shift+Backspace = navigate to the last edited location
+ctrl+f12 = open structure without sidebar
+alt+7 = open structure on the sidebar
+ctrl+e = recent file
+f2 = next highlighted error
+ctrl+f12 = open structure without sidebar
+alt+7 = open structure on the sidebar
+ctrl+e = recent file
+f2 = next highlighted error
+shift+f2 = previous hightlighted error
+ctrl+f11 = add to bookmark
+alt+6 = todo
+shift+ctrl+f = file in path
+alt+q = show class in which the caret is in
+ctrl + f3 = go to the next word (of the word in which caret is in)
+ctrl+shift+f3 = go to the previous word (of the word in which caret is in)
+hightlight + shift + quote = surround word by quotes
+ctrl+[ = move caret to beginning of higher block of code
+ctrl+shift+[ = move caret to beginning of higer block of code with selection
+ctrl+0 = split screen vertically
+shift+0 = unsplit vertical screen
+alt+j = select all occurence
+ctrl+shift+alt+j = select all occurence
+shift + 4 = open new screen editor of the same editor page in which caret is in
+ctrl+shift+c = copy file path
+ctrl+o = open in file explorer
+ctrl+alt+p = create current word into function argument
+ctrl+p = show func argument
+alt + g = create gist snippet
+alt + f1 = select in
+alt + s = search online
+ctrl + shift + " = search in google
+ctrl + ; = ace jump
+ctrl + ; + left arrow = go to begining of the line
+ctrl + ; + right arrow = go to end of the line
+ctrl + ; + up arrow = go to the first character
+(ctrl + ;) press twice = go to the w
+ord and highlight them; if the word is a function, it will go into the function
+alt+ctr+t = surround block by conditional block such as if-else while
+ctrl+shift+M = move caret to matching bracket
+ctrl + l = clone caret up
+ctrl + shift + l = clone caret down
+ctrl + shift + n = search for file
+ctrl + n = search for classes
+ctrl + shift + Alt + N = seach for symbol
+clrt + 7 = open structure ( this allow you to search by usage)
+ctrl + alt + shift + u = show diagram
+alt + enter = show context actions
+ctrl + shift + a = Find Action
+alt + home = show navigation bar
+shift + f6 = folder  rename refactor
+ctrl + enter = new line above
+shift + enter = new line below
+??alt + shift + c = recent changes
+ctrl + alt + m =extracting method
+ctrl + alt + p = extracing parameters
+ctrl + alt + l = format the file
+ctrl + alt + o = optimize import format
+ctrl + shift + f12 = full size editor (close other window)
+ctrl + shift + up arrow = make current window bigger
+ctrl + shift + down arrow = make current window smallers
+ctrl + delete = delete word from the cursor to the end of the word
+ctrl + backspace = delete word from the cursor to the beginning of the word
+shift + alt + E = loaing code from editor into consoel
+alt + j = add selection for next occurenc
+alt + d + tab * 4 = go to search box
+ctrl + > = recent file
+shift + < = switcher
+cc = Replace Whole line in Vim (cursor still on the line)
+S = Replace Whole line in Vim (cursor still on the line)
+ctrl + Enter = create new line below and move caret to the new line
+Shift + Enter = create new line below and move caret to the new line
+Ctrl + shift + enter = create new line above and move caret to the new line
+shift + f3 = open external documentation
+ctrl + q = open quick documentation
+alt + 7 = open documentation tab
+ctrl + space = show list of candidate variable compettion
+ctrl + alt + ; = ace jump and select the target word
+ctrl + shift + j = ace jump to the beginning or the end of the line
+ctrl + alt + l = reformat code
+ctrl + shift + ' = search in google
+ctrl + shift + v = open clipboard of copy history
+shift + alt + e = run lines under highlgith in console
+alt + home = show breadboard of the current file path
+shift + f6/6 = refactor
+ctrl + shift + \ = open current file directory in terminal  ***
+alt + insert = overwrite inherited method
+ctrl + shift + alt + l = optimize import
+ctrl + shift + alt + t = show "Refactor This" ***
+ctrl + alt + t = open "surround with"
+ctrl + alt + v = introduce variable
+ctrl + alt + p = introduce parameter
+ctrl + alt + m = introduce method
+ctrl + alt + f = introduce field
+ctrl + n = search Class
+ctrl + shift + n = search Files
+ctrl + shift + alt + n = search symbol
+ctrl + shift + f8 = view breakpoints
+ctrl + shift + f10 = run test
+ctrl + alt + h = Hierarchical view
+alt + ' = open VCS popup window
+alt + 9 = version contorl panel
+ctrl + shift + -/+ = collapse/open all method
+ctrl + alt + e = show console history dialog
+ctrl + shift + quote = search highted code with google
+alt + s = search code in gitub ( to search specific languages like python: add language:Python)
+atl + ctrl + u = show diagram
+ctrl + shift + f8 = edit break point
+
+pycharm todo
+ctrl + alt + up/down arrow = navigate to next/previous todo
+
+
+pycharm speed typing
+speed typing/VCS
+file-status-highlights = check status of file
+git log = show git repository log
+diff & merge = compare differences between 2 files (there is no option to merge)
+merge = merge Branches
+'Go to' => click 'test' = create unittest for the current class/method/function
+PlantUML = show list of planUML
+
+
+pycharm debugging
+alt + f9 = force run to the cursor (it will stop at breakpoint if there is one inbetween)
+ctrl + alt + f9 = force run to cursor ( it will not stop at breakpoint)
+
+
+pycharm pytest
+ctrl + shift + f10 = run pytest
+ctrl + f5 = rerun th test
+
+pycharm github
+alt + 9 = open vcs tab
+ctrl + k = commit to github
+ctrl + ; =
+alt + ' = vcs operation
+
+pycharm with speed typing (action tab)
+> check out version control (create a proejct from Github) = 'ch ve' (does this one work? )
+> clone repo = "vcs clone"
+> init  repo =
+> commit = "vcs commit"
+
+
+Cacher
+Alt + 4 = open Cacher bar tab
+Alt + I = find snippet
+Alt + C = Create snippet
+
+RUNNING
+>run current file = shift + f10
+>debug current file = shift + f9
+>run = shift + alt + f10
+>debug =shift + alt + f9
+>resume program= f9
+>stop = ctrl + f2
+>breakpoint = ctrl + f8
+
+STEPPING
+>step over = f8
+>step into = f7
+>step out = shift + f8
+
+
+
+Evernote
+link : https://help.evernote.com/hc/en-us/articles/209004807-Keyboard-shortcuts-in-Evernote-for-Windows
+Ctrl + Q = search notebooks name
+Ctrl + N = new note
+Ctrl + shift + N = jump to notebook
+Ctrl + Q = Quick Search
+Shift + Alt + N = Search notebook
+Shift + Alt + T = Seach tags
+f9 = sync
+f7 = check spelling
+ctrl + Enter = Open in new window
+ctrl + D = show Font option
+ctrl + L = Left
+ctrl + E = Center
+ctrl + R = Right
+Ctrl + Shift + B = Bulleted List
+Ctrl + Shift + O = Bullet with Number list
+Ctrl + B = Bold
+Ctrl + I = Italic
+Ctrl + U = Underline
+Ctrol + Shift + H = Hihglight
+Ctrl + Shift + C = Inset Checkbox
+Ctrl + K = Add hyperlink
+Ctrl + Shift + K = Edit hyperlink
+Alt + Shift + D = Insert Date and Time Tab
+ctrl + w = highlight block
+Ctrl + Shift + C = checkbox
+Ctrl + Shift + > = increase front size
+
+
+Adobe Acrobat
+ctrl + l = full screen
+
+Youtube
+/ = go to search box
+alt + d + tab * 4 = go to search box
+c = toggle subtitle
+shift + > = increase the speed of the vid
+shift + < = decrease the speed of the vid
+f11 = full screen mode
+f = full screen mode
+i = launch mini player
+j = back 15 sec
+l = forward 15 sec
+k = stop
+t = half-full screen
+
+Vimium for web navigation
+show the help dialog = ?
+Go back in history = H
+Go forward in history = L
+Manipuating tabs = K
+Go one tab left = J
+Create new tab = t
+Close current tab = x
+Restore closed tab = X
+SCrool down = j
+Scroll = up = k
+Scroll left = h
+Scroll right = l
+Scroll to the top of the age = gg
+scroll to the button of the page = G
+reload the page  =f
+View page source = gs
+enter find mode = /
+Cycle forward to the next find match = n
+Cycle backwrd to the previous find match = N
+Open a link in the current tab = ?
+Open a link in the in the new tab = ??
+?Enter insert mode = i
+?cycle focus to the next frame = gf
+Copy the current URL to the clipboard = yy
+search in open tab = Shift + t
+Open URL, bookmark, or history entry = o
+Open URL, bookmark, or history entiry in a new tab = O
+g + u = go to the parent of the current url
+g + U = go to the root of the current ur l
+o = Open URL (history)
+shift + o = Open URL history in the new tab
+b = Open a book
+B = Open a bookmakr in a new tab
+T = search through you open tabs
+g0 = go to the first tab
+g$ = go to the last tab
+yt = Duplicate current tab
+^ = go to the previous visited tab
+alt + p = toggle pin tab
+alt + m = toggle mute tab
+shift + > + > = move tab to the left
+shift + < + < = move tab to the right
+r = reload the current page
+
+
+
+Vimium (visual mode)
+:Visual mode is used for selecting txt on the page
+enter visual mode = v
+enter visual line mode = V
+j,k,h,l = same as vim
+w = select to the begining of the next word
+e = select to the end of the current word
+b = select to the begining of the beginning of the previous word
+
+Vimium (caret mode)
+:Caret mode is used for changing the starting poitn for slecting text on the page
+j,k,h,l = same as vim
+w = move caret to the begining of the next word
+e = move caret to the end of the current word
+b = move caret to the begining of the beginning of the previous word
+
+Vimium completion engines ( o to open the vimium search engine)
+w = wikipedia
+g = Goole
+y = youtube
+
+Gmail
+
+
+Vim normal mode
+zz = move cursor to the middle of the screen
+zt = move sursor to the top of the screen
+zb = move cursor to the bottom of the screen
+ctrl-o = go back to where the cursor was
+ctrl-i = go forward to where the cursor was
+o = inset a line belwo the cursor and place you in Insert mode
+shift + o = insert a line above the cursor and place you in Insert mode
+a = insert text after the cursor
+	:e + a
+	:w + i
+shift + a = insert text after the end of the line
+shift + r = replace mroe than one character
+y = copy this a line
+yw = copy one word
+p = paste a copied line
+/word\c = ignore case for "word" only
+:nonhls = remove the highlighting of matches enter.
+(ctrl + w) x 2 = jump from one window to another
+[number]k or [number]j = go to relative line
+[number]+ or [number]- = go to relative line
+{ or } = jump forward/backward one paragraph
+ctrl + ] = go to the declaration of a keyword your cursor is currently over.
+ctrl + t = take you a stap back in the tag stack
+ctrl + E = scroll down
+ ctrl + y = scroll up
+^ = move caret to non white space character
+shift + c = change the entire line
+r = change a character
+shift + r = type character in insert mode
+x = delete
+shift + x = delete back
+/text = go to next
+m + character = mark with character
+haracter = go to the mark character
+ctrl + u = move up by 15 lines
+ctrl + d = move down by 15 lines
+c + i + ) = change in parentheses u
+dd = delete a line
+shift + d = delete until the end of the linekjk
+ = select from line to line
+ = extended select
+ = go to outer block
+% = jump between machined bracket V
+* = search word under the cursor
+ctrl + enter = add line below
+shift + enter = add line above
+gg==G = reindent everything in the file
+alt + r = hightlight and go to the next occurance of a word under current cursor
+alt + j/k = go to prev/next method
+g + E = go to the end of previous word
+shift + w = Next Word (skip special chracter)
+ge = go to the end of previous world
+81Gy91G = move to line 81 -> copy to line 91 ( it is not pasted just copy form 81 to 91)
+yy = copy the current url to clipboard
+p = open the current tab with the url in the clipboard
+shift + p = open the new tab with the url in the clipboard
+] + space = create new line below while caret remain in the same line
+[ + space = create new line above while caret remian in the same line
+' + . = jump to position where last change occurred in current buffer
+' + " = jump to positino where last exited current buffer (?)
+'' = jmp back (to line in current buffer where jmped from)
+`` = jump back (to position in current buffer where jumped from)
+`[ + '] = jump to begining/end of previously chnaged or yanked texted
+`< or `> = jump to beginnin/edn of last visual selection
+`0 = jmp to position in last file edited (when exited Vim)
+`1 = like `0 but the previous file (also `2 etc)
+V32G = select from current line to line 32
+V32j = select current line to 32 lines below the current line
+V32k = select current line to 32 lines above the current line
+
+vim/surround
+Note: ys = add; cs = replace; ds = delete
+ds' = delete most inner ' that is surrounded
+cs"' = change surrounded " to ' (typing cs have to be really quick)
+ysiw' | highlight + shift-s + ' = surroudn the highlight sentence with '
+yss' = surround the whole line by '
+
+
+vim/macro
+> press 'q' followed by any letter => any things that are type after are record until you press 'q' in normal model again
+> @@ = repeat the last macro
+> 10@@ = repeat last macro 10 times
+
+vim navigation
+; = go to next word that you previously use f command to find
+` + . = jump to the last changed position
+` + ^ = jump to the last insert mode position
+ctrl + w * 2 = jump between screen
+ctrl + w + h/j/k/l = go to left/above/down/right window
+:vs <filename> = split vertically to the right
+:sp < filenae> = split horizontally below the current screen
+
+vim in insert mode
+ctrl + a =  increment the nearest number
+ctrl + x = decrement the nearest number
+ctrl + r + " = Paste from default register in insert mode
+ctrl + r + 0 = Paste fro m0 register in insert mode
+
+
+vim in visual mode c = change word shift + v = start Linwisevisual mode
+v = start cisual mode, mark lines, then do command
+ctrl + b = start isual block mode
+shift + O = move to other coner of the block
+note: a = v + 9
+a + b = select () block (with braces)
+a + B = select {} block
+a + w = select a word
+i + ) = select () block (with braches)
+i + ) = select () block (with braches)
+i + p = select the whole paragraph (separated by space line)
+) = go to the begining of the block with separated by space line
+> = shift right
+< = shift left
+i + w = select current word
+ctrl + / = toggle commenting
+:sort = sort line by number in front
+shift + s + " = surround highlighted text with "
+ys + s + [ = surround entire line with [
+
+vim with :
+before/wordafter/g = replace (all occurance) words in this FILE.
+:r FILENAME = insert the contents of a file
+:ctrl + G = show file nme
+:1 + (ctrl + G ) = show full path to file
+{this is a {}}
+:help key-notation = option help on keynotation eg <CR> etc
+:-10,-7y = copy from relative line -10 to relative line -7
+:-10,-7co . = copy from relative line -10 to relative line -y and paste it to the current line
+:-10, -7mo . = move lines from relative line -10 to relatie line -7 and to the current line
+:edit . -> navigate to the files -> R -> change file name = rename file name from within vim
+:delmarks a-Z = delete marks from a to Z
+:s/search/replace = search and replace only the first occurence of a term
+:8,10 s/search/replace = search and replace the first occurence between given rlines
+:%s/search/replace/g = %-> indicate to search the entire files, g -> indicate to replace all of the occcurence (rather than only the first one)
+:Vex = open file
+
+
+vim wit register
+" + k + yy = copy current line to k register
+" + k + p = paste content that is in register K
+" + '+' + p = paste from system clipboard on Linux ( paste content that is copied outside of vim in vim, it seems like it suppose to be " + '*' + p for windows, but both works for me )
+
+
+
+ideavim (pycharm plugin)
+shift + h = high
+shift + m = middle
+shift + l = low
+
+
+.vimrc
+:set hls = set highlight search
+:set ic = ignore case
+:set noic = disable ignore case
+:set is = show partial matches for a serach phrase
+
+Bash
+alt + . = insett the last parameters(s) of the preceding command in your current commnd
+tab (x 2) = show list of completions for the word that you hvae just typed or are typing
+
+Z shell
+cd /u/lo/bin -> press tab = it will be completed to cd /usr/local/bin
+
+Git bash
+explorer + . = open current directory in file explorer
+create a new folder  = mkdir
+/ = C:\Program Files\Git
+~ = C:\Users\Anak
+/c = C:
+$VIM = /usr/share/vim
+$VIMRUNTIME = /usr/share/vim/vim81
+
+file explorer
+f4 = dropdown list
+* = expands everything under the current selection
++ - expands the current selection
+- = collapses the current selection
+alt + enter = open the properties dialog for an object
+
+Jupyter notebook
+j/k = up and down
+shift + j/k = highlight current cell and the above/below
+b = create cell below
+a = create cell above
+
+Trading View
+clone = ctrl + drag the target line
+draw liens at a 45 angle = ctrl + drag (line mode)
+drag draings horizontally/vertically = shift + drag
+create an alert on the current instrument =  alt + A
+add a text note for current instrument = Alt + N
+add the chart's current instrument to the watchlist = Alt + w
+undo = ctrl + z
+redo = ctrl + y
+add the chart's current instrucment to the watchlist = Alt + W
+open the Publish Idea' window = Alt + P
+, + 5 = 5 mins chart
+, + 3H = 3 hours chart
+, + 4D = 4 days chart
+, + 2W = 2 weeks chart
+, + 1M = month chart
+, + 12M = year chart
+reset the spacing between bars = double-click on the time axis
+Move chart 1 bar to the left/ riht = <- or ->
+move futher to the left/right = ctrl + <- or ctrl + ->
+Go to a specific dat = Alt + G
+Place arket order to buy = shift + B
+place market order to sell = shift + S
+Make a horizontal line = Alt + H
+make a vertial line = Alt + V
+Glag or unglaf the chart's current symbol in the Watchlist = Alt + Enter
+
+Docker Command
+enter to docker interactive mode = "docker exec -it *ContaineID* bash"
+list docker images that are not closed yet = "docker -ps"
+exit from interactive mode = Ctrl + d
+running jupyter image on docker  = "docker run -p local_computer_port:docker_port jupyter/scipy"
+inspect path that vol is mounted to = "docker inspect -f "{{ .Mounts }}" *ContainerID* "
+list volume = "docker volume ls"
+show image history = "docker history *Image*"
+remove all container =  "docker rm -f $(docker ps -aq)"
+launch superset image = 'docker run -d -p 8088:8088 typlerfowler/superset'
+bind mount volume to container = 'docker run -d -p 5432:5432 -v pgdata:/var/lib/postgresql/data postgres' <-- This is an example
+
+Superset (after superset finished installed, you can create new admin account)
+username = admin
+password = admin
+
+Prostgres
+
+Linux | linux
+get ip adress = ipconfig
+
+Search Everything | search everything
+search folder that contain 'test.txt' = child:test.txt
+search folder with name 'root' = folder:root
+search for file with name 'test.png' = file:test.png
+search for video = video:<name>
+OR = |
+AND = space
+! = NOT
+search for picture = pic:<name>
+search for zip = zip:<name>
+search for audio = audio:<name>
+search for document file = doc:<name>
+search for exe = exe:<name>
+
+
+Wox | wox
+
+Browser Tab Finder = ?
+Switcheroo for Wox = win
+Wox.Pluing.Putty = pt
+translate = translate
+need = need
+Thesaurus = t
+Dash (Velocity) = dash
+Ip address = ipadr
+sWitcheroo for Wox = win
+Wox.Plugin.Timestampjo: tt
+Python Calculator = calculator
+search in url = url
+open cmd = Op
+search Saved Folder = folder
+search everything = search everything
+
+reStructureText
+reference: https://docutils.sourceforge.io/docs/user/rst/quickref.html
+*emphasis* = italic
+**strong emphasis** = blodface
+reference_ = a simpel one-word hyperilink reference
+`phase reference_` = a hyperlink reference with spaces or punctuation needs to be quoted with backquotes
+annonymous__ = ?
+_`inline internal target` = A crossreference target within text
+|substitution reference| = ?
+footnote reference [1]_ = Footnotes
+citation reference [CIT2002] = Citations
+https://docutils.sf.net/ = a standalone hyperlink
+
+Adobe Reader
+crtl + l = full screen mode
+shift + x = create comment
+
+MathPix
+ctrl + alt + m = create drag window snapshot
+
+ShareX
+keybind shortcut: https://getsharex.com/docs/region-capture
+ctrl + print screen = capture area
+print screen  = capture entire screen
+alt + print screen = capture active window
+up arrow + shift + print screen = start and stop recording screen
+
+Roam ResearchA
+ctrl + shift + a = select all block
+shift + click = open on sidebar
+ctrl + alt 1,2,3,0 = header size
+ctrl + enter = toggle todo and done
+alt + right/left arror = zoom in and out
+alt + shift + up/down arrow = move block up and down
+ctrl + o = go to page
+ctrl + shift + o = open link in side bar
+ctrl + up/down = collapse and open
+ctrl + j/k = move up and down (while downdown is displayed )
+ctrl + u = global search
+shift + enter = open in Side Bar (only work in dropdown of global search)
+ctrl + , = create new version.
+
+Roam Toolkit plugin
+
+Roam Toolkit/Date maninpulation
+;<human readable date>; = turn human readable date into date page in roam
+ctrl + alt + up/down arrow = increase/decrease date by 1
+
+Roam Toolkit/Block manipulation
+ctrl + alt + c = copy block reference
+ctrl + alt + e = copy block embeding
+ctrl + alt + d = duplicate the current block to below cell
+ctrl + alt + k = delete the block
+
+Roam Toolkit/Space Repeittion
+shift + alt + 1 = again
+shift + alt + 2 = hard
+shift + alt + 2 = good
+shift + alt + 3 = easy
+:hiccup [:span.cloze "<any text>"]
+
+Notion
+ctrl + shift + m = comment (+ highlighting)
+
+VSCode
+ctrl + , = open setting
+ctrl + p = switch between files in workspace
+alt + enter = use with ctrl + p to open file in split window
+f11 = full screen
+alt + b = toggle sidebar
+ctrl + shift + e = open explorer sidebar
+ctrl + shift + f = open search sidebar
+ctrl + shift + g = open source control sidebar
+ctrl + shift + d = open run sidebar
+ctrl + shift + x = open extension sidebar
+ctrl + shift + f = open search sidebar
+ctrl + shift + T = reopen close editor
+ctrl + number  = go to screen (number increase form the left starting at 1)
+ctrl + shift + o = search by symbol in the file
+shift + alt + f9 = start with debugging
+shift + f9 = start without debugging
+f9 = continue
+f7 = step Into
+f8 = step over
+ctrl + f8 = toggle breakpoint
+ctrl + f2 = go to next problem in file
+ctrl + shift + f2 = go to previous problem in file
+alt + 5 = go to debug console
+alt + 3 = select active editor
+ctrl + f4 = close editor
+ctrl + shift + 5 = split terminal
+ctrl + shift + f4 = close terminal
+ctrl + \  = toggle terminal
+ctrl + shift + \  = open new terminal in current directory
+ctrl + shift + w = close all editors in group
+alt + up/down = go to previous/later location (it can also be used to get out of the sidebar)
+ctrl + l = add cursors to line ends  (only works if lines are highlighted)
+ctrl + n = create new untitled file
+shift + enter = run in python interactive console (not terminal; see vscode/code runner for running section of code in terminal )
+shift + ctrl + p = open project manager
+ctrl + shift + s = file save as
+ctrl + shift + a = arepl
+shift + alt + f = find in folder
+shift + alt + r = change all occuences
+shift + alt + f = find all references
+ctrl + shift + f = find in (all) files
+ctrl + r = replace word by word in a file
+ctrl + shift + r = replace in file
+shift + f5 = stop running
+shift + space = show parameter hints
+ctrl + space = list clipboard
+alt + q = editor.action.showHover ( shwo document)
+
+Vscode/Go to Methods
+alt + m = list all methods in file
+
+Vscode/Bookmark
+alt + b = togle bookmark
+alt + left/right arrow = go to next bookmark
+
+Vscode/Command Pallete
+reload = reload vscode to be insync with new updates such as enabling new environment form terminal
+docker: add docker files to workspace = add docker file to workspace
+rel = copy relative active path
+path = copy absolute path of the active path
+l/g = change langauge mode (eg. python)
+z/m = toggle zen mode
+breadcrum = open current directory in breakcrum style
+p/m/s/p = project manager: save project
+@<symbol_name> = search for symbol in the current file
+#<symbol_name> = search for symbol in all the file
+
+Vscode/foambubble
+ctrl + click (or F12) = navigate to file
+
+Vscode/spotify
+shift + alt + left/right = previous/next song
+
+Vscode/spotlify/command palatte
+s/pa = pause
+s/pl= play
+
+Vscode/code runner
+run with command =  add "code-runner.executorMap": { "python": "$pythonPath -u $fullFileName xxx" } command to setting.json. To run, ctrl + shift + p and type run by language
+run section of code or full code (in terminal) = ctrl + alt + n | ctrl + shift + p and type "run code"
+stop running code  = ctrl + alt + m | ctrl + shift + p then type " stop code run"
+select langauge to run = ctrl + shift + p then type "run by language"
+
+
+VScode/Github
+git branch = git brach from the current branch
+git branch from = git brach from any of the target branch
+git commit  =
+git commit all  =
+git push (follow tag ) =
+git push to .. =
+git push =
+
+VScode/Gitlens
+search commits =
+show commit detials =
+show current branch history =
+show file history =
+show line history =
+show repository status =
+gitlens command = show all git commands avialbes in gitlens
+
+
+Vscode/Gitlens/meaning of colors circle symbol in Repositories view of gitlens sidebars
+blue = you have local changes that you haven't commited
+green = you have changes that you haven't push
+yellow = you have changes in your local, and you have changes that you have not pull from your remote
+red = you have changes that you have not pull from remote but you don't have local
+
+Vscode/Clear File Notation (symbol is in top right corner of the editor)
+turn on clear file notation = show commit message + committed date (or heat map) for each line of code
+ctrl + click on the clear file notation = show heat map of all lines on the left side of editor
+
+Vscode/metago
+alt+ctrl+/ = add another cursor to selected position
+alt + p = send 2 cursor to surrounded symbol => add/change surronded as you wished
+
+Vscode/metago/metajump
+alt + / = ace jump to target position
+alt + backspace = delete between target and cursor (keep the current word)
+alt + delte = delete between target and cursor (also delete current word)
+
+Vscode/metago/metajump with highlight
+alt + shift + / = ace jump to target position with highlight
+example of change active selection in multiple selections = https://github.com/metaseed/metaGo/blob/master/src/metaJump/README.md#change-active-selection-in-multiple-selections
+	Note: there are 3 steps to allow selection from multiple places, highlight first target => ctrl + alt + / (create new cursor) => alt + shift + / (highlight started from new cursor)
+
+
+
+Vscode/metago/navigate between files using bookmark
+alt + ' = to toggle a bookmark at the cursor location
+alt + [/] = go to previous/next bookmark
+alt + \ = list the bookmarks with management menu
+
+
+WSL
+wsl -l = list all installed distro os
+wsl -d <distro os name> = run <distro os name> os
+cat ~./.bashrc = open WSL config file
+
+
+text expander
+zname = my name
+zem = my email
+email signature = ;sig
+
+neovim
+
+neovim/general command
+space = neovim command menu
+
+neovim/code complettion
+tab/shift + tab OR ctrl+j/k = go to the next suggestion word
+
+neovim/window navigation/split screen
+split screen vertically = space + v
+split screen horizontally = space + h
+go to next tab on the right = tab
+go to the split screen #1 or #2 (from the left) = ctrl + 1/2/...
+go to tab #1 or #1 from the left) = alt + 1/2
+
+neovim/window navigation/activity bar
+open explorer = ctrl + e
+open extension = ctrl + shift + x
+close activity bar = ctrl + b
+
+neovim/window navigation/terminal
+from editor to terminal = ctrl + j
+from terminal to editro = ctrl + k
+go to next terminal = ctrl + \
+go to previous terminal = ctrl + shift + \
+toggle terminal = alt + \
+
+#=====================
+#==Wolfram
+#=====================
+Wolfram/syntax
+OptionaName -> OptionValue
+
+Wolfram/Notebook
+alt + . = abort current running kernel
+
+Wolfram/Notebook/search bar
+ref/<expression> = go to reference page of <expression> in the documentation
+tutorial/<expression> = I can't make it work
+guide/<expression> = I can't make it work
+
+
+
+

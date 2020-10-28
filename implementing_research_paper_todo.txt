@@ -1,0 +1,23 @@
+#=====================
+#==NOTE
+#=====================
+
+#=====================
+#==QUESTION
+#=====================
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+
+here> go through the code in Learning Attention-based Embeddings for Relation
+Prediction in
+Knowledge Graphs
+    go through file and get the overview of where things ares. (make notes
+    as necessary)
+        where should I add the notes about the code?

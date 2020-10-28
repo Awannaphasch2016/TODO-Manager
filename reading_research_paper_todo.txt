@@ -1,6 +1,47 @@
-here> read and sumary in roam
-    name: Learning Attention-based Embeddings for Relation Prediction in
-        here> read architecture of the paper.
+#=====================
+#==NOTE
+#=====================
+twitch title
+    testing out new paradigm of reading research paper: Categorize and Synthesize
+
+#=====================
+#==QUESTION
+#=====================
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+here> understand the overlapping and research area avaible in the following
+fields: network analysis, deep learning, cyber bully OR misinforation
+    Problem: the main problem right now is that I don't see alot of paper on
+     focus on the overlapping of the 3 fields, and i am not sure how to
+     find dataset that is misinformation + network.
+
+    read survey paper on deep learning + network analysis + cyber bullying
+    OR misinformation
+
+        here> synthesize Hypergraph Neural Network
+           https://roamresearch.com/#/app/AdaptiveGraphStucture/page/vyd610ygC
+
+
+
+read and sumary in roam
+    note:
+        name
+            Learning Attention-based Embeddings for Relation Prediction in
+        model
+            https://roamresearch.com/#/app/AdaptiveGraphStucture/page/ow0BXK17A
+        paper
+            https://roamresearch.com/#/app/AdaptiveGraphStucture/page/dG796hlxi
 Knowledge Graphs
-    roam: https://roamresearch.com/#/app/AdaptiveGraphStucture/page/dG796hlxi
-    paper: https://arxiv.org/pdf/1906.01195.pdf
+            https://arxiv.org/pdf/1906.01195.pdf
+    here> synthesize model architecuture
+        here> understand the equation in intuitive level.
+            Note: if necessary, I may need to learn pre-requisite or answer
+            question in frequency ask question to fuly understand it.
+
+    categorize dataset, experiment, result,

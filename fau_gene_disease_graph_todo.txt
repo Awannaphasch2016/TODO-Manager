@@ -1,27 +1,139 @@
 #=====================
+#==REFERENCE
+#=====================
+1. oveleaf journal page
+    url: https://www.overleaf.com/project/5e9caf2d1432c000012c2bb0
+
+#=====================
 #==NOTE
 #=====================
+twitch title
+    doing data science with my legacy code (bad, ugly, and sad to see)
+
+for split by nodes
+There are 2 ways to do split by nodes:
+    1. removed both gene and disease nodes types
+    2. removed either gee or disease nodes type
+
+    we can removed both nodes types
+
 
 #=====================
 #==QUESTION
 #=====================
+
+
+Q: how do I calculate consine similarity with vectors of different length.
+Ans: pad with zero, so the two vectors actually have teh same length but the
+ number of nonzero elements in every vector is usually different.
+
+in order to calculate cosine similarity, you first normlize the vectors and then ultiple them by dimension and sum
+    Q: what does it meant to normalize the vector by dimension?
+    Ans:
+
+Question: what is the condition for adding edges to pheotypes node?
+
+    Ans. from reading overleft page (ref 1.) I figure phenotype is simply
+    added to the gene-disease graph if there exists edges from phenotype to
+    gene or disease (nothing more than that).
+
+Q: how does histogrm work?
+    Ans
 
 #=====================
 #==WAITING
 #=====================
 
 #=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+how to freeze current library in conda to a file (.ymal)?
+    goal: to reproduce the project for the future.
+
+#=====================
 #==TODO
 #=====================
-here> run the code
-    here> ModuleNotFoundError: No module named 'Sources'
-    error when import Source in console
-        ImportError: DLL load failed: The specified module could not be found.
+here> run the code with splti by nodes (not split by edges)
+    check
+    goal: I want to run link prediction.
+    note: classifer, link_prediction, train_test split (not the cross
+    validation)
 
-    if not successfull, make it run
-    if successful, list things that I need to validate before working on it.
+    How do I iput these argument to the run the program?
+        after I am succesflly run link_prediction with mlp then do the
+        following
+            what is the number 0-337?
+            what is this error?
+                AssertionError: option1: use_shared_gene_edges or use_shared_phenotypes_edges are Ture or
+    option2: one of the following is true
+             1. shared_gene_and_phenotype_edges OR
+             2. use_shared_gene_but_not_phenotype_edges OR
+              3. use_shared_phenotype_but_not_gene_edges
 
-DO i need install sklearn?
+    writing narrive of how code behave.
+
+    lets go trhough each stages of the code.
+        goal: to find, places where data is modified?
+            list all of the condition that data will be modified.
+
+    write the following in the report
+        Note: I only try with tripatite because of how the similarity is
+        calculated.
+            task is to remove disease nodes and predict gene-disease once
+                the nodes and its incidence edges are added back in.
+        the current goal is to increases increase performance of
+
+        I first tried to validate the idea of similarity matrix by using
+        nodes2vec on original graph of PGDP without any things removed.
+            I found that accuracy.
+        removed nodes is calculated by  dot product of all the edges linking
+         to the nodes.
+
+        how does splitted by nodes work?
+            I can't do 5 fold validation because
+                what are the types of cross validation?
+
+        show nodes distribution.
+            0-30,
+        try removed
+    here> working on split by nodes
+        here> check dataset properties.
+            here> lets remove 1 node type (disease nodes ) first and if the
+            prediction is good
+                how to get phenotype-gene-disease-phenotype?
+
+                    apply the following strategy
+                        edge adding strategy.
+                            apply after nodes is removed.
+                        get number of added edges.
+
+                try to randomly remove nodes from the graph and check if graph
+                decomes disconnected.
+                    if yes, figure out other ways to split without
+
+
+            what do i need to check?
+                what is its properties?
+                    I believe I created function for this somewhere. lets find
+                    it within 15 mins if I can't find it just compute it. (put
+                    function in utility folder and no need to make them pretty
+                    at all)
+                check what happend to data characteristic before and after.
+                    how many nodes?
+                    how many edges?
+                    how many graph after split?
+                    what is degree distribution after split?
+
+        apply node2vec first -> remove nodes (largest degree) -> predict
+        apply node2vec first -> remove nodes (set of nodes; remove number of
+         edgse up to 10 percent of all the edges) -> predict
+        remove 1 nodes from the largest degree -> apply node2vec ->  predict
+
+
+
+
+save istall library to conda .ymal thing. (not really sure what i actually is)
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEAD

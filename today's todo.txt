@@ -35,12 +35,23 @@ Mypy Typing
     Can I use Tagged unions for reddit and twitter at all? think about it
 
 #=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
+#=====================
 #== TODO
 #=====================
-here> Go to fau_gene_disease_graph and finished the first here>.
-    finish it
-send zhabiz url example of reddit and twitter.
----5.30pm-------
+here> Go to personal_branding.txt
+    finish upto making discussion tutorial
+Go to fau_gene_disease_graph_todo.txt
+    continue workign on splited by nodes
+        Goal is to
+Go to fau_crawler_todo.txt
+Go to TA_todo.txt
+
+create survey paper templat for roam
+
 wash clothes.
 
 --cov-report html --cov=CodeCoverage_Example --cov-branch
