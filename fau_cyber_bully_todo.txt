@@ -1,0 +1,43 @@
+#=====================
+#==NOTE
+#=====================
+
+#=====================
+#==QUESTION
+#=====================
+is the temporal graph is constructed per session?
+    if this is the case how can comment in each session be connected?
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+here> Shwo professor Xhu that I am capable of doing cyber bully, and ask him
+for
+the last time to begin a project to do cyber bully.
+    answer the followign quesiton.
+
+        what are the dataset that I will be using?
+        what is the goal of the research?
+            list all of my research ideas.
+                to improve upon TGBully.
+                    Note: TGBully code is not provided. so list out things
+                    that I don't understand how to implement
+                        here> email the author about the question taht I have.
+            for each of the idea, list idea from most probably to least
+             probable.
+            For each of the idea, list ideas from easiest to do to the hardest.
+
+            for each idea, list out material that I will need to use.
+
+    show him that I implmented something since last week.
+        remember that what I am implemented must align to decision that I
+        have made from the most probaly research idea.

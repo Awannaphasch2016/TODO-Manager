@@ -1,5 +1,3 @@
-949-255-7200
-
 cancle the following membership
 
 skillshare
@@ -11,16 +9,25 @@ vesta * at*t prepaid  (call austin and ask him how to check it)
 
 Security NATL in Des:INS paymt ID:G00  on august  24
     146.68 dollars
-ACH hold security natl in ins paymt on 09/22
-probillers (call bank of america to call it)
-Lucidchart $540 (waiting for reply email)
-at&t
-make notes about udemy pytest course and cancle it
+
 
 #=====================
 #== Resources
 #=====================
+daily read
+    blog post related to data science
+        https://medium.com/kaggle-blog
+        I train a model. What is next?
+            https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
 
+interesting video
+    finance
+        tock Price Prediction And Forecasting Using Stacked LSTM- Deep Learning
+            https://www.youtube.com/watch?v=H6du_pfuznE&ab_channel=KrishNaik
+        Webinar: How to Forecast Stock Prices Using Deep Neural Networks
+            https://www.youtube.com/watch?v=RMh8AUTQWQ8&ab_channel=LucenaResearch%2CInc.
+        NumerAI
+            https://www.youtube.com/watch?v=jKI5dalRpn0&ab_channel=Numerai
 #=====================
 #==Questions
 #=====================
@@ -40,19 +47,122 @@ Mypy Typing
 #=====================
 
 #=====================
+#== WAITING
+#=====================
+
+learn linux command
+    ; vs &&
+    Ouput redirection > >>
+
+#=====================
 #== TODO
 #=====================
-here> Go to personal_branding.txt
-    finish upto making discussion tutorial
-Go to fau_gene_disease_graph_todo.txt
-    continue workign on splited by nodes
-        Goal is to
+
+
+>> when the above is finished hands on terraform 
+
+migrate from /Documents/tmp.txt to 
+learn how to use quickfix in vim 
+    use quickfix + spellchecking 
+     https://www.youtube.com/watch?v=44pNDuRO77g&list=PL-v3vdeWVEsXo87wHeVSP_x1KTX4G1l8Y&index=19&ab_channel=NickJanetakis
+learn how to maintain vim buffer when close vim
+change from nerdtree to FERN
+learn how to search for content in a file using Rg
+learn how to use ctags and Coc for python project.
+
+learn how to use weight and bias
+    https://wandb.ai/anak/learning_wandb
+    https://colab.research.google.com/drive/1rP7HucMhAk7vXxUHeUdH4gSUgt_WuJ4-#scrollTo=Y9L581ozavfJ
+learn how to use pytorch lighting
+    https://github.com/PyTorchLightning/pytorch-lightning
+	convert a pytorch project to pytorch lighting
+		convert easy one
+		convert harder one (where can I find project for harder one?)
+			convert GCN hard?
+weight and bias + pytorch lighting.
+
+
+why do i have to manage dotfile?
+    what is dotfile imporatnt at all?
+    importatnt in all OS?
+
+read Explore Public Datasets with Google BigQuery and DataStudio
+   	https://towardsdatascience.com/explore-public-dataset-with-google-bigquery-and-datastudio-30f9279b8d42
+
+how to analyze computer processing status
+	are there existing tool for this?
+	what are the benefit of using it?
+	what are the best practices?
+	Can I get those data?
+	can I visualized them?
+
+How Cisco Systems uses Tableau to identify supply chain network opportunities
+	https://www.tableau.com/solutions/high-technology-analytics
+buildig personal asistance
+	https://www.youtube.com/watch?v=NZMTWBpLUa4&ab_channel=Khanrad
+learning DevOps
+    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/SLUJecPjg
+
+send email to chaturbate about bill is collected but no token is received, and
+I want all the money back.
+
+
+tableu + aws
+use tableu or wolfram to do data exploration on maggie dataset
+    https://mail.google.com/mail/u/0/#inbox/FMfcgxwKjwvBHVqlBNqjqGxhmrdrntFC
+Lean Pandoc Markdown
+
+
 Go to fau_crawler_todo.txt
-Go to TA_todo.txt
+    2 hrs
+here> get use to kaggle API
+    pull data
+    upload data
+        can I use Kaggle as a place to store data for free?
+    interact with competition
+    interact with discussion
+    What else can I do with it?
+learn to use tablau to understand my data
 
-create survey paper templat for roam
 
-wash clothes.
+set up freeNAS
+    free up space on my labtop
+        move video to google cloud
+        check if I need to remove anything else?
+    set up Free NAS on Virtual Mahince | window
+        https://www.youtube.com/watch?v=ndYKt0olOMA
+    use FreeNAS with MinIO
+
+thigns to watch
+    Why Goole Store Billions of Lines of Code in a Single Repository
+        https://www.youtube.com/watch?v=W71BTkUbdqE&ab_channel=GitKraken
+    docker-developement-youtube-series (loads of reusable code)
+        https://github.com/marcel-dempers
+    Better Python testing: How to Mock AWS
+        https://www.youtube.com/watch?v=11Fr0wqcxRc&ab_channel=JeffreyNess
+    Tips N Tricks #2: Setting up development environment for machine learning
+        https://www.youtube.com/watch?v=N9lo_UxSkWA&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=103&ab_channel=AbhishekThakur
+    How to build a machine learning strategy
+        https://www.youtube.com/watch?v=E5hMcDH9_u8&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=108&ab_channel=GoogleCloudPlatform
+    AWS re:Invent 2019: Continuous delivery to AWS with GitHub Actions (DOP322-S)
+        https://www.youtube.com/watch?v=KJNj37ZXPqE&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=112&ab_channel=AWSEvents
+
+    Gradient Dissent: A machine learning podcast
+        https://www.youtube.com/watch?v=hVW1mwLtDcI&ab_channel=Weights%26Biases
+
+
+Go to reading_research_paper_todo.txt
+check that djorry send me electricity bill
+
+clear out all of the subscription
+    brainstorm and list all the things that is recurring and need to
+    unsubscibe.
+    check billing history.
+    start cancling each one.
+
+Go to reasing_research_paper
+add monthly annually and per semester to google calendar.
+
 
 --cov-report html --cov=CodeCoverage_Example --cov-branch
 add pytest-cov in cacher
@@ -226,6 +336,8 @@ pushshift
 #=====================
 #==Note
 #=====================
+creating vim
+
 ratelimit
     Note: rate limit can detect and prevent bot traffic originting from a single
         IP address
@@ -708,7 +820,6 @@ read reproducibale by the guy from coronawhy
 
 add check_no_dublpicate function for twitter
 
-
 create documentation
 def func():
 """
@@ -987,18 +1098,4 @@ if using XAMPP does not work, consider using fishbowl (or its alternative)
     should I set static ip address?
     how does dynamic ip address work?
     undstand submask
-
-
-when you connect to local address.
-    which type of network is being used?
-
-Goal:
-    allow multiple computer to access to one other computer port within the same local network
-    multiple computers do not need to share file
-        lets create local database and will have my data.
-            GraphQL if possible (because it is cool)
-    1 computer will act as server while the rest of the computer acts act as client
-
-read about 10 TIPS TO HOST YOUR WEB APPS FOR FREE
-    https://blog.patricktriest.com/host-webapps-free/
 

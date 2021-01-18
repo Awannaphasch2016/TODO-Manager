@@ -1,0 +1,47 @@
+{
+"TableName": "faucovidstream_twitter_with_sentiment",
+
+#if($input.params('since')=='' || $input.params('until')=='' )
+  "KeyConditionExpression": "platform = :v1",
+
+  #if($input.params('aspect')!='')
+    "FilterExpression": "contains(#text,:v3)",
+    "ExpressionAttributeValues": {
+    ":v1": {"S": "$input.params('platform')"},
+    ":v3": {"S": "$input.params('aspect')"}
+    },
+    "ExpressionAttributeNames": {
+    "#text": "text",
+    }
+  #else,
+    "ExpressionAttributeValues": {
+    ":v1": {"S": "$input.params('platform')"}
+    }
+
+#end
+
+
+#else
+  "KeyConditionExpression": "platform = :v1 AND timestamp_ms BETWEEN :v2a AND :v2b",
+
+  #if($input.params('aspect')!='')
+    "FilterExpression": "contains(#text,:v3)",
+    "ExpressionAttributeValues": {
+    ":v1": {"S": "$input.params('platform')"},
+    ":v2a": {"S": "$input.params('since')"},
+    ":v2b": {"S": "$input.params('until')"},
+    ":v3": {"S": "$input.params('aspect')"}
+    },
+    "ExpressionAttributeNames": {
+    "#text": "text"
+    }
+  #else
+    "ExpressionAttributeValues": {
+    ":v1": {"S": "$input.params('platform')"},
+    ":v2a": {"S": "$input.params('since')"},
+    ":v2b": {"S": "$input.params('until')"}
+    }
+  #end
+#end
+
+}

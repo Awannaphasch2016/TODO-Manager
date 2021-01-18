@@ -1,0 +1,17 @@
+- ;r/h/g
+- Tags::
+- Reference::
+- [[You May Want to See Also]]::
+- [[How does it work?]]
+    - #Definition #Description
+        - Extensible Data Notation (**EDN**) is a **format** for serializing data. **EDN** is a subset of the syntax used by Clojure. Reading data defined by **EDN** is safer than that defined by the full Clojure syntax, especially from untrusted sources. ... The main benefit of **EDN** over JSON and YAML is that it is extensible.
+    - #Story #History
+        - {{embed: ((Z-dASecOK))}}
+    - #[[Use Case]]
+    - Pro and Con 
+        - #Pro
+        - #Con
+    - #Compare
+    - #Relationship
+    - #[[Frequently Ask Questions]]
+        - {{query: {and: [Validate] [Name of the Page]}}}

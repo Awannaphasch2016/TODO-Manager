@@ -59,20 +59,31 @@ for research paper page, list things that I want to be searchable.
 #==TODO
 #=====================
 
-write an article about The next species of genius.
-    smart = how much you remember
-    smart = how fast you access information.
-        note: many things are online but most are crap, so you have to an
-        ability to access the right information.
-        note: you must have ability to filter for good info.
-    smart = how fast you filter and retrived quality information.
-        note: many things are online and there are many high quality
-        content, so you have to be able to store/update when new more
-        refined/previse information is discovered. (learning from best
-        content.)
-        note: you must have ability to retrive good info. no need to filter
-        alot becaue good content is already there. just store and retrived.
-write an artivle on "stagnate era of note taking" explaining the fact that
+here> Write Categorize and Synthesize.
+    reading paper or article is good to store information for the first
+    time, but it is bad for you to retrived the information
+
+list all of the pages types
+    add them into Roam research syntax
+list all of the tags that exists.
+    add them into Roam research syntax
+list all the query I use
+    add them into Roam research syntax
+
+video
+    show types of pages.
+    show how each tags are used.
+    show list of query that I use
+
+write article about tags design.
+    types of tags?
+        what are characteristic of each tag type?
+figure out how to add social media to Youtube Channel.
+talk about plugin that members should consider for roam
+
+
+here> write an artivle on "stagnate era of note taking" explaining the fact
+that
 technology of note taking advancement is completely stagment.
     write about list of strategy in which people make notes.
     whrite about "what is the properties of good notes?"
@@ -100,13 +111,27 @@ knowledge)
         integrate smoothly with internet or other people's knowledge base
             navigation between internet and IDE.
         integrate smoothly with online notes. (PDF, jpg, code)
-            when highlight a note -> ask if you want to re-written it in
-            your own word -> become a block in which can be link by the rest
-             of your knowledge base. (all steps are saved)
+            note: all steps are saved, and can be refered to.
+            when highlight a note
+            -> ask if you want to re-written it in
+            your own word
+            -> become a block in which can be link by the rest
+             of your knowledge base.
         include version control for ease of collaboration.
         have add-on to enhance
             synthesize, categorization, and exploration experience.
         enable keybinding such as vim, emacs, etc.
+        built in space everything.
+        built in "add to" command (blocks that are added are list in order
+        or unorder)
+            "add to reading list", "add to research idea", "add
+             to
+            syntehsize"
+        built in task management
+            Note: this help keeping "notes" and "folder" in the same places
+        have API to other platform such as google cloud, google calendar.
+            note: this is so that IDE can focus on curated the knowledge only.
+
 
 write aricle to answer the following question
     Question: is the new seedling page [Seedling: Document your level of code
@@ -175,6 +200,7 @@ here> list of Tutorial. Pick 1 to make a video.
         you want to spark discussion about.
     here> How to send infomation to certain people
         [send to] and [send from]
+
 How can I start writing blog + upload to youtube consistently? (all data science related.)
     do things that I am currently not good at.
         what should I write about?
@@ -191,3 +217,4 @@ create a routine that will make me focus on research + my side project + learnin
     time blocking?
 
     create a prototype to test tmr
+
