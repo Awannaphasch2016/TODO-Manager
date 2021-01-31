@@ -1,4 +1,4 @@
-cancle the following membership
+
 
 skillshare
 auto insurance? (why do I have this still?)
@@ -49,26 +49,19 @@ Mypy Typing
 #=====================
 #== WAITING
 #=====================
-
-learn linux command
-    ; vs &&
-    Ouput redirection > >>
+response from HPC
+    https://mail.google.com/mail/u/0/#search/hpc/FMfcgxwKjfBwmzbDDhCZKbGQMHzxLcxF
 
 #=====================
 #== TODO
 #=====================
-
-
->> when the above is finished hands on terraform 
+go to fau_crawler.txt
+got to covid_spread_prediction_todo.txt
 
 migrate from /Documents/tmp.txt to 
 learn how to use quickfix in vim 
     use quickfix + spellchecking 
      https://www.youtube.com/watch?v=44pNDuRO77g&list=PL-v3vdeWVEsXo87wHeVSP_x1KTX4G1l8Y&index=19&ab_channel=NickJanetakis
-learn how to maintain vim buffer when close vim
-change from nerdtree to FERN
-learn how to search for content in a file using Rg
-learn how to use ctags and Coc for python project.
 
 learn how to use weight and bias
     https://wandb.ai/anak/learning_wandb
@@ -81,48 +74,15 @@ learn how to use pytorch lighting
 			convert GCN hard?
 weight and bias + pytorch lighting.
 
-
-why do i have to manage dotfile?
-    what is dotfile imporatnt at all?
-    importatnt in all OS?
-
 read Explore Public Datasets with Google BigQuery and DataStudio
    	https://towardsdatascience.com/explore-public-dataset-with-google-bigquery-and-datastudio-30f9279b8d42
 
-how to analyze computer processing status
-	are there existing tool for this?
-	what are the benefit of using it?
-	what are the best practices?
-	Can I get those data?
-	can I visualized them?
-
 How Cisco Systems uses Tableau to identify supply chain network opportunities
 	https://www.tableau.com/solutions/high-technology-analytics
-buildig personal asistance
-	https://www.youtube.com/watch?v=NZMTWBpLUa4&ab_channel=Khanrad
+    
 learning DevOps
     https://roamresearch.com/#/app/AdaptiveGraphStucture/page/SLUJecPjg
 
-send email to chaturbate about bill is collected but no token is received, and
-I want all the money back.
-
-
-tableu + aws
-use tableu or wolfram to do data exploration on maggie dataset
-    https://mail.google.com/mail/u/0/#inbox/FMfcgxwKjwvBHVqlBNqjqGxhmrdrntFC
-Lean Pandoc Markdown
-
-
-Go to fau_crawler_todo.txt
-    2 hrs
-here> get use to kaggle API
-    pull data
-    upload data
-        can I use Kaggle as a place to store data for free?
-    interact with competition
-    interact with discussion
-    What else can I do with it?
-learn to use tablau to understand my data
 
 
 set up freeNAS

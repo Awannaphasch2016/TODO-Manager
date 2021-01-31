@@ -242,87 +242,101 @@ what is ELB health check?
 #=====================
 #==WAITING
 #=====================
+here> kinesis twitch api stream error.
+    figure out throttle error 
+        is this writing for reading error?
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+Optiomize: look at the data in database and add
+query_word as necessary
+
+c:\users\anak\appdata\local\programs\python\python38\python.exe -m pip install --upgrade pip'
+
+#=====================
+#==TODO
+#=====================
+here> why get dynamodb from api doesn't output lastest twitter tweet?
+    here> what is "the total number of record" vs "the total number of record that cna be query from api?"?
+        how to return all data using boto3? (not count)
+            here> using aws cli
+                here> can I reproduce dynamodb to return 3000 thosand data.?
+                    what is downloadble dynamodb? 
+                        what is the purpose of this?
+                    here> lets first try to understand ways I can do query in dynamodb 
+                        install noSQL Workbench
+                        here> try accessing DynamoDB via the following options
+                            here> noSWL workbench for dynamodb
+                                    get a count of all records.
+                                    what is subquery?
+                                    here> PartiQL (finish reading and then work on the error)
+                                        can dynamodb have dublicate key?
+                                            does it effect count?
+                                        how to return all items?
+                                        how to use count function in statement?
+                                        what is item count?
+                                        return items is not equal to item.
+                                        
+
+                                    watch 
+                                        Model Your Relational Database Data as NoSQL Document Data
+                                        https://www.youtube.com/watch?v=Xn12QSNa4RE&ab_channel=ServerlessLand
+                                        https://www.youtube.com/watch?v=2FaWOavwygg&ab_channel=AWSOnlineTechTalks
+
+                        Figure out a way to update mapping_template.json without using console
+                            command line vs code.
+
+backlog of incoming tweets was the issue
+    list of files:
+        twitter_firehorse.py
+        lambda_function.pyy
+    here> hwo to check backlog? 
+    https://stackoverflow.com/questions/53326879/twitter-streaming-api-urllib3-exceptions-protocolerror-connection-broken-i
+            solution is to strip on status/on_data/on_sucess to the bare essential
+                    handle any computation separately after the streaming sessio nhas closed
+                     or make the comptuation faster.
 
 
-how to deploy twitter kinesis with serverless (lambda)?
-    ref: https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/ 
-        I don't think kubeless is related to serverless.
+here> if the error arise again 
+    fix the current error 
+        what is the error?
+            urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
+            potential solution
+                Try/Except block with the http.client.IncompleteRead:
+                As per Error-while-fetching-tweets-with-tweepy
+                   https://stackoverflow.com/questions/28717249/error-while-fetching-tweets-with-tweepy
 
-    sol1: how to make kinesis stream more data? 
-        already asked questions:
-            how to auto scale kinesis?
-            kinesis with tweepy? what are ways that people do things? what are code they put in on_success?
-                look at article that use spark with kinesis.
-                    why is spark needed?  where does processing happen?
-                        processing in side on_sucess?
-        change config?
-        are there althernative ways to deploy it?
-        need more shard?
-    sol3: try other solution that could cause error.
-        https://stackoverflow.com/questions/53326879/twitter-streaming-api-urllib3-exceptions-protocolerror-connection-broken-i
-            Erorr: urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
-            what are other options?
-            search for errror in tweepy github
-        https://github.com/tweepy/tweepy/issues/237
+                Setting Stall_Warning = to True:
+                As per Incompleteread-error-when-retrieving-twitter-data-using-python
+                   https://stackoverflow.com/questions/26638329/incompleteread-error-when-retrieving-twitter-data-using-python
 
-        here> https://stackoverflow.com/questions/28717249/error-while-fetching-tweets-with-tweepy
-            Error: urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read))
-            I guess you could try to distinguish between those two cases by keeping track of the delay between the tweet being posted and received. If it's greater than a couple seconds, you're probably falling behind and it's a disconnect. If it's real time, you're probably ok and should just continue. Alternatively, try reading again, and disconnect/reconnect if it happens again or you get some other error (socket closed?). Any better solutions?
-                I've ran Tweepy - streaming the sample API - 4 times and every time I receive a Tweet I display the time it was received and the created_at value provided by the Twitter API indicating the time the Tweet was tweeted. I've come back with the following results:
-            here> Well, the solution is easy: stop falling behind. This can either be achieved by listening to fewer or less popular words, or by processing them faster
-                lets figure out how to 
-                    here> how do I know if I catch the wrong error
-                        here> try to validate that error is due to stalling 
-                            here> 10 sec between on_data
-                            why can't I get 406 error?  what is this error?
+                Removing the english language filter.
+                here> backlog of incoming tweets was the issue
+                    here> hwo to check backlog? 
+                    which file throw error?
+                    https://stackoverflow.com/questions/53326879/twitter-streaming-api-urllib3-exceptions-protocolerror-connection-broken-i
+                            solution is to strip on status/on_data/on_sucess to the bare essential
+                                    handle any computation separately after the streaming sessio nhas closed
+                                     or make the comptuation faster.
 
-implement architecture as code
-    using cdk with api
-        CDK for serverless.
-            here> running lambda on EC2
-                how to load lambda into EC2 using python?
-                    solution attempt
 
-                    using web server (how?)
-                        " Python-based web server on the EC2 box itself (e.g. Flask). "
-                    using ssh (how?)
+api path to  -trigger-> lambda funciton to call api /dynamodb then filter for top/bottom n results
+    sysmte requirment
+        path name is '<function>'  eg. "gettopn", "getbottomn", "getsamplepercent"
+            parameters are all the same as /dynaomdb 
+                with additoinal parameter call 'args' whose argument is separeated by ','
+            use case
+                /dynamodb/<function>?args=arg1,arg2,arg3&...
+    create lambda proxy integration with api gateway.
+        here> create lambda first 
+            here> update lambda with dynamodb function for gettopn
+                here> how to query data given date range
+                        hwo to change table schema
+                        can I create index to convert columne type?
 
-            here> create path for dynamoDB stream
-                figure how to create path and method
-                figure how to connect to kinesis
-                figure how to connect to dynamoDB
-                figure how to connect to s3
-
-        Note:
-            api invoke url
-                 https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test
-            example
-                 curl -v -X POST 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
-                 curl -v -X GET 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
-                 curl -v -X PUT 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
-
-    Goal: AWS CDK Tutorial Python | Create Dynamodb, Kinesis, S3, Lambda, API gateway - Demo
-        here> use code to do api gate way similar to what I did in console.
-            here> what is paginate operation?
-            implement twitter stream in kinesis and with apigateway
-
-            Boto3 and cloudformation vs cli and couformation
-                reference: https://www.bing.com/search?q=python+apigateway+kinesis&go=Search&qs=ds&form=QBRE
-                here> test the existing api gateway that I have .
-                    here> GET + /stream-name/
-
-            select tutorial that match my case.
-                (kinesis + api gateway + lambda + s3 + dynamoDB)
-                    here> kinesis + apigateway
-                    s3 + api gateway
-                    dyamoDB + api gateway
-
-            select template that I will need.
-            how to create template from AWS CLI?
-            use cloudfront to create gateway + kinesis.
-                look at cloudfront tutorial.
-        use code to do api gate way focus on query string
-
+here> figure out a way to use lambda  
     here> how to use existing api in SAM
         here> how to use existing resource clouformation
             note api resource:
@@ -338,71 +352,329 @@ implement architecture as code
                 here> do I need to create tags for my resources?
                     when to use tags?
                         what is the benefit of doing so? 
+                
+    try to run lamb with dynamoDB
+    lastest/earilest N results
+        step
+            here> get dynamodb given the range
+            sort it by date 
+            return top or bottom n (specific number)
 
-        cdk shit
+provide more api parameters and path .
+    here> get sample from aspect from dynamoDB
+        pull the data in the date range then select n percent of the sample with the same distribution
+            create lambda for the following
+                calculate ratio of each data point 
+                    (data of day i/all data in the range) for all i
+                
+    get lastest/earilest N results
+    get top/bottom n sentiments
 
-            https://GUID.execute-api-REGION.amazonaws.com/prod/
-            https://810414031677.execute-api-us-east-2.amazonaws.com/prod/
-            curl -X GET 'https://GUID.execute-api.REGION.amazonaws.com/prod'
-            curl -X GET 'https://810414031677.execute-api-us-east-2.amazonaws.com/prod/'
+how did I group data with the same aspect in dynamoDB?
+    hwo to saple data from dynamodB?
+         
+read  "consuming streaming data" post from twitter
+    url: https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data#disconnect_messages
 
-            where do I specify my srucirty token in cdK?
-                do I need to provide access token to cdk when using it?
-                    icluding the following
-                        arn
-                        url
-                        access
-                        UID
-            do I have to have bucket before that using s3.Bucket?
-            how do I debug CDK?
-                are there log?
-                    if yes, where is it?
-            before trying to make MyWidgetService work
-                I have to implement AWS API by itself.
+task:
 
-            here> Goal: implement CDK as a base template for crawler
-                here> CDK
-                    find free template for lambda, s3, kinesis.
-                        ?is the following option what I want?
-                            option1: cdk for serverless
-                                here> https://docs.aws.amazon.com/cdk/latest/guide/serverless_example.html
-                                    bootstrapping?
-                                    assets?
-                                    CDK pipelines
+    how to get sentiment score form dynamoDB?
+        sol 1
+            send data to dynamoDBStream and connect APIgateway to it.
+                https://medium.com/swlh/skip-lambda-save-data-to-dynamodb-directly-using-api-gateway-process-later-with-streams-dab2ceef9a9d
+        sol 2 
+            can dynamoDB stream be used as trigger?
+        sol 3 
+            here> get data from dynamoDB directly
+                do i need KCL to do dynamoDB + kinesis stream?
+        sol 4
+            lambda -> kinesis firehose -> api gateway (processed_stream)
 
-                            option2: SAM CLI with CDK
-                                https://docs.aws.amazon.com/cdk/latest/guide/sam.html
+    try connect data to reddit crawler
 
-implement system monitoring 
-    how to deal with when code throw exception and stop running.
-    figure out how to re-run when code throw exception
-        Code Pipline vs DataPipelin vs Airflow
-            if use Code Pipeline use CDK
-                see the following
-                    https://docs.aws.amazon.com/cdk/latest/guide/cdk_pipeline.html
-                    https://docs.aws.amazon.com/cdk/latest/guide/codepipeline_example.html
+    how can I create group of aspect?
+        sol1 
+            aspect=covid -> a group of query result for 'corona, covid19, ...'
+                figure out a way to push lambda
+                    cacher
 
-#=====================
-#==OPTIMIZATION
-#Note: no need to be done right now, but if it is done it will be better.
-#=====================
-add query word for aspects that can be use with dynamodb (or if needed elasticsearch).
+solution1
+    setup api gateway to run lambda. in this case I don't even need ec2.
+        how do I upload lambda?
+            impement python to run script
+                how the fuck do i even write the damn script.
+                can I do it without script?
+            here> using SAM.
+                run sam to see what is the expected output. and whether it
+                 is something that will be useful for the current task?
+                Will lambda run forever?
+                How to stop lambda?
+                how the fuck do i test this?
+                    here> why deploy fail?
+                        where do i add policy and which policy do i need ot
+                         add?
+                            add create permission to template.yaml
+                                how to add policy to Resources in template.yaml
+                            how do I know list of role I can use?
 
-#=====================
-#==TODO
-#=====================
-here> clean up fau_crawler_todo.txt
-add reddit paramer 
-    see how twitter param is implemented as 
+Goal: replicate current API gateway that I have.
+    here> create path for dynamoDB stream
+        here> figure how to create path and method
+        figure how to connect to kinesis
+        figure how to connect to dynamoDB
+        figure how to connect to s3
 
-run dynamodb table update in cluster
-    
-fnigure out a way to make tweepy process faster:
-    note: you can do more than 1 of the following solution 
-    sol1: distributed computing
-        put on slurm cluter. 
-    sol2: parallel computing 
-    sol3: multithreahd computing  ( not sure if it is already included form the first 2 solution) 
+
+using cdk with api
+
+
+    CDK for serverless.
+        here> running lambda on EC2
+            how to load lambda into EC2 using python?
+                solution attempt
+
+                using web server (how?)
+                    " Python-based web server on the EC2 box itself (e.g. Flask). "
+                using ssh (how?)
+
+        here> create path for dynamoDB stream
+            figure how to create path and method
+            figure how to connect to kinesis
+            figure how to connect to dynamoDB
+            figure how to connect to s3
+
+    Note:
+        api invoke url
+             https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test
+        example
+             curl -v -X POST 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
+             curl -v -X GET 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
+             curl -v -X PUT 'https://om3ozpzn1e.execute-api.us-east-2.amazonaws.com/test/helloworld?name=John&city=Seattle' -H 'content-type: application/json' -H 'day: Thursday' -d '{ "time": "evening" }'
+
+predict positive or negative using either decision tree, svm, rf, lr
+
+
+
+here> lets make things work (using the least tools)
+    here> Goal: get stream data from api
+        no code
+            demo
+                here> api gateway with kinesis vs kinesis endpoint?
+                    here> api gateway with kinesis
+
+                        requirement
+                            user requirement
+                                List the user's aviable stramsi nKinesis
+                                create, desecibe or delete a specified stram
+                                    NOte: I don't really eed this one
+                                read adata record form or wirte data record into the
+                                    specified stream
+                            system requirement
+                                api exposes methods on various resources to invoke the
+                                 following
+                                    note: all CRUD are determined by methods avialbe in
+                                     kinesis
+                                        VAlidate: what are the availbe method in
+                                        kinessi?
+                                            see API/Actions
+                                    1. ListSTream action in Kinesis
+                                       GET + ListSTream -> /streams
+
+                                    2. CreateSTream, DescribeStream, or DeleteStream
+
+                                       POST + createStream -> /streams/{stream-name}
+
+                                       GET + DescribeStream -> /streams/{stream-name}
+                                        describe kinesis stream
+
+                                       DELETE + DeleteSTream -> /streams/{stream-name}
+
+                                    3. GetRecords or PutRecords
+                                       PUT + PutRecord ->
+                                       /stremas/{stream-name}/records
+                                        enable the client to ass a single data record
+                                            to the named strema
+                                        enable the client to ass lsit of data record
+                                            to the named strema
+                                       GET + GetRecord ->
+                                       /stremas/{stream-name}/records
+                                        get list of data with a specified shard
+                                        iteration
+                                            note:
+                                                shard iterator specified the shared
+                                                positio nform which to start reading
+                                                data records sequentially.
+                                            Validate:
+                                                will this work when timesteamp is
+                                                already past or in the future?
+                                       GET + GetShardIterator ->
+                                       /stremas/{stream-name}/sharditerator
+                                        this helper method must be suppleid to the
+                                        ListSTreams action in Kinesis
+                                            Validate: not sure how this will work
+
+
+
+                    resources
+                        tangible
+                            Controlling Access to Amazon Kinesis Data Streams Resources Using IAM
+                                https://docs.aws.amazon.com/streams/latest/dev/controlling-access.html
+                            principal_block can only be in 'resource-base policy'
+
+                        intangible
+
+                    step
+                        api permission for kinesis
+                            where to add principal permission?
+                        create an IAM role and policy for the api to
+                         access kinesis
+                        start to create an api as a kinesis proxy
+                        List strams in Kinesis
+                        here> create, desciribe, and delte a stram in Kinesis
+                        get record from and add record to a stram in Kinesis
+                            where to find shardId in kinesis stream?
+
+                create demo for OpenAPI + import OpenAPi to API Gateway
+
+
+        all use code
+            Goal: AWS CDK Tutorial Python | Create Dynamodb, Kinesis, S3, Lambda, API gateway - Demo
+                here> use code to do api gate way similar to what I did in console.
+                    here> what is paginate operation?
+                    implement twitter stream in kinesis and with apigateway
+
+                    Boto3 and cloudformation vs cli and couformation
+                        reference: https://www.bing.com/search?q=python+apigateway+kinesis&go=Search&qs=ds&form=QBRE
+                        here> test the existing api gateway that I have .
+                            here> GET + /stream-name/
+
+                    select tutorial that match my case.
+                        (kinesis + api gateway + lambda + s3 + dynamoDB)
+                            here> kinesis + apigateway
+                            s3 + api gateway
+                            dyamoDB + api gateway
+
+                    select template that I will need.
+                    how to create template from AWS CLI?
+                    use cloudfront to create gateway + kinesis.
+                        look at cloudfront tutorial.
+                use code to do api gate way focus on query string
+
+
+                here> demo
+                    here> new1
+                        here> s3 trigger -> lambda -sentiment analyzis-> to
+                        dynamoDB and to kinesis (instead of using another kinesis can I just use dynamoDB stream; what is the restriction?)
+                            here> implement lambda to output original data from
+                             s3 + sentiment and deliver to dynamoDB
+                        create apigateway for dynamodb
+                                here> deliver dynamoDB from lambda
+
+                            stream/dynamoDB/twitter-> dynamoDB table = faucovidstream_twitter_with_sentiment
+
+                        here> create apigtae for dynamodb
+                            user requiremet
+                                user can
+
+                                /stream/dynamoDB/twitter?platform=<platform>&
+                                .since=<12312124>&until=<125125>
+                                    value of since and until is 'int'
+
+                                here> query base on text
+                                query things from certain date (since)
+                                query things from certain date to
+                                    certainr date (since-until)
+
+                                    what are the set of keys tht i will need to
+                                     complete the task?
+                                        KeyConditionExpression
+                                            hierarchy
+                                                primary
+                                        FilterExpression
+                                        ProjectionExpression
+                                        ExpressionAttributeValues
+
+                                    fix so that platform is also option.
+                                        platform=twitter&aspect=covid&since=1607966426788&until=1607966426788
+
+
+
+
+                        here> create apigateway for s3
+                            user requirment
+
+
+                        how to decrypte data from api gateway.
+
+                        I fix the following
+                            1. fail and retry works
+                            2. string query works for kinesis
+                            --todo tmr---
+                            3. string query from s3 works (past data)
+                            4. string query from dynamoDB works (past data)
+                            5. string query from dynamoDB stream (or kinesis) with sentiment
+
+                        codedeploy use to rerun failed code
+
+                    note:
+                        no need for string query yet
+                    api gateway with kinesis vs kinesis endpoint?
+                    using boto3 for api gateway ( no need for cloudformation and CDK)
+
+                    implelment lambda with dynamoDB.
+                        note: I remember that dyamoDB + (lambda + s3 trigger) can be replaced
+                            with kinesis endpoint or something
+                    store data to dynamoDB withoout sentiment added
+                    query aspect from dynamoDB
+
+
+
+    Goal: lets gather more data from stream using kinesis
+        how to deal with when code throw exception and stop running.
+        figure out how to re-run when code throw exception
+            Code Pipline vs DataPipelin vs Airflow
+                if use Code Pipeline use CDK
+                    see the following
+                        https://docs.aws.amazon.com/cdk/latest/guide/cdk_pipeline.html
+                        https://docs.aws.amazon.com/cdk/latest/guide/codepipeline_example.html
+
+    connect S3 + lamba + kinesis together
+cdk shit
+
+    https://GUID.execute-api-REGION.amazonaws.com/prod/
+    https://810414031677.execute-api-us-east-2.amazonaws.com/prod/
+    curl -X GET 'https://GUID.execute-api.REGION.amazonaws.com/prod'
+    curl -X GET 'https://810414031677.execute-api-us-east-2.amazonaws.com/prod/'
+
+    where do I specify my srucirty token in cdK?
+        do I need to provide access token to cdk when using it?
+            icluding the following
+                arn
+                url
+                access
+                UID
+    do I have to have bucket before that using s3.Bucket?
+    how do I debug CDK?
+        are there log?
+            if yes, where is it?
+    before trying to make MyWidgetService work
+        I have to implement AWS API by itself.
+
+    here> Goal: implement CDK as a base template for crawler
+        here> CDK
+            find free template for lambda, s3, kinesis.
+                ?is the following option what I want?
+                    option1: cdk for serverless
+                        here> https://docs.aws.amazon.com/cdk/latest/guide/serverless_example.html
+                            bootstrapping?
+                            assets?
+                            CDK pipelines
+
+                    option2: SAM CLI with CDK
+                        https://docs.aws.amazon.com/cdk/latest/guide/sam.html
+
+
+-----------finish upto here by tmr-----------
 
 Goal: connect all parts together including
     what are all the spearated demo that I have implemented?

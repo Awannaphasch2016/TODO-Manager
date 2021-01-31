@@ -1,0 +1,37 @@
+====================
+== References
+===================
+
+====================
+== Notes
+=================== 
+
+====================
+== Question
+=================== 
+
+===================
+== Waiting
+===================
+
+====================
+== TODO
+===================
+what is the evaluation?
+    what is train and test set used for covid19 prediction?
+
+figure out how to intepret ARIMA and understand the following does
+    https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
+
+here> learn basic of time series 
+    https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3&ab_channel=ritvikmath
+        what are the list of topic I need to know? 
+            https://www.quora.com/What-math-do-you-need-for-time-series-forecasting
+            overview of time sereies forecasting model
+                https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb
+            introduction to time series
+                https://towardsdatascience.com/time-series-introduction-7484bc25739a
+
+finish the follwoing excercise within 2 horus 
+    https://www.w3resource.com/python-exercises/pandas/groupby/index.php  
+    

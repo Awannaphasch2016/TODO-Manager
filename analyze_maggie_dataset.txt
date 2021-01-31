@@ -1,0 +1,30 @@
+==================
+==Note
+==================
+
+==================
+==Question
+==================
+
+==================
+==Waiting
+==================
+
+==================
+==TODO
+==================
+correlation technique (what are their assumption?)
+    spearman correlation
+    pearson correlation
+    kendall correlation
+
+word cloud
+    word token
+    symptom token
+    group token
+
+symptom that cooccurs together
+correlation between words
+
+what is mapping tempalte?
+    ref: https://www.alexdebrie.com/posts/api-gateway-elements/#roadmap-the-three-basic-parts
