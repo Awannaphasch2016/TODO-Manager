@@ -384,8 +384,22 @@ use openapi as standard for my api documentation
 update documentation to the clodu version
 
 #=====================
+#==RESOURCE
+#=====================
+caching 
+    database caching 
+        https://www.youtube.com/results?search_query=databash+caching+with+redis
+
+    DataBase - Difference between In-Memory Database, Normal DataBase & Caching | In Memory Database #2
+        https://www.youtube.com/watch?v=4pW_DUimJV0&ab_channel=TechTalkDebu
+
+    Supercharge Query Caching with AWS Database Services - AWS Online Tech Talks
+
+
+#=====================
 #==TODO
 #=====================
+
 here> learn how to use slurm job managemen
     here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
     https://hpc.fau.edu/fau-slurm-queues/

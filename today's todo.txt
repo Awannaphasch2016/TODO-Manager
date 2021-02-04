@@ -55,10 +55,11 @@ response from HPC
 #=====================
 #== TODO
 #=====================
-here> ProjectBasedTODOs/fastai_todo.md
-got to covid_spread_prediction_todo.txt
+here> got to covid_spread_prediction_todo.txt
 go to setting_FAU_HPC_todo.txt
 go to fau_crawler_todo.txt
+
+check message on fiver if I have any reply.
 
 migrate from /Documents/tmp.txt to 
 learn how to use quickfix in vim 

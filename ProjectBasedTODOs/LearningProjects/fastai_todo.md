@@ -4,6 +4,6 @@
 # NOTES
 
 # TODO
-* work on notebook lecture 2 and 3.
+* work on notebook lecture 2.
 * take a look at update from steve's github
 

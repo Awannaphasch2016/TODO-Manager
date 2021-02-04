@@ -17,13 +17,18 @@
 ====================
 == TODO
 ===================
-what is the evaluation?
-    what is train and test set used for covid19 prediction?
+here> create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
+    Goal: focusing on showing what I have done.
+    understand detail + shape of train and test dataset.
+    here> what are baseline model for regression?
+        implement 2-3 more. (should have about 1 hour to complete all) 
+    once finish, with the global dataset work on USA datase
+    should I refer to the paper I read and see what is the next direction i need to do?  
 
 figure out how to intepret ARIMA and understand the following does
     https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
 
-here> learn basic of time series 
+learn basic of time series 
     https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3&ab_channel=ritvikmath
         what are the list of topic I need to know? 
             https://www.quora.com/What-math-do-you-need-for-time-series-forecasting
