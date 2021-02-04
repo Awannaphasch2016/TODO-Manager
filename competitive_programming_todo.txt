@@ -1,0 +1,36 @@
+#=====================
+#== TODO
+#=====================
+
+# impementement link list
+> implement doublinklist
+
+
+# given 2 non-empty linked list
+representing two non-genative interers
+digits are soted in reverse order ?
+each of thier nodes contain a single digit
+add the two numbers adn return it as a linked list
+
+
+#=====================
+#== Questions
+#=====================
+hwo to create linked list?
+    what is linked list?
+
+        a linked list = linear data stucutre ,
+            element are not stoed at contiguous memory locations.
+            the elements are linked using pointes as shown in the belwo image?
+
+
+
+> what is the expected next behavior in DoublelInkedlist
+    why track.tail.next != track.tail
+        how does this `item.previous = self.tail` affect anything at all?
+            self.tail
+            self.tail.next
+            ListNode
+
+
+what is the relationship between tail and head.enxt

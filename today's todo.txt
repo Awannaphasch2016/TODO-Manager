@@ -1,0 +1,1061 @@
+
+
+skillshare
+auto insurance? (why do I have this still?)
+la annualfee 2 times ( go to LA fitness to cancle the membership)
+vesta * at*t prepaid  (call austin and ask him how to check it)
+    finishe the folowing email and send it to la fitness. Then move it to waiting
+        https://mail.google.com/mail/u/0/#drafts?compose=GTvVlcRwRrwJHKvJTXbcNQjFzvnqzDmkVKHBdrTXVvhGlQKqvgRRbpWVFmBVWrdCCFMFjwRrhGNNs
+
+Security NATL in Des:INS paymt ID:G00  on august  24
+    146.68 dollars
+
+
+#=====================
+#== Resources
+#=====================
+daily read
+    blog post related to data science
+        https://medium.com/kaggle-blog
+        I train a model. What is next?
+            https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
+
+interesting video
+    finance
+        tock Price Prediction And Forecasting Using Stacked LSTM- Deep Learning
+            https://www.youtube.com/watch?v=H6du_pfuznE&ab_channel=KrishNaik
+        Webinar: How to Forecast Stock Prices Using Deep Neural Networks
+            https://www.youtube.com/watch?v=RMh8AUTQWQ8&ab_channel=LucenaResearch%2CInc.
+        NumerAI
+            https://www.youtube.com/watch?v=jKI5dalRpn0&ab_channel=Numerai
+#=====================
+#==Questions
+#=====================
+how to scale ML infrastructure to train on larger data?
+    https://www.codementor.io/blog/scalable-ml-models-6rvtbf8dsd
+    https://towardsdatascience.com/deploy-ml-models-at-scale-151204549f41
+    https://conferences.oreilly.com/artificial-intelligence/ai-ny-2019/public/schedule/detail/73207.html
+    https://mlconf.com/blog/deep-learning-infrastructure-at-scale-an-overview/
+    https://www.bing.com/videos/search?q=how+to+scale+ml+infrastructure&docid=608026889531689956&mid=ACF32F9750A519DBB869ACF32F9750A519DBB869&view=detail&FORM=VIREHT
+
+Mypy Typing
+    Can I use Tagged unions for reddit and twitter at all? think about it
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
+#=====================
+#== WAITING
+#=====================
+response from HPC
+    https://mail.google.com/mail/u/0/#search/hpc/FMfcgxwKjfBwmzbDDhCZKbGQMHzxLcxF
+
+#=====================
+#== TODO
+#=====================
+go to fau_crawler.txt
+got to covid_spread_prediction_todo.txt
+
+migrate from /Documents/tmp.txt to 
+learn how to use quickfix in vim 
+    use quickfix + spellchecking 
+     https://www.youtube.com/watch?v=44pNDuRO77g&list=PL-v3vdeWVEsXo87wHeVSP_x1KTX4G1l8Y&index=19&ab_channel=NickJanetakis
+
+learn how to use weight and bias
+    https://wandb.ai/anak/learning_wandb
+    https://colab.research.google.com/drive/1rP7HucMhAk7vXxUHeUdH4gSUgt_WuJ4-#scrollTo=Y9L581ozavfJ
+learn how to use pytorch lighting
+    https://github.com/PyTorchLightning/pytorch-lightning
+	convert a pytorch project to pytorch lighting
+		convert easy one
+		convert harder one (where can I find project for harder one?)
+			convert GCN hard?
+weight and bias + pytorch lighting.
+
+read Explore Public Datasets with Google BigQuery and DataStudio
+   	https://towardsdatascience.com/explore-public-dataset-with-google-bigquery-and-datastudio-30f9279b8d42
+
+How Cisco Systems uses Tableau to identify supply chain network opportunities
+	https://www.tableau.com/solutions/high-technology-analytics
+    
+learning DevOps
+    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/SLUJecPjg
+
+
+
+set up freeNAS
+    free up space on my labtop
+        move video to google cloud
+        check if I need to remove anything else?
+    set up Free NAS on Virtual Mahince | window
+        https://www.youtube.com/watch?v=ndYKt0olOMA
+    use FreeNAS with MinIO
+
+thigns to watch
+    Why Goole Store Billions of Lines of Code in a Single Repository
+        https://www.youtube.com/watch?v=W71BTkUbdqE&ab_channel=GitKraken
+    docker-developement-youtube-series (loads of reusable code)
+        https://github.com/marcel-dempers
+    Better Python testing: How to Mock AWS
+        https://www.youtube.com/watch?v=11Fr0wqcxRc&ab_channel=JeffreyNess
+    Tips N Tricks #2: Setting up development environment for machine learning
+        https://www.youtube.com/watch?v=N9lo_UxSkWA&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=103&ab_channel=AbhishekThakur
+    How to build a machine learning strategy
+        https://www.youtube.com/watch?v=E5hMcDH9_u8&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=108&ab_channel=GoogleCloudPlatform
+    AWS re:Invent 2019: Continuous delivery to AWS with GitHub Actions (DOP322-S)
+        https://www.youtube.com/watch?v=KJNj37ZXPqE&list=PLGZmdr9dR5bRLWAJ-Vm7vl3Ox1WFauzRS&index=112&ab_channel=AWSEvents
+
+    Gradient Dissent: A machine learning podcast
+        https://www.youtube.com/watch?v=hVW1mwLtDcI&ab_channel=Weights%26Biases
+
+
+Go to reading_research_paper_todo.txt
+check that djorry send me electricity bill
+
+clear out all of the subscription
+    brainstorm and list all the things that is recurring and need to
+    unsubscibe.
+    check billing history.
+    start cancling each one.
+
+Go to reasing_research_paper
+add monthly annually and per semester to google calendar.
+
+
+--cov-report html --cov=CodeCoverage_Example --cov-branch
+add pytest-cov in cacher
+
+read this "Teach yourself progarmming in Ten Years"
+    http://norvig.com/21-days.html#answers
+
+read the following
+    https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html
+    https://towardsdatascience.com/sql-vs-pandas-which-one-to-choose-in-2020-a98f236829e
+
+> put todo_list in a project and verion control with github
+
+push to github
+
+
+what is the exact error that i am having/
+check rate limit for reddit
+    what is the ratel limit of pushshift.io?
+        lets look at other people that uses pushshif.io
+            does they mention anything related to the rate limit
+    Do I need to use dynamic control limit? if yes, check whether
+    someone has implemented twitter already
+        how to program dynamic control limit
+check whether someone has implemented the twittercrawler already
+
+if I finish both of them early, => work on running it on HPC
+
+
+what am I solving?
+    here> how can I get data, aggs, and metadata keys from response?
+        currently response has only created_utc and id
+            here> how to get other dict keys for `data`, `aggs`, `metadata`
+
+                NOTE: what are available params in data, aggs, metadata?
+                    NOTE: read pushshift for what is avaible
+                        aggs
+                            created_utc
+                        metadata (it has validation after ) run test please
+                            total_results
+                            before
+                            after
+                            frequency
+                            execution_time_milliseconds
+                            sort
+                            fields
+                            subreddit
+                        data (it has validation after  ) run test  please
+
+
+                    FIXME: figure out how to correctly get correct `aggs` and
+                    `metadata` after all response data is collected.
+                        NOTE: postpone until reddit crawler is correctly
+                        implemented in the main code
+
+                    implement the following
+
+                        here> how to fix/disable control_limit that I
+                        currently have for reddit?
+                            do i still need to manager after and before
+                            parameters?
+                            what are the parameters or functions that I need
+                             to be careful before implementing v2
+                             parameters
+                                initial_conditions
+                                after
+                                before
+
+                            implement run_reddit_crawler (version 0.0.2)
+                                use max_after only (for now)
+                                    NOTE: I will add before and after later
+
+                                1.i will save data to Output/... every n
+                                returned output.
+                                    whenever new created_utc is detected,
+                                    data will be saved to a file in Output/...
+
+                                    make all the test in
+                                    test_psaw_exmaple
+                                        figure out how to
+                                        1. implement yeild so
+                                         that for every n record, function
+                                         yield data.
+
+                                            here> refactor into the main code
+                                            base
+
+                                                move the part that iterator
+                                                throught generator outside,
+                                                so that data can be iterate
+                                                and saved (while using the
+                                                current architecture)
+
+                                                why covid subreddit = no
+                                                output?
+
+                                                validate that multiple query
+                                                 behave the same way
+
+                                                refactor save func to be in
+                                                utility
+
+
+
+                                            check mypy
+                                            check styling
+
+                                            run pytest, make sure all of
+                                            them passes
+
+                                            run pytest coverage -> 100
+                                            percent ont the
+                                            test_psaw_example_from_github page.
+
+
+                                        2. when new date is detected, data
+                                        is saved to Ouput/..
+
+
+                        test database that there are data for each date.
+                            basically, test that database is consistent.
+                            (data from interval is retrived)
+
+> rate limit nfo of pushshift.
+    use psaw api
+        Reference: about hwo to get all data using size vs limit
+            jreddit.com/r/pushshift/comments/ih66b8/difference_between_size_and_limit_and_are_they/g2yjrff/
+        > test the following endpoint
+            NOTE: can we use multthread to increase the process involve
+                generators?
+                keep the following in mind when implmeneting multithread
+                    reference:
+                        https://github.com/dmarx/psaw/issues/47/
+                    NOTE: owever because the 'before' and 'after' values are not inclusive in Pushshift,
+                     if multiple records with same timestamp occur on the temporal boundaries of the paging requests there will be missing records in the retrieved results.
+            after I finished with the reddit, figure out how to unittest
+                param to use
+                    from 01/01/2020 to 10/4/2020
+                things to test
+                    test before requests
+                        test url param right before it is sent with request.get
+                    test after requests
+                        check that all keys exist in the final dict
+                            for each key check, key withint those value dict
+
+
+            what is the limit of
+                read doc
+                NOTE: I strongly recommend prototyping queries by printing to
+                    stdout to ensure you're getting the desired behavior.
+                testing the limit of the reddit
+
+        ========== 10 more min should be enough=======
+    if it passes, building log => do the pull request
+    How can I unit test that rate_limit is haved been dealt with?
+    There is a global rate-limit at an new endpoint
+        what the fuck is this?J
+        NOte: server_ratelimit_per_minute.
+            Can i use it?
+
+pushshift
+    how can I maximize power of pushshift?
+    Do I need to know about reddit rate limit straegy?
+        what is the reddit rate limit strategy?>
+
+#=====================
+#==Reference
+#=====================
+
+
+#=====================
+#==Note
+#=====================
+creating vim
+
+ratelimit
+    Note: rate limit can detect and prevent bot traffic originting from a single
+        IP address
+    NOTE: server_ratelimit_per_minute: 120 # max at 200 (which range)
+
+Ways to speed up web crawling (and scrapy?)
+    check if non-standard middlewares are used (?)
+    try to increase CONCURRENT_REQUESTS_PER_DOMAIN, CONCURRENT_REQUESTS settings (docs)
+    try yielding an item in a loop instead of collecting items into the items list and returning them
+    use local cache DNS (see this thread)
+    check if this site is using download threshold and limits your download speed (see this thread)
+    log cpu and memory usage during the spider run - see if there are any problems there
+    try run the same spider under scrapyd service
+    see if grequests + lxml will perform better (ask if you need any help with implementing this solution)
+    try running Scrapy on pypy, see Running Scrapy on PyPy
+
+
+    use latest scrapy version (if not using already)
+    turn off logging LOG_ENABLED = False (docs)
+
+=====
+> how to figure out rate limit ( write it in documentation)
+    reddit rate limit?
+    twitter rate limit?
+
+
+> how to avoid rate limit
+    best practices are as followed
+        Monitoring API activity against your rate limit
+        Catching errors caused by rate limiting
+        Reducing the number of API requests
+        Regulating the request rate
+
+    what is batchign call vs parallel call?
+        https://developerblog.zendesk.com/from-100-requests-to-1-introducing-our-new-bulk-and-batch-apis-a5bb294e2132
+            what is external id?
+    batchign call vs build/batching endpoint?
+        how to do batching call?
+            is it on client of server side?
+                https://www.bing.com/videos/search?q=how+to+do+batching+requests%3f&docid=608008992504155826&mid=CC4C3FCCE049110F3FFFCC4C3FCCE049110F3FFF&view=detail&FORM=VIRE
+                https://gist.github.com/andrewxhill/f9ca6e1de9138a2154c5abe3140315cd
+                    batchapi.py example
+
+
+
+==========
+Note: I can only test function that expect to do ceratina things
+> test cralwer function
+> about testing, is it okay (or is it the correct approach) to test the
+following
+    test that certain condition is run?
+    test that certain function is run?
+
+
+> figure out a way to use mock to test social_media_carwler_run_reddit
+    lsit things that I must test
+       "--select_all_conditions", <---- test select_all_conditions
+       "--max_after", <========= test max_after
+       "--crawler_type",<-------- test crawlertype
+
+
+> where is _check_twitter_tag_value?
+    add check_twitter_tag_value as well.
+
+add clicks test
+    add conditions checking in click test
+        This chekc that we have approved these checking_function
+            check that it works as expected
+            it does not mean that if it is used, output from function will
+            be correct
+
+> write test for crawler given a certain tags conditiosn
+
+
+
+ fix try and catch, so taht catch will be used only at the place where
+    error will be dealt with
+ send error log to email
+---11.40---
+error exists
+    send error message to my email
+
+send me email when error occurs
+    find a way to refactor common error
+scrape twitter data
+-------------
+add the following as features called `feature--group_respond_data_per_day`
+    here>> writing proper pytest for group_respond_data_per_day (in time_utility
+    .py)
+    add_sentiment_key
+    all option to disable sentiment key
+
+    reddit => why data len = 100 when total result says its 341?
+        write test for this to garantee that there is no missing data
+
+    data taht I get from response
+        => group each one to have data of 1 day
+        => pass it in to `get_saved_file_path` and `save_to_file`
+
+    write code so reddit will save file of 1 day only
+        what is time_since and date_since
+
+
+
+jrun reddit on the lab computer
+run reddit crewler using multiple thread
+
+crawl twitter data
+------ 1 hr ----------
+
+connect postgres to elementpostgre or whatever (from the tutorial)
+    goal: figure out how to set user and password (that can be used in postgres dialect to connect to postgres database).
+
+when does pg_hba.conf generated?
+     The standard location is pg_hba.conf within the data_directory of the database (which could be in /home, /var/lib/pgsql, /var/lib/postgresql/[version]/, /opt/postgres/, etc etc etc) but users and packagers can put it wherever they like. Unfortunately.
+
+pg_hba.conf where to put it in docker postgres?
+    pg_hba.conf vs environment variables?
+
+check if there is demo on how to access postgres in the BeyondJupyter githbu
+docker-compose
+    restart: "always" what is it for?
+how do I know that volume is being updated remotely when I update locally?
+what is role in postgres?
+    what is shared role for?
+    why do i need to create shared role?
+what is password of user "postgres"
+    do all user need to have password?
+
+understand Postgres syntax
+
+
+do the following excercise
+    shift architecture to docker-compose
+    add a Postgres compoenent with a shared user
+    send data through all components
+        (jupyter >> Postgres >> superset)
+figure out how to run command in the container.
+    so that I can cd in and out folders.
+
+how to set configuration of each container in docker?
+
+how to sync canvas inbox to my email?
+    how to check if they are synced?
+what are the deadline for each labs?
+    set deadline for all labs.
+        same for both professor?
+
+
+what is my job title? what is my responsibility about TA work?
+
+create slack channel for TA
+    get to know each person. what class they have responsible for?
+
+answer student question in discussion
+answer student question in email
+
+create discussion for lab 0, lab 1, call it:
+    From TA: LAB 0 check list
+    FROM TA: Lab 1 check list
+
+collect information related to labs; read emails
+
+=========== 6pm ===============
+
+project euler => math problem
+coding game.com => ai/bot game competition
+
+write scrapy for twitter
+finish creating data science docker workflow.
+write airflow pipeline for the current project.
+
+connect terminal to FAU hpc (or whatever way that I can use FAU HPC efficiently)
+
+what is XDG Base Directory Specification?
+the current problem is that folder doesn't exists. for nvim/config
+add plugin in nvim.
+do I need init.vim?
+    where is init.vim?
+chocolatey vs scoop
+
+what is window 10 insider?
+modified vscode so that it works like neo-vim
+
+what is memory leak?
+doctypes on the web is not the same as doctypes in responds._body (in scrapy)
+how do I know my encoding of my xhtml?
+how to show certain doctypes in devtool?
+    is it possible that 1 web page has more than 1 doctypes>
+what does jquery and ajax do?
+how can I specify number of pages?
+how can I specify range of date?
+read the aticle to see if I can use query param instead of hashtags?
+    https://towardsdatascience.com/hands-on-web-scraping-building-your-own-twitter-dataset-with-python-and-scrapy-8823fb7d0598
+
+xml vs html?
+see how xpath works here
+    https://www.w3schools.com/xml/xpath_examples.asp#:~:text=XPath%20Examples%201%20The%20XML%20Example%20Document.%20We,with%20price%3E%3B35%208%20Select%20title%20nodes%20with%20price%3E%3B35
+
+how do they know where to get relevant data from?
+//*[@class="permalink-inner permalink-tweet-container"]//*[@class="username u-dir u-textTruncate"]/b/text()
+
+how does xpath works?
+
+make the hashtags works
+    how to run scrapy in pycharm so I can debug it too?
+    get x amount of data.
+
+
+check if there any twitter api that does not rely on json response from requests?
+    tweetscraper
+        see hwo tweetscraper (scrape html page)
+css-1dbjc4n
+scraping twitter
+    read https://www.pythoncircle.com/post/522/python-script-7-scraping-tweets-using-beautifulsoup/
+    how to scrap from social media site?
+
+
+find twitter api that does not rely on json response
+updated user_agents (updated with the ones used by TWINT);
+    what is user_agents
+updated endpoint (/search?)
+
+some updates to the URL structure:
+
+
+
+what does classic evaluator do?
+how to rotate square with bit operation
+figure out how to manage conda environment
+    where to put .condarc?
+    how to use pip with .condarc?
+
+run twitter in TwitterRedditAPI
+    try to run locally first (if it fails fix it locally -> push to github -> pull from lab) => then try it on the cloud
+implement code all files in reddit saved folder should be 1 days.
+create a DAG with Airflow
+implement async requests to make crawling data faster
+create snippet to run on HPC
+create a pipeline to run on both HPC and Airflow and make then in sync
+
+
+
+twitterReddit
+    understand the behavior of max_after
+        reddit *
+        twitter
+    add functionallity, so that I can be crawled data using data range.
+
+
+
+ask zhabiz and make sure on what I need to fix the documentation.
+
+install torch, sklearn, torch_geometric
+
+try to run the file first
+    see If I install the following packages.
+        torch, sklearn, torch_geometric
+
+create anaconda environment ( if one doesn;t already exist)
+    add all neccessary lib to the envionrment
+
+
+twitter and reddit *
+    check if files already exist, skipped.
+        social_media_crawler. (check before crawled)
+
+    for reddit, change so that each file = 1 day
+        create utility_function to force each file of reddict to have data of 1 day
+
+
+twitter and reddit
+    allow crawl by ranges
+        what is max_after used for?
+        max after vs before vs after? (how do they all related?)
+    once done create test so that ranges are gaurantee
+    test the following
+        (test crawling process)
+        test that file run at all
+        test interval ranges are query as expected
+        test that query are correct when specified by (tags as argument)
+        (test output process)
+        no dubplicate
+        output file contains correct value or each key
+            test for non 'all' value
+            test for all value
+
+how to do link prediciton
+    figure out online how to do linke prediction by removing nodes.
+cannot commit
+    /usr/bin/env: 'python.exe': Permission denied
+
+pre-commit flake
+    error "python.exe" does not exist (but I can run the python.exe from that path? not sure what is going on)
+
+run airflow-tutorial
+    resolve environment.yml confict
+        how to solve environment.yml conflict?
+        conda update pip failed
+            https://github.com/Anaconda-Platform/docs.anaconda.org/issues/182
+
+
+try installing airflow by itself.
+    environment.yml for pip
+goal is to install psycopg2 in with dockerfile, so airflow (or superset?) will not have installing issue.
+
+pull image postgres in dockerfile
+
+how to add libpq5 to airflow container?
+
+apistar (8000) is "not found"
+airflow 8080 "this site can't be reached => localhost refused to connect"
+postgres 5432 "this page isn't working"
+
+
+work on superset tutorial
+
+work on airflow tutorial
+    Schedule web scrapers with Apache airflow
+        https://towardsdatascience.com/schedule-web-scrapers-with-apache-airflow-3c3a99a39974
+
+write summay on the follow docker article
+    introducing the docker destop wsl 2 backed
+        https://www.docker.com/blog/new-docker-desktop-wsl2-backend/
+
+    how to share data between container
+        hwo to share data between docer containers
+            https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers
+
+
+find out where is my host-volume stored in my labtop????
+    where is docker volume (anonymous and named volume) store locally?
+        where is /var/lib/docker/volume in window?
+            its not at C:\Users\Public\Documents\Hyper-V\Virtual hard disks because it is currently empty
+
+what is driver in docker?
+
+    standalone volume vs container volume
+        virtual file system path vs host file system path
+reading Minio server mangament using minio client (mc)
+    https://medium.com/@aliartiza75/minio-server-management-using-minio-client-mc-70c8a7ce38
+what is the differences between MinIO and other cloud storages?
+what is self-host?
+    https://blog.alexellis.io/meet-minio/
+
+minio vs postgres
+
+which MinIO am I using?
+    look through Awesome Minio github (what are github/service/tools that minio offer?)
+        https://github.com/minio/awesome-minio
+    try quickstart guide
+        https://hub.docker.com/r/minio/minio
+    use MinIO with google drive
+
+
+fix error in example-postgres-connection
+    OperationalError: (psycopg2.OperationalError) FATAL:  password authentication failed for user "shared"
+    how to pass in correct input for create_engine()" for sqlalchemy
+
+how to run script in jupyternotebok .py file
+
+understand Beyond Jupyter
+    quick read about airflow/dag.
+    youtube about openapi
+    youtube about minio
+    youtube about airflow
+    youtube about superset
+    youtube about postgres
+        what is sqlalchemy? what is it used for?
+
+
+what is decoding responses? and when to use it ?
+what is encoding responde and when to use it?
+what is openapi schema (watch video on this)
+
+writing simple todo app with apistar => upload to github and link to roam research?
+=== can I do i under an hour?
+
+what is OpenAPI and Swagger schemaas
+    what is schema.yaml?
+
+find example that uses starapi and run it
+
+do flake8 in Utilities (decorator is done)
+do flake8 in src/Services/RedditTwitterDataAPI
+disable some of the 'non-like' pycharm code-style
+    E127
+
+finished with flake8
+    sentiment
+    visualize_performance
+
+learn setup.py,
+    generating distribution archives
+    uploading the distribution archives
+
+finish the rest of the documentation
+
+create pytest
+    what do I have to test?
+
+upload package to pypi
+
+
+if i disconnect with internet will i need to rerun docker container?
+
+check if beyond jupyter run
+
+create cron job script to run python script evert 0.01 each day.
+
+get sufficient with beyond jupyter
+    api Start (here)
+    minio (model)
+
+    Prosgres (data)
+    Superset (visualization)
+
+    Airflow (scheduling)
+        cron job
+    jupyter
+
+
+figure it out why in lab computer I cannot push
+    error about large file that I deleted a few commit back
+        what are possibility?
+            cache problem? if so what are type of cahce that can casue it?
+            is there a way to simply ignore/reset/delete/prune/remove this dead file?
+
+send dr zhu instruction of how to retrieved data from database
+    push to origin
+    pull to local fau lab computer
+    write instruction
+        how to crawle
+        how to update to date base
+        how to
+
+how many data collected and what it looks like
+
+fix flake8 for all files
+
+add documentation to utility functions
+
+fix typing of update_sqlite3_database and twitter_crawler
+
+fix typing of the rest of the program
+
+learn setup.py
+learn tox
+
+
+run docker on pycharm or vscode again
+
+
+read the following
+    how to code with me - organizing a package
+        https://cthoyt.com/2020/06/03/how-to-code-with-me-organization.html
+    how to code with me flake8 hell
+        https://cthoyt.com/2020/04/25/how-to-code-with-me-flake8.html
+    how to code with me - making a cli
+        https://cthoyt.com/2020/06/11/click.html
+
+figure out why pycharm does not accept venv virtual environment
+    post a thread on intellij page or call them during operation hours
+
+ci
+create stupid test and automate it to ci
+
+what is flask8 hell?
+    use particular code style
+
+how to use setup.py
+    tox
+    setup.cfg
+    license_file
+    .config
+
+
+
+read reproducibale by the guy from coronawhy
+
+add check_no_dublpicate function for twitter
+
+create documentation
+def func():
+"""
+<func description>
+
+:type var: <type>
+:param var: <description>
+
+
+"""
+
+
+check why I can't query twitter
+    add no dubplicate to twitter ()
+    fix crawlers=Twitter to outout crawler = 'twitter'
+
+    look at 'all' behavior and make them output not None but all variables
+
+figure out why twitter data does not reflect query word that I send in.
+support state
+    reddit
+    twitter
+
+
+
+figure out
+I retrieved overlapped data for 2 consecutive day
+    to confirm, check range of their date
+        hwo to do it ?
+
+check if data is overlapped between 2 consecutive day
+
+make sure that database has no dubplicate
+    > enfore unique in it
+
+
+working on connecting terminal from laptop to fau lab computer
+
+use setup.py
+
+use cli ( click library)
+
+
+
+work on gta workshop6
+
+figure out how to connect my local computer to lab computer (through kernel)
+    check email so I can as help desk for help
+    look into how I can connection to lab computer and OKKO server via local labtop terminal
+
+set up docker files
+
+==== before 12?? pleaseee===
+
+
+make sure that data point is unique (looing into using id to make sure data is unqieu )
+    figure out which part caused data dublication => reddit, twitter or implementation that uses data.
+
+figure out how fetch wor
+    why di the aommcnd to fetch and checout work as espected.
+
+
+how to accept a enw barnch from origin to fau lab computer ?
+    check github if there is
+    figure out what feature-allow uses to pass i before and after date is?
+        merge it to feature-twttierRedditAPI or delet it
+
+restart cacher to get newer version
+
+write summary on the video about api that I watch
+    put it in Aticle; 5 golden rule ...
+    youtube video: 10 best practice ofr developign an API
+
+
+
+push code on github + manage branches as necessary
+
+finish all paper work email + ta work  + new ra and ta picture + paper work over due.
+
+try collect data by using povis compute to send url requests to my computer
+    goal is to allow request via http protocol
+    once it worked => set up the same setting at the fau server
+
+figure out a way to run server
+
+add the code so that each files represent at most 1 date of data, and if data is
+
+read about how to design api.  and make notes
+
+clear out task that I assinged in roam resarch that belong to main project.
+
+get twitter geo
+
+refactors code into its correct files and location
+
+learn how to write test + try writing test on demo data
+    Note: This will help me move alot quicker per iteration when debug or design code
+
+-------before I sleep next time, tmr at somepoint or tuesday ?
+
+start working on journal and
+
+get data from since_date to until_date
+    how do I collect data to be query for later
+        best way: add thing that are not in data in the database
+    query by date *
+        use aggs to query by date, (reddit)
+
+
+check lab computer
+    check if data is correc
+        reddit
+            data
+            aggs
+            metadata
+        twitter
+            data
+            aggs
+            metadata
+how to debug web devlopemetn uqickt
+    key: web devlopement, flask, back end
+
+goal is to learn to use flowchart that help guide me when doing coding
+
+
+create flowchart of my current api project
+    given user specification
+
+get all data
+    reddit
+    twitter
+refactor the current code to hve
+    query_by_crawler
+    query_by_aspect
+    query_by_date
+
+add fields to params
+
+prepare_args
+get_all_file
+return_retrived_data
+
+why retrived dta return NOn
+
+convert data['data] to pandas * (skipped)
+convert utc to datetime
+    store them at as pandas rows
+
+run code from lab
+    not implemnted reopen
+
+aspects, crawlers, after_date, before_date,  frequency, respond_type
+
+====waiting for things above====
+
+list all of the data and in side folder
+    split date int [less] and [more]
+    compare since date with date on the left
+    compare until date with date on the right
+
+create "feature: TwitterRedditAPI"
+    run code (no need to refactot)
+
+    pick user requirement to work on
+        take screen shot once each step is finished.
+    implement api
+        follow user requirements
+        pick one that are easiest to implement
+
+record screenshot of request that return specific creteria (provided by user requirement)
+
+create code that will run from where it left off. *
+    it check for file first, if file exist it skips.
+
+crawler => aspect => date
+
+path/aspects/comment or submission
+
+vscode does not detect methods
+
+create command line that will run both twitter and reddit at once. (3 days)
+    if crawler_type == all, both twitter and reddit will be run
+
+run data for 3 days from 20/08/18 to 20/08/20.
+    make changes and tested in local labtop then run it on fau laptop
+
+run reddit_twitter_data_api_without_sqlite.py
+    find this file in local changes (vscode)
+
+how to version control dataset
+
+run my current demo
+    where are they locate? (ones with parameters)
+        I can just creata new one myself it its takes more than 5 mins to find
+
+
+check redidt data and make sure tha it has al the data to be used fro queies
+
+check twitter data and make sure that it has all the data to be used for queries
+
+1 am?
+
+test None for twitter
+    note: None imple no tag input
+    _running_condition
+    _condition
+
+run 1 tags reddit *
+
+run multiple tags reddit
+run multiple tags twitter
+
+add _check_twiiter_tags_value(tags: Tags):
+
+add tags for get_keywords_collections
+    check how reddit used tags.
+        run reddit and twitter first (just to see if they works at all if not, make change for twitter. once finished make changes to reddit)
+
+
+make sure that save_file() of twitter and reddit use the same nameing convention
+
+
+add argument options to allowed aspect keyword including the following
+    note: currently we have corona_keywords
+    work_from_home
+    social_distance
+    lockdown
+    corona
+    reopen
+
+run code and push to get up first
+
+run reddit and twitter data for all the cases
+    reddit
+    twitter (run this first)
+        what are tags for twitter?
+        create break point to investigate twitter with current condition \
+
+test get_all_file()
+test get_sentiment_path ()
+
+goal is to add sentiment key to dataset
+    where is my reddit and twitter data folder?
+    what are the folder of reddit and twitter data?
+
+
+add sentiment code to my code base
+    lets try to run code. if it works. push it to github, and create new branch for adding sentiment code.
+
+run the code at fau.
+    check if i need to use signularity (to help with incompatibility code in the future)
+    figure out how to move data from 1 comptuer to anohter computer since it cannot be upload to github
+
+8.40
+
+
+today wrapping up twitter work.
+    include sentiment code into the my codebase
+    clean data so that reddit and twitter have the same format
+    create code to collect missing data. (lets collect all data within August)
+
+where is python interpreter?
+
+show cur
+
+get credit score from bank of america
+
+hwo to turn a directory on a Server intoan accessible URL?
+        http://www.websina.com/bugzero/kb/browser-file-url.html
+
+watch video here. If it is not clear. Read about it.
+    https://www.google.com/search?q=XAMPP+2+computers&rlz=1C1GCEU_enUS914US914&oq=XAMPP+2+computers&aqs=chrome..69i57j33.9912j0j9&sourceid=chrome&ie=UTF-8
+send metail to esther saying I havent' recieved email about the workshop y8et
+
+if using XAMPP does not work, consider using fishbowl (or its alternative)
+    should I set static ip address?
+    how does dynamic ip address work?
+    undstand submask
+

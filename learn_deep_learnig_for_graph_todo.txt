@@ -1,0 +1,165 @@
+#=====================
+#==NOTE
+#=====================
+dataset
+    I can use email to create network.
+
+inspiration paper
+    Paper: Network Analysis of Technology Stocks using Market Correlation
+#=====================
+#==QUESTION
+#=====================
+Q can I use dataset from panama paper to create network?
+As
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
+#=====================
+#==RESOURCE
+#=====================
+soft article to read
+    CrowdFlower and Human in the loop Machine Learning
+        https://www.nanalyze.com/2017/07/crowdflower-human-loop-machine-learning/
+    Can AI be used for stock trading?
+        https://www.nanalyze.com/2017/02/artificial-intelligence-stock-trading/
+
+Kaggle
+    NOTEbook
+        knowledge graph
+            https://www.kaggle.com/isha20/covid-knowledge-graph
+        COVID-19 knowledge grpah with BERT weighted edges
+            https://www.kaggle.com/kingajohnsjoe/covid-19-knowledge-graph-with-bert-weighted-edges
+        CORD: Tools and knowledge graphs
+            https://www.kaggle.com/shahules/cord-tools-and-knowledge-graphs
+
+
+#=====================
+#==TODO
+#=====================
+
+here> Go to implement_model_using_etoro_social_platform.txt
+
+
+for all the papers, I can do the following
+    1. collect paper into group and select from each category.
+        criteria for group type are
+            1. dataset used
+            2. task they are solving
+            3. deep learning model.
+    2. skim only methodology of each papers with out in-depth details.
+
+how can I use timeframe to predict stock price
+
+knowledge graph = multi-relational type?
+    how to construct knowledge graph for event driven?
+
+here> when to use OpenIE? how to use it?
+
+requirement
+    code
+    graph
+    finance realted stuff
+
+how do i determined things that each industry depends on ?
+
+collect picture of architecutre design from each paper
+    note: use tag 'add to AI architecture design for finance'
+    paper related to graph
+        here> Knowledge-Driven Event Embedding for Stock Prediction
+            https://roamresearch.com/#/app/AdaptiveGraphStucture/page/1Adgk0l5g
+
+        reading
+            Anticipating Stock Market of the Renowned Companies: A Knowledge Graph Approach
+            Combining Enterprise Knowledge Graph and News Sentiment Analysis for Stock Price Volatility Prediction
+            HATS: A Hierarchical Graph Attention Network for Stock Movement Prediction
+
+        file:///C:/Users/Anak/Downloads/long2020.pdf
+        Exploring Graph Neural Networks for Stock Market Predictions with Rolling Window Analysis
+        Incorporating Corporation Relationship via Graph Convolutional Neural Networks for Stock Price Prediction
+        Temporal Relational Ranking for Stock Prediction [code]
+        Knowledge-Driven Stock Trend Prediction and Explanation via Temporal Convolutional Network
+
+
+things that I hvane't seen done
+    using new graph neural network technique (model) on the new task
+    network of companies itself
+        note: current construct network from news.
+    using company's properties such as PE value to calculate.
+    analyze hierarchical graph as followed
+        note: markets are moved by money, and money is circulated in more than
+            1 industry and assets
+        from top to bottom
+            network of correlation between financial assets
+            network of correlation between industry (given 1 assets)
+            network of correlation between network (given 1 industry)
+    using other financial asset in the graph
+    aspect analysis
+    given the same network, using multi-feature edges. (using different way to
+     calculate 'relationship' between nodes)
+        note: 'relationship' is not limited to correlation.
+    using directed edges.
+        caustion graph??
+    I want to trace credibility of an entity. and use them to predict.
+        note: problem here is aligning prediction time frame.
+            to detect this, check date between buy and sell. (percentage left
+                from the initial buy => indicate short-long term? confident?)
+        social follow trading website
+            https://www.quora.com/Is-there-a-social-stock-trading-site-yet
+        is there a social network where people predict stock/finance asset?
+            if there is, creditbility network can be created there.
+                using temporal network, user who predicted correctly will gain more
+                 "credits"
+                reference: from Radalio hypocrecy (not sure about the word)
+                thinking
+    using relation data
+    use all aspect sentiment analysis toward all aspects that drive value of
+     that industry
+        eg. oil is effected by fosil, coutry who have control of oil, whether.
+    detect maeket manipulator
+
+
+
+is there a way to plot citation of a selected paper?
+    if I do this, it will be easy to collect paper that related.
+
+here> hwo to find competition, dataset, notebook, topic discussion i Kaggle
+    company to follow
+        Two sigma
+    here> financial data in kaggle
+        here> using graph
+            here> should I read survey paper on the topic first?
+                linke to survey papers
+                    https://scholar.google.com/scholar?hl=en&as_sdt=0%2C10&as_ylo=2020&q=Survey+stock+market+prediction+deep+learning&btnG=
+            what are deep learning approach apporach in financeial?
+                cool paper using knowlegde graph + finance
+                    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/qcN6IFDJc
+                Knowledge-Driven Stock Trend Prediction and Explanation via Temporal Convolutional Network
+                    https://dl.acm.org/doi/10.1145/3308560.3317701
+            what are the type of financial data for deep learnin task?
+
+Goal: collect snippet and understand ways people approach the problem.
+    skim through Notebook in Kaggle related to "knowledge graph"
+
+Goal: research will be about startup + investment + stock market + venture
+    capital + network/graph
+
+    dataset
+        https://www.kaggle.com/justinas/startup-investments
+    list of key words
+        hedge funds
+
+
+here> find paper that use network analysis + deep learning model + cyber bullying.
+    Goal: reproduce the performance from scratch.
+    May be 'temporal' is a key word to get graph like dataset?
+        url: https://roamresearch.com/#/app/AdaptiveGraphStucture/page/F-U0561Q6
+
+find misinformation dataset that I can create network out of and do analysis
+ on it.

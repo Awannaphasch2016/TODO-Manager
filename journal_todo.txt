@@ -1,0 +1,29 @@
+> difficulty in finding dataset
+> create algorithm 2. for second experiment.
+> create link prediction algorithm
+> add picture from presentation to 
+> fixed introduction and abstract to fit new content
+> in starter graph  section 
+	:write bullet point of 3 types of graph
+> add Picture used in PhD Presentation
+> fixed static reference ( change to dynamic reference)
+> edit copied text
+> reread from top to bottom 
+	:check correctness of the sentences ( consistency and flow of the paper)
+> put AddedInfo/Dataset.text to copd.tex
+
+>What edges adding strategy do we used?
+	: topk? boomk?
+
+>talk about GPSim? what is GPSim? 
+explain how I create each graph type. 
+	: What data set do I use. 
+	: How did I expand the dataset.
+>explaining and comparing result of the following, 
+	: phenotype_gene_disease_phenotype
+	: phenotype_gene_disease
+	: phenotype_gene
+> collect state of each graph type 
+	: # of nodes 
+	: number of total edges
+	: number of 

@@ -1,0 +1,342 @@
+#=====================
+#==GRADED student
+#=====================
+lab 2
+    steven Fernandez = fix grade because graded by sait
+lab 3
+    steven Fernandez = fix grade because graded by sait
+Lab 4
+    1. Anthoby Polese + grade + bonus
+    2 Nwlson Mendez + grade (his code is weird)
+    3. James Goedmakers + grade
+lab 5
+    1. Anthoby Polese + grade + bonus
+    2. Nelson Mendez
+lab 6
+    1. Edgar Cru Herrera
+    2. Nelson Mendez (done)
+    3. Anthony Polese (done)
+
+#=====================
+#==NOTE
+#=====================
+
+
+students that i need to look watch code + video
+
+    --002 004
+        lab 01
+            Noelle Meline
+            Raven Ruggs
+
+    --003
+        lab 02
+            Johnathan Jorgensen
+
+lab 1
+    comment:
+
+        yes, it does support, but it is not built it.
+
+        My mistake. You are correct.
+
+        incorrect. -1
+
+        to avoid, noise interfere with intended value. -1
+
+        no video provided. I cannot grade. Once video is submitted.
+         (post in comment.), I will update your grade.
+
+        R7 is 2. -1
+
+        Yes, it does support Real-time Clock, read this document for more details (http://web.eng.fiu.edu/watsonh/eel4730/slap113.pdf) (-0.5)
+
+        Yes, it does support Real-time Clock, read this document for more
+        details (http://web.eng.fiu.edu/watsonh/eel4730/slap113.pdf) (-1)
+
+          NZVC 0001. -0.5
+
+      Please follow submission instruction. You have to provide youtube link
+       to your video submission + submit assembly code for partial credit +
+       submit lab sheet. Otherwise, I cannot grade. You can resubmit.
+
+lab 2
+    comment:
+
+        no video provided. I cannot grade. Once video is submitted. submit or
+         comment link tpo the video and I will update the grade.
+
+          After lab 2,
+          I cannot update the score after the deadline, so please keep that
+          in mind. Also please submit your .asm file, so I can provide
+          partial point whenever possible.
+
+        Answer from video submission is incorrect. you need to submit the code
+        for me to check for correctess and recieved partial point.
+
+        "Write the hex value in order".-2
+    Ans:
+        ARY1
+        10 43 -19 77 -44 24 -82 -55 16 -18 99
+        10 -82 -55 -44 -19 -18 16 24 43 77 99
+        lab 01
+
+        R4 0004
+        R5 0003
+        R6 000A
+        R10 000F
+        R7 0002
+        NZVC 0001
+        0004 0002 000A 000F 0002
+
+
+        lab 02
+        0A  AE  C9  D4  ED  EE F0 18 2B 4D 63
+        AE0A D4C9 EEED 18F0 4D2B 0063
+
+        ARY2
+        10 25 12 61 -76 -90 23 98 97 60 -77
+        10 -90 -77 -76 12 23 25 60 61 97 98
+
+        0A A6  B3  B4  0C 17 19 3C 3D 61 62
+        A60A B4B3 170C 3C19 613D 0062
+
+lab 3
+    comment
+        video demonstration is not correct, please submit code for partial
+            credit.
+
+        1. code seems fine
+        2. no video submission I can't provide grade.
+        3. if code doesn't run because wire is incorrect, I need
+            picture of wiring to provide partial credit.
+
+        Please send me email regarding help.
+        submissios section should only contains things related to your submission.
+
+    code not working correctly
+        Olivia Razzo
+            https://canvas.fau.edu/conversations#filter=type=inbox
+
+resubmssion Or late submission
+    lab 1
+        Chritopher Melendez
+            email November 23, 2020 at 10:53am
+    lab 2
+    lab 3
+    lab 4
+    lab 5
+
+lab 5
+    instruction
+    5.a) 4 points
+        build circuit as describe above and run the skeleton code
+    5.b) 8 point
+        000 -> counter resets to 00
+        001 -> riget digit cycles 0-9
+        010 -> left digit cycles 0-9
+        011 -> right and left digits both hold values (preset value)
+    5.c) 8 point
+        counter coutns up or down
+        111 -> count cycles down from the preset value to 10 ,and repeats
+        101 -> recall the preset value
+        110 -> recall the preset value
+        100 -> counter cycles up from the preset value to 90, and repeats.
+
+    5a) -2
+    5c) -4. The code is not working.
+
+lab 6
+
+
+list of people who have missing grade
+    004
+        lab 0
+            currently communicating with
+
+            Maxx fenning
+            Thomas Gigliotti
+            Rood Pointjour
+            Hudson Weber
+        lab 1
+            currently communicating with
+
+        lab 2
+            currently communicating with
+
+            Thomas Gigliotti
+            Dominique Nelson
+            Hudson Weber
+        lab 3
+            currently communicating with
+                Michael Hollinger
+
+            Thomas Gigliotti
+            Rood Pointjour
+            Hudson Weber
+        here> lab 4
+            currently communicating with
+
+            Clinton Bellingar
+            Thomas Gigliotti
+            Christian Jimenez
+            Nicholas Le
+            Rood Pointjour
+            Ludzen Thelusma
+            Hudson Weber
+            Julio Zorrilla
+        lab 5
+            currently communicating with
+
+            Taylor Elliot
+            Thomas Gigliotti
+            Martha Leon Rueda
+            Leon Rice III
+            Raven Ruggs
+
+        lab 6
+            currently communicating with
+
+
+            Clinton Bellingar
+            Kyle Frudakis
+            Long Ho
+            Neifteld Jean-Pierre
+            Hakeem Johnson
+            Nicholas Le
+            Martha Leon Rueda
+            Hunter Magulick
+            Jad Mucharafie
+            Janisse Picado
+            Leon Rice III
+            Benjamin Yacoub
+            Julio Zorrilla
+
+    003
+        lab 0
+            currently communicating with
+                Coty Kersten
+
+            Esteban Garcia Ruiz (no submisision)
+            Eric Palomino (no submission)
+        lab 1
+            currently communicating with
+                Coty Kersten
+                Gabrielle white
+
+            Esteban Garcia Ruiz (no video submission)
+            Eric Palomino (no submission)
+            Marc Nodjy Timolien (no submission)
+
+        lab 2
+            currently communicating with
+                Coty Kersten
+                Gabrielle white
+                Christopher Costa
+
+        lab 3
+            currently communicating with
+                Christopher Costa
+                Gabriele white
+                Coty Kersten
+                Olivia Razza
+
+            Enzo Bossa (no submission at all)
+            Christopher Melendez (no submission at all)
+
+        lab 4
+            currently communicating with
+
+            Esteban Garcia Ruiz (video doesn't meet the criteria)
+
+        lab 5
+            currently communicating with
+                Gabrielle white
+
+            Eric Palomino (required code submission for partial credit)
+
+        lab 6
+            currently communicating with
+
+            Olivai Razza
+
+
+#=====================
+#==QUESTION
+#=====================
+What is header file?
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+here> do the following
+    Esteban Garcia Ruiz
+        lab 1 (run the code)
+        lab 2
+        lab 4 (run the code)
+
+
+christopher costa
+    lab 2 and lab 3 grading.
+004
+    graph lab 1-5.
+003
+    graph quiz 7.
+
+
+here> check email
+    lab
+        004
+            michael hollinger
+                lab 3 (video submission doesn't meet the criteria)
+        003
+            Coty kersten
+                lab 0 (no video submission)
+                lab 1 (no video submission)
+                lab 2 (no video submission)
+                lab 3 (no video submission)
+            Gabrielle white
+                lab 1 (no video submission)
+                lab 2 (no video submission)
+                lab 3 (no video submission)
+                lab 5 (no submissio at all)
+                lab 6 (no submission at all)
+            grade cristopher Costa.
+                lab 2 (video submissio don't meet the criteria)
+                lab 3 (video submissio don't meet the criteria)
+            Olibia Razzo
+                lab 3 (video submissio don't meet the criteria)
+
+            lab 6
+                Anak
+                    6a) -2
+                    6b) -2
+                    6c) -1. "every time you touch the touch switch, LED 3 will toggle"
+                        delay is more like a hack not a solution
+
+                Mudhamad
+                    No explanation was provided on why LED1 is not flickering (-2).
+                    If the room temperature reading increases by 2% over the room value, LED 2 turns on. Currently in your code, it should increase by 3%.
+                    When you touch the touch switch, LED 3 should toggle ON or OFF and stays in that case until your next touch (-2).
+
+
+    quiz
+        resubmission quiz Hunter Grant on Canvas?
+
+
+check canvas
+
+making annoucment to ask if anyone hasn't yet get their grade from lab
+    0-lab 5?
+        everyone should have thier grade from lab 0 to lab 5. If I still
+         miss anyone else please email me
+
+send email to dr Alhabi to see if he will be grading it.
+    I believe that TA is not responsible to grade quizes, but Quiz 4-7
+        has yet been updated, so i am slightly concerned for students.
+
+

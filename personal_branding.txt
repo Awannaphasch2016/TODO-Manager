@@ -1,0 +1,220 @@
+#=====================
+#==NOTE
+#=====================
+for research paper page, list things that I want to be searchable.
+    a must.
+        dataset that is being used.
+        related architecutre.
+        key contribution.
+        picture
+            table
+            figure
+        experiment details.
+            experiments setup.
+            paramters setting
+            result
+                performance on each dataset
+                    use "performance tags"
+    optional detail
+        related work
+            categorize by task
+            categorize by dataset
+            categorize by timeline
+            cateogorize by model types.
+        problem formation
+        introduction
+        summary
+        equation.
+            note: I really want this to be "a must" (because I am bad at it,
+             and having nicely organized, I can learn better.),
+            but I can't an easy way
+                for it.
+            note: papers use differnt symbol for the same concept, so symbol
+             should be in the papers, and
+            how to capture equation proof?
+            how to capture process in which equation is derived?
+                top-down vs bottom-up
+                    Note: bottom-up makes its easier to understand, but
+                        top-down can capture neccessary information alot
+                        quickler. (due to principle of notes searchability,
+                        top-down should be employed)
+
+
+
+#=====================
+#==QUESTION
+#=====================
+
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+here> Write Categorize and Synthesize.
+    reading paper or article is good to store information for the first
+    time, but it is bad for you to retrived the information
+
+list all of the pages types
+    add them into Roam research syntax
+list all of the tags that exists.
+    add them into Roam research syntax
+list all the query I use
+    add them into Roam research syntax
+
+video
+    show types of pages.
+    show how each tags are used.
+    show list of query that I use
+
+write article about tags design.
+    types of tags?
+        what are characteristic of each tag type?
+figure out how to add social media to Youtube Channel.
+talk about plugin that members should consider for roam
+
+
+here> write an artivle on "stagnate era of note taking" explaining the fact
+that
+technology of note taking advancement is completely stagment.
+    write about list of strategy in which people make notes.
+    whrite about "what is the properties of good notes?"
+    write about "what is the problem with the current notes taking technique?"
+        style of note taking in 'fact heavy', 'concept heavy', 'domain
+        syntax heavy'
+make tutorial on how to intiaate 'discussion', and 'conversation' tags
+
+wrtie in roam research under seedling: should I purposed idea of IDE for note
+taking (for
+curated
+knowledge)
+    what should be funcationality of IDE for curated knowledge?
+        basic function of bi-directaion link (basically roam research)
+            allow for more complex query that what is current offer in roam
+            research
+                what are other functionality of query do I want?
+        easy way to convert equation into "latex" or "wolfram language"
+        separate block types by tags.
+            Note: types of tags should be add on.
+            use case
+            introduction
+            ...
+        optimize searchability + cohension + coupling + DRY.
+        integrate smoothly with internet or other people's knowledge base
+            navigation between internet and IDE.
+        integrate smoothly with online notes. (PDF, jpg, code)
+            note: all steps are saved, and can be refered to.
+            when highlight a note
+            -> ask if you want to re-written it in
+            your own word
+            -> become a block in which can be link by the rest
+             of your knowledge base.
+        include version control for ease of collaboration.
+        have add-on to enhance
+            synthesize, categorization, and exploration experience.
+        enable keybinding such as vim, emacs, etc.
+        built in space everything.
+        built in "add to" command (blocks that are added are list in order
+        or unorder)
+            "add to reading list", "add to research idea", "add
+             to
+            syntehsize"
+        built in task management
+            Note: this help keeping "notes" and "folder" in the same places
+        have API to other platform such as google cloud, google calendar.
+            note: this is so that IDE can focus on curated the knowledge only.
+
+
+write aricle to answer the following question
+    Question: is the new seedling page [Seedling: Document your level of code
+    understanding by writing narrative.] another to describe to capture sequence
+    diagram?
+        ans same idea but doesn't use any component or class to describe. only
+        care about hwo the works work.
+
+
+
+fill out branding related question.
+    Note: make sure to keep the previous version.
+    Forward
+        https://roamresearch.com/#/app/AdaptiveGraphStucture/page/MZkZddle6
+
+>>>>>>>>>>>>>>>>>>>>>HEAD
+chere> reate an article on todo architecture design
+Find template for personal blog.
+    use foam for personal blog.
+    If I decide not to use foam see, Who has greate blog?
+        template from founder of Etherium?
+<<<<<<<<<<<<<<<<<<<<<END
+Create list of todo's that members can help collaborate with the project.
+Branding
+    1. answer brand questionaire
+    2. make tutorial on how to start "discussion".
+organize my twitch
+    collaboration idea
+        data science + create report or blog out of it, so people can follow.
+create: Hackathon event online for meet up
+    create Monthly hackathon.
+    come up with a way to work seamlessly online during hackathon.
+here> list of Tutorial. Pick 1 to make a video.
+    here> how to use send to tags
+    How does the tags system works?
+        here> what is the tags structure for research?
+    here> how to filter information using query.
+        get quick overview about topic using filter.
+        use query to get definition
+        use query to understand "how does things work?"
+
+    introduction video
+        Note: I need to write script about it
+        what is the project about?
+        how can you contribute to the project?
+
+    what is the meaning of each tags? (only show important tags; point to
+        Note: use a page that have the following tags as example
+        picture tags
+        definition and discussion
+        terminology
+        Use case
+        experiment
+        starndard
+        approach
+        architecture
+        results
+        datasets
+    roam research page)
+    how to start discussion?
+        Do I have a good model here yet?
+        >discussion should have their own page, create a new tags to
+            collect list of discussion within the page ( research or article)
+        > discussion must be in reference.
+        > with in discussion page, you need to refer to page or block that
+        you want to spark discussion about.
+    here> How to send infomation to certain people
+        [send to] and [send from]
+
+How can I start writing blog + upload to youtube consistently? (all data science related.)
+    do things that I am currently not good at.
+        what should I write about?
+            things related to research paper, side project, contribute to open source.
+                 what will be focus to my research?
+                      NLP? vision? knowledge graph?
+            > write about kaggle competition, so I can learn data science skill
+
+
+        how long should each blog test?
+            weekly blog + daily update seems reasonable
+
+create a routine that will make me focus on research + my side project + learning.
+    time blocking?
+
+    create a prototype to test tmr
+

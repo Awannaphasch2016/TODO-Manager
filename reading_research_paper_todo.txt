@@ -1,0 +1,136 @@
+#=====================
+#==NOTE
+#=====================
+twitch title
+    1 testing out new paradigm of reading research paper: Categorize and
+    Synthesize
+    2. First every curated knowledge base attempt at scale. Currently active member is 3 by the end of the year we aiming to have 10 active members
+
+
+#=====================
+#==QUESTION
+#=====================
+Q: what is the differet between graph gernative entwork and graph auto-encoder?
+
+Q: how does graph auto-encoder learn node pair-wise edge?
+
+Q: how to implement "constraint" in GAN?
+
+Q: what is the application of graph geenrative model?
+
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+read Decoding Social Influence and the Wisdom of the
+ Crowd in Financial Trading Network
+    http://alumni.media.mit.edu/~panwei/pub/socialcom12.pdf
+
+read Deep learning for financial applications : A survey
+    https://pdf.sciencedirectassets.com/272229/1-s2.0-S1568494620X00068/1-s2.0-S1568494620303240/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBMaCXVzLWVhc3QtMSJGMEQCIAylE%2FzSO%2BUMQzOnUSaj3gnROWuHVqHIT%2FskRX40uDO%2FAiA%2FCNeseoAOTE9K%2BH6kFiTFcMnk2naoufPiHmSjnTblbiq9Awis%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDA1OTAwMzU0Njg2NSIMFq1NkYXygHKGY8zNKpEDauBFnsAtICJaZ37ezoJIekOHMks9eaqM8RbopTkgvGUUw62GkcLiT4bW62Bz%2FrAwDZJubZ%2BIL%2FsH2u2hKHY%2BL%2Bcn9pCb1pPU%2B0BB28etNlud0%2BmBI7DplwIQh3iFHQxT2Rjts9CTzQu8uctgzUkwGIstoJj1rPjrIdRXC6Ll9MFVzd1enKIq9lF3zr45ok6O6eIrogoUuvmt4B6JPIgvebXufjDP6w683qUY6%2FSEcp%2F5ERrJjwX9%2B75MKYGZNVKUkCA3K%2F2Hvmk7qdey1%2FG7nXUSo8BZJHPpKq9rY9xs%2F5SFwZryTG29kr3WlfacHEJI3sCV7hKbVF%2FW1P%2BCrMc2TJW%2Br8AlKTk9HoV9Z3LqwP3BIUrQ16fSiJBphS3GEXchkrX7SZDGB7wTColbVHkc7Br7f56%2Ba7DrOQObfefP%2FbqLYUK1gF9S%2BP0RlmT4A34pVE8LZ6Z7WelsSIgVOE64SPhWMGacKGatDNdOx3VPn85Ra0CPbh%2ByaofHgzh%2BDriVWDODxdLUqiX6qgK6iSCfozgw6JnU%2FgU67AFjAVcmSOmAZIxnLTRPdoZFT5FLptNrB9DdiNh%2BWlkknhnTngCnGJHGZTawpVhZdTPkPWThUe1ljXEUdvSPD%2Bm%2BDJS18qkOEzr2iKR92a79%2BqkOEnegCVIdWjj3RolgHWYVfB5iREiKcZigB0DCKKZbTUQc4KUfiJBuPDPlS7gmAc%2BGtH1wUPScCkBCCJlbT%2Bldb9jh0Z3hQaZ2xY4%2F%2FFtg0%2B8c5Lsyj9ZoXGfOjSqB7AUDQxTO35X5MEUvrBPqS9VsBZBKM9%2BjcMaueUq08qJ0xvS8mGOKseD%2BsvDJGeDALxh5W5zuVJk8%2F73ubA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201212T191720Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY55CLE54Y%2F20201212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b2682626a03c12a0c5c7a450e3aa1e252bcf1e29ba46e5d6d3a8460101eb2551&hash=cc1250b6cf22370baabd09c59aa5e9d1288945e97a63b59301a8fdc006ea9d10&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1568494620303240&tid=spdf-e573e74a-3e07-4cff-8e31-2d4a32279b8c&sid=8c553d623aa99541b17a92495e0e86c7d4c2gxrqa&type=client
+    https://www.sciencedirect.com/science/article/pii/S1568494620303240?casa_token=1hEIvJHOqEQAAAAA:32wkis8F7wLxhLjDi4rdWOiH97_PqC0oo199LP2Yoy_rhRocarU0HeLnn7RqLBFQoeVGB6-twbw
+
+    read about behavioral + text mining + sentiment analysis + graph
+read deep pofolio
+    https://onlinelibrary.wiley.com/doi/epdf/10.1002/asmb.2209
+
+read policy + research on Fintext
+    https://poseidon01.ssrn.com/delivery.php?ID=790086090127101090023067125097112117048083053010057028103060099019006008041028113036029007003034127024051113010031004033083014060029046105023047061009017039029105009082104101069088022060090105113090004105004119008098084126108116088074104099088016116094084011118078&EXT=pdf
+
+here> sumarized all of the deep learing technique
+    here> summarize Paper: deep set and Paper: universial invariant and
+    equivriant on GNN.
+
+    https://roamresearch.com/#/app/AdaptiveGraphStucture/page/0d4BxLyk_
+
+    read Paper: Deep Hyperedges: a Framework for Transductive
+        and Inductive Learning on Hypergraphs
+
+    add invariant equation from to how to create deep learning from scratch
+    under.
+    1. deep sets
+    2. Invariant and equivalent graph network paper
+
+    here> Unsupervised Generative Adversarial Cross-modal Hashing
+
+        Note: different modality can live in the same manifold. This also
+            implies that many manifold can live inside of hamning space.
+                what is the condition for 2 data to be in different manifold?
+                    what factor determine which manifold data live on?
+
+        here> what is the movtivation of the search?
+        what is the architecture design?
+            how does the correlation graph constructed?
+
+        what is the related work?
+            what doess cross-hasing mean?
+            How does discriminative modal make use of correlation graph?
+
+        how does correlation graph capture manifold?
+            what is the relation or math being used here?
+
+        what is the loss function being used?
+            how it it different from GAN in general?
+
+        what determine "relevant image"? is there relevant tag?
+            what is relevant score?
+
+        why only select 10 largest  class?
+            more detail  read  Semanticspreserving hashing for cross-view retrieval
+
+
+    understand the overlapping and research area avaible in the following
+
+    fields: network analysis, deep learning, cyber bully OR misinforation
+        Problem: the main problem right now is that I don't see alot of paper on
+         focus on the overlapping of the 3 fields, and i am not sure how to
+         find dataset that is misinformation + network.
+
+        read survey paper on deep learning + network analysis + cyber bullying
+        OR misinformation
+
+            here> synthesize Hypergraph Neural Network
+               https://roamresearch.com/#/app/AdaptiveGraphStucture/page/vyd610ygC
+
+read about state of the art
+    states of the art related to cyber bully dataset
+    states of the art realted to dataset on graph related task
+
+collect implementation of GAT, graph encoder and decoder, graph Generative
+network.
+
+write the following in roam research under seedling: [[Research
+Paper]]/routine for reading research papers.
+    add the following into reading session
+        reding session should have 3 types:
+            1. read wider
+                note: read new architecture idea UNRELATED to my project
+            2. read deeper
+                note: read paper realted to my GOAL.
+            3. read fundamental
+                note: read stuff that will help me understand fundamental
+                concept that beyon "deep learning" fields such as math proof.
+        there there should be 2 practices session for "read deeper" and
+        "read wider".
+
+read and sumary in roam
+    note:
+        name
+            Learning Attention-based Embeddings for Relation Prediction in
+        model
+            https://roamresearch.com/#/app/AdaptiveGraphStucture/page/ow0BXK17A
+        paper
+            https://roamresearch.com/#/app/AdaptiveGraphStucture/page/dG796hlxi
+Knowledge Graphs
+            https://arxiv.org/pdf/1906.01195.pdf
+    here> synthesize model architecuture
+        here> understand the equation in intuitive level.
+            Note: if necessary, I may need to learn pre-requisite or answer
+            question in frequency ask question to fuly understand it.
+
+    categorize dataset, experiment, result,

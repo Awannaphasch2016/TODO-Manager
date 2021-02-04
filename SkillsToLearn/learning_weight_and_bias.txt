@@ -1,0 +1,33 @@
+#=====================
+#==resources
+#=====================
+
+#=====================
+#==question
+#=====================
+
+#=====================
+#==waiting
+#=====================
+
+#=====================
+#==info
+#=====================
+page
+    project
+    run
+    report
+report
+    run sets
+        dynamic run
+        static run set
+        defining kyes
+
+
+#=====================
+#==todo
+#=====================
+here> how the fuck do i use weight and bias?
+    wandb.watch(0
+    wabdb.log()
+    wadb.config

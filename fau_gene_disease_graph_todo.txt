@@ -1,0 +1,517 @@
+#=====================
+#==REFERENCE
+#=====================
+1. oveleaf journal page
+    url: https://www.overleaf.com/project/5e9caf2d1432c000012c2bb0
+
+#=====================
+#==NOTE
+#=====================
+twitch title
+    doing data science with my legacy code (bad, ugly, and sad to see)
+
+for split by nodes
+There are 2 ways to do split by nodes:
+    1. removed both gene and disease nodes types
+    2. removed either gee or disease nodes type
+
+    we can removed both nodes types
+
+
+#=====================
+#==QUESTION
+#=====================
+
+
+Q: how do I calculate consine similarity with vectors of different length.
+Ans: pad with zero, so the two vectors actually have teh same length but the
+ number of nonzero elements in every vector is usually different.
+
+in order to calculate cosine similarity, you first normlize the vectors and then ultiple them by dimension and sum
+    Q: what does it meant to normalize the vector by dimension?
+    Ans:
+
+Question: what is the condition for adding edges to pheotypes node?
+
+    Ans. from reading overleft page (ref 1.) I figure phenotype is simply
+    added to the gene-disease graph if there exists edges from phenotype to
+    gene or disease (nothing more than that).
+
+Question: figure out why when I run second iteration of  train_model and the
+ following error occurs?
+Ans
+    How do I iput these argument to the run the program?
+        after I am succesflly run link_prediction with mlp then do the
+        following
+            what is the number 0-337?
+            what is this error?
+                AssertionError: option1: use_shared_gene_edges or use_shared_phenotypes_edges are Ture or
+    option2: one of the following is true
+             1. shared_gene_and_phenotype_edges OR
+             2. use_shared_gene_but_not_phenotype_edges OR
+              3. use_shared_phenotype_but_not_gene_edges
+
+#=====================
+#==WAITING
+#=====================
+
+#=====================
+#==OPTIMIZATION
+#Note: no need to be done right now, but if it is done it will be better.
+#=====================
+how to freeze current library in conda to a file (.ymal)?
+    goal: to reproduce the project for the future.
+
+#=====================
+#==TODO
+#====================
+
+
+In experiment
+	add detail about dataset and its properties
+		eg. number of nodes and number of edges.
+
+make consistency between notation
+#	bold => matrix
+#	not bold => vector
+	adjacency matrix => A
+	E => edges
+	E_hate  => synthetic edges. (edges + state)
+	lower case => number (scalar value)
+	upper case => matrix or set
+
+
+if I can't find it, I have to recreat it.
+    go to notebook in gene-disease project to find the notebook.
+
+
+defined
+proposed
+   what is my design?
+   what is the methodology (explain algorithm here)
+   node classification
+   reference node + edges detail to table
+        how many nodes?
+        how many edges?
+    when is synthetic edes are applied
+    when is graph type are applied?
+
+   link prediction
+
+
+experiment
+    what is my experiment?
+    what are the parameters and how expriments are implemented?
+analysis
+    link prediction
+        explain performane range of middle and top (using their notation)
+        compare performance of top and middle together.
+
+
+
+fix logical issue
+    here> move details outof purpose
+        Node Classficiation
+        link prediction
+
+    Add more dtails on Experiment 4 (link prediction)
+    add details on how link prediction is done.
+        How do you create link prediction result?
+        add embedding
+        fix the algorithm on link prediction.
+    Experiment
+        how mnay nodes
+        how many edges
+
+reread 2 times
+fixing error to allow for export
+fix sentences to all present tences
+fix referece
+    remove hard cord reference with adaptive code reference.
+reading more on misinformation on next research
+
+
+make name consistent.
+    M10 T10 -> middle 10 and top 10 node degree
+
+recheck gramma
+
+fix reference
+    961-> In Figure 3, permutation test shows that none of the models
+    995-> from figure 12, violin plot show that mean of PGD and PGD
+    999-> Figure 7 show that no added edges consistently rank in the lower tier
+    when compare to adding syntheti
+
+fixing sentences
+    here> introduction matches the section section of the journal
+    link image to sentence.
+        Figure <number>.
+        according to <>
+
+fix figure position
+
+fixing image resolution
+
+
+here> plot the following: 20 mins
+    same color for same pair.
+    add legend as well.
+    pair-wise comparison.
+
+put 2 hours writing journal in roam research
+    here> 1. collect data inlucindg visualization and performance related to
+    node
+        classification and link prediction
+        node prediction
+            node classification
+                neyami test
+                friedman test
+                box plot
+                violin plot
+            link prediction
+                box plot
+
+    2. read overleaf and list things the following things
+        2.1 what do I need to add?
+        2.2 what sections should I add?
+        2.3 what sections need to be fixed?
+    3. work on point that has been listed from 2.
+
+
+run the code with splti by nodes (not split by edges)
+    check
+    goal: I want to run link prediction.
+    note: classifer, link_prediction, train_test split (not the cross
+    validation)
+    writing narrive of how code behave.
+        Experiment D:
+            comparing Model/each one of top10/current average value is from
+            10 runs.
+                ?How many run do I need on each models?
+                    permutation test
+
+
+    10 * 60 = 600 (5 hr.)
+
+    Doing 10 times, down smapling multiple time and each time you let them votes.
+        embedding after removed
+            top 10   -> approximate the same as random guess.
+                43.6, 52.8, 48.3, 50.5, 49.6, 46.3, 52.4, 40.1, 40.9, 54.2
+            middle 10-> There are 20-30 missing edge.
+                63. , 69.4, 61. , 74.3, 72.7, 66.9, 68.1, 63.5, 67.1, 60.2
+            little 10-> all 100 because each one only have 1 -3 missing edge.
+
+
+        embedding before remove
+            top 10   ->  around 10 percent more than before
+                83.7, 82.4, 80.2, 85.6, 84.8, 88.1, 90.9, 92. , 84.9, 90.3
+            middle 10-> There are 20-30 missing edge.
+                100,  90.5,  94. , 100,  99.6,  90.5,  91.6,  92.1,  92.5,
+        94.7
+            little 10-> all 100 because each one only have 1 -3 missing edge
+
+
+
+
+
+    How many edges are we predicting?
+        how many edges are missing from
+            top 10
+            middle 10
+            little 10
+        how many have to be right to get certain percentages.
+
+
+
+    then apply add disease to diseas edges.
+
+
+    here> working on split by nodes
+        here> how to just run node2vec?
+        how to run node2vec?
+            how do I check that that running node2vec from node2vec_emb is
+                expected to work correcty?
+
+        here> run node2vec on original graph
+            here> apply node2vec first -> remove nodes (largest degree) ->
+            predict
+
+        check dataset properties.
+            here> lets remove 1 node type (disease nodes ) first and if the
+            prediction is good
+                how to get phenotype-gene-disease-phenotype?
+
+                    apply the following strategy
+                        edge adding strategy.
+                            apply after nodes is removed.
+                        get number of added edges.
+
+                try to randomly remove nodes from the graph and check if graph
+                decomes disconnected.
+                    if yes, figure out other ways to split without
+
+            what do i need to check?
+                what is its properties?
+                    I believe I created function for this somewhere. lets find
+                    it within 15 mins if I can't find it just compute it. (put
+                    function in utility folder and no need to make them pretty
+                    at all)
+                check what happend to data characteristic before and after.
+                    how many nodes?
+                    how many edges?
+                    how many graph after split?
+                    what is degree distribution after split?
+
+
+        apply node2vec first -> remove nodes (set of nodes; remove number of
+         edgse up to 10 percent of all the edges) -> predict
+        remove 1 nodes from the largest degree -> apply node2vec ->  predict
+
+
+
+
+save istall library to conda .ymal thing. (not really sure what i actually is)
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HEAD
+
+> Chronic Obstructive Pulmonary Disease
+
+>columns
+(number) (number or words) (number) (number) (number#number) (words anf the rest of the sentence)
+
+=======================
+=== Doing
+=======================
+> How can I add weight between gene and disease?
+    : MCI is used in assigning weight to edges of proteins
+        >>can it be used gene and disease?
+    :
+> create a function to determine find disease distribution of each classs.
+> list features of nodes that can be used as features (before feeding node embedding to it) such as
+    : node degree, centrality, and so on.
+    : this is to observe whether or not the dataset can be learnt and Do adding more features help model learn?
+> writing draft paper.
+
+copd_terminiology_extract.py
+    > create copd_commorbidities_label.txt
+        : in dataset/disease_mappings.umls
+    > create copd_uniq_cuis.label_mappting.txt
+        : in dataset/diseasemapping_umls
+
+all_gene_disease_pmid_associateions.py
+    >create copd_lable.txt
+        : in dataset/generated_dataset
+
+#####FIX PLOTTING
+> in bipartite = True, there should be 2 options.
+    1. use community detection and plot color of nodes in each community
+    2. plot graph where gene has 1 color and disease has another color
+
+> fix subplot method so that it shows legend's and color its member's node.
+    >>fix: mismatch of number of color_ist and nodes in G
+        line: 497 in plotGraph_with_legend()
+
+
+> In all_gene_disease_pmid_association.py ( I should run this at fau)
+    >>use gene_disease_uniq_DO_mapping to create /generated/all_gene_disease_pmid_no_None.txt
+    >> after than, use map_umls.py to create /demo/all_gene_disease_pmid.txt
+
+
+
+## spring 2019 final project tasks (check if I have finished all of them)
+1. List of copd related diseas and genes extracted (disease names, genee names, also number of members in each category)
+2. Show the copd related gene neworks, disae networks, and gene-disease networks (including network characteristics, such as degree distributions)
+3. Find a community of (gene-disease), report who are the genes and diseases in these communities.
+
+====================
+===Error
+====================
+
+> createEdges return unique pair.
+> bipartite = False has more edges than bipartite = True
+
+> fix so that setEdgesOffset uses collection.Count
+
+> fix so that createBipartite return edges of selected keys
+> create a function that input = keys, output = list of each key's member
+> pass the vertices whose key = pair
+    :should i use key to choose vertices?
+
+> def plot_bipartite = 466
+
+> def setEdges_len_offset = 513
+> def setColor_legend = 554
+
+> def plot_networkx = 575
+> def plotGraph_with_legend = 312
+
+> def plotGraph = 630
+> def plotGraph_with_legend = 318
+
+> def plot_bipartite = 466
+
+> main:
+    >copd_graph = COPD_grpah() => 690
+    >copd_graph.plot_bipartite() = 704
+    >cop_graph.plotGraph() = 710
+
+
+HERE>> figure out how to combine plot_networkx and plot_subgrpah
+>report the following
+    :getDisconnected Graph
+    :number of disconnected-component
+    :edge Density
+
+    >network Centrality
+    >node similarity
+    >network community detection
+    >link-prediction
+
+ValueError: 'c' argument has 1242 elements, which is not acceptable for use with 'x' with size 621, 'y' with size 621.
+
+> make vertices_flat, color_legend, global
+>what is the different between get_node_color and getColor_list
+> what is setup() for??
+
+
+>report_Graph_properties( G, degree_dist = None)
+
+> get graph and nodes characteristic
+
+> community detection steps
+    :plot bipartite graph (the graph allow for disconnected subgraph)
+        steps
+        >get seperated bipartite graph
+        >convert to adjacency matrix
+        >use igrpah in r to do more intensive work
+            :igraph is more flexible
+        >create program so that
+            :there is no need to run both in r and in python
+
+    :get pattern of common node edges structure.
+            > design a generic wya fo detect specific pattern in the grpah?
+                read: "Spectral measures of bipartivity in complex networks"
+    :get disconnected graph
+    :use method availble in
+        netwokx.algorithms.bipartite
+
+>report charcteristic
+    :create method to support it
+        >> desgin it carefully
+
+    :what should I report?
+        :Graph degree
+        :clustering
+        :centrality
+        :adjacency matrix?
+            >(generate it then it would be very easy to transfer to differen platform
+        :clique?
+            >number of clique, max clique
+
+>detect bipartite of every pair of cols.
+    >detect community of it
+    url: https://networkx.github.io/documentation/stable/reference/algorithms/community.html
+    3 criteria
+    Bipartite
+    > network measure
+        *:degree distribution
+            eg Poisson vs Power-law
+            >plot freqeuncey vs Degree
+            >plot Cumulative Distritubtion
+        :number of disconnected-component
+        *:clustering
+            >triangles
+            >transitivity (?)
+            >clustring
+
+    > network Centrality
+        *:degree Centrl
+        *: eigenvector Ventral
+        :between Centrl
+            >(probly we don't need it because it's bipartite)
+        :Closeness Centrl (
+            >do i need it for bipartite?
+            > I get a feeling that it will be very similar to degree central
+        >Group Centrality?
+            >(I doubt that we gonna need it at all)
+
+    > node similarity
+        >> similarity of nodes in the sme group
+        :common nodes
+        :jaccard's coefficient
+        :RootedPageRank
+        :SimRAnk
+        >>represent similarity in lower dimension
+            :lower rank approximation
+            eg SVD
+    >network community detection
+        :node-centric community
+        :Group-centric community
+            :MDS
+        :network-centric community
+            :k-clique, k-club
+            :k-plex, k-core ( probly not)
+            >>cut-minimization
+                :karger, ford-fulkerson
+    > link-prediction
+        >collaborated-filetering
+        >supervised learning (ML)
+    > or just use existed community detection available
+        >  python-louvain on pypi
+
+        > Generators
+            : functions for generating grphs with commnity structure
+        :K-clique
+        :Partitions via centrality measures
+        :Validating partitions (?)
+        :label propagation (?)
+        :Bipartitions (?)
+            >what is the piont of this?
+
+
+
+
+    full graph
+    > network measure
+        :degree distriubtion
+        :number of disconnected-component
+        :Diameters
+        :edge Density
+        :Clustering Coefficient
+        :shortest Path
+
+    > netowkr Centrality
+        :degree
+    > node similarity
+        :common neight
+        :Jaccard coeff
+        :Katz
+    > or just use existed community detection available
+        :or api
+
+
+> disease_naem in gene_disease_5000 has different columns
+    > columns of disease Name is not correct.
+        >>( lets ignore it for now)
+        >>figure out a way to deal with this embiguity
+
+    Q: is Pradoxical in DiseaseType or diseaseName?
+        diseaseType = "Paradoxical disease"
+    > how to separate value of DiseaseType to value of diseaseName?
+        :some of them is separated by "," some of them is separated by " "
+            >> how to use regularexpression with it tho ?
+
+
+> link diseaseId and geneId from PubAnnotator to all_gene_disease_pmid_associations
+    >figure the differnet between val of col of the same name
+    :geneId of the two file followed different convention
+        >>undetstnd what is the different between the two convention
+
+> use NER to collect disease Name or Gene Name mention in sentence
+    :Then search these new collection of  disease to Gene in PubAnnotator
+        col = "sentence" to get even more number of gene, disease
+        >> save number of iteration to be uses as path length from COPD later on
+
+    :repeat the process until no new info is collected
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<END

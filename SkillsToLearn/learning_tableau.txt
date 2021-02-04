@@ -1,0 +1,29 @@
+top 15 LOD expression
+    https://www.tableau.com/about/blog/LOD-expressions
+
+plot Kaggle dataset
+
+    what is the meaning of the following column?
+        goal 1 : determine some of the most influential factors taht can
+         lead to a customer's decision of leaving our business
+            Churn vs non-churning customer?
+        goal 2: improve perfoance of predicting chruned custoemre.
+            to beat 62 percent.
+        where there is drop off after 36 month?
+
+        here> plot stat of those who close the account.
+            close account vs existing account.
+                what are the main differece?
+
+        what is the age distribute of Education_level = Other?
+        relationshikp between education level and income?
+        relationship between marital status and incmoe?
+        what does each type of card reflect?
+        plot against moneths_on_book:
+            question:
+
+            1. for those who close the account.
+
+        how many categorized does card categorized  have?
+       total relationship count?
+       Avg utilization ratio?

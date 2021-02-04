@@ -1,0 +1,9 @@
+#=====================
+#== TODO
+#=====================
+figure out a way to use GPU using AWS cloud services
+
+> I need to use GPU, so I have no choice but to learn to use AWS clousd service
+    how to connect pychram to AWS?
+        use AWS CLUE  to create developer endpoint
+    how to use SAGEMaker?
