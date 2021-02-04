@@ -1,0 +1,78 @@
+#=====================
+#==NOTE
+#=====================
+
+#=====================
+#==QUESTION
+#=====================
+
+#=====================
+#==WAITING
+#=====================
+
+are 4 jobs tyeps including GPU and other 3
+    how do I know which job does each section of the code belong to?
+        what are characteristic that I am looking for?
+#=====================
+#==OPTIMIZATION
+#=====================
+
+#=====================
+#==TODO
+#=====================
+
+here> what is the different between Centos and ubuntu?
+    watch https://www.youtube.com/results?search_query=centos+vs+ubuntu&page&utm_source=opensearch
+
+setup my working environment
+    here> work on tmux
+        add alias 'config' to .zshrc
+            refer to the following for more detail: 
+                https://www.atlassian.com/git/tutorials/dotfiles
+        create branch. (to keep the differences in dotfiles separate)
+            main
+            anak_laptop
+            fau_cluster 
+                add files + folder + resource (resource must be in README.md ) require to duplicate the environment
+                    add Document/SetUpWorkingEnvironment/ and files required
+                in README.md, add 'requirement to use this branch'
+                    requirement includes the following  
+                        no access to sudo command
+                        base terminal = CentOS
+                        vim version = 7.4
+
+        On the cloud, check for changes of the following files. 
+            .zshrc
+            .bashrc
+            .vimrc
+        before 'config checkout' (move dotfiles to old_dotfile/ManagebyGitBare/
+        make sure that the following files are in_sync
+            .zshrc
+            .bashrc
+            .vimrc
+    enable vifm on the terminal
+
+    try writing python code to comprae differnet GPU + slurm + distributed computing + paralel computing techniuqe.
+        tutorial base 
+            python with HPC (practical)
+                https://www.youtube.com/watch?v=HOx1eASshY0&ab_channel=SanDiegoSupercomputerCenter
+        tool: 
+            mpi? (about parallel programming)
+                multicore or multithread for parallel programming? (or somthing else?)
+                do i need mpi for deep learning?
+            gpu
+            using multiple threads
+            using multiple core
+        experiment:
+            estimating pi with montecarlo
+            work on differnet types of basic deep learning task:
+                NLP
+                image recognition
+                graph related stuff
+            try to optimize a github code selected from covid_spread_prediction_todo.txt
+                optimize for GPU + cluster
+    how can I use sigularity in HPC?
+        note: it doesn't need to be root.
+    install vifm on centos
+
+

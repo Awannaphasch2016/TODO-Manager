@@ -1,1 +1,0 @@
-do analysis using etoro api on the nature of social trading.

@@ -1,5 +1,0 @@
-list of sideproject's todo 
-
-openpilot_todo
-FAU_HPC_tO_local_terminal_todo
-twitchchess_todo
