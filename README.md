@@ -3,12 +3,22 @@
 ## DEFINTION
 * This repo manage todo using version control provided by git. 
 * TODO-MANAGER REPO manage todo list systematically and follow software engineering principle see BEST PRACTICES for more detail 
+* labeling style follows "Garan - a shared knowledge repo."
 
 ## REQUIREMENTS
 * note:
     * list of requirements is not exhausive 
+
 ### USER REQUIREMENTS
 * a bullet point (todo action) is inserted only if user plan to remove it in the near or distance future
+* managing todo list in TODO MANGER allows user to "pause" and "resume" on the exact "action" I was taking.
+* TODO MANGER of a project manager should be able to track works of his/her employees.
+    * note: 
+        * this is still a work in progress i don't know if there exist a way to enfore privacy or scope. (to limit visibility of todo list to a certain group)
+    * project manager update todo list to TODO MANAGER arange based on project (separated by folders)
+    * an employee can send pull requests to project which he/she is responsible for. 
+    * project manager approve/resolve pull request.
+
 ### SYSTEM REQUIREMENTS
 * children bullet points must describe a parent bullet point which their belong to 
 * bullet point of the same hierarchy level is equally important in priority. 
@@ -82,9 +92,9 @@
 
 ## Pros/Cons
 * Pros
-    * managing todo list in this allows me to "pause" and "resume" on the exact "action" I was taking.
     * this TODO-MANAGER is created to help ease collaboration and enhance transparency in working environment.
-    * looking git commit show amount of "action" I finished on each day.
+    * managing todo list in this allows me to "pause" and "resume" on the exact "action" I was taking.
+    * looking at git commit show amount of "action" I finished on each day.
         * using "git crawler" technique (don't remember the actual name) I can later plot "activity" graph for daily/weekly/monthly/yearly.
             * "git crawler"
                 * crawl git "diff" over time. 
