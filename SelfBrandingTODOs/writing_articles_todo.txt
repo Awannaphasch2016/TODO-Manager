@@ -18,7 +18,23 @@
 #=====================
 #==TODO
 #=====================
-here> put cotent in Seedling: Categroized and Synthesized - a new paradigm
+here> write and article about TODO-manager including the following topic
+    how todo list can be used to help reduce collaboration friction
+        how can sharding tolist help
+        how to manage git repo to optimize for the seamless merge + collaboration.
+    what is the golden rule of todolist (briefly explain: getting things done + my own method)
+        list of action not task
+        how bullet point or heirarchitcal todo list work?
+            child must explain parent bullet
+        todolist must be design such that it follows programming principle
+            single responsibility 
+            cohesion vs coupling
+        you can "pause" and "resume" to the exact action that you stoppped on 
+        use "here>" to indicate current action.
+            each level(depth) of todo list should only have 1 'here>'
+                this is simply a practical way to enable "pause-resume" property of todolist
+            
+put cotent in Seedling: Categroized and Synthesized - a new paradigm
 of readin research.
     https://roamresearch.com/#/app/AdaptiveGraphStucture/page/HUxw0M4bh
 

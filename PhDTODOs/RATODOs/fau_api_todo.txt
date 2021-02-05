@@ -512,3 +512,5 @@ here> get more data from comments (reddit_to_kinesis.py)
         which keys do i have to expands on ?
 
 
+migrate from cloud to local
+    s3 to Ceph OR Minio

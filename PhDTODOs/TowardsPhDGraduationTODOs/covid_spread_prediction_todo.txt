@@ -17,11 +17,41 @@
 ====================
 == TODO
 ===================
+
+1.focus on state level
+2.varying sliding window
+3.put survey on overleaf. (draft)
+    can I automate this?
+
 here> create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
     Goal: focusing on showing what I have done.
-    understand detail + shape of train and test dataset.
-    here> what are baseline model for regression?
+    here>understand detail + shape of train and test dataset.
+        what is the traning set that is used for LSTM model
+        when is train re-assigned.
+    what are baseline model for regression?
+        here> look at the papers that I have read, what are baselinesi that they used?
         implement 2-3 more. (should have about 1 hour to complete all) 
+            option 
+                basic baseline
+                    Autoregressive (AR)
+                    here> Moving Average (MA)
+                    Autoregressive Moving Average (ARMA)
+                    Autoregressive Integrated Moving Average (ARIMA)
+                    Exponential Smoothing (ES)
+                deep learning baseline
+                    MLP
+                state of art machine learning 
+                    XGBoost (gradient boosting tree.)
+                statistical basline model
+                    GAM
+            selected: 
+                here> MA
+                    how to use MA to predict linear reegression?
+                    using the price of the previous day
+                MLP
+                XGBoost
+                GAM
+
     once finish, with the global dataset work on USA datase
     should I refer to the paper I read and see what is the next direction i need to do?  
 

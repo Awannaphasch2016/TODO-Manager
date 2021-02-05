@@ -55,8 +55,8 @@ response from HPC
 #=====================
 #== TODO
 #=====================
-here> got to covid_spread_prediction_todo.txt
-go to setting_FAU_HPC_todo.txt
+here> go to setting_FAU_HPC_todo.txt
+got to covid_spread_prediction_todo.txt
 go to fau_crawler_todo.txt
 
 check message on fiver if I have any reply.
