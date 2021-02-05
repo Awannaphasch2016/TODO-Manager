@@ -25,6 +25,10 @@
 #OPTIMIZATION
 
 #TODO
+here> learn how to use slurm job managemen
+    here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
+    https://hpc.fau.edu/fau-slurm-queues/
+
 * Goal: learning all the ways to write faster code (focus on Deep learning code)
     * learning gpu programming (practical: looking for code in github)
         * note

@@ -21,9 +21,6 @@ are 4 jobs tyeps including GPU and other 3
 #==TODO
 #=====================
 
-here> what is the different between Centos and ubuntu?
-    watch https://www.youtube.com/results?search_query=centos+vs+ubuntu&page&utm_source=opensearch
-
 setup my working environment
     here> work on tmux
         add alias 'config' to .zshrc

@@ -400,9 +400,6 @@ caching
 #==TODO
 #=====================
 
-here> learn how to use slurm job managemen
-    here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
-    https://hpc.fau.edu/fau-slurm-queues/
 
 open the console online
     Goal: what is the main website of FAU cluster?
@@ -507,10 +504,13 @@ convert searchable fields to lowercase (just do for 'text' field)
     reddit_to_kinesis.py 
     
         
-here> get more data from comments (reddit_to_kinesis.py)
+get more data from comments (reddit_to_kinesis.py)
     expand on replies, and other key that can be applied (such as subreddit/replies keys)
         which keys do i have to expands on ?
 
 
 migrate from cloud to local
     s3 to Ceph OR Minio
+        note: 
+            Ceph is for cluster based storage, so i think I need to migrate to minio
+            
