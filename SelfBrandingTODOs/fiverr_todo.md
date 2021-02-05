@@ -1,8 +1,6 @@
-#=====================
-#==todo
-#=====================
-
-awaisrehman
+# RESOURCES
+# NOTE
+Cloud App Examples
     Let me write some here
     1 - CTVS Web app
     Main goal was to give restricted access to users based on ROLES
@@ -20,3 +18,7 @@ awaisrehman
     -SES for important mails
     -AppSync for fetching data from multiple tables at same time
     -Cognito for user authentication
+
+# TODO
+
+

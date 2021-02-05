@@ -18,6 +18,10 @@
     * project manager update todo list to TODO MANAGER arange based on project (separated by folders)
     * an employee can send pull requests to project which he/she is responsible for. 
     * project manager approve/resolve pull request.
+* user can use 'here>' symbol to indicate actions in which users is currently working on.
+    * There should be only 1 'here>' for each hierarchy bullet level under the same parent bullet point. 
+        * following this procedure, user can 'pause' current action/task by moving 'here>' symbol from 1 todo action to another.
+        * this enable 'pause-resume' properties of the TODO MANAGER
 
 ### SYSTEM REQUIREMENTS
 * children bullet points must describe a parent bullet point which their belong to 
