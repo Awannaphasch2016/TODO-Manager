@@ -11,13 +11,25 @@
 #OPTIMIZATION
 
 #TODO
-* code along
-    * building docker image
-        * https://www.youtube.com/watch?v=zqH_G0yNEDw&list=PLP2v7zU48xOKSxT2li_akxVfvmqgcWi6U&index=10&ab_channel=DanielPersson 
-    * building continer with sigularity
-        * https://www.youtube.com/watch?v=nrgO3Q8-6hQ&ab_channel=DanielPersson
-* here> watch Ansible 101 - series  + code along
-    * https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN&ab_channel=JeffGeerling
+* container
+    * Docker 
+        * read about docker container managerment
+        * code along 
+            * building docker image
+                * https://www.youtube.com/watch?v=zqH_G0yNEDw&list=PLP2v7zU48xOKSxT2li_akxVfvmqgcWi6U&index=10&ab_channel=DanielPersson 
+    * Singularity 
+        * code along 
+            * building continer with sigularity
+                * https://www.youtube.com/watch?v=nrgO3Q8-6hQ&ab_channel=DanielPersson
+* here> Ansible
+    * ansible for dotfile?
+        * manage your dotfile with ansible
+    * create docker/singularity image for my python working environment.
+    * use ansible to manage public/private/secret keys
+    * ansible with AWS?
+        * what are example project I can do with my fau_api?
+    * here> watch Ansible 101 - series  + code along
+        * https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN&ab_channel=JeffGeerling
 * watch talk on sigularity
     * https://www.youtube.com/watch?v=DA87Ba2dpNM&ab_channel=InsideHPCReport 
 * Prometheus

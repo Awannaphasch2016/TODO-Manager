@@ -17,13 +17,15 @@
 ====================
 == TODO
 ===================
+here> understand and run https://machinelearningmastery.com/xgboost-for-time-series-forecasting/ 
+implement GAM (generalized additive model) ?
 
 1.focus on state level
 2.varying sliding window
 3.put survey on overleaf. (draft)
     can I automate this?
 
-here> create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
+create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
     Goal: focusing on showing what I have done.
     here>understand detail + shape of train and test dataset.
         what is the traning set that is used for LSTM model

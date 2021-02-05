@@ -57,12 +57,13 @@ response from HPC
 #=====================
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
-
+    
 here> go to ProjectBasedTODOs/LearningProjects/learning_container_packt_ansible_terraform_prometheus.md
+go to SelfBrandingTODOs/learning_to_write_faster_program.md
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
+go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
 
 go to SelfBrandingTODOs/writing_articles_todo.txt
-go to SelfBrandingTODOs/learning_to_write_faster_program.md
 
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
 go to PhDTODOs/RATODOs/fau_api_todo.txt    
@@ -71,9 +72,11 @@ go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
 go to PhDTODOs/RATODOs/fau_api_todo.txt
 go to ProjectBasedTODOs/LearningProjects/learning_linux.md
 
-check message on fiver if I have any reply.
 
-migrate from /Documents/tmp.txt to 
+understand git diff
+    run the following command 'git show COMMIT'
+    time to learn git fugitive?
+
 learn how to use quickfix in vim 
     use quickfix + spellchecking 
      https://www.youtube.com/watch?v=44pNDuRO77g&list=PL-v3vdeWVEsXo87wHeVSP_x1KTX4G1l8Y&index=19&ab_channel=NickJanetakis
