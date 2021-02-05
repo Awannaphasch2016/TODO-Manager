@@ -401,40 +401,7 @@ caching
 #=====================
 
 
-open the console online
-    Goal: what is the main website of FAU cluster?
-    things to read 
-        https://hpc.fau.edu/resources-2/research-computing-services/
-            read the following:
-                getting started
-                support
-                BHRIC
-                S SERCA
-
-        read email form resnick (is there someone else who talk about koko update in email?)
-            Skyler Paulus (41 emails in total)
-                lets go form the recent to first (stop when no need)
-            Rhian Resnik
-            Scott Ridenour via RT
-
-        keyword to search 
-            FAU HPC (122 email in total) 
-
-    here> what is the spec of the cluster?
-        what is the name of the project?
-            is it koko cluster?
-        how do i properly submit a ticket for helps?
-        how can I read about it?
-        what is the resource that available for me to use?
-
-    lets run something that would require cluter and compare speed. 
-        try running the following:
-            https://hpc.fau.edu/engineering-queue-gpus/
-                the article show implementation of GPU and slurm (via sbatch)
-        how to test cluster vs non cluster speed ( this is needed to validate that cluster is being used)
-        how to test GPU vs CPU speed.
-        when using cluster does it run with CPU or GPU?
-            is this part of the configurtion that I have to set?
+here> migrate code from local labtop to clustere 
 
 ans zhabiz question
     'does permalink includes in Twitter's stream or Reddit's stream?'

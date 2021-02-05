@@ -15,7 +15,8 @@
 * here> Ansible
     * here> learn Ansible from documentation
         * here> go through few example and make it work then I can process to other actions in the list
-            * here> read Getting Started section
+            * here> watch https://www.ansible.com/resources/videos/quick-start-video?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW 
+            * read Getting Started section
                 * here> https://docs.ansible.com/ansible/latest/user_guide/intro_getting_started.html
     * Ansible for daily update TODO MANAGER 
         * Ansible git add commit ups h

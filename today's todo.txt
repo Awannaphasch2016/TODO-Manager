@@ -58,17 +58,17 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
     
-here> go to ProjectBasedTODOs/LearningProjects/learning_container_packt_ansible_terraform_prometheus.md
-go to SelfBrandingTODOs/learning_to_write_faster_program.md
+go to PhDTODOs/RATODOs/fau_api_todo.txt    
+here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
+go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
-
 go to SelfBrandingTODOs/writing_articles_todo.txt
-
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
-go to PhDTODOs/RATODOs/fau_api_todo.txt    
 
-go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
+---finished by 2/5/2021
+
+go to ProjectBasedTODOs/LearningProjects/learning_container_packt_ansible_terraform_prometheus.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt
 go to ProjectBasedTODOs/LearningProjects/learning_linux.md
 

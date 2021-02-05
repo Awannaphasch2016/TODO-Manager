@@ -25,9 +25,19 @@
 #OPTIMIZATION
 
 #TODO
-here> learn how to use slurm job managemen
-    here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
-    https://hpc.fau.edu/fau-slurm-queues/
+* here> learn how to use slurm job managemen
+    * here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
+    * https://hpc.fau.edu/fau-slurm-queues/
+    * try running the following:
+        * https://hpc.fau.edu/engineering-queue-gpus/
+            * the article show implementation of GPU and slurm (via sbatch)
+    lets run something that would require cluter and compare speed. 
+        * use metrics show in this video to measure speed
+            * https://www.youtube.com/watch?v=4lKcou1-3OY&ab_channel=PyConAU at 18.49
+        * how to test cluster vs non cluster speed ( this is needed to validate that cluster is being used)
+        * how to test GPU vs CPU speed.
+        * when using cluster does it run with CPU or GPU?
+            * is this part of the configurtion that I have to set?
 
 * Goal: learning all the ways to write faster code (focus on Deep learning code)
     * learning gpu programming (practical: looking for code in github)
@@ -40,7 +50,7 @@ here> learn how to use slurm job managemen
                 * https://github.com/carl9384/cuda
 
     * learn high performance computing Theory (course like leanring environment)
-        *  reference: 
+        *  reference:    
             course
                 https://www.udacity.com/course/high-performance-computer-architecture--ud007
 
