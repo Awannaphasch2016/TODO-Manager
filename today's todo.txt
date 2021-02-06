@@ -58,19 +58,10 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
-how to track local branch in origin
-
-here> learn how to use vim fugitive
-    * switch branch with fugitive
-    * merge conflict with fugitive
-
-    // wrote in branch main
-
 * how to change terminal directory with vim?
     * eg 
         * change terminal dir to the current vim root?
-
-how to use Ag, Fzf, Rg in terminal?
+    * add something
 
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
