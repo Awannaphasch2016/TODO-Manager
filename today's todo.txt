@@ -60,14 +60,14 @@ read about date tiering
 
 
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
-fix Ag in vim to search from root directoy
-
-go to PhDTODOs/RATODOs/fau_api_todo.txt    
-go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
-go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
-go to SelfBrandingTODOs/writing_articles_todo.txt
+go to PhDTODOs/RATODOs/fau_api_todo.txt    
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
+fix Ag in vim to search from root directoy
+go to SelfBrandingTODOs/writing_articles_todo.txt
+
+go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
+go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
 
 ---finished by 2/5/2021
 

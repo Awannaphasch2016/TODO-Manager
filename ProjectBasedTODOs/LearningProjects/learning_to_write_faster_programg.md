@@ -34,12 +34,14 @@
 #OPTIMIZATION
 
 #TODO
+
 * here> learn how to use slurm job management
     * here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
         * here> Goal: running graphic (such as matplotlib using X11 on wsl once work make it run on FAU cluster(or other grpahcial protocol)
             * here> how to setup x11 in WSL2 ( try putty if too time comsuming; allow for copy and paste by mouse)
                 * here> x11 in Ubuntu
                     * try plotting graph in fau host computer. 
+                        * https://mail.google.com/mail/u/0/#inbox/FMfcgxwLsKGXLstKmrfrHxpWMxSXRVCN
                     * here> try plotting graph via ssh to fau cluster
                         * step to ssh to fau cluster .
                             * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/Thho-THKl
