@@ -57,9 +57,12 @@ response from HPC
 #=====================
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
-    
-go to PhDTODOs/RATODOs/fau_api_todo.txt    
+
+
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
+fix Ag in vim to search from root directoy
+
+go to PhDTODOs/RATODOs/fau_api_todo.txt    
 go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md

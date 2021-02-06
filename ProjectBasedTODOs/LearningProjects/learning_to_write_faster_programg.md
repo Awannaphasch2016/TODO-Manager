@@ -17,6 +17,15 @@
     * https://towardsdatascience.com/optimize-your-cpu-for-deep-learning-424a199d7a87
 
 #NOTE
+* read Running Graphical Application
+    * https://wiki.ubuntu.com/WSL#Running_Graphical_Applications 
+        * what is x window system architecture?
+            * https://wiki.ubuntu.com/X/Architecture
+    * what is X Window System Architec?
+        * X server 
+            * can be native window server givne OpenGL
+        * X client
+            * client can be graphical linux application  running in WSL environment
 
 #QUESTION
 
@@ -25,9 +34,19 @@
 #OPTIMIZATION
 
 #TODO
-* here> learn how to use slurm job managemen
+* here> learn how to use slurm job management
     * here> https://hpc.fau.edu/interactive-and-gui-based-jobs/
-    * https://hpc.fau.edu/fau-slurm-queues/
+        * here> Goal: running graphic (such as matplotlib using X11 on wsl once work make it run on FAU cluster(or other grpahcial protocol)
+            * here> how to setup x11 in WSL2 ( try putty if too time comsuming; allow for copy and paste by mouse)
+                * here> x11 in Ubuntu
+                    * try plotting graph in fau host computer. 
+                    * here> try plotting graph via ssh to fau cluster
+                        * step to ssh to fau cluster .
+                            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/Thho-THKl
+                            * Error: 
+                                * error when run program to plot with  matplotlib
+                                    * No DISPLAY variable set, cannot setup x11 forwarding. 
+                                        * https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely
     * try running the following:
         * https://hpc.fau.edu/engineering-queue-gpus/
             * the article show implementation of GPU and slurm (via sbatch)
@@ -38,6 +57,7 @@
         * how to test GPU vs CPU speed.
         * when using cluster does it run with CPU or GPU?
             * is this part of the configurtion that I have to set?
+
 
 * Goal: learning all the ways to write faster code (focus on Deep learning code)
     * learning gpu programming (practical: looking for code in github)
