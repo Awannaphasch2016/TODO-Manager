@@ -60,6 +60,9 @@ read about date tiering
 
 here> learn how to use vim fugitive
 
+* how to change terminal directory with vim?
+    * eg 
+        * change terminal dir to the current vim root?
 
 how to use Ag, Fzf, Rg in terminal?
 
