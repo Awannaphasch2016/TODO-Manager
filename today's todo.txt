@@ -59,8 +59,12 @@ read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
 how to track local branch in origin
+
 here> learn how to use vim fugitive
-    // wrote in branch a
+    * switch branch with fugitive
+    * merge conflict with fugitive
+
+    // wrote in branch main
 
 * how to change terminal directory with vim?
     * eg 
