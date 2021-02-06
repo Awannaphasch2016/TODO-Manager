@@ -13,7 +13,7 @@
 #TODO
 
 * here> Ansible
-    * here> learn Ansible from documentation
+    * learn Ansible from documentation
         * here> go through few example and make it work then I can process to other actions in the list
             * here> watch https://www.ansible.com/resources/videos/quick-start-video?extIdCarryOver=true&sc_cid=701f2000001OH7YAAW 
             * read Getting Started section
@@ -21,8 +21,13 @@
     * Ansible for daily update TODO MANAGER 
         * Ansible git add commit ups h
             * https://lvrfrc87.medium.com/git-add-commit-and-push-with-ansible-67861c5e0782
-    * watch Ansible 101 - series  + code along
-        * https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN&ab_channel=JeffGeerling
+    * here> watch Ansible 101 - series  + code along
+        * resource
+            * https://github.com/geerlingguy/ansible-for-devops 
+        * here> https://www.youtube.com/watch?v=goclfp6a2IQ&list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN&ab_channel=JeffGeerling
+            * here> ansible 101- ep 1 
+                * here> setup ec2 
+                    * here> how to set up with AWS CLI?
     * Ansible for Linux
         * setup and config workstation 
             * how to replicate workstation on my WSL ubuntu to anywhere? (to CEntos, to Debian, to ...)

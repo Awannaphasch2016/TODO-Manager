@@ -58,18 +58,21 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
+here> learn how to use vim fugitive
+
+
+how to use Ag, Fzf, Rg in terminal?
 
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt    
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
-fix Ag in vim to search from root directoy
 go to SelfBrandingTODOs/writing_articles_todo.txt
 
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
 
----finished by 2/5/2021
+---finished by 2/6/2021
 
 go to ProjectBasedTODOs/LearningProjects/learning_container_packt_ansible_terraform_prometheus.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt
