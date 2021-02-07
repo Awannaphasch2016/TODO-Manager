@@ -18,7 +18,27 @@
 #=====================
 #==TODO
 #=====================
-here> from jupyter to notebook
+published website from vim?
+    * list of vim knowledge management?
+        * reference:
+            * https://www.google.com/search?q=vim+knowledge+management&rlz=1C1GCEU_enUS914US914&oq=vim+knowledge&aqs=chrome.2.69i57j0j0i22i30.9212j0j7&sourceid=chrome&ie=UTF-8
+        * vimwiki
+        * zk
+            * https://naps62.com/posts/knowledge-base/
+            * https://github.com/naps62/zk
+            
+    * vimwiki can be used to published website 
+    * before decide on this answer the following quesiton
+        * can I doesn't block reference level?
+        
+from vim to medium
+
+markdown to medium
+    * note
+        * use to published "Article/" (refer to structure in 'roam research')
+here> from jupyter to medium
+    * note
+        * use to published "Article/Experimental" (Experimental base article)
     here> https://medium.com/dunder-data/jupyter-to-medium-initial-post-ecd140d339f0
 
 write and article about TODO-manager including the following topic

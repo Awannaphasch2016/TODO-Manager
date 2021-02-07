@@ -58,15 +58,16 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
-what is .xsession?
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
     * make sure I can do plotting
-watch the following 'why  lua is the best fit for neovim'
-
+--- 3.00 pm
 answer TA related email
 
 go to PhDTODOs/RATODOs/fau_api_todo.txt    
+---- 6 pm 
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
+    * try to run the code in vim data science format. 
+---- 10 pm 
 
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
@@ -74,6 +75,10 @@ go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
 go to SelfBrandingTODOs/writing_articles_todo.txt
 go to ProjectBasedTODOs/SetupWorkingEnvironment/create_setup_script.md
 go to ProjectBasedTODOs/SetupWorkingEnvironment/create_searchable_code_snipet_in_vim.md
+
+watch the following 'why  lua is the best fit for neovim'
+    https://www.youtube.com/watch?v=IP3J56sKtn0&ab_channel=TJDeVries 
+        currently at the 16.30 mins marks
 
 ---finished by 2/6/2021
 figure out a way to show markdown in vim

@@ -580,7 +580,12 @@ vim wit register
 " + k + p = paste content that is in register K
 " + '+' + p = paste from system clipboard on Linux ( paste content that is copied outside of vim in vim, it seems like it suppose to be " + '*' + p for windows, but both works for me )
 
+vim/basic/window management
+<C-w> + H = switch from horizontal split to vertical
+<C-w> + K = switch from vertial split to horizontal
+
 vim/plugins
+
 
 vim/plugins/vim-fugitive
 :GBranches = show list of git branches
@@ -595,6 +600,18 @@ dv (on a file) = open diff window
 cc = run Gcommit
 <any number>gI (on a file) = add file to .gitignore (make sure that .gitignore is created at the root of the project to prevent potential strange behavior of vim-fugitive)
 
+vim/Markdown
+zo = omopen current fold
+zc = close current fold
+za = toggle current fold
+zm = reduce foldlevel by one
+zr = increase foldlevel by one
+
+zO = recursively open current fold
+zC = recursively close current fold
+* zA = recursively open/close current fold
+* zM = close all folds
+* zR = open all folds 
 
 
 ideavim (pycharm plugin)

@@ -16,6 +16,7 @@
 * Optimize your CPU for Deep Learning
     * https://towardsdatascience.com/optimize-your-cpu-for-deep-learning-424a199d7a87
 
+
 #NOTE
 * read Running Graphical Application
     * https://wiki.ubuntu.com/WSL#Running_Graphical_Applications 
@@ -26,6 +27,7 @@
             * can be native window server givne OpenGL
         * X client
             * client can be graphical linux application  running in WSL environment
+
 
 #QUESTION
 
@@ -52,7 +54,7 @@
     * try running the following:
         * https://hpc.fau.edu/engineering-queue-gpus/
             * the article show implementation of GPU and slurm (via sbatch)
-    lets run something that would require cluter and compare speed. 
+                lets run something that would require cluter and compare speed. 
         * use metrics show in this video to measure speed
             * https://www.youtube.com/watch?v=4lKcou1-3OY&ab_channel=PyConAU at 18.49
         * how to test cluster vs non cluster speed ( this is needed to validate that cluster is being used)
@@ -74,5 +76,6 @@
     * learn high performance computing Theory (course like leanring environment)
         *  reference:    
             course
-                https://www.udacity.com/course/high-performance-computer-architecture--ud007
+            https://www.udacity.com/course/high-performance-computer-architecture--ud007
+
 

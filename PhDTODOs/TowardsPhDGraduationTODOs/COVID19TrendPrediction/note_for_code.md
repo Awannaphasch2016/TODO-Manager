@@ -1,4 +1,3 @@
-# REFERENCES
 # TERMINOGLOY
 
 * statsmodel.tsa.statools.addfuller()
