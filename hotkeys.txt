@@ -994,3 +994,11 @@ guide/<expression> = I can't make it work
 * ctrl + t = fzf files in the current dir
 
 
+# Terminal
+# Terminal/Ubuntu/apt-get/fzf
+ctrl + t = search all files recusivly from the current dir
+ctrl + r = search from past executed command
+rm **<tab> = show all files that can be used with 'rm' (or any other command)
+
+# Terminal/Ubuntu/apt-get/visidata
+vs <any .csv> = show .csv nicely
