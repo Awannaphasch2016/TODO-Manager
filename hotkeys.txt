@@ -580,6 +580,21 @@ vim wit register
 " + k + p = paste content that is in register K
 " + '+' + p = paste from system clipboard on Linux ( paste content that is copied outside of vim in vim, it seems like it suppose to be " + '*' + p for windows, but both works for me )
 
+vim/plugins
+
+vim/plugins/vim-fugitive
+:GBranches = show list of git branches
+
+vim/plugins/vim-fugitive/vim-fugitive window/
+
+vim/plugins/vim-fugitive/vim-fugitive window/resolve diff conflict
+diffget //3 = select from the right window
+diffget //2 = select from the left window
+:G = open vim-fugitive window
+dv (on a file) = open diff window 
+cc = run Gcommit
+<any number>gI (on a file) = add file to .gitignore (make sure that .gitignore is created at the root of the project to prevent potential strange behavior of vim-fugitive)
+
 
 
 ideavim (pycharm plugin)
@@ -973,5 +988,9 @@ tutorial/<expression> = I can't make it work
 guide/<expression> = I can't make it work
 
 
+# FZF
+## FZF/Terminal
+* ctrl + r = fzf executed command 
+* ctrl + t = fzf files in the current dir
 
 

@@ -18,7 +18,10 @@
 #=====================
 #==TODO
 #=====================
-here> write and article about TODO-manager including the following topic
+here> from jupyter to notebook
+    here> https://medium.com/dunder-data/jupyter-to-medium-initial-post-ecd140d339f0
+
+write and article about TODO-manager including the following topic
     how todo list can be used to help reduce collaboration friction
         how can sharding tolist help
         how to manage git repo to optimize for the seamless merge + collaboration.

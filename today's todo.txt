@@ -58,11 +58,6 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
-* how to change terminal directory with vim?
-    * eg 
-        * change terminal dir to the current vim root?
-    * add something
-
 here> go to ProjectBasedTODOs/LearningProjects/learning_to_write_faster_program.md
 go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt    
