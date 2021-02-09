@@ -365,6 +365,32 @@ waiting reply from Skyler
 
 learn about reddis cache
 
+disable ding sound on the CESTONS 7 
+    ref: 
+        here> https://mail.google.com/mail/u/0/#search/rresnick%40fau.edu/QgrcJHsTnPnDxKNvCVqkksqnsVHCTCRNpbG
+            This sound can be disabled with the following command:
+            echo 'set bell-style none' >> ~/.inputrc
+            Once completed open a new terminal and the sound should be gone.
+
+            For the port forwarding through ssh do the following:
+            ssh koko-login.hpc.fau.edu
+            From here I request a node to be allocated to me
+            salloc -c 64 -p longq7 --exclusive # 64 cpu cores for 7 days with x11 and make sure I am the only one on the node
+            Notice the output
+            salloc:Granted job allocation ###### (some job id)
+            salloc:Waiting for resource configuration
+            salloc: Nodes nodeamd009 (note this name, yours maybe different) some node name are ready for the job
+
+            run this command:
+            ssh nodeamd009 (use your node name seen in the output )
+            launch jupyter notebooks
+
+            then from your computer do the following 
+            ssh -L 8888:localhost:8111 spaulus2017@koko-login.hpc.fau.edu "ssh -L 8111:localhost:8888 -N nodeamd009"
+
+            You will have to find a port that no one else is using, for example 8111 in the above ssh may need to change if someone has already opened it for their application. 
+
+
 #=====================
 #==OPTIMIZATION
 #Note: no need to be done right now, but if it is done it will be better.
@@ -399,71 +425,58 @@ caching
 #=====================
 #==TODO
 #=====================
-here> finish promised in the following email
-    https://mail.google.com/mail/u/0/#inbox/FMfcgxwLsKFQZCkChxBKTjhGldKxfsvX
 
-migrate code from local labtop to clustere 
+here> instead of putting in FAU Cluster, run the program on AWS EC2:
+    and monitor it with codepipline
 
-ans zhabiz question
+put it on to cluster 
+  * how to send command from local computer to be run on remote server?
+    * how to slurm to run cluster without time limit? 
+        * ans:
+            * 'sbatch --requeue'
+    * how can I output to /dev/null/ without sudo 
+
+
+* move batch data of the missing date from s3 to dynamodb
+    * I need to modify some data structure from data stored in s3 and send to store in dynamodb
+
+* ans zhabiz question
     'does permalink includes in Twitter's stream or Reddit's stream?'
 
 implement demo to pull data (with sentiment) from the last 24 hours in batch.
     send to zhabiz with complete.
 
-disable ding sound on the CESTONS 7 
-    ref: 
-        here> https://mail.google.com/mail/u/0/#search/rresnick%40fau.edu/QgrcJHsTnPnDxKNvCVqkksqnsVHCTCRNpbG
-            This sound can be disabled with the following command:
-            echo 'set bell-style none' >> ~/.inputrc
-            Once completed open a new terminal and the sound should be gone.
+* here> capture reddit stream
+    * requirement
+        * Kinesis -> S3 -> Lambda -> DynamoDB 
+            * description: store original stream data in S3, and store modified data in DynamoDb
+            *  workflow step by step:
+                1. kinesis:faucovidstream_input
+                2. firehose:faucovidstream_from_kinesis_to_s3
+                3. s3:faucovidstream 
+                4. lambda:faucovidstream
+                5. kinesis:faucovidstreamsentiment
+                6. dynamoDB:faucovidstream_twitter_with_sentiment 
+    * implement Kinesis -> S3 -> Lambda -> DynamoDB 
+        * try to only use boto3 or aws cli
+            * create resource with aws cli
 
-            For the port forwarding through ssh do the following:
-            ssh koko-login.hpc.fau.edu
-            From here I request a node to be allocated to me
-            salloc -c 64 -p longq7 --exclusive # 64 cpu cores for 7 days with x11 and make sure I am the only one on the node
-            Notice the output
-            salloc:Granted job allocation ###### (some job id)
-            salloc:Waiting for resource configuration
-            salloc: Nodes nodeamd009 (note this name, yours maybe different) some node name are ready for the job
+    * add reddit paramer 
+        here> create path in the api.
+            note: see how twitter param is implemented as (use boto3.)
+                here> how to create api gateway?
+                    which code do i refer to? do i have any?
+                    here> what does TwitterLambdaS3Trigger do?
+                        note: 
+                            can the process be done in boto3? or it must be done in aws cli?
+                                lets use sam to do that.
 
-            run this command:
-            ssh nodeamd009 (use your node name seen in the output )
-            launch jupyter notebooks
-
-            then from your computer do the following 
-            ssh -L 8888:localhost:8111 spaulus2017@koko-login.hpc.fau.edu "ssh -L 8111:localhost:8888 -N nodeamd009"
-
-            You will have to find a port that no one else is using, for example 8111 in the above ssh may need to change if someone has already opened it for their application. 
-
-run dynamodb table update in cluster
-    here read email sendind to Resnik regarding cluster related topic.
-        here> how/where to open cluster?
-            here> finish stuff replied by staff in the email
-    git clone my project to cloud 
-        make sure to git push data to the github first
-    try running the program and expect failure within about 1-2 hour. 
-        how to submit jobs?
-            how to submit jobs such that the process will be faster?
-            how to submit jobs such that the process will run forever?
-        if no error, add more aspect to the tweepy stream 
-    how to speed up tweepy?
-
-add reddit paramer 
-    here> create path in the api.
-        note: see how twitter param is implemented as (use boto3.)
-            here> how to create api gateway?
-                which code do i refer to? do i have any?
-                here> what does TwitterLambdaS3Trigger do?
-                    note: 
-                        can the process be done in boto3? or it must be done in aws cli?
-                            lets use sam to do that.
-
-                    set s3 to detect reddit kinesis
-                        create s3 for reddit raw stream data
-                            what is the name of it?
-                        how to use SAM OR boto3 to set kinesis stream to updated to s3?
-                    In lambda, input (from s3) is transform and send to dynamodb and another stream called 'faucovidstreamsentiment_reddit'
-                        how to combine multiple stream into 1?
+                        set s3 to detect reddit kinesis
+                            create s3 for reddit raw stream data
+                                what is the name of it?
+                            how to use SAM OR boto3 to set kinesis stream to updated to s3?
+                        In lambda, input (from s3) is transform and send to dynamodb and another stream called 'faucovidstreamsentiment_reddit'
+                            how to combine multiple stream into 1?
             
 convert searchable fields to lowercase (just do for 'text' field)
     note: 

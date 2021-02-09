@@ -21,6 +21,9 @@ are 4 jobs tyeps including GPU and other 3
 #==TODO
 #=====================
 
+here> how to use vim with SAM (or EC2)?
+    can I get debugging to work?
+
 setup my working environment
     here> work on tmux
         add alias 'config' to .zshrc

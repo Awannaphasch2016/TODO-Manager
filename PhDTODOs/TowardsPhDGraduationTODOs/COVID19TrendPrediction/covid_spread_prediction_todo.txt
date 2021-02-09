@@ -17,13 +17,30 @@
 ====================
 == TODO
 ===================
+
+split 
+run the same model on state level dataset
+    * stochastic (random walk) basline
+        * previous_day_prediciton
+    * basic baseline j
+        * Autoregressive Integrated Moving Average (ARIMA)
+        * Linear Regression
+    * state of the art machine learning 
+        * XGBoost (gradient boosting tree.)
+    * statistical baseline model
+        * GAM
+    * Deep learning baseline model
+        * MLP
+    * Deep learning time series baslines model
+        * LSTM
+    
+
 here> understand and run https://machinelearningmastery.com/xgboost-for-time-series-forecasting/ 
 implement GAM (generalized additive model) ?
 
-1.focus on state level
-2.varying sliding window
-3.put survey on overleaf. (draft)
+put survey on overleaf. (draft)
     can I automate this?
+
 
 create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
     Goal: focusing on showing what I have done.

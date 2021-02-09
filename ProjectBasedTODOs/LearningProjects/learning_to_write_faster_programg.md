@@ -42,11 +42,15 @@
         * here> Goal: running graphic (such as matplotlib using X11 on wsl once work make it run on FAU cluster(or other grpahcial protocol)
             * here> how to setup x11 in WSL2 ( try putty if too time comsuming; allow for copy and paste by mouse)
                 * here> x11 in Ubuntu
-                    * try plotting graph in fau host computer. 
-                        * https://mail.google.com/mail/u/0/#inbox/FMfcgxwLsKGXLstKmrfrHxpWMxSXRVCN
-                    * here> try plotting graph via ssh to fau cluster
-                        * step to ssh to fau cluster .
-                            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/Thho-THKl
+                    * here> try plotting graph in fau host computer. 
+                        * here> without ssh and with ssh 
+                            * solution
+                                * sol1: remote window access to wsl (ubuntu) all within my window 10
+                                    * ref
+                                        * https://www.youtube.com/watch?v=IL7Jd9rjgrM&ab_channel=DavidBombal
+                                * sol2: wsl2 gui with xserver
+                                    * ref
+                                        * https://www.youtube.com/watch?v=uL8nnuvybL8&ab_channel=TheRealNetworkLab 
                             * Error: 
                                 * error when run program to plot with  matplotlib
                                     * No DISPLAY variable set, cannot setup x11 forwarding. 
