@@ -17,19 +17,13 @@
 ====================
 == TODO
 ===================
-here> learn basic awk commands 
-what entity use resolv.conf? 
-when do i need to care about recolv.conf?
-    what does routine in C library mean?
-    what is resolver?
-    what is resolver routines?
-        when is it invoked?
+here> how to view images on an EC2 instance?
+    here> set up ssh to ec2 instance and plot it from wsl
+        here> how to setup ec2 for data science
+            https://medium.com/@junseopark/from-zero-to-aws-ec2-for-data-science-62e7a22d4579
 
-understand what I need to export display varaible
-here> figure out a way to do x11 for wsl
-    install x-ming
 answer students emails on canvas.
-make an annoucnement mention whose kit has been ship nad location 
+make an annoucnement mention whose kit has been ship nad location
 
 ---2pm
 read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
