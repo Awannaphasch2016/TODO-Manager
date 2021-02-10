@@ -58,9 +58,17 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
+here> how to use terraform with ansible using AWS example 
+here> set ec2 and codepipline with boto3
+    terraform AWS 
+        ec2 
+    cloudformation setup ec2
 
 go to PhDTODOs/RATODOs/covid_spread_prediction_todo.txt
     * try to run the code in vim data science format. 
+send connor phd schedule 
+    where did I stored it?
+answer students email
 here> go to PhDTODOs/RATODOs/fau_api_todo.txt    
 
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo

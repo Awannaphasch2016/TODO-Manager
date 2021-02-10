@@ -7,7 +7,7 @@
 
 # WAITINGS
 
-
+ 
 * summary on what I have trying to solve 2/7/2020
     * about x11 protocol 
         * x11 protocol forwarding with putty. 
@@ -37,6 +37,9 @@
 
 # TODO
 
+* setup datascience workstation (jupyter notebook) with AWS EC2
+    * ref 
+        * kmedium.com/@junseopark/from-zero-to-aws-ec2-for-data-science-62e7a22d4579
 * use Uberzug to view image in vifm.
     * ref: 
         * https://www.youtube.com/watch?v=qgxsduCO1pE&ab_channel=DistroTube

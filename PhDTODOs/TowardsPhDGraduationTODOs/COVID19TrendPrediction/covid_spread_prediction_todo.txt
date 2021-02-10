@@ -17,6 +17,51 @@
 ====================
 == TODO
 ===================
+here> learn basic awk commands 
+what entity use resolv.conf? 
+when do i need to care about recolv.conf?
+    what does routine in C library mean?
+    what is resolver?
+    what is resolver routines?
+        when is it invoked?
+
+understand what I need to export display varaible
+here> figure out a way to do x11 for wsl
+    install x-ming
+answer students emails on canvas.
+make an annoucnement mention whose kit has been ship nad location 
+
+---2pm
+read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
+    here> how is hdf5 related to sparse matric implementation?
+
+doesn't seem like it is worth learning for my case 
+    here> try to complete the hdf5 kaggle 
+        https://www.kaggle.com/tanderton/hdf5-conversion-for-fast-data-loading
+    learn sparse matric
+
+working with many dataset in machine learning project
+    hdf5 (with hiercical structure) vs h5py (data storage)?
+    here> whhen to use hdf5 ?
+        when to use hdf5
+        learn about hdf5
+            what small project to run? (deep learning related)
+
+        what is the common problem of hdf5?
+        how to load zip file to pandas without unzip it first? 
+        how to convert in-memeory dataframe to HDF5 using compression
+        sparse matrices make machine learning faster
+
+
+figure out a way to manage files using hdf5
+    ref
+        https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
+
+here> how to predict using checkpoint model
+    here> read the following 
+        https://machinelearningmastery.com/check-point-deep-learning-models-keras/
+        here> how to create new file in vim?
+            creat file in new dir?
 
 split 
 run the same model on state level dataset

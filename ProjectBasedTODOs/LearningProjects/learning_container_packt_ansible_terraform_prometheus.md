@@ -12,6 +12,17 @@
 
 #TODO
 
+* whta is resource in terraform?
+* here> how to use terraform with ansible using AWS example 
+    * ref :
+        * https://acloudguru.com/hands-on-labs/deploying-to-aws-with-terraform-and-ansible
+    * task 
+        * requirement 
+            * terraform as clodu agnostic
+            * ansible as os agnostic + hybrid IaC tools
+        * login to the terraform constroler node EC2 instance
+            *  what is terraform contraller node
+
 * here> Ansible
     * learn Ansible from documentation
         * here> go through few example and make it work then I can process to other actions in the list
