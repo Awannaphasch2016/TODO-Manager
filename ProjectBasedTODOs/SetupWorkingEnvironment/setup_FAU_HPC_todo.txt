@@ -1,6 +1,9 @@
 #=====================
 #==NOTE
 #=====================
+what is suitable ec2 instance for machine leanring?
+     note: 
+        for our data science needs, we will most likely want to select something in the range of m5.large to m5.2xlarge, or a p2.xlarge for deep learning work. More details and pricing found here.
 
 #=====================
 #==QUESTION
@@ -20,6 +23,13 @@ are 4 jobs tyeps including GPU and other 3
 #=====================
 #==TODO
 #=====================
+
+here> how to use vimspector to debug remotely?
+    debugging over ssh?
+        here> https://github.com/microsoft/debugpy/wiki/Debugging-over-SSH
+            read vimspector github repo about debugpy via ssh
+                here> how do i know that connection failed for success?
+            if I can't get vimspector to work. just use debugpy
 
 here> how to use vim with SAM (or EC2)?
     can I get debugging to work?

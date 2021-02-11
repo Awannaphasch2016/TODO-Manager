@@ -17,15 +17,6 @@
 ====================
 == TODO
 ===================
-here> how to view images on an EC2 instance?
-    here> set up ssh to ec2 instance and plot it from wsl
-        here> how to setup ec2 for data science
-            https://medium.com/@junseopark/from-zero-to-aws-ec2-for-data-science-62e7a22d4579
-
-answer students emails on canvas.
-make an annoucnement mention whose kit has been ship nad location
-
----2pm
 read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
     here> how is hdf5 related to sparse matric implementation?
 
