@@ -58,34 +58,57 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
-how to use find in vim?
 
-learn aobut MLOps?
-    https://towardsdatascience.com/the-3-best-free-online-resources-to-learn-mlops-54816904f485
-    what is detemriend ai?
-        what are they opend source
-here> learn all the tricks from this channels 
-    https://www.youtube.com/watch?v=jLC-bOx28Tg&ab_channel=RobertElderSoftware
-how many modes are there in vim?
-    what is ex-mode in vim?
-        https://www.google.com/search?q=what+is+x+mode+in+vim+%3F&rlz=1C1GCEU_enUS914US914&oq=what+is+x+mode+in+vim+%3F+&aqs=chrome..69i57j33i22i29i30l2.4363j0j7&sourceid=chrome&ie=UTF-8
-how many register does vim have?
-    what are tyeps of register in vim?
-        read https://medium.com/vim-drops/vim-registers-the-powerful-native-clipboard-19b1c97891bd#:~:text=When%20you%20yank%2C%20delete%2C%20paste,basic%20registers%2C%20the%20named%20registers.
-https://youtu.be/XA2WjJbmmoM?t=975
-    cn/cp/cl quickfix
-    practice tag jumping
-    practice autojump
-what is sysmtemd ?
-    tragidy of sysmtemd?
-        https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
-automate with basescript
-    https://www.youtube.com/watch?v=PPQ8m8xQAs8&ab_channel=NullByte
-SelfBrandingTODOs/personal_branding.txt
+finish learning cmd-terminal/vim/
+    fuck
+        theory
+            how many modes are there in vim?
+                what is ex-mode in vim?
+                    https://www.google.com/search?q=what+is+x+mode+in+vim+%3F&rlz=1C1GCEU_enUS914US914&oq=what+is+x+mode+in+vim+%3F+&aqs=chrome..69i57j33i22i29i30l2.4363j0j7&sourceid=chrome&ie=UTF-8
+                    when to use ex-mode?
+            how many register does vim have?
+                what are tyeps of register in vim?
+                    read https://medium.com/vim-drops/vim-registers-the-powerful-native-clipboard-19b1c97891bd#:~:text=When%20you%20yank%2C%20delete%2C%20paste,basic%20registers%2C%20the%20named%20registers.
+            what is command mode in vim ?
+        practice
+            https://youtu.be/XA2WjJbmmoM?t=975
+                cn/cp/cl quickfix
+                practice tag jumping
+                practice autojump
+    what is sysmtemd ?
+        tragidy of sysmtemd?
+            https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
+    bash
+        watch automate with basescript
+            https://www.youtube.com/watch?v=PPQ8m8xQAs8&ab_channel=NullByte
+
+finish figureing best way to navigate
 organize vimrc 
-what is command mode in vim ?
-here> how to use terraform with ansible using AWS example 
+SelfBrandingTODOs/personal_branding.txt
+
+
+how to use terraform with ansible using AWS example 
+
+learn all the tricks from this channels 
+    Goal: 
+        acknowledge what I can do with cmd with terminal
+    https://www.youtube.com/watch?v=jLC-bOx28Tg&ab_channel=RobertElderSoftware
+
+learn who to use visidata
 ---12.15
+
+
+learn how to use folding 
+    goal:
+        learn how to move around get overvie info about pages quckly
+            I can move around much quicker with this. (also I don't need to use tags)
+    for markdown
+        how to fold/unfold everything
+        how to fold/unfold everything under it 
+        how to fold top level of the content cursor is on  
+    for code 
+
+ProjectBasedTODOs/LearningProjects/learning_MLOps_todo.md
 
 here> go to ProjectBasedTODOs/SetupWorkingEnvironment/setup_FAU_HPC_todo.txt
 
