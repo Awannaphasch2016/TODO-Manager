@@ -24,7 +24,9 @@ are 4 jobs tyeps including GPU and other 3
 #==TODO
 #=====================
 
-here> how to use vimspector to debug remotely?
+here> read email about my HPC ticket
+
+how to use vimspector to debug remotely?
     debugging over ssh?
         here> https://github.com/microsoft/debugpy/wiki/Debugging-over-SSH
             read vimspector github repo about debugpy via ssh

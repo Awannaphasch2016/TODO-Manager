@@ -58,7 +58,8 @@ for research paper page, list things that I want to be searchable.
 #=====================
 #==TODO
 #=====================
-
+here> blog with jupyter notebook and Jekyll
+    raed https://cduvallet.github.io/posts/2018/03/ipython-notebooks-jekyll
 here> Write Categorize and Synthesize.
     reading paper or article is good to store information for the first
     time, but it is bad for you to retrived the information

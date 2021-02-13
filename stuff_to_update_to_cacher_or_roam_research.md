@@ -11,6 +11,5 @@
         * rmse()
         * dd3 and dd4 
         * stationarity()
-        *
 
 

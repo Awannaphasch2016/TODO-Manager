@@ -44,6 +44,20 @@ hdf5 and data compression related content
 == TODO
 ===================
 
+here> figure out a way to store files for the project in S3
+
+apply next day/3/5/week.
+
+here>loop the model through all states
+    here> create a code that will run for all cases in Models/
+        here> apply it to all models
+            preivous day
+            here> LinearRegression
+            LSTM
+            MLP
+            XGBoost
+            GAM
+
 here> run the same model on state level dataset
     note:
         validation process
@@ -54,22 +68,18 @@ here> run the same model on state level dataset
     stochastic (random walk) basline
         previous_day_prediciton
     basic baseline
-        Autoregressive Integrated Moving Average (ARIMA)
-        here> Linear Regression
-            here> perform expandind window validation
+        here> Autoregressive Integrated Moving Average (ARIMA)
+        Linear Regression
     state of the art machine learning 
         XGBoost (gradient boosting tree.)
     statistical baseline model
-        GAM
+        here> GAM
+            here> see pyGAM
+                read https://tomkealy.github.io/blog/time-series-with-gams/
     Deep learning baseline model
         MLP
-            https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/
     Deep learning time series baslines model
-        LSTM
-            how to train and predict time series? 
-                read https://machinelearningmastery.com/how-to-develop-multilayer-perceptron-models-for-time-series-forecasting/
-            when to use fit_generator vs fit?
-                is fit_generator deprecated?
+        here> LSTM
             save train data and then load it back
                 here> how to predict using checkpoint model
                     here> read the following 
@@ -77,6 +87,7 @@ here> run the same model on state level dataset
                             here> how many option do i have for checkpoint?
                                 weight only and what else?
                                 how to load checkpoint?
+
 
 --3am
 
