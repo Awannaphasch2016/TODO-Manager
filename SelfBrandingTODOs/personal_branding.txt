@@ -54,15 +54,18 @@ for research paper page, list things that I want to be searchable.
 #==OPTIMIZATION
 #Note: no need to be done right now, but if it is done it will be better.
 #=====================
+Write article titled "Categorize and Synthesize".
+    note: 
+        content's detail
+            reading paper or article is good to store information for the first
+    time, but it is bad for you to retrived the information
 
 #=====================
 #==TODO
 #=====================
 here> blog with jupyter notebook and Jekyll
     raed https://cduvallet.github.io/posts/2018/03/ipython-notebooks-jekyll
-here> Write Categorize and Synthesize.
-    reading paper or article is good to store information for the first
-    time, but it is bad for you to retrived the information
+
 
 list all of the pages types
     add them into Roam research syntax

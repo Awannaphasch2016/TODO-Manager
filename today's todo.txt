@@ -45,7 +45,11 @@ Mypy Typing
 #==OPTIMIZATION
 #Note: no need to be done right now, but if it is done it will be better.
 #=====================
+learn how to use feature of github 
+    such as insight
 
+learn opensource.guide (this is from a link in "community" tab on github)
+    https://opensource.guide/
 #=====================
 #== WAITING
 #=====================
@@ -58,46 +62,10 @@ response from HPC
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
-
-finish learning cmd-terminal/vim/
-    fuck
-        theory
-            how many modes are there in vim?
-                what is ex-mode in vim?
-                    https://www.google.com/search?q=what+is+x+mode+in+vim+%3F&rlz=1C1GCEU_enUS914US914&oq=what+is+x+mode+in+vim+%3F+&aqs=chrome..69i57j33i22i29i30l2.4363j0j7&sourceid=chrome&ie=UTF-8
-                    when to use ex-mode?
-            how many register does vim have?
-                what are tyeps of register in vim?
-                    read https://medium.com/vim-drops/vim-registers-the-powerful-native-clipboard-19b1c97891bd#:~:text=When%20you%20yank%2C%20delete%2C%20paste,basic%20registers%2C%20the%20named%20registers.
-            what is command mode in vim ?
-        practice
-            https://youtu.be/XA2WjJbmmoM?t=975
-                cn/cp/cl quickfix
-                practice tag jumping
-                practice autojump
-    what is sysmtemd ?
-        tragidy of sysmtemd?
-            https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
-    bash
-        watch automate with basescript
-            https://www.youtube.com/watch?v=PPQ8m8xQAs8&ab_channel=NullByte
-
-finish figureing best way to navigate
-organize vimrc 
-SelfBrandingTODOs/personal_branding.txt
-
-
-how to use terraform with ansible using AWS example 
-
-learn all the tricks from this channels 
-    Goal: 
-        acknowledge what I can do with cmd with terminal
-    https://www.youtube.com/watch?v=jLC-bOx28Tg&ab_channel=RobertElderSoftware
-
-learn who to use visidata
----12.15
-
-
+here> go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+go to organize_todo.md
+blog with jupyter notebook and Jekyll
+    raed https://cduvallet.github.io/posts/2018/03/ipython-notebooks-jekyll
 learn how to use folding 
     goal:
         learn how to move around get overvie info about pages quckly
@@ -107,6 +75,14 @@ learn how to use folding
         how to fold/unfold everything under it 
         how to fold top level of the content cursor is on  
     for code 
+
+learn all the tricks from this channels 
+    Goal: 
+        acknowledge what I can do with cmd with terminal
+    https://www.youtube.com/watch?v=jLC-bOx28Tg&ab_channel=RobertElderSoftware
+---- 1 am 
+
+how to use terraform with ansible using AWS example 
 
 ProjectBasedTODOs/LearningProjects/learning_MLOps_todo.md
 
@@ -126,7 +102,6 @@ here> go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 go to PhDTODOs/ReadingPaperTODOs/reading_research_paper_todo
 go to ProjectBasedTODOs/SetupWorkingEnvironment/setting_FAU_HPC_todo
-go to ProjectBasedTODOs/LearningProjects/fastai_todo.md
 go to SelfBrandingTODOs/writing_articles_todo.txt
 go to ProjectBasedTODOs/SetupWorkingEnvironment/create_setup_script.md
 go to ProjectBasedTODOs/SetupWorkingEnvironment/create_searchable_code_snipet_in_vim.md
