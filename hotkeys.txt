@@ -521,6 +521,7 @@ vim/macro
 > @@ = repeat the last macro
 > 10@@ = repeat last macro 10 times
 
+
 vim navigation
 ; = go to next word that you previously use f command to find
 ` + . = jump to the last changed position
@@ -579,13 +580,36 @@ vim wit register
 " + k + yy = copy current line to k register
 " + k + p = paste content that is in register K
 " + '+' + p = paste from system clipboard on Linux ( paste content that is copied outside of vim in vim, it seems like it suppose to be " + '*' + p for windows, but both works for me )
+" + % (refer to current file) + p = paste name of current file 
+" + # (refer to previous file) + p = paste name of previous file (stored in <C-^>)
+
+
+vim/basic/
 
 vim/basic/window management
 <C-w> + H = switch from horizontal split to vertical
 <C-w> + K = switch from vertial split to horizontal
 
-vim/plugins
+vim/basic/mode/visual block mode
+<c-v> = get in to visual block mode 
+I = change to insert from visual block mode
 
+vim/basic/autocomplete
+<C-x><C-n> = for only this file
+<C-x><C-f> = for filenames
+<C-x><C-]> = for tags
+<C-n> = for anything specified by the 'complete' option
+
+vim/basic/quickfix
+:copen " Open the quickfix window
+:ccl   = Close it
+:cw    = Open it if there are "errors", close it otherwise (some people prefer this)
+:cn    = Go to the next error in the window
+:cp    = Go to the previous error in the window
+:cnf   = Go to the first error in the next file
+:.cc   = Go to error under cursor (if cursor is in quickfix window)
+
+vim/plugins
 
 vim/plugins/vim-fugitive
 :GBranches = show list of git branches
@@ -601,17 +625,21 @@ cc = run Gcommit
 <any number>gI (on a file) = add file to .gitignore (make sure that .gitignore is created at the root of the project to prevent potential strange behavior of vim-fugitive)
 
 vim/Markdown
-zo = omopen current fold
-zc = close current fold
-za = toggle current fold
-zm = reduce foldlevel by one
-zr = increase foldlevel by one
+# applied on name hierarchical level 
+* zm = reduce foldlevel by one
+* zr = increase foldlevel by one
 
-zO = recursively open current fold
-zC = recursively close current fold
-* zA = recursively open/close current fold
-* zM = close all folds
-* zR = open all folds 
+# applied on block level 
+za = toggle current fold
+* zo = open current fold
+* zc = close current fold
+* zO = recursively open current fold
+* zC = recursively close current fold
+
+# applied on the whole file
+zA = recursively open/close current fold
+zM = close all folds
+zR = open all folds
 
 
 ideavim (pycharm plugin)

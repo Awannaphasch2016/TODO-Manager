@@ -9,7 +9,7 @@
                 * explain at 10 mins mark
     * create for centos7
     * create for ubuntu
-* once setup.sh are finished.  
+* once setup.sh are finished.
 * try duplicate the environment in the following places
     * cluster
         * eg FAU cluster

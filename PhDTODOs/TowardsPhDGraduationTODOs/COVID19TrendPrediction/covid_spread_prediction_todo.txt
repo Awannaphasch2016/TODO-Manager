@@ -10,6 +10,12 @@
 == Question
 =================== 
 
+====================
+== Optimization
+=================== 
+
+figure out a way to store files for the project in S3
+
 ===================
 == Waiting
 ===================
@@ -44,19 +50,25 @@ hdf5 and data compression related content
 == TODO
 ===================
 
-here> figure out a way to store files for the project in S3
+
+try to set up debugging?
+    here> try to not use it until i relaly need to (train myself to simplified things for debugging)
+
+create 50 states.folder outputs
+    image and performance have to be indiffernect place
+    use grep to mv group data of the same state and send to correct location
+here> the model through all states
+    here> create a code that will run for all cases in Models/
+        here> apply it to all models
+            preivous day * 
+            LinearRegression
+            * LSTM
+            * MLP
+            * XGBoost
+            * GAM
 
 apply next day/3/5/week.
 
-here>loop the model through all states
-    here> create a code that will run for all cases in Models/
-        here> apply it to all models
-            preivous day
-            here> LinearRegression
-            LSTM
-            MLP
-            XGBoost
-            GAM
 
 here> run the same model on state level dataset
     note:

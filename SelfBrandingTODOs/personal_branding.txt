@@ -63,9 +63,6 @@ Write article titled "Categorize and Synthesize".
 #=====================
 #==TODO
 #=====================
-here> blog with jupyter notebook and Jekyll
-    raed https://cduvallet.github.io/posts/2018/03/ipython-notebooks-jekyll
-
 
 list all of the pages types
     add them into Roam research syntax

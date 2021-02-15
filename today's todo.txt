@@ -50,6 +50,9 @@ learn how to use feature of github
 
 learn opensource.guide (this is from a link in "community" tab on github)
     https://opensource.guide/
+
+read about date tiering
+    https://cloudian.com/blog/introduction-data-tiering/
 #=====================
 #== WAITING
 #=====================
@@ -59,13 +62,26 @@ response from HPC
 #=====================
 #== TODO
 #=====================
-read about date tiering
-    https://cloudian.com/blog/introduction-data-tiering/
+
+go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+
+--- 11 am 
 
 here> go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
-go to organize_todo.md
-blog with jupyter notebook and Jekyll
-    raed https://cduvallet.github.io/posts/2018/03/ipython-notebooks-jekyll
+
+summarize my deep learning stack
+    tools are categorized into 
+        data
+            data discovery + metadata 
+            data profiling 
+            data exploration 
+            data visualziation
+        model 
+            cput to gpu
+                hummingbird.ml
+    separate into inside vs outside terminal 
+        
+
 learn how to use folding 
     goal:
         learn how to move around get overvie info about pages quckly
