@@ -1,8 +1,21 @@
 # NOTES
+* workflow of data science project
+    1. Discovery (25%)
+    2. Exploration ( 10%)
+    3. Model dev & productionalization ( 40%)
+    4. Visualizaiton & communication (10%)
+
+* data discovery + metadata engine
+    * Amundsen
+    * data discover at facebook
 # REFERENCES
 # OPTIMIZATION
 # WAITING
 # TODO
+* finish vid selected from https://www.youtube.com/watch?v=vCBeGLpvoYM&list=PLtqF5YXg7GLkskjS9D2PSIwKV6HUuWkXo&ab_channel=DataProfessor
+    * web app
+    * EDA
+    * GPU
 * pandas profiling
     * here> learn how to read pandas profiling report
         * here> can I pipeline output to filter out time series data for each state?
@@ -27,6 +40,7 @@
             * text analysis
             * file and image analysis
         * hyper parameters
+
 * here> lazy predict
     * here> can I use this in my project?
         * here> learn how to use lazy predict for regression?
@@ -41,8 +55,6 @@
         * get code from data professor
     * cool streamlit example for (generally useful for data science + machien learning enineer cases)
         * learn from data professor github chnnel
-* learn to use pandas profiling
-    * watch https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/
 * data exploreation 
     * pandasGUI?
     * visidata vs pandashell
@@ -61,20 +73,9 @@
                 * Spectral estimation
                 * linear regression
                 * profiling utilities
-            
-* data discovery + metadata engine
-    * here> Amundsen
-        * watch https://www.youtube.com/watch?v=EOCYw0yf63k&ab_channel=DataCouncil
-    * data discover at facebook
---- 8 pm 
 
-* learn how to use streamlit to shared data from python files?
-* finish vid selected from https://www.youtube.com/watch?v=vCBeGLpvoYM&list=PLtqF5YXg7GLkskjS9D2PSIwKV6HUuWkXo&ab_channel=DataProfessor
-    * web app
-    * EDA
-    * GPU
-    * here> learn how to use pandasprofiling
 * what is sysmtemd ?
     * tragidy of sysmtemd?
         * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
+
 

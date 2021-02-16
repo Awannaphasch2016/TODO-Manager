@@ -50,24 +50,25 @@ hdf5 and data compression related content
 == TODO
 ===================
 
+apply next day/3/5/week.
 
-try to set up debugging?
-    here> try to not use it until i relaly need to (train myself to simplified things for debugging)
+implement code to run lstm and mlp on cloud
 
 create 50 states.folder outputs
     image and performance have to be indiffernect place
     use grep to mv group data of the same state and send to correct location
-here> the model through all states
+
+try to set up debugging?
+    here> try to not use it until i relaly need to (train myself to simplified things for debugging)
+the model through all states
     here> create a code that will run for all cases in Models/
         here> apply it to all models
-            preivous day * 
+            preivous day
             LinearRegression
+            XGBoost
             * LSTM
             * MLP
-            * XGBoost
             * GAM
-
-apply next day/3/5/week.
 
 
 here> run the same model on state level dataset
