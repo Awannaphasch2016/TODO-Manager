@@ -63,7 +63,9 @@ response from HPC
 #== TODO
 #=====================
 
-make notes on 4.02
+write requirement of what streamlit + pandas profiling + sweetviz support to do
+figure out whether markdown on github is properly geenrated
+    do they use the same or different markdown syntax rules?
 here> go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 

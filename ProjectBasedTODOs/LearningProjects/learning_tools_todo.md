@@ -12,10 +12,52 @@
 # OPTIMIZATION
 # WAITING
 # TODO
-* finish vid selected from https://www.youtube.com/watch?v=vCBeGLpvoYM&list=PLtqF5YXg7GLkskjS9D2PSIwKV6HUuWkXo&ab_channel=DataProfessor
-    * web app
-    * EDA
-    * GPU
+
+* here> get overview of ways taht people implement streamlit 
+    * here> create streamlit app.
+        * here> to replace jupyter notebook workflow
+            * here> lets try the workflow out and see how comfortable it is.
+                * here> try the following example https://www.youtube.com/watch?v=VtrF
+                    * here> at 7.0
+        * for general use case (can this be imeplemneted as separated github repo? microservice approach?)
+            * here> streamlit + pandas profiling + sweetviz
+                * note: 
+                    * pandas profiling vs sweetviz
+                        * pandas profiling 
+                            * pairwise comparision 
+                                * data-wise correlation (using scatter plot)
+                        * sweetviz
+                            * dataframe wise comparison
+                            * features-wise correlation ( using tables)
+                * requirements:
+                    * user requirement
+                        * user can use it to explore data
+                        * user can use it to visualize data
+                        * here> user can share app among team member
+                            * here> use Streamlit Sharing
+                                * reference:
+                                    * https://blog.streamlit.io/deploying-streamlit-apps-using-streamlit-sharing/
+                                    * https://medium.com/@thom.e.lane/streamlit-on-aws-a-fully-featured-solution-for-streamlit-deployments-ba32a81c7460
+                                * here> figure out a way for data to be viualized/epxlore once it is deployed online
+                                    * pull data from cloud service S3
+                                        * call bucket 'streamlitdata'
+                    * system requirements 
+                        * same profiling of individual dataframe or comparison between dataframe should be downloaded once.
+                            * note: 
+                                * before implement this requirement, make sure that generating delay is large enough to be cumbersome to work with.
+                            * program must be able to detect whether profile of the input data already exists.
+                                * how can this be done?
+                                    * each generated profile should have metadata attached.
+                                        * detect file name suffix/prefix
+                                            * doesn't garantee its content
+                                        * detect number of columns + number of rows
+                                            * doesn't garantee data indexed by (row, columns) position
+                                        * compare dataframe directly
+                                            * faster or slower than generated another html?
+                                            * use DataFrame equals()
+                        * the system can show analysis for each states
+                            * Given a selected state, one can inspect features
+                            * Given a selected state, one can compare features.
 * pandas profiling
     * here> learn how to read pandas profiling report
         * here> can I pipeline output to filter out time series data for each state?
