@@ -63,19 +63,23 @@ response from HPC
 #== TODO
 #=====================
 
-write requirement of what streamlit + pandas profiling + sweetviz support to do
-figure out whether markdown on github is properly geenrated
-    do they use the same or different markdown syntax rules?
-here> go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+here> figure out whether markdown on github is properly geenrated
+    here> do they use the same or different markdown syntax rules?
+go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 
 summarize my deep learning stack
     tools are categorized into 
         data
             data discovery + metadata 
+                Amundsen
             data profiling 
+                streamlit 
+                pandas profiling
             data exploration 
+                visidata
             data visualziation
+                
         model 
             cput to gpu
                 hummingbird.ml

@@ -16,10 +16,65 @@
 * here> get overview of ways taht people implement streamlit 
     * here> create streamlit app.
         * here> to replace jupyter notebook workflow
+            * note:
+                * example of possible workflows
+                    * Run long running backtest/ simulation and save results to file(s).
+                    * Let user select file(s) and validate input/ output if needed.
+                    * Let user select file(s) and provide interactive analytics to end user based on simulation results.
             * here> lets try the workflow out and see how comfortable it is.
                 * here> try the following example https://www.youtube.com/watch?v=VtrF
-                    * here> at 7.0
-        * for general use case (can this be imeplemneted as separated github repo? microservice approach?)
+                    * try deploy app
+                        * read https://docs.streamlit.io/en/latest/deploy_streamlit_app.html
+                    * run the actual app
+                    * what is 'out of order' concept?
+                    * read frequently ask question
+                        * just read all of it 
+                    * read about possible configuation
+                        * ref
+                            * https://docs.streamlit.io/en/latest/streamlit_configuration.html
+                    * here> figure out useful call function for me
+                        * useful function call
+                            * slider
+                            * map
+                            * checkbox
+                            * subheader
+                            * button?
+                            * radio?
+                            * selectbox?
+                            * multiselect
+                            * select_slider
+                            * text_input
+                            * number_input
+                            * text_area
+                            * time_input
+                            * file_uploader
+                            * color_picker
+                            * beta_expander
+                            * echo
+                            * progress,spinner
+                            * error,warning,info,success,exception
+                            * empty, help
+                            * get_option, set_option, set_page_config
+                            * 
+                        * core features
+                            * ref
+                                * https://docs.streamlit.io/en/latest/advanced_concepts.html
+                            * insert elements out of order
+                            * Animate element
+                            * append data to a table or chart
+                            * record a screencast
+                        * Publish to PyPI
+                            * ref
+                                * https://docs.streamlit.io/en/latest/publish_streamlit_components.html
+                            * search for what is current aviaalbe and can be useful to me
+                        * extended features
+                            * Magic commands
+                            * Display charts
+                            * display media
+                            * disp
+                        * streamlit configuration
+                            * Streamlit Cache
+            * for general use case (can this be imeplemneted as separated github repo? microservice approach?)
             * here> streamlit + pandas profiling + sweetviz
                 * note: 
                     * pandas profiling vs sweetviz
