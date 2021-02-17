@@ -60,8 +60,18 @@ response from HPC
     https://mail.google.com/mail/u/0/#search/hpc/FMfcgxwKjfBwmzbDDhCZKbGQMHzxLcxF
 
 #=====================
-#== TODO
+#== TODO 
 #=====================
+
+summarize lab meeting
+    lab kit
+make annoucement on lab 0 and lab 1 to delay deadline
+rejection 2 days before deadlines 
+
+here> configure new labtoP
+    here> how to detect direcotry root 
+
+here> check out Zhabiz paper format and make it fit mine. (survey paper)
 
 here> figure out whether markdown on github is properly geenrated
     here> do they use the same or different markdown syntax rules?

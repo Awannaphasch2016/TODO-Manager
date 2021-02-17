@@ -13,10 +13,34 @@
                         * Dov Catton
                         * Jaylan Johnson
                     * deliver
+                        * note:
+                            * 2 doesn't have correct address
+                            * 2 doesn't have znumber
                         * Alejandro Guerra 
-                        * Bryce Mcguire
-                        * Mohammad Chowdhury
-                        * Aaron Baptiste
+                            * znumber = None  
+                            * zipcode = 33470 
+                            * street addre = 16560 86th St.N.
+                            * city = Loxahatchee
+                            * state = FL
+                        * Bryce Mcguire 
+                            * znumber = None
+                            * zipcode = 33327-1213
+                            * street addre = 549 Slippery Rock Rd
+                            * city = , Weston
+                            * state = , Fl
+                        * Mohammad Chowdhury 
+                            * znumber = 23550506
+                            * zipcode = , 33409-4895
+                            * street addre = 2800 OSWEGO AVE
+                            * city = None
+                            * state = None
+                        * Aaron Baptiste (already shipped)
+                            * znumber = z23548569 
+                            * zipcode = None
+                            * street addre = None
+                            * city = None
+                            * state = None
+                        * Martyna Dziedzic (has address/intnational)
                 * Alhabi (01)
                     * not yet decide
                     * pickup 
@@ -24,9 +48,33 @@
                         * Brandon Lyons
                         * Angel Velasquez
                     * deliver
+                        * note:
+                            * 3 were missed from spreadsheet
+                            * 1 has already shipped
+                        * Avigail Martinez
+                            * znumber = Z23425445
+                            * zipcode = 33324-4422
+                            * street addre = 9470 Tangerine Pl
+                            * city = Davie
+                            * state = FL
                         * Mayte Ramirez-Calderon
-                        * roger reyes
-                        * Shay Reardon
+                            * znumber = 23495861 
+                            * zipcode = 33434-4979
+                            * street addre = 246 SUFFOLK F
+                            * city = Boca Raton
+                            * state = FL
+                        * roger reyes ()
+                            * znumber = 23517522
+                            * zipcode = 33409-5033 
+                            * street addre = 1501 OSCEOLA DR
+                            * city = WEST PALM BEACH
+                            * state = FL
+                        * Shay Reardon (already shipped)
+                            * znumber = 23494272
+                            * zipcode = 33643-9301
+                            * street addre = 6204 WILOUGHBY CIR
+                            * city = Lake Worth 
+                            * state = FL
         * for pick up
             * note
                 * pick up time will be extended to the end of the week (Sunday 2/14)
@@ -38,7 +86,11 @@
             * students have to prepaid for shipping label for another kits.
         
 # TODO
-here> make sure I have address for studetns who needs labs kits to be shipped.
-    here> proceed with the packing if needed 
-    ship the kit
+ship all kits
+    who are the three students that address cannot be found
+    are there more student from my emails that haven't get recevied kits?
+        are there on the list? if there are thier address givendo they have address??
+    here> make sure I have address for studetns who needs labs kits to be shipped.
+        here> proceed with the packing if needed 
+        ship the kit
 
