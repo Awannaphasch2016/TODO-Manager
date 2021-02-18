@@ -61,21 +61,10 @@ hdf5 and data compression related content
 == TODO
 ===================
 
-* here> do lazy predict for time series 
-    * goal
-        * see if it works on time series
-    * here> how is the training and testing processed done?
-        * what is the data set looks like 
-            * how does sklearn.utils.Bunch work?
-        * what is the shape of training/test set?
-        * what can be configed?
-            * can we config evaluation metrics?
-            * can we config evaluation process?
-        * how does lazy predict evaluate?
-        * here> figure out how lazypredict perform split
-            * here> go through its implementation 
-                * here> can I just copy its workflow?
-                * here> what can my code do that lazypredict cannot do?
+* here> use lazypredict by splitting into training and test
+    * note:
+        * is there a way to implement mlp such that it can be iterate through time?
+            * if not mlp that I am trying to implment is simply this one (with the trade off that I cann't do parameter tuning)
 
 here> implement the follwing as baseline
     here> mlp
