@@ -61,27 +61,21 @@ hdf5 and data compression related content
 == TODO
 ===================
 
-* deploy streamlit
-* here> use streamlit to show data easily 
+* implement the follwing as baseline
+    * lstm
+    * gam
+    * arima
+* use gpu ( if needed)
+* here> deploy streamlit
+* apply next day/3/5/week.
+* use streamlit to show data easily 
     * design what I want to show on the dashboard
         * here> create hyperparameter tuning 
         * here> work on data profiling/sweetviz + streamlit
             * here> sweetviz
                 * ref
                     * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
-
-implement the follwing as baseline
-    here> gpu
-    lstm
-    gan 
-
-apply next day/3/5/week.
-
-implement code to run lstm and mlp on cloud
-
-create 50 states.folder outputs
-    image and performance have to be indiffernect place
-    use grep to mv group data of the same state and send to correct location
+* parameter tuning
 
 try to set up debugging?
     here> try to not use it until i relaly need to (train myself to simplified things for debugging)

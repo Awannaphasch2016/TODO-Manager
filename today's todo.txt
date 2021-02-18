@@ -63,16 +63,20 @@ response from HPC
 #== TODO 
 #=====================
 
-here> go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
-go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 here> figure how to enable GPU
     here> try to install Nvidia driver 
         ref: 
             https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=WSLUbuntu&target_version=20&target_type=deblocal
             https://www.youtube.com/watch?v=TgGm27_kroI&ab_channel=Ga%C5%A1per%C4%8Cefarin
             https://stackoverflow.com/questions/54264338/why-does-pytorch-not-find-my-nvdia-drivers-for-cuda-support
+deploy on heroku
+    ref
+        https://www.youtube.com/watch?v=2VB09IT3r44&ab_channel=JCharisTech%26J-Secur1ty 
+        https://github.com/Jcharis/Streamlit_DataScience_Apps
 
+go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
+go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 
 how to use terraform with ansible using AWS example 
 
