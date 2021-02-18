@@ -54,20 +54,24 @@ hdf5 and data compression related content
 
 ===================
 == Waiting
-===================
+=================== 
 
 
 ==================== 
 == TODO
 ===================
 
-* here> use lazypredict by splitting into training and test
-    * note:
-        * is there a way to implement mlp such that it can be iterate through time?
-            * if not mlp that I am trying to implment is simply this one (with the trade off that I cann't do parameter tuning)
+* deploy streamlit
+* here> use streamlit to show data easily 
+    * design what I want to show on the dashboard
+        * here> create hyperparameter tuning 
+        * here> work on data profiling/sweetviz + streamlit
+            * here> sweetviz
+                * ref
+                    * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
 
-here> implement the follwing as baseline
-    here> mlp
+implement the follwing as baseline
+    here> gpu
     lstm
     gan 
 
