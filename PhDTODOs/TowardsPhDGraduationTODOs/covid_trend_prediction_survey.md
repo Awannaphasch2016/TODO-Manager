@@ -8,7 +8,10 @@
 #WAITING
 
 #OPTIMIZATION
-
-#TODO
 * here> writing 'summary' of paper I have read in overleaf.
     * figure out a way to markdown in vim -> convert to latext -> upload to overleaf
+
+#TODO
+* here> fix github mark down 
+* read 1 more paper today
+* check out Zhabiz paper format and make it fit mine. (survey paper)

@@ -63,54 +63,17 @@ response from HPC
 #== TODO 
 #=====================
 
-summarize lab meeting
-    lab kit
-make annoucement on lab 0 and lab 1 to delay deadline
-rejection 2 days before deadlines 
 
-here> configure new labtoP
-    here> how to detect direcotry root 
-
-here> check out Zhabiz paper format and make it fit mine. (survey paper)
-
-here> figure out whether markdown on github is properly geenrated
-    here> do they use the same or different markdown syntax rules?
+here> figure how to enable GPU
+    here> try to install Nvidia driver 
+        ref: 
+            https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=WSLUbuntu&target_version=20&target_type=deblocal
+            https://www.youtube.com/watch?v=TgGm27_kroI&ab_channel=Ga%C5%A1per%C4%8Cefarin
+            https://stackoverflow.com/questions/54264338/why-does-pytorch-not-find-my-nvdia-drivers-for-cuda-support
+---- 7.50 pm 
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 
-summarize my deep learning stack
-    tools are categorized into 
-        data
-            data discovery + metadata 
-                Amundsen
-            data profiling 
-                streamlit 
-                pandas profiling
-            data exploration 
-                visidata
-            data visualziation
-                
-        model 
-            cput to gpu
-                hummingbird.ml
-    separate into inside vs outside terminal 
-        
-
-learn how to use folding 
-    goal:
-        learn how to move around get overvie info about pages quckly
-            I can move around much quicker with this. (also I don't need to use tags)
-    for markdown
-        how to fold/unfold everything
-        how to fold/unfold everything under it 
-        how to fold top level of the content cursor is on  
-    for code 
-
-learn all the tricks from this channels 
-    Goal: 
-        acknowledge what I can do with cmd with terminal
-    https://www.youtube.com/watch?v=jLC-bOx28Tg&ab_channel=RobertElderSoftware
----- 1 am 
 
 how to use terraform with ansible using AWS example 
 

@@ -16,9 +16,6 @@
 
 figure out a way to store files for the project in S3
 
-===================
-== Waiting
-===================
 hdf5 and data compression related content 
     read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
         here> how is hdf5 related to sparse matric implementation?
@@ -46,9 +43,44 @@ hdf5 and data compression related content
             https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
 
 
-====================
+* checkout humingbird.ml
+    * Error:
+        * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+            * here> hwo to check gpu from linux
+                * here> check gpu with cuda toolkits
+    * goal:
+        * speed comparison
+    * model -> pytroch -> gpu
+
+===================
+== Waiting
+===================
+
+
+==================== 
 == TODO
 ===================
+
+* here> do lazy predict for time series 
+    * goal
+        * see if it works on time series
+    * here> how is the training and testing processed done?
+        * what is the data set looks like 
+            * how does sklearn.utils.Bunch work?
+        * what is the shape of training/test set?
+        * what can be configed?
+            * can we config evaluation metrics?
+            * can we config evaluation process?
+        * how does lazy predict evaluate?
+        * here> figure out how lazypredict perform split
+            * here> go through its implementation 
+                * here> can I just copy its workflow?
+                * here> what can my code do that lazypredict cannot do?
+
+here> implement the follwing as baseline
+    here> mlp
+    lstm
+    gan 
 
 apply next day/3/5/week.
 
