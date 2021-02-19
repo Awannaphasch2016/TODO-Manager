@@ -43,14 +43,6 @@ hdf5 and data compression related content
             https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
 
 
-* checkout humingbird.ml
-    * Error:
-        * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
-            * here> hwo to check gpu from linux
-                * here> check gpu with cuda toolkits
-    * goal:
-        * speed comparison
-    * model -> pytroch -> gpu
 
 ===================
 == Waiting
@@ -60,13 +52,39 @@ hdf5 and data compression related content
 ==================== 
 == TODO
 ===================
+* here> figure how to enable GPU
+    * here> try to install Nvidia driver 
+        * ref: 
+            * CUDA toolkits
+                * https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=WSLUbuntu&target_version=20&target_type=deblocal
+            * installing nvidia driver
+                * https://www.youtube.com/watch?v=GljujCLixzE&ab_channel=EricMunoz
+                * https://www.youtube.com/watch?v=TgGm27_kroI&ab_channel=Ga%C5%A1per%C4%8Cefarin
+                * https://stackoverflow.com/questions/54264338/why-does-pytorch-not-find-my-nvdia-drivers-for-cuda-support
+        * read documentation about nvcc
+            * equivalent of TAsk Manager performance on linux?
+                * here> GPU stress testing (no gui)
 
+* predict next 1/7/30
+    * goal
+        * decide on best performance window length
 * implement the follwing as baseline
+    * tsme (transfer learning)
     * lstm
     * gam
     * arima
+* put all Outpus content to s3 storage 
 * use gpu ( if needed)
-* here> deploy streamlit
+    * enable gpu
+    * checkout humingbird.ml
+        * Error:
+            * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+                * here> hwo to check gpu from linux
+                    * here> check gpu with cuda toolkits
+        * goal:
+            * speed comparison
+        * model -> pytroch -> gpu
+    * here> deploy streamlit
 * apply next day/3/5/week.
 * use streamlit to show data easily 
     * design what I want to show on the dashboard
