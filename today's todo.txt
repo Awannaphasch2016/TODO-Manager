@@ -53,26 +53,31 @@ learn opensource.guide (this is from a link in "community" tab on github)
 
 read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
+
+update from window 10 home to window 10 pro
 #=====================
 #== WAITING
 #=====================
 response from HPC
     https://mail.google.com/mail/u/0/#search/hpc/FMfcgxwKjfBwmzbDDhCZKbGQMHzxLcxF
 
+
 #=====================
 #== TODO 
 #=====================
 
-
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
-
-deploy on heroku
-    ref
-        here> https://github.com/Jcharis/Streamlit_DataScience_Apps
-
-go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+gym 
+eat
+here> go to Working/TA_todo.md
+go to PhDTODOs/RATODOs/fau_api_todo.txt
+-- 6 pm
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
-update from window 10 home to window 10 pro
+go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
+go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+
+
+
+
 how to use terraform with ansible using AWS example 
 
 ProjectBasedTODOs/LearningProjects/learning_MLOps_todo.md

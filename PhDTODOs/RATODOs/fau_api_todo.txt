@@ -179,6 +179,8 @@ user requirment
 #==WAITING
 #=====================
 
+here> make reddit works
+
 how to deploy twitter kinesis with serverless (lambda)?
     ref: https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/ 
         I don't think kubeless is related to serverless.
@@ -426,16 +428,37 @@ caching
 #==TODO
 #=====================
 
-here> instead of putting in FAU Cluster, run the program on AWS EC2:
-    and monitor it with codepipline
+* here> use terraform and ansible to automate the instruction for reddit stream data
+    * create a demo that use terrafrom and ansible to connect to the following 
+        * s3, lambda, kinesis, dynamodb, ec2 
+    * here> capture reddit stream
+        * requirement
+            * Kinesis -> S3 -> Lambda -> DynamoDB 
+                * description: store original stream data in S3, and store modified data in DynamoDb
+                *  workflow step by step:
+                    1. kinesis:faucovidstream_input
+                    2. firehose:faucovidstream_from_kinesis_to_s3
+                    3. s3:faucovidstream 
+                    4. lambda:faucovidstream
+                    5. kinesis:faucovidstreamsentiment
+                    6. dynamoDB:faucovidstream_twitter_with_sentiment 
+        * implement Kinesis -> S3 -> Lambda -> DynamoDB 
+            * try to only use boto3 or aws cli
+                * create resource with aws cli
+        * add reddit paramer 
+            here> create path in the api.
+                note: see how twitter param is implemented as (use boto3.)
+                    here> how to create api gateway?
+                        which code do i refer to? do i have any?
+                        here> what does TwitterLambdaS3Trigger do?
+                            note: 
+                                can the process be done in boto3? or it must be done in aws cli?
+                                    lets use sam to do that.
 
-put it on to cluster 
-  * how to send command from local computer to be run on remote server?
-    * how to slurm to run cluster without time limit? 
-        * ans:
-            * 'sbatch --requeue'
-    * how can I output to /dev/null/ without sudo 
 
+* note:
+    * instead of putting in FAU Cluster, run the program on AWS EC2:
+        and monitor it with codepipline
 
 * move batch data of the missing date from s3 to dynamodb
     * I need to modify some data structure from data stored in s3 and send to store in dynamodb
@@ -446,30 +469,6 @@ put it on to cluster
 implement demo to pull data (with sentiment) from the last 24 hours in batch.
     send to zhabiz with complete.
 
-* here> capture reddit stream
-    * requirement
-        * Kinesis -> S3 -> Lambda -> DynamoDB 
-            * description: store original stream data in S3, and store modified data in DynamoDb
-            *  workflow step by step:
-                1. kinesis:faucovidstream_input
-                2. firehose:faucovidstream_from_kinesis_to_s3
-                3. s3:faucovidstream 
-                4. lambda:faucovidstream
-                5. kinesis:faucovidstreamsentiment
-                6. dynamoDB:faucovidstream_twitter_with_sentiment 
-    * implement Kinesis -> S3 -> Lambda -> DynamoDB 
-        * try to only use boto3 or aws cli
-            * create resource with aws cli
-
-    * add reddit paramer 
-        here> create path in the api.
-            note: see how twitter param is implemented as (use boto3.)
-                here> how to create api gateway?
-                    which code do i refer to? do i have any?
-                    here> what does TwitterLambdaS3Trigger do?
-                        note: 
-                            can the process be done in boto3? or it must be done in aws cli?
-                                lets use sam to do that.
 
                         set s3 to detect reddit kinesis
                             create s3 for reddit raw stream data
@@ -478,6 +477,15 @@ implement demo to pull data (with sentiment) from the last 24 hours in batch.
                         In lambda, input (from s3) is transform and send to dynamodb and another stream called 'faucovidstreamsentiment_reddit'
                             how to combine multiple stream into 1?
             
+
+put it on to cluster 
+  * how to send command from local computer to be run on remote server?
+    * how to slurm to run cluster without time limit? 
+        * ans:
+            * 'sbatch --requeue'
+    * how can I output to /dev/null/ without sudo 
+
+
 convert searchable fields to lowercase (just do for 'text' field)
     note: 
         modification should be done in lambda_function()
