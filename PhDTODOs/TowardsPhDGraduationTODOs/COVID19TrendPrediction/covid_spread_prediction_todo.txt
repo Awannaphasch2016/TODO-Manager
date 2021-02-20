@@ -42,28 +42,79 @@ hdf5 and data compression related content
         ref
             https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
 
-
-
-===================
-== Waiting
-=================== 
-
-
-==================== 
-== TODO
-===================
 * here> figure how to enable GPU
     * here> try to install Nvidia driver 
         * ref: 
             * CUDA toolkits
                 * https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=WSLUbuntu&target_version=20&target_type=deblocal
             * installing nvidia driver
+                * here> https://www.youtube.com/watch?v=TgGm27_kroI&ab_channel=Ga%C5%A1per%C4%8Cefarin
                 * https://www.youtube.com/watch?v=GljujCLixzE&ab_channel=EricMunoz
-                * https://www.youtube.com/watch?v=TgGm27_kroI&ab_channel=Ga%C5%A1per%C4%8Cefarin
                 * https://stackoverflow.com/questions/54264338/why-does-pytorch-not-find-my-nvdia-drivers-for-cuda-support
         * read documentation about nvcc
             * equivalent of TAsk Manager performance on linux?
                 * here> GPU stress testing (no gui)
+
+
+===================
+== Waiting
+=================== 
+* ask people from fiver for gpu setup help
+
+
+==================== 
+== TODO
+===================
+
+* here> how to deploy with hekoru
+update from window 10 home to window 10 pro
+how to use terraform with ansible using AWS example 
+    * here> work on example app (using heroku sample app)
+        * here> how to deploy heroku with git
+            * here> where are the project? (python project)
+                * read the code to understand the code
+                * here> create my own with the easiest 
+                    * create moset basic web page to be deploy on heory
+                        * reff
+                            * https://github.com/heroku-python/bottle-helloworld
+                        * error:
+                            * here> when trying to 'heroku open'
+
+                                Application error
+                                An error occurred in the application and your page could not be served. If you are the application owner, check your logs for details. You can do this from the Heroku CLI with the command
+                                heroku logs --tail
+                                
+
+                    * how to write my own procfile?
+                * read documentation on the following topic
+                    * ToC
+                        * here> creating a heorku remote
+                        * here> deploing code
+                    * heroku architecture
+                        * how keroku works
+                        * here> terminoloy
+                        * process model
+                    * deployment
+                        * here> preparing a codebase for Heroku deployment
+                        * deploying with git 
+
+
+    * why is 8501 busy?
+        * why is no natstate?
+            * here> what is thebest practice for networking in linux?
+                * lets learn basic of networking on linux
+                    * here> what are networking domain that I need to learn
+                        * ref
+                            * article
+                                * https://www.techrepublic.com/article/10-more-quick-tips-to-make-linux-networking-easier/
+                                * how to check if port is in used on linux or Unix
+                                    * `https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/`
+                            * turorial 
+                                * https://www.youtube.com/watch?v=fHgk7aDGn_4&ab_channel=JosephDelgadillo
+        * how to close port 8501
+            * how to show open port in linux (wsl)
+            * ref:
+                * https://www.techrepublic.com/article/how-to-locate-and-close-an-open-port-in-linux/ 
 
 * predict next 1/7/30
     * goal

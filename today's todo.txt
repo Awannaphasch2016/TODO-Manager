@@ -46,7 +46,7 @@ Mypy Typing
 #Note: no need to be done right now, but if it is done it will be better.
 #=====================
 learn how to use feature of github 
-    such as insight
+    such as insig
 
 learn opensource.guide (this is from a link in "community" tab on github)
     https://opensource.guide/
@@ -64,15 +64,15 @@ response from HPC
 #=====================
 
 
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
+
 deploy on heroku
     ref
-        https://www.youtube.com/watch?v=2VB09IT3r44&ab_channel=JCharisTech%26J-Secur1ty 
-        https://github.com/Jcharis/Streamlit_DataScience_Apps
+        here> https://github.com/Jcharis/Streamlit_DataScience_Apps
 
-go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
-
+update from window 10 home to window 10 pro
 how to use terraform with ansible using AWS example 
 
 ProjectBasedTODOs/LearningProjects/learning_MLOps_todo.md
