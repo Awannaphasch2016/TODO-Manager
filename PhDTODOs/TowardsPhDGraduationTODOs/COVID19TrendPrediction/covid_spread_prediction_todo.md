@@ -50,21 +50,21 @@
 
 # TODO
 
+* implement the follwing as baseline
+    * tsme (transfer learning)
+    * here> lstm
+        * here> lstm with window sliding validation
+    * gam
+    * arima
+
 * predict next 1/7/30
     * goal
         * decide on best performance window length
 
-* figure out why streamlit update so slowly? 
-    * is hat expected behavior?
 * deploy streamlit on heroku
     * ref
         * here> https://github.com/Jcharis/Streamlit_DataScience_Apps
 
-* implement the follwing as baseline
-    * tsme (transfer learning)
-    * lstm
-    * gam
-    * arima
 
 * put all Outpus content to s3 storage 
 * use gpu ( if needed)

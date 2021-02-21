@@ -66,6 +66,13 @@ response from HPC
 #== TODO 
 #=====================
 
+* here> list of things to download
+    * lets start using docker from now on
+    * wsl
+        * conda, x11, pip, fzf
+    * window
+        * roamresearch, everything
+* upgrade to window 10 pro 
 
 here> * touch pad too sensitive
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
