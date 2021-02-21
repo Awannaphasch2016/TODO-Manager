@@ -66,17 +66,11 @@ response from HPC
 #== TODO 
 #=====================
 
-gym 
-eat
-here> go to Working/TA_todo.md
-go to PhDTODOs/RATODOs/fau_api_todo.txt
--- 6 pm
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+
+here> * touch pad too sensitive
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spputread_prediction_todo.txt
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
-
-
-
+here> go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 how to use terraform with ansible using AWS example 
 

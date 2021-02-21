@@ -7,63 +7,65 @@
 
 # Optimization
 
-figure out a way to store files for the project in S3
+* figure out a way to store files for the project in S3
 
-hdf5 and data compression related content 
-    read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
-        here> how is hdf5 related to sparse matric implementation?
+* hdf5 and data compression related content 
+    * read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
+        * here> how is hdf5 related to sparse matric implementation?
+    * doesn't seem like it is worth learning for my case 
+        * here> try to complete the hdf5 kaggle 
+            * https://www.kaggle.com/tanderton/hdf5-conversion-for-fast-data-loading
+        * learn sparse matric
+    * working with many dataset in machine learning project
+        * hdf5 (with hiercical structure) vs h5py (data storage)?
+        * here> whhen to use hdf5 ?
+            * when to use hdf5
+            * learn about hdf5
+                * what small project to run? (deep learning related)
+            * what is the common problem of hdf5?
+            * how to load zip file to pandas without unzip it first? 
+            * how to convert in-memeory dataframe to HDF5 using compression
+            * sparse matrices make machine learning faster
+    * figure out a way to manage files using hdf5
+        * ref
+            * https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
 
-    doesn't seem like it is worth learning for my case 
-        here> try to complete the hdf5 kaggle 
-            https://www.kaggle.com/tanderton/hdf5-conversion-for-fast-data-loading
-        learn sparse matric
 
-    working with many dataset in machine learning project
-        hdf5 (with hiercical structure) vs h5py (data storage)?
-        here> whhen to use hdf5 ?
-            when to use hdf5
-            learn about hdf5
-                what small project to run? (deep learning related)
-
-            what is the common problem of hdf5?
-            how to load zip file to pandas without unzip it first? 
-            how to convert in-memeory dataframe to HDF5 using compression
-            sparse matrices make machine learning faster
-
-
-    figure out a way to manage files using hdf5
-        ref
-            https://stackoverflow.com/questions/59757016/keras-modelcheckpoint-overwrites-previous-best-checkpoint-when-training-resumed
-
+* figure how to enable GPU
+    * note
+        * Window version
+            * Window 10 Insider Preview 21318.1000 (rs_prerelease)
+        * 
+    * here> try to install Nvidia driver 
+        * ref: 
+            * use PyTorch and TensorFlow with an NVIDIA GPU in the Windows Linux Subsystem (WSL)
+                * https://www.youtube.com/watch?v=mWd9Ww9gpEM
+        * read documentation about nvcc
+            * equivalent of TAsk Manager performance on linux?
+                * here> GPU stress testing (no gui)
 
 
 # Waiting
 * ask people from fiver for gpu setup help
 
-
-* here> figure how to enable GPU
-    * note
-        * Window version
-            * Window 10 Insider Preview 21318.1000 (rs_prerelease)
-    * here> try to install Nvidia driver 
-        * ref: 
-            * use PyTorch and TensorFlow with an NVIDIA GPU in the Windows Linux Subsystem (WSL)
-                * https://www.youtube.com/watch?v=mWd9Ww9gpEM
 # TODO
-
-* deploy streamlit on heroku
-    * ref
-        * here> https://github.com/Jcharis/Streamlit_DataScience_Apps
 
 * predict next 1/7/30
     * goal
         * decide on best performance window length
+
+* figure out why streamlit update so slowly? 
+    * is hat expected behavior?
+* deploy streamlit on heroku
+    * ref
+        * here> https://github.com/Jcharis/Streamlit_DataScience_Apps
 
 * implement the follwing as baseline
     * tsme (transfer learning)
     * lstm
     * gam
     * arima
+
 * put all Outpus content to s3 storage 
 * use gpu ( if needed)
     * enable gpu

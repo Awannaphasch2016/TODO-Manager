@@ -84,21 +84,15 @@
                 * students can send TA time and TA will arrange pick up time accordingly
         * for shipping
             * students have to prepaid for shipping label for another kits.
-        
+
+* grading criteria 
+    * reference
+        * mail
+            * https://mail.google.com/mail/u/0/#sent/KtbxLvHLnlnnFxJZPwVcTnxnrmLrqvCSQV
+* deadline rules 
+    * reference
+        * mail 
+            * https://mail.google.com/mail/u/0/#sent/FFNDWLvtksXVVHTzPjDtcWcMpgSJhVSK
+
 # TODO
-* annoucnet to student about the penelty and deadline thing
-    * email ta draft
-    * Andeit review and post
-
-* share roam research CDA page to Andrei and Alhajab
-* create TA lab grad criteria for every labs
-
-* ship all kits
-    * who are the three students that address cannot be found
-    * are there more student from my emails that haven't get recevied kits?
-        * are there on the list? if there are thier address givendo they have address??
-    * here> make sure I have address for studetns who needs labs kits to be shipped.
-        * here> proceed with the packing if needed 
-        * ship the kit
-
 

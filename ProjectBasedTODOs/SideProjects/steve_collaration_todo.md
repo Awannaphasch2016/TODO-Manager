@@ -15,10 +15,4 @@
 # OPTIMIZATION
 # WAITING
 # TODO
-* here> check on steve github project
-    * check for steve github pizze update
-        * why do in eed to ipmort fastbook?
-        * support Facebook Graph API?
-        *  
--- 8 pm 
-
+* waiting steve todo manager and update mine accordingly

@@ -429,8 +429,15 @@ caching
 #=====================
 
 * here> use terraform and ansible to automate the instruction for reddit stream data
-    * create a demo that use terrafrom and ansible to connect to the following 
-        * s3, lambda, kinesis, dynamodb, ec2 
+    * how to use terraform with ansible?
+    * here> create a demo that use terrafrom and ansible to connect to the following 
+        * for each try terraform and ansible
+            * here> s3
+                * here> terraform 
+            * lambda
+            * kinesis
+            * dynamodb
+            * ec2 
     * here> capture reddit stream
         * requirement
             * Kinesis -> S3 -> Lambda -> DynamoDB 
