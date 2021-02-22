@@ -1,10 +1,6 @@
 #=====================
 #==NOTE
 #=====================
-what is suitable ec2 instance for machine leanring?
-     note: 
-        for our data science needs, we will most likely want to select something in the range of m5.large to m5.2xlarge, or a p2.xlarge for deep learning work. More details and pricing found here.
-
 #=====================
 #==QUESTION
 #=====================

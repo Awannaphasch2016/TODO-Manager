@@ -26,9 +26,9 @@ Q: what is the application of graph geenrative model?
 #=====================
 #==TODO
 #=====================
-here> go to ~/Documents/Reserches/reading_list.md
-    see if there are paper I havne't yet read
-    also see paper that I open up in gogole chorme
+* here> go to ~/Documents/Reserches/reading_list.md
+    * see if there are paper I havne't yet read
+    * also see paper that I open up in gogole chorme
 
 read Decoding Social Influence and the Wisdom of the
  Crowd in Financial Trading Network

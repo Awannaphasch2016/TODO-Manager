@@ -1,4 +1,9 @@
 # NOTE
+# REFERENCES
+* read this guy article + experiment + write about my experiment
+    * ref
+        * https://medium.com/@shashankprasanna
+            * greate article but no demo 
 
 # QUESTION
 
@@ -9,6 +14,7 @@
     * no need to be done right now, but if it is done it will be better.
 
 # TODO
+
 
 * here> write the following on my blog
     * title: "how to enable CUDA NVIDIA GPU in wsl2 for deep learning"

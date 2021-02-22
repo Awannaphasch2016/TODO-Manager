@@ -2,6 +2,9 @@
 == References
 ===================
 # Notes
+* what is suitable ec2 instance for machine leanring?
+     * note: 
+        * for our data science needs, we will most likely want to select something in the range of m5.large to m5.2xlarge, or a p2.xlarge for deep learning work. More details and pricing found here.
 
 # Question
 
@@ -44,22 +47,56 @@
             * equivalent of TAsk Manager performance on linux?
                 * here> GPU stress testing (no gui)
 
+* how to run gpu on windows?
+    * can I set up gpu to be run on windows?
 
 # Waiting
+
+
 * ask people from fiver for gpu setup help
+
+* learn how to use determined AI
+    * here> can this fit in my gpu work flow?
+        * here> read determined.ai documentation
+            * note
+                * each 
+            * detemrined cli 
+            * determined cluster
+
+* how to submit training jobs to Amazon SageMaker?
+    * note
+        * here> manage using SageMaker Python SDK
+    * watch different people workflow on sagemaker
+        * AWS live coding
+            * https://www.youtube.com/watch?v=lO224Iec-uI&ab_channel=AmazonWebServices
+
+    * learn AWS Deep Leanring AMIs
+    * learn AWS Deep Learning Container (DLC)
+
 
 # TODO
 
+* here> predict next 1/5/30
+    * goal
+        * decide on best performance window length
+    * here> PredictNext=7
+        * here> apply it to previous_day_prediction
+            * here> validate that the follwing 
+                * here> evaluation function 
+                * plot are correct
+
+    * PredictNext=30
+    * put number matric on to streamlit
+        * run streamlit
+
 * implement the follwing as baseline
-    * tsme (transfer learning)
+    * tgnn (transfer learning)
     * here> lstm
-        * here> lstm with window sliding validation
+        * here>lstm with window sliding validation
+        * send code to be trained in FAU HPC ()
     * gam
     * arima
 
-* predict next 1/7/30
-    * goal
-        * decide on best performance window length
 
 * deploy streamlit on heroku
     * ref

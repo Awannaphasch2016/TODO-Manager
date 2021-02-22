@@ -430,7 +430,7 @@ caching
 
 * here> use terraform and ansible to automate the instruction for reddit stream data
     * how to use terraform with ansible?
-    * here> create a demo that use terrafrom and ansible to connect to the following 
+    * create a demo that use terrafrom and ansible to connect to the following 
         * for each try terraform and ansible
             * here> s3
                 * here> terraform 
@@ -448,19 +448,17 @@ caching
                     3. s3:faucovidstream 
                     4. lambda:faucovidstream
                     5. kinesis:faucovidstreamsentiment
-                    6. dynamoDB:faucovidstream_twitter_with_sentiment 
-        * implement Kinesis -> S3 -> Lambda -> DynamoDB 
-            * try to only use boto3 or aws cli
-                * create resource with aws cli
-        * add reddit paramer 
-            here> create path in the api.
-                note: see how twitter param is implemented as (use boto3.)
-                    here> how to create api gateway?
-                        which code do i refer to? do i have any?
-                        here> what does TwitterLambdaS3Trigger do?
-                            note: 
-                                can the process be done in boto3? or it must be done in aws cli?
-                                    lets use sam to do that.
+                    6. here> dynamoDB:faucovidstream_twitter_with_sentiment 
+                        * here> haven't yet implement part of dynamodB
+                        * add reddit paramer 
+                            here> create path in the api.
+                                note: see how twitter param is implemented as (use boto3.)
+                                    here> how to create api gateway?
+                                        which code do i refer to? do i have any?
+                                        here> what does TwitterLambdaS3Trigger do?
+                                            note: 
+                                                can the process be done in boto3? or it must be done in aws cli?
+                                                    lets use sam to do that.
 
 
 * note:
