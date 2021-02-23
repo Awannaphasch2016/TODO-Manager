@@ -105,4 +105,5 @@
         * Aaron Mills 
             * 100 %
 # TODO
-
+* here> send email to all TA and split workload by name 
+    * here> how many each each class?
