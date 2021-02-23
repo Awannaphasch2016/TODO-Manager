@@ -93,6 +93,16 @@
     * reference
         * mail 
             * https://mail.google.com/mail/u/0/#sent/FFNDWLvtksXVVHTzPjDtcWcMpgSJhVSK
-
+## Graded
+* lab 0
+    * live grading 
+        * Dov Catton
+            * 100 %
+        * Erika Stone
+            * 100 %
+* lab1
+    * live grading 
+        * Aaron Mills 
+            * 100 %
 # TODO
 

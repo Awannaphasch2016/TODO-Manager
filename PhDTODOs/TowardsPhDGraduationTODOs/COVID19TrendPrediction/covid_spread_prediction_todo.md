@@ -76,7 +76,22 @@
 
 # TODO
 
-* here> predict next 1/5/30
+* deploy streamlit
+    * ref
+        * deploy streamlit with heroku
+            * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
+    * here> move Outputs/ to S3, so I can access it from my deployed application
+
+* use streamlit to show data easily 
+    * here> design what I want to show on the dashboard
+        * here> create hyperparameter tuning 
+            * lets see what this is like
+        * here> work on data profiling/sweetviz + streamlit
+            * here> sweetviz
+                * ref
+                    * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
+
+* predict next 1/5/30
     * goal
         * decide on best performance window length
     * here> PredictNext=7
@@ -98,11 +113,6 @@
     * arima
 
 
-* deploy streamlit on heroku
-    * ref
-        * here> https://github.com/Jcharis/Streamlit_DataScience_Apps
-
-
 * put all Outpus content to s3 storage 
 * use gpu ( if needed)
     * enable gpu
@@ -116,13 +126,8 @@
         * model -> pytroch -> gpu
     * here> deploy streamlit
 * apply next day/3/5/week.
-* use streamlit to show data easily 
-    * design what I want to show on the dashboard
-        * here> create hyperparameter tuning 
-        * here> work on data profiling/sweetviz + streamlit
-            * here> sweetviz
-                * ref
-                    * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
+
+
 * parameter tuning
 
 * try to set up debugging?
