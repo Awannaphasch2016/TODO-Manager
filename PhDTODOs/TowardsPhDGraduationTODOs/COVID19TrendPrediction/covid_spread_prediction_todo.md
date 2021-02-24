@@ -52,7 +52,6 @@
 
 # Waiting
 
-
 * ask people from fiver for gpu setup help
 
 * learn how to use determined AI
@@ -76,11 +75,6 @@
 
 # TODO
 
-* deploy streamlit
-    * ref
-        * deploy streamlit with heroku
-            * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
-    * here> move Outputs/ to S3, so I can access it from my deployed application
 
 * use streamlit to show data easily 
     * here> design what I want to show on the dashboard
@@ -90,6 +84,7 @@
             * here> sweetviz
                 * ref
                     * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
+    * show 
 
 * predict next 1/5/30
     * goal
@@ -104,6 +99,15 @@
     * put number matric on to streamlit
         * run streamlit
 
+* here> deploy streamlit
+    * requirement 
+        * storage
+            * put all Outpus content to s3 storage 
+    * ref
+        * deploy streamlit with heroku
+            * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
+    * here> move Outputs/ to S3, so I can access it from my deployed application
+
 * implement the follwing as baseline
     * tgnn (transfer learning)
     * here> lstm
@@ -112,8 +116,6 @@
     * gam
     * arima
 
-
-* put all Outpus content to s3 storage 
 * use gpu ( if needed)
     * enable gpu
     * checkout humingbird.ml

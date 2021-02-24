@@ -104,3 +104,34 @@
         * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
 # WAITING
 # TODO
+* setting workstation
+    * You could access by using Docker when using WSL 2.
+        * ref
+            * https://docs.nvidia.com/cuda/wsl-user-guide/index.html#setting-containers
+    * update my BIOS
+        * hardware driver 
+            * bios
+                * ref
+                    * http://drivers.razersupport.com//index.php?_m=downloads&_a=viewdownload&downloaditemid=4073&nav=0,350,992,1004
+    * here> check 'pyenv'+ 'pipenv'
+        * comment from franciscojossol
+            * >  # Normally you have to use Pyenv in order to install all the versions you need for your local environments
+            * ❯ # Then, you could setup local environments just by creating a Pipfile in a folder and
+            * ❯ # Using pipenv for completing its configuration, selecting the Python version you want to use.
+            * ❯ # Maybe you want to use Python 3.8 in a folder and Python 3.5 at the other.
+            * ❯ # Tensorflow is not compatible with all of them.
+    * Choco package manager for windows
+    * rCUDA
+        * remote CUDA
+        * using a remote GPU by providing a DLL to connect to remote GPU.
+        * example 
+            * You have a powrfule GPU i nFrance, but you use a Huawei laptop in Russia. then you would liek to use your GPU (hwich you ahvei n fRAnce) form russia as if it was installed on your laptop
+    * MPI
+        * similar to determined AI
+    * synthetic cluster
+        * testing program that run on cluster
+    * Fan and Turbo for heat management Raer laptop
+    * apt-fast
+    * systemctl
+    * OpenMP + MPI + CUDa  + OpenCL
+    * mult
