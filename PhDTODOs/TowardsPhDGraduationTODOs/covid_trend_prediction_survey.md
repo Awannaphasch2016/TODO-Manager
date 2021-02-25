@@ -30,9 +30,13 @@
 #TODO
 
 * here> how to organize latex
-    * here> how to organize latex
+    * error
+    * here> how does command works in latex?
+        * how to use include
+        * try to use \newcommand in overleaf 
+            * does output behavior the same?
+    * how to organize latex
         * how to add /path in project
-        * what is latex terminal?
     * folder structure
         * zahbiz
             * figs
