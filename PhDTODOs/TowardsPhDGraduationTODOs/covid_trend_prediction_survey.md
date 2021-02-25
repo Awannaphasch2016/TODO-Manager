@@ -28,8 +28,21 @@
     * figure out a way to markdown in vim -> convert to latext -> upload to overleaf
 
 #TODO
-* here> lets add references 
-* how to organize latex
+
+* here> how to organize latex
+    * here> how to organize latex
+        * how to add /path in project
+        * what is latex terminal?
+    * folder structure
+        * zahbiz
+            * figs
+            * samples
+            * sections
+            * main.tex
+* lets add references 
+* how to oplo
+    * how to connect an Overleaf project with a repo on Github, GitLab or BitBucket?
+        * https://www.overleaf.com/learn/how-to/How_do_I_connect_an_Overleaf_project_with_a_repo_on_GitHub,_GitLab_or_BitBucket%3F
 * how to do latext in vim
     * ref
         * https://www.youtube.com/watch?v=wzs1TpFXTkA&ab_channel=PascalBrokmeier
