@@ -15,9 +15,20 @@
 
 # TODO
 
-
 * here> write the following on my blog
-    * title: "how to enable CUDA NVIDIA GPU in wsl2 for deep learning"
+    * here> title: "Workflow/using zathura with pdf in wsl"
+    * title: "Workflow/living inside terminal"
+        * description
+            * explain my workflow about how I use vim + tmux + fzf + zsh
+    * title: "Workflow/Data Science | ML | DL/living inside terminal"
+        * desctiption
+            * explains data science workflow about staying close to terminal
+                * Roam Research/Deep Learning Stack
+    * title: "Workflow/Data Science | ML | DL/full stack Deep Learning"
+        * description
+            * explain how my workflow works see 
+                * Roam Research/Deep Learning Stack
+    * title: ""
     * Seedling: Categroized and Synthesized - a new paradigm
     * write and article about TODO-manager including the following topic
         * how todo list can be used to help reduce collaboration friction

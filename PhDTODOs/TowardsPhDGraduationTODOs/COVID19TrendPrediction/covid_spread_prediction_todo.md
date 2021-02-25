@@ -75,16 +75,45 @@
 
 # TODO
 
+* here> speed up my scripts
+    * goal:
+        * no need to optimize for anything just make it run.
+    * here> run GPU on (windows -> koko cluster -> ec2)
+        * here> figure out how to login to fau cluster 
+        * run sample code with GPU in it.
+            * here> measure training and inference speed of model
+        * checkout humingbird.ml
+            * Error:
+                * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+                    * here> hwo to check gpu from linux
+                        * here> check gpu with cuda toolkits
+            * goal:
+                * speed comparison
+            * model -> pytroch -> gpu
+
+* send my code to be run on HPC.
+    * send my code to be run on HPC GPU.
+        * make sure I inkwo how to optimize code for GPU
+            * can I use GPU on windows?
 
 * use streamlit to show data easily 
-    * here> design what I want to show on the dashboard
+    * here> show evaluation metrics on streamlit 
+        * no need to deploy it. ( in case deploying it have speed differences)
+    * design what I want to show on the dashboard
         * here> create hyperparameter tuning 
             * lets see what this is like
         * here> work on data profiling/sweetviz + streamlit
             * here> sweetviz
                 * ref
                     * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
-    * show 
+    * deploy streamlit
+        * requirement 
+            * storage
+                * put all Outpus content to s3 storage 
+        * ref
+            * deploy streamlit with heroku
+                * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
+        * here> move Outputs/ to S3, so I can access it from my deployed application
 
 * predict next 1/5/30
     * goal
@@ -99,14 +128,6 @@
     * put number matric on to streamlit
         * run streamlit
 
-* here> deploy streamlit
-    * requirement 
-        * storage
-            * put all Outpus content to s3 storage 
-    * ref
-        * deploy streamlit with heroku
-            * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
-    * here> move Outputs/ to S3, so I can access it from my deployed application
 
 * implement the follwing as baseline
     * tgnn (transfer learning)
@@ -116,20 +137,9 @@
     * gam
     * arima
 
-* use gpu ( if needed)
-    * enable gpu
-    * checkout humingbird.ml
-        * Error:
-            * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
-                * here> hwo to check gpu from linux
-                    * here> check gpu with cuda toolkits
-        * goal:
-            * speed comparison
-        * model -> pytroch -> gpu
-    * here> deploy streamlit
+
+
 * apply next day/3/5/week.
-
-
 * parameter tuning
 
 * try to set up debugging?

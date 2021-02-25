@@ -100,10 +100,18 @@
             * 100 %
         * Erika Stone
             * 100 %
+        * Daniel Hardman
+        * Todd lee
 * lab1
     * live grading 
         * Aaron Mills 
             * 100 %
+        * Vincenzo Macri
+        * Daniel Hardman
+        * Cluadia Gonzalez
+        * Thiago Goncalves Vasconcelos
+        * Todd lee
+
 # TODO
 * here> send email to all TA and split workload by name 
     * here> how many each each class?

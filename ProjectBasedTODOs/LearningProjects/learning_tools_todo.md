@@ -137,17 +137,30 @@
     * systemctl
     * OpenMP + MPI + CUDa  + OpenCL
     * pytorch
-        * what to learn
+        * work hands-on the following
+            * speed up your algorithm (series)
+                * https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051
+            * Distributed Deep Learning with Horovod
+                * https://towardsdatascience.com/distributed-deep-learning-with-horovod-2d1eea004cb2 
+            * pytorch in HPC 
+                * https://researchcomputing.princeton.edu/pytorch 
+        * read about the following
+            * pytorch 
+                * distributed training
+                    * torch.dist.DistributedParallel
+                * multi-GPU training
+                    * torch.nn.DataParallel
+                * torchscript
+            * what is cudNN?
+            * what is benchmarking library?
+            * Horovod on Ray 
+                * https://www.youtube.com/watch?v=rEB3NPUoxMM&ab_channel=anyscale 
             * HPC is dying, and MPI is killing it
                 * https://www.dursi.ca/post/hpc-is-dying-and-mpi-is-killing-it.html
-            * distributed training in pytorch 
-                * https://jdhao.github.io/2019/11/01/pytorch_distributed_training/
-            * where to start with distributed training?
-                * https://www.reddit.com/r/learnmachinelearning/comments/ahwn2r/where_to_start_with_distributed_training/
-            * hydra - a fresh look at configuration for machine leanring project
-                * https://medium.com/pytorch/hydra-a-fresh-look-at-configuration-for-machine-learning-projects-50583186b710
-            * keeping up with pytorching lighting and hydra
-                * https://towardsdatascience.com/keeping-up-with-pytorch-lightning-and-hydra-31e8ed70b2cc
+            * here> ray with slurm 
+                * https://docs.ray.io/en/master/cluster/slurm.html
+            * pytorch with lsurm
+                * https://www.google.com/search?q=pytorch+with+slurm&rlz=1C1CHBF_enUS941US941&oq=pytorch+with+slurm&aqs=chrome..69i57.4724j0j7&sourceid=chrome&ie=UTF-8
             * pytroch multi processing
                 * ref
                     * github
@@ -158,27 +171,12 @@
             * CPU threading and torchscript inference
                 * ref
                     * https://pytorch.org/docs/stable/notes/cpu_threading_torchscript_inference.html
-            * 17 easy of making pytorch training faster 
-                * https://www.reddit.com/r/MachineLearning/comments/kvs1ex/d_here_are_17_ways_of_making_pytorch_training/
             * performance tuning
                 * https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html
             * doing deep learning in parallel
                 * https://esciencegroup.com/2020/01/08/doing-deep-learning-in-parallel-with-pytorch/
-            * pytorch in HPC 
             * torch script + pytorch JIT?
                 * https://www.youtube.com/watch?v=2awmrMRf0dA&ab_channel=PyTorch
-            * speed up your algorithm (series)
-                * https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051
-            * writing fast pytroch
-                * https://www.dangdatascience.com/articles/writing-fast-pytorch/
-            * 7 tips to maximize pytroch performance
-                * https://towardsdatascience.com/7-tips-for-squeezing-maximum-performance-from-pytorch-ca4a40951259
-            * 9 tips for training lighting fast neural networks In pytorch
-                * https://towardsdatascience.com/9-tips-for-training-lightning-fast-neural-networks-in-pytorch-8e63a502f565
-            * Distributed Deep Learning with Horovod
-
-                * https://towardsdatascience.com/distributed-deep-learning-with-horovod-2d1eea004cb2 
-
         * parallelism  
             * multi-core, multi-thread
             * GPU
@@ -186,6 +184,3 @@
         * distributed 
             * GPU
             * 1 computer vs HPC
-    * multi-core computing library for deep learning?
-    * Horovod
-        * 
