@@ -35,27 +35,19 @@
         * how to use include
         * here> try to use \newcommand in overleaf 
             * Are output behavior the same?
-    * how to organize latex
-        * how to add /path in project
-    * folder structure
-        * zahbiz
-            * figs
-            * samples
-            * sections
-            * main.tex
 
 #OPTIMIZATION
 
 
 #TODO
 
-* here> add template to main.tex
-* lets add references 
-    * here> how to add image
-        * how to use \include
-            * how to set project root
-        * hwo to make the proejct dir = a root dir 
-    * hwo to add bib reference?
+* here> lets add references 
+    * here> hwo to add bib reference?
+        * here> bib reference management
+            * what is bibtex?
+            * here> get bib of all my ref papers
+
+* what are section of my papers?
 * deleted my test repo of covid19 survey -> add dr zhu project to github -> clone it locally 
 * how to do latext in vim
     * ref
