@@ -23,18 +23,18 @@
 
 #WAITING
 
-#OPTIMIZATION
-* here> writing 'summary' of paper I have read in overleaf.
-    * figure out a way to markdown in vim -> convert to latext -> upload to overleaf
-
-#TODO
-
 * here> how to organize latex
+    * ref
+        * https://tex.stackexchange.com/questions/21904/input-and-absolute-paths
+        * how to work with large projects
+            * https://tex.stackexchange.com/questions/64199/how-to-work-with-large-projects
+        * hwo to organize large documents in small nested folders
+            * https://tex.stackexchange.com/questions/227650/how-to-organize-large-documents-in-small-nested-folders
     * error
     * here> how does command works in latex?
         * how to use include
-        * try to use \newcommand in overleaf 
-            * does output behavior the same?
+        * here> try to use \newcommand in overleaf 
+            * Are output behavior the same?
     * how to organize latex
         * how to add /path in project
     * folder structure
@@ -43,13 +43,23 @@
             * samples
             * sections
             * main.tex
+
+#OPTIMIZATION
+
+
+#TODO
+
+* here> add template to main.tex
 * lets add references 
-* how to oplo
-    * how to connect an Overleaf project with a repo on Github, GitLab or BitBucket?
-        * https://www.overleaf.com/learn/how-to/How_do_I_connect_an_Overleaf_project_with_a_repo_on_GitHub,_GitLab_or_BitBucket%3F
+    * here> how to add image
+        * how to use \include
+            * how to set project root
+        * hwo to make the proejct dir = a root dir 
+    * hwo to add bib reference?
+* deleted my test repo of covid19 survey -> add dr zhu project to github -> clone it locally 
 * how to do latext in vim
     * ref
-        * https://www.youtube.com/watch?v=wzs1TpFXTkA&ab_channel=PascalBrokmeier
+        * https://www.youtube.com/watch?v=wzs1TpFXTkA&ab_channel=PascalBrokmeier)
         * https://www.youtube.com/watch?v=Mphdtdv2_xs&ab_channel=LukeSmith
         * https://www.youtube.com/watch?v=92QapmKKqKg&ab_channel=ChristopherFusting
     * error

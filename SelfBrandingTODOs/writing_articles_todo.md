@@ -16,7 +16,8 @@
 # TODO
 
 * here> write the following on my blog
-    * here> title: "Workflow/using zathura with pdf in wsl"
+    * here> title: "Workflow/zathura to render Pdf from Latex in wsl"
+    * title: "Workflow/version control latex for team-integrating between github and overleaf."
     * title: "Workflow/living inside terminal"
         * description
             * explain my workflow about how I use vim + tmux + fzf + zsh
