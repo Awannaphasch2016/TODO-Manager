@@ -38,14 +38,22 @@
 
 #OPTIMIZATION
 
+* here> practice hotkeys for vim-tex 
+    * requirements
+        * (do not overly custermised, use things that can alwasy be used forever)
 
 #TODO
 
 * here> lets add references 
     * here> hwo to add bib reference?
         * here> bib reference management
+            * goal 
+                * bib managerment that goes beyond 1 paper.
+                    * bib managements that can be used with latex.
             * what is bibtex?
-            * here> get bib of all my ref papers
+            * here> best way to manage bib?
+                * here> how to maintain citation for your reference 
+            * strategies specific to AI | CS | math | physics
 
 * what are section of my papers?
 * deleted my test repo of covid19 survey -> add dr zhu project to github -> clone it locally 
