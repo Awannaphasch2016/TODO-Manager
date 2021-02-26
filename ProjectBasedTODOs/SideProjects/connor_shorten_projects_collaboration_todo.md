@@ -9,17 +9,42 @@
     * Cluster sharing and resource management
     * Model Deployment optimization
     * Model serving
+
+* how does determinedAI define their value?
+    * 'we reduce time-to-market by increasing developer productivity, improving resource (GPU) utilization, and reducing risk.
+
+* what are competitor of DetermiendAI?
+    * aka
+        * which categories of product is determinedAI
+    * rank by popularity
+        * Ray 
+        * Horovod
 # REFERENCES 
 # OPTIMIZATION
 # WAITING
 # TODO
-https://github.com/Awannaphasch2016/TODO-Manager/blob/main/ProjectBasedTODOs/SideProjects/connor_shorten_projects_collaboration_todo.txt
-* here> go to ProjectBasedTODOs/LearningProjects/learning_MLOps_todo.md
-    * Goal
-        * `try using determiend AI to run sample deep learning project.`
+* here> create demo of distributed learning using Ray.
+    * note:
+        * though Ray is a competitor of DeterminedAI, Ray has, at the current moment, the most support and most contributed open s
+            * Due to quality of documentation + supported community at the moment, learning ray will be alot easier. Also, knowing
+             Ray will helps me understand DeterminedAI product as well since thier underlying principle is pretty much the same.
+    * reference
+        * my notes on Ray 
+            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/ByYwSn2w9
+                * if you can't see the content, email/text me. Permission maybe incorrect.
 
--- deadline 2/21/2021--------
+-- deadline 2/28/2021 
 
+* find company doing GNN with > 10 mils A series
+    * figure out how to go about finding startup at all?
+        * techcrush?
+
+-- deadline 3/3/2021
+
+* try using determiend AI to run sample deep learning project.
+    https://github.com/determined-ai/determined
+
+-- deadline 3/6/2021
 
 * contribute a project tutorial to hugging face + create video/article base tutorial 
     * tools
@@ -29,6 +54,5 @@ https://github.com/Awannaphasch2016/TODO-Manager/blob/main/ProjectBasedTODOs/Sid
             * should I add this?
             * will it be easier or harder for learner to follow?
                 * if it is easier, does it required overhead for learning the added tools?
-* find company doing GNN with > 10 mils A series
 
 

@@ -45,7 +45,5 @@ learn about MLOps
         * note:
             * makesure I finish building baseline first
 
-* try using determiend AI to run sample deep learning project.
-    https://github.com/determined-ai/determined
 
 

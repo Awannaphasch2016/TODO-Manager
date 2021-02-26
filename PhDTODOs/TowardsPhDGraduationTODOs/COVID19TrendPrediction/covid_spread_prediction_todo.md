@@ -74,13 +74,12 @@
 
 
 # TODO
-
 * here> speed up my scripts
     * goal:
         * no need to optimize for anything just make it run.
     * here> run GPU on (windows -> koko cluster -> ec2)
         * here> figure out how to login to fau cluster 
-        * run sample code with GPU in it.
+        * run sample code with GPU in it. 
             * here> measure training and inference speed of model
         * checkout humingbird.ml
             * Error:
@@ -91,7 +90,10 @@
                 * speed comparison
             * model -> pytroch -> gpu
 
-* send my code to be run on HPC.
+* send my code (start with lstm model) to be run on HPC.
+    * save the following folder to s3.
+        * Outputs/
+        * Data/
     * send my code to be run on HPC GPU.
         * make sure I inkwo how to optimize code for GPU
             * can I use GPU on windows?

@@ -41,6 +41,9 @@
 * here> practice hotkeys for vim-tex 
     * requirements
         * (do not overly custermised, use things that can alwasy be used forever)
+* read LatexCheatSheet
+    * Goal
+        * understand basic Latex 
 
 #TODO
 

@@ -65,51 +65,18 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
-* refactor required 
-    * For PaperSummary, start using 'summary' sections (1 for each pass level)
-        * note:
-            * 'summary' required you to 'In 1 paragraph, summarized key ideas that each paper offers'
-    * figure out to read paper faster
-        * have around 500 days lefts 
-        -> 300 days minimums
-        -> 3 papers per days = 900 papers
-            * too much? too little? just right?
-                * if publish 3 more papres, 300 (each) -> ways too much
-        * how many hours do people spend reading research paper.
-            * 1.
-                * 1-2 too keep up with the newest tech.
-                * 1 reading research article or book chapters in my fields
-            * 2. 
-                * 1 - 3 per days 
-                * at the start of the project, read boards topics   
-                * as the project mature, read handful of most relevant papres.
-                    * hwo do you know if it is most relevant papers?
-            * (selected) 3. 
-                * first pass: 3 papers every days. 
-                    * finished when you answer, decide significant or not?
-                * second pass:  5 paper each weeks.
-                    * finished when you answer, "can I explains this paper to another after reading it?"
-                * third pass: 1 per week. (if you have time)
-                    * highly relevant to your work
-                    * finished when you try to reproduce the result
-                        * successfully repreducing a result will help you have new idea for your own research.
-        * (Given this, how many hours am I willing to spend on reading each day?)
-            * 3 -> depends on pass level (range 1-3 hours per paper)
-            * 5 hours for programming?
-                * is it enough?
-        * here> figure out how to integrate "selected methods" with PaperSummary -> SynthesizedReport ( curated) 
-            * include this within the 3 hours 
 
-* read LatexCheatSheet
-    * Goal
-        * understand basic Latex 
-* here> is there a way to automatically cut images from online source or anywhere can move it to cloud? so url can be used to reference it .
+* here> create daily note to keep track of my Phd Daily work
+    * ref
+        * here> https://github.com/takumakei/daily-notes.vim
+    * daily-notes.vim 
+    * error
+        * couldn't open file for writing
 
-
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
-go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to Working/TA_todo.md
+go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 * update dotfiles on the following 
