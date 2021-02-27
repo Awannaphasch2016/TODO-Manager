@@ -66,6 +66,7 @@ response from HPC
 #== TODO 
 #=====================
 
+* create git bare for configuration of CentosOS. 
 * add 'config' alias for git bare 
 * how to manage git bare ( in my case for dotfiles)
     * can I do git pull?

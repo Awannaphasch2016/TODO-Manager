@@ -76,19 +76,30 @@
     * goal:
         * no need to optimize for anything just make it run.
     * here> run GPU on (windows -> koko cluster -> ec2)
-        * learn how to install packages without sudo
-            * what are the best practices to download/manage files/manage permission when have no root?
-        * here> fix vim error
-        * run sample code with GPU in it. 
-            * here> measure training and inference speed of model
-        * checkout humingbird.ml
-            * Error:
-                * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
-                    * here> hwo to check gpu from linux
-                        * here> check gpu with cuda toolkits
-            * goal:
-                * speed comparison
-            * model -> pytroch -> gpu
+        * here> run sample code with GPU in it. 
+            * here> is there easy way to convert from pandas to dask?
+                * here> can I always just use dask instread of pands?
+                    * herE> when should I prefer dask over pandas?
+            * find simple GPU base deep learning model to run.
+                * figure out best practice or easy way to convert CPU to GPU
+                    * pytorch
+                    * checkout humingbird.ml
+                        * Error:
+                            * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+                                * here> hwo to check gpu from linux
+                                    * here> check gpu with cuda toolkits
+                        * goal:
+                            * speed comparison
+                        * model -> pytroch -> gpu
+            * find simple GPU base deep learning model to run.
+                * ray? 
+                * rapid?
+            * find simple cluster base deep learning model to run.
+                * ray?
+            * find simple cluster GPU based deep learning model to run. 
+                * ray? 
+                * Rapid?
+            * measure training and inference speed of model
 
 * send my code (start with lstm model) to be run on HPC.
     * save the following folder to s3.
