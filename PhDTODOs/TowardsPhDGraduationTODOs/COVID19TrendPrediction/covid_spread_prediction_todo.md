@@ -1,6 +1,3 @@
-====================
-== References
-===================
 # Notes
 * what is suitable ec2 instance for machine leanring?
      * note: 
@@ -74,11 +71,14 @@
 
 
 # TODO
+
 * here> speed up my scripts
     * goal:
         * no need to optimize for anything just make it run.
     * here> run GPU on (windows -> koko cluster -> ec2)
-        * here> figure out how to login to fau cluster 
+        * learn how to install packages without sudo
+            * what are the best practices to download/manage files/manage permission when have no root?
+        * here> fix vim error
         * run sample code with GPU in it. 
             * here> measure training and inference speed of model
         * checkout humingbird.ml

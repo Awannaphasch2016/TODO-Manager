@@ -66,14 +66,12 @@ response from HPC
 #== TODO 
 #=====================
 
-* here> create daily note to keep track of my Phd Daily work
-    * ref
-        * here> https://github.com/takumakei/daily-notes.vim
-    * daily-notes.vim 
-    * error
-        * couldn't open file for writing
+* add 'config' alias for git bare 
+* how to manage git bare ( in my case for dotfiles)
+    * can I do git pull?
+    * what are the main differences between git bare and normal git for managing?
 
-go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to Working/TA_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
