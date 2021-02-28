@@ -656,6 +656,22 @@ shift + l = low
 
 Bash
 alt + . = insett the last parameters(s) of the preceding command in your current commnd
+!$ = does the same thing as "alt + ." but it is more well known and popular. 
+    * note
+        * this is not a key words, it is something you need to type in to the terminal
+        * starting with '!' = history expandions.
+            * $ = last value 
+    * usecase  
+        * example
+            * If we take: echo a b c d as an example
+            * !$ - the last argument: d
+            * !:*- all the arguments: a b c d (can be shorten !*)
+            * !:1 - the first argument: a (same as !^)
+            * !:1-3 - arguments from first to third: a b c
+            * !:2-$ - arguments from the second to the last one: b c d
+            * This last point answer you question, you can take the last part of your command.
+            * Note: !:0 is the last command executed, here it would be echo in our example
+
 tab (x 2) = show list of completions for the word that you hvae just typed or are typing
 
 Z shell

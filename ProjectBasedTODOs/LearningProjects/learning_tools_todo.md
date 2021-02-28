@@ -104,6 +104,16 @@
         * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
 # WAITING
 # TODO
+* learning about Autotools
+    * here> what is autotools?
+        * ref
+            * video
+                * https://www.youtube.com/watch?v=4q_inV9M_us&ab_channel=DavidA.Wheeler
+            * article
+                * https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html
+                * https://opensource.com/article/19/7/introduction-gnu-autotools
+                * https://en.wikipedia.org/wiki/GNU_Autotools
+        * hwo to use sh?
 * setting workstation
     * You could access by using Docker when using WSL 2.
         * ref

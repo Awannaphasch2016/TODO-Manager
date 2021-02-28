@@ -82,24 +82,21 @@
 					* here> try to run pytorch that use gpu.
                         * ref
                             * https://towardsdatascience.com/pytorch-switching-to-the-gpu-a7c0b21e8a99
-                    * can I use gpu but not cuda?
-                    * here> run example for slurm to use gpu
+                    * here> can I use gpu but not cuda?
+                        * here> what exactly is CUDA? 
+                        * why is CUDA important in pytorch and tensorflow?
+                    * run example for slurm to use gpu
                         * ref 
                             * here> fau cluster
                                 * here> https://hpc.fau.edu/comsol/
+                                    * here> solve pycuda bug
+                                        * filename.whil is not supported wheel for this platform
+                                            * here> how do i search for packagkes in library?
+                                        * here> try not using virtualenv, if it works. 
+                                            * if pass using without virtualenv, try using virtualenv (or conda).
+                                        * figure out why loading module change LD_LIBRARY_PATH var
                                     * how does the module nameing in slurm works?
                                         * eg suffix?
-                                    * what are the following used for?
-                                        * module load slurm?
-                                        * module load autotools?
-                                            * here> what is autotools?
-                                                * ref
-                                                    * video
-                                                        * https://www.youtube.com/watch?v=4q_inV9M_us&ab_channel=DavidA.Wheeler
-                                                    * article
-                                                        * https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html
-                                                        * https://opensource.com/article/19/7/introduction-gnu-autotools
-                                                        * https://en.wikipedia.org/wiki/GNU_Autotools
                             * yale
                                 * https://docs.ycrc.yale.edu/clusters-at-yale/guides/gpus-cuda/ 
                             * search 'slurm load cuda'
