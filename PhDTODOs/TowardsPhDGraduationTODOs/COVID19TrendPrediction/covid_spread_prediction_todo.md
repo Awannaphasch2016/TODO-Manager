@@ -77,10 +77,37 @@
         * no need to optimize for anything just make it run.
     * here> run GPU on (windows -> koko cluster -> ec2)
         * here> run sample code with GPU in it. 
-            * here> is there easy way to convert from pandas to dask?
-                * here> can I always just use dask instread of pands?
-                    * herE> when should I prefer dask over pandas?
-            * find simple GPU base deep learning model to run.
+            * here> find simple GPU base deep learning model to run.
+                * here> how to check srun is running gpu? 
+					* here> try to run pytorch that use gpu.
+                        * ref
+                            * https://towardsdatascience.com/pytorch-switching-to-the-gpu-a7c0b21e8a99
+                    * can I use gpu but not cuda?
+                    * here> run example for slurm to use gpu
+                        * ref 
+                            * here> fau cluster
+                                * here> https://hpc.fau.edu/comsol/
+                                    * how does the module nameing in slurm works?
+                                        * eg suffix?
+                                    * what are the following used for?
+                                        * module load slurm?
+                                        * module load autotools?
+                                            * here> what is autotools?
+                                                * ref
+                                                    * video
+                                                        * https://www.youtube.com/watch?v=4q_inV9M_us&ab_channel=DavidA.Wheeler
+                                                    * article
+                                                        * https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html
+                                                        * https://opensource.com/article/19/7/introduction-gnu-autotools
+                                                        * https://en.wikipedia.org/wiki/GNU_Autotools
+                            * yale
+                                * https://docs.ycrc.yale.edu/clusters-at-yale/guides/gpus-cuda/ 
+                            * search 'slurm load cuda'
+                                * https://www.google.com/search?q=slurm+load+cuda&rlz=1C1CHBF_enUS941US941&oq=slurm+load+cuda+&aqs=chrome..69i57.52791j1j7&sourceid=chrome&ie=UTF-8
+                * create script to run nvidia-smi 
+                    * check out what are availble modules that might activate nvidia 
+                * implement pytorch that use GPU.
+                    * here> run it on cluster (srun)
                 * figure out best practice or easy way to convert CPU to GPU
                     * pytorch
                     * checkout humingbird.ml
@@ -100,6 +127,7 @@
                 * ray? 
                 * Rapid?
             * measure training and inference speed of model
+        * convert pandas to Dask
 
 * send my code (start with lstm model) to be run on HPC.
     * save the following folder to s3.
