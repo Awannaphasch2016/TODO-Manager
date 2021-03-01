@@ -1065,6 +1065,27 @@ rm **<tab> = show all files that can be used with 'rm' (or any other command)
 vs <any .csv> = show .csv nicely
 
 # visiddata
+shift-U shift-R  = undo/redo
+shift-S = list all active sheet (most recently used at top)
+shift-C = open columns sheets
+
+# visiddata/session
+ctrl-d = save the cmdlog to a *.vd file
+    * shift-d then ctrl-s = does the same thing as ctrl-d
+shift-d = view commandlog sheet 
+ctrt-s = save file with same suffix
+
+
+# visidate/column's types
+~ = string 
+# = number
+% = float
+$ = currency
+@ = date
+z# = vlen 
+    * vlen - variable-length datatype.
+z! = anytype (like object?)
+
 
 # visidata/navigation
 h,j,k,l = left/down/up/right (like vim)
@@ -1072,6 +1093,40 @@ gh gj gk gl = move all the way to the left bottom top right of sheet
 < > = move up/down the current column to the next value which differ from current cell
 { } = move up/down the current column to the next selected row
 c <columnname> = move the cursoe to the <columnname>
+
+
+# visidata/filter + row&columns manipulation/basic/row
+gd = delete all selected
+    * can be paste anywhere on the sheet of the same type
+" = open a duplicate sheet which has reference to the selecte drows. Edits performed within the duplicate hseet will also propagate to the source sheet.
+z" = to open a copy of the sheeting which hs copies of the selected rwos. Any changes will not affect the source sheets
+g" = open a duplicate sheet which has referneces to al lrwos, and keeping the selected rwos selected. The selection can e modified on the parent sheets and the new sheet independenly, but any changes will be reflected on both sheets.
+
+# visidata/filter + row&columns manipulation/basic/column
+! = pins the current column on theleft as a key columns
+H L = slides the current column one position to the left/right
+gH gL = slides the current columns all the way to the left/right of its section
+
+# visidata/filter + row&columns manipulation/columns manipulation/split
+za = create blank columns
+i  = create column contain incremental number 
+zi = create column contrain incremental number by any specified amount
+= = create expression  column 
+: = split column by patten
+; = create new columns with value extracted from other column
+
+# visidata/filter + row&columns manipulation/move, copy and remove rows
+J K = move cursor row down/up
+gJ = move cursor row all the way to the bottom/top of the sheet
+
+# visidata/filter + row&columns manipulation/sort rows
+[ ] = short ascending/descending by current column
+g[ g] = sorts ascending/descending by all key columns
+
+
+# visidata/filter + row&columns manipulation/edit
+e = enter editing mode 
+ctrl+0 = while in editing mode, it open the content of the current cell in a external $EDITOR
 
 
 # visidata/search/within sheets
@@ -1082,7 +1137,6 @@ z/  z? = search by Python expr updown (with column names as variables)
         * tpye z/ followed by <columns name> == <some value>
 
 # visidata/search/between sheets
-shift+S = list all active sheet (most recently used at top)
 Ctrl + ^ = jump to the previous sheet, without closing the current one
 q = quit the current sheet. (close it)kj:w
 
@@ -1095,6 +1149,7 @@ g| g\ regex = select/unselect rows mathcing regex in "any visible" column
 s| s\ expr = select/unselect row mthcing Python expr in "any visible" column
 , = select rows matching current cell in "current" columns
 g, = select rows matching entire current row in "all visible" columns
+
 
 
 

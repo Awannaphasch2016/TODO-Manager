@@ -53,7 +53,14 @@
                 * linear regression
                 * profiling utilities
 
-* what can visidata do?
+* here> what can visidata do?
+    * things I still need to learn
+        * basic
+        * edit Contents 
+        * aggregation
+        * Grouping data and sdescriptie statistics
+    * what is data toolkit?
+    * what is data visualization?
     * Toc
         * basic features 
             * Loading Data
@@ -68,16 +75,19 @@
                 * R 
                     * Opening an R data frame with Visidata
             * Navigation
-            * here> Rows
-                * how to move, copy and remove reows + sort
-                    * cut, paste, sort
-                * dealing with null and empty
-                * how to increase row height
-                * learn how to filter row
-                * learn how to filter subset of row
-                * eg
-                    * how to select rwos where the current column is null?
+            * Rows
             * Columns
+                * basic
+                    * how to hide (remove) and unhide (return) columns
+                    * how to unhide columns
+                    * how to speciy column types
+                    * how to format columsn
+                    * hwo to split a column
+                    * how to substiture text in column
+                * advance
+                    * how to expands columns that contain nested data
+                    * how to create derivative columns
+                    * how to condigure multipel columns
             * Editing contents
             * Groiuping data and descriptive statistics 
         * other features 
@@ -88,13 +98,16 @@
         * customize
             * Customizing visidata 
             * Plugins - extending Visidata functionality
-        * advance 
+                * visidata plugins
+                    * https://github.com/a
+                        * here> vds3
+                            * using vd with s3
+        gan/visidata-pluginsr advance 
             * Developing a loader 
             * STDOUT pipe/redicrect
 
 # REFERENCES
 # REQUIREMENTS
-
 * here> get overview of ways taht people implement streamlit 
     * here> create streamlit app.
         * here> to replace jupyter notebook workflow
