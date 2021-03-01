@@ -3,11 +3,38 @@
      * note: 
         * for our data science needs, we will most likely want to select something in the range of m5.large to m5.2xlarge, or a p2.xlarge for deep learning work. More details and pricing found here.
 
+* how to run with fau cluster? (still don't have a way to use it)
+    * how to send code to run with gpu?
+        * using srun, 
+            * usecase
+                * you want to use srun when you want to run interactively.
+                    * eg.
+                        * `srun -p shortq7 --gres=gpu:1 --pty bash`
+        * using sbatch,
+            * usecase
+                * sbatch can submit script, and you can continous your work.
+                    * eg.
+                        * `sbatch <sh file with #SBATCH>`
+                            * this is a prefered method.
+                                * #SBATCH only activate in slurm environment.
+                        * `sbatch -p shortq7 --gres=gpu:1 <sh file without sbatch>`
 # Question
 
 # Optimization
 
-* figure out a way to store files for the project in S3
+* here> learn about multivariate Multi-step time series forecasting modeling
+    * ref  
+        * https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/
+* try running simple model from covid19trendcovid with fau cluster script
+    * here> all use beta_apply_model_to_all_states
+        * here> how to use predict_next_n_days in mlp?
+    * run Models/previous_day_val_pred.py
+    * run Models/lstm
+
+* here> create a script to do the following
+    * here> run hello_words.sh using setup_project_on_slurm
+        * here> how to easily see content in s3 without opening it?
+            * here> use streamlit to open file from s3.
 
 * hdf5 and data compression related content 
     * read how i learn to love HDF5 Or How I Learned To Love Data Compression And Partial I/O
@@ -82,25 +109,6 @@
 					* here> try to run pytorch that use gpu.
                         * ref
                             * https://towardsdatascience.com/pytorch-switching-to-the-gpu-a7c0b21e8a99
-                    * here> can I use gpu but not cuda?
-                        * here> what exactly is CUDA? 
-                        * why is CUDA important in pytorch and tensorflow?
-                    * run example for slurm to use gpu
-                        * ref 
-                            * here> fau cluster
-                                * here> https://hpc.fau.edu/comsol/
-                                    * here> solve pycuda bug
-                                        * filename.whil is not supported wheel for this platform
-                                            * here> how do i search for packagkes in library?
-                                        * here> try not using virtualenv, if it works. 
-                                            * if pass using without virtualenv, try using virtualenv (or conda).
-                                        * figure out why loading module change LD_LIBRARY_PATH var
-                                    * how does the module nameing in slurm works?
-                                        * eg suffix?
-                            * yale
-                                * https://docs.ycrc.yale.edu/clusters-at-yale/guides/gpus-cuda/ 
-                            * search 'slurm load cuda'
-                                * https://www.google.com/search?q=slurm+load+cuda&rlz=1C1CHBF_enUS941US941&oq=slurm+load+cuda+&aqs=chrome..69i57.52791j1j7&sourceid=chrome&ie=UTF-8
                 * create script to run nvidia-smi 
                     * check out what are availble modules that might activate nvidia 
                 * implement pytorch that use GPU.
