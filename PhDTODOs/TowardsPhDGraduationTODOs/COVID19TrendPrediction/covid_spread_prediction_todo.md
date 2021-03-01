@@ -23,15 +23,21 @@
 # Optimization
 
 * here> learn about multivariate Multi-step time series forecasting modeling
+    * here> lets learn basic visidata. 
+        * here> know the basic
     * ref  
-        * https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/
+        * here> https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/
+            * how to imput missing value and transform time series for supervised learning
+            * develope linear algorithm for multi-step time series forecasting.
+            * how to develop and evaluate a suite of nonlinear algorithmfor multi-step time seires forecasting
+
 * try running simple model from covid19trendcovid with fau cluster script
     * here> all use beta_apply_model_to_all_states
         * here> how to use predict_next_n_days in mlp?
     * run Models/previous_day_val_pred.py
     * run Models/lstm
 
-* here> create a script to do the following
+* create a script to do the following
     * here> run hello_words.sh using setup_project_on_slurm
         * here> how to easily see content in s3 without opening it?
             * here> use streamlit to open file from s3.

@@ -1063,3 +1063,38 @@ rm **<tab> = show all files that can be used with 'rm' (or any other command)
 
 # Terminal/Ubuntu/apt-get/visidata
 vs <any .csv> = show .csv nicely
+
+# visiddata
+
+# visidata/navigation
+h,j,k,l = left/down/up/right (like vim)
+gh gj gk gl = move all the way to the left bottom top right of sheet
+< > = move up/down the current column to the next value which differ from current cell
+{ } = move up/down the current column to the next selected row
+c <columnname> = move the cursoe to the <columnname>
+
+
+# visidata/search/within sheets
+/ ? regex = search for regex matches up/down the "current" column
+g/ g? regex = search for regex matches up/down over "all visible" columsn
+z/  z? = search by Python expr updown (with column names as variables)
+    * eg 
+        * tpye z/ followed by <columns name> == <some value>
+
+# visidata/search/between sheets
+shift+S = list all active sheet (most recently used at top)
+Ctrl + ^ = jump to the previous sheet, without closing the current one
+q = quit the current sheet. (close it)kj:w
+
+
+# visidata/selected row
+s t u = select/toggle/unselect "current" row
+gs gt gu = select/toggle/unselect "all" rows
+| \ regex = select/unselect rows matching regex in "current" column
+g| g\ regex = select/unselect rows mathcing regex in "any visible" column
+s| s\ expr = select/unselect row mthcing Python expr in "any visible" column
+, = select rows matching current cell in "current" columns
+g, = select rows matching entire current row in "all visible" columns
+
+
+

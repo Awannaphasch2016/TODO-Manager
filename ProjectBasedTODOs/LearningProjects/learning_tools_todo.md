@@ -53,6 +53,45 @@
                 * linear regression
                 * profiling utilities
 
+* what can visidata do?
+    * Toc
+        * basic features 
+            * Loading Data
+                * 1 file 
+                    * specifying a source file
+                * multiple file 
+                    * Loading multiple dataset simutanaeiously
+                    * Accessing other loaded or derived sheets
+                    * converting a dataset from one supported filetype into another 
+                * pandas
+                    * Loading sources upoported by pandas
+                * R 
+                    * Opening an R data frame with Visidata
+            * Navigation
+            * here> Rows
+                * how to move, copy and remove reows + sort
+                    * cut, paste, sort
+                * dealing with null and empty
+                * how to increase row height
+                * learn how to filter row
+                * learn how to filter subset of row
+                * eg
+                    * how to select rwos where the current column is null?
+            * Columns
+            * Editing contents
+            * Groiuping data and descriptive statistics 
+        * other features 
+            * Creating sheets, rows and columns
+            * combining dataset
+            * Drawing graphs 
+            * How to save and replay a visiData session
+        * customize
+            * Customizing visidata 
+            * Plugins - extending Visidata functionality
+        * advance 
+            * Developing a loader 
+            * STDOUT pipe/redicrect
+
 # REFERENCES
 # REQUIREMENTS
 
