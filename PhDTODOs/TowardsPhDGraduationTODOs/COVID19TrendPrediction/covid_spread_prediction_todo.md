@@ -72,6 +72,9 @@
 * how to run gpu on windows?
     * can I set up gpu to be run on windows?
 
+* figure out how to plot 7 days ahead.
+    * not important
+
 # Waiting
 
 * ask people from fiver for gpu setup help
@@ -97,13 +100,24 @@
 
 # TODO
 
-* learn quick command thing.
-    * it also helps in pandas
-* here> show metric_eval on streamlit
-    * refactor code into function
-* figure out how to plot 7 days ahead.
-    * not important
-* implement lstm
+* here> run it on fau cluster
+    * here> write a script to run from fau cluster
+    * use the following to inspect value from s3
+        * s3-tree
+        * vds3
+            * how to add extension to vd?
+* expeirment monitoring 
+    * goal: 
+        * figure out a way to monitor large number of experiment for a project..
+    * see exampel of weight and bias.
+        * how is weight and bias use for minotoring purposed.
+            * 10 mins
+        * how cna I use weight and baises for my own project.
+    * change epoch fo 2000.
+    * figure out a way to monitor the project 
+        * do i still need to manage file name by myself?
+            * for filename of mlp. add hyperparameter and parameter as suffix after mlp
+                * *_mlp_<parameters>_<hyperparameter>_*
 * summarize of report about 1-5-7-30 days (prediction length)
     * requirement
         * model
@@ -113,6 +127,7 @@
 * outline survey. 
     * eg
         * which type of methods to predict infection prediction for covid forecasting
+* deploy 
 
 -- 3/2/2021 5pm send to dr Zhu
 
