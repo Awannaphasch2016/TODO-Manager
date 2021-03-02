@@ -22,14 +22,6 @@
 
 # Optimization
 
-* here> learn about multivariate Multi-step time series forecasting modeling
-    * here> lets learn basic visidata. 
-        * here> know the basic
-    * ref  
-        * here> https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/
-            * how to imput missing value and transform time series for supervised learning
-            * develope linear algorithm for multi-step time series forecasting.
-            * how to develop and evaluate a suite of nonlinear algorithmfor multi-step time seires forecasting
 
 * try running simple model from covid19trendcovid with fau cluster script
     * here> all use beta_apply_model_to_all_states
@@ -104,6 +96,25 @@
 
 
 # TODO
+
+* learn quick command thing.
+    * it also helps in pandas
+* here> show metric_eval on streamlit
+    * refactor code into function
+* figure out how to plot 7 days ahead.
+    * not important
+* implement lstm
+* summarize of report about 1-5-7-30 days (prediction length)
+    * requirement
+        * model
+            * all base line
+        * eval metric
+            * mse
+* outline survey. 
+    * eg
+        * which type of methods to predict infection prediction for covid forecasting
+
+-- 3/2/2021 5pm send to dr Zhu
 
 * here> speed up my scripts
     * goal:

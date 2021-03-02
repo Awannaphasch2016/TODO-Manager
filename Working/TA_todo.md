@@ -111,6 +111,11 @@
         * Cluadia Gonzalez
         * Thiago Goncalves Vasconcelos
         * Todd lee
+        * erika stone
+        * Peterline Etienne
+* lab 2 
+    * live grading
+        * Prince Ahmed
 
 # TODO
 * here> send email to all TA and split workload by name 

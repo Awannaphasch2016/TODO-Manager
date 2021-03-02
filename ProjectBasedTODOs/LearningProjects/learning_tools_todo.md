@@ -56,9 +56,9 @@
 * here> what can visidata do?
     * things I still need to learn
         * basic
-        * edit Contents 
-        * aggregation
-        * Grouping data and sdescriptie statistics
+            * edit Contents 
+            * aggregation
+            * Grouping data and sdescriptie statistics
     * what is data toolkit?
     * what is data visualization?
     * Toc
