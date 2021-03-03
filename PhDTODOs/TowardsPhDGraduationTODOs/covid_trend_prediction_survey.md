@@ -47,7 +47,18 @@
 
 #TODO
 
-* here> lets add references 
+* here> put each section from my note to latex.
+    * ref
+        * section of Forecasting Models for Coronavirus Disease (COVID‑19): A Survey of the State‑of‑the‑Art.
+            * Big data 
+            * Social Media Data
+            * Other Communication Media Data
+            * Stochastic Theory/Methematical Models
+            * Data Science/Machine Leanring Techniques
+            * Discussion
+            * Challenges
+
+* lets add references 
     * here> hwo to add bib reference?
         * here> bib reference management
             * goal 
@@ -58,7 +69,6 @@
                 * here> how to maintain citation for your reference 
             * strategies specific to AI | CS | math | physics
 
-* what are section of my papers?
 * deleted my test repo of covid19 survey -> add dr zhu project to github -> clone it locally 
 * how to do latext in vim
     * ref

@@ -100,12 +100,18 @@
 
 # TODO
 
-* here> run it on fau cluster
+* here> send dr zhu all of 7 days prediction 
+* run 5 days prediction 
+* deploy so professor zhu can see it.
+    * make sure file are search from s3 not local?
+
+* run it on fau cluster
     * here> write a script to run from fau cluster
-    * use the following to inspect value from s3
-        * s3-tree
-        * vds3
-            * how to add extension to vd?
+        * install stuff
+            * error
+                * keras required tensorflow 2.2 or higher.
+        * write script for cluster
+
 * expeirment monitoring 
     * goal: 
         * figure out a way to monitor large number of experiment for a project..

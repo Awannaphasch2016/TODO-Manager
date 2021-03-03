@@ -1106,6 +1106,11 @@ g" = open a duplicate sheet which has referneces to al lrwos, and keeping the se
 ! = pins the current column on theleft as a key columns
 H L = slides the current column one position to the left/right
 gH gL = slides the current columns all the way to the left/right of its section
+_ = expand columns 
+g_ = expands all columns
+- = hide current columns (setting width size to 0)
+z- = shrink all columns to half its size 
+gv = unhide
 
 # visidata/filter + row&columns manipulation/columns manipulation/split
 za = create blank columns
