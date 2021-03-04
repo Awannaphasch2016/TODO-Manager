@@ -154,6 +154,12 @@
 * what is sysmtemd ?
     * tragidy of sysmtemd?
         * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
+
+* learn click
+    * ref
+        * masering click
+            * https://dbader.org/blog/mastering-click-advanced-python-command-line-apps
+
 # WAITING
 # TODO
 * learning about Autotools

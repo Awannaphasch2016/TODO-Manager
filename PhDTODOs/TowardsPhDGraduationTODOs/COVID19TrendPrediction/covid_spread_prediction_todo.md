@@ -100,10 +100,29 @@
 
 # TODO
 
-* here> send dr zhu all of 7 days prediction 
-* run 5 days prediction 
+
+* here> apply click to all currently 'working' model.
+    * here> create command line so that I can run on cluster wihtout modifying stuff
+        * here> implement gamma_apply_model_to_all_states
+
+* implement xgboost for multi-step prediction
+
+* reuse mlp implemention to the following model
+    * here> 'linear regression'
+        * make sure that I implemented multi-step for linear regression already
+        * why linear regression failed on the second iteration?j:w
+    * 'lstm'
+* figure out how to do multiple prediction for linear regression
+    * ref
+        * https://machinelearningmastery.com/how-to-develop-machine-learning-models-for-multivariate-multi-step-air-pollution-time-series-forecasting/ 
+        * here> https://machinelearningmastery.com/multi-step-time-series-forecasting-with-machine-learning-models-for-household-electricity-consumption/
+            * try to get the dataset 
+            * figure out how to do multi-timestep with linear regression
+
 * deploy so professor zhu can see it.
     * make sure file are search from s3 not local?
+
+
 
 * run it on fau cluster
     * here> write a script to run from fau cluster

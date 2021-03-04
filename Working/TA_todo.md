@@ -102,6 +102,7 @@
             * 100 %
         * Daniel Hardman
         * Todd lee
+        * Eyan Eubanks 
 * lab1
     * live grading 
         * Aaron Mills 

@@ -47,6 +47,22 @@
 
 #TODO
 
+* comment from dr zhu
+    * message 1 
+        * [[re-writte]] collect list of paper that implement models to utilize various dataset type (as specpfied on the overleaf).
+            * For today (03/03), can you collect a set of papers (e.g., 10 papers) which consider using demographics, geographics information for prediction? You can include these papers in your overleaf project.
+                Also have a summary in the write-up. 
+            * You need to build basis to understand what are the available methods
+    * message 2 
+        * note 
+            * put these 'info' into 'Dataset' section
+        * You need to have a clear thought about what are information available to make the prediction.
+         One source of information is to use the infection number only (single variant). This is similar to what you are doing now. The training is based on a single time series (a state’s infection), and the learning may use other states (but all states are considered independent).
+         Other approaches may use multivariant data, such as social medica data, demographic and geographic data etc. This becomes a multi-variant prediction problem. Again, the states may be considered independent.
+         Other approach may consider sites/states are dependent variants. So they are forming a graph or a network. This will be solutions relying on graph neural network etc.
+         Further, approaches, may consider states to be related and also to have demographic/content information etc.
+        * Having a clear throught will help you organize your survey
+        
 * here> put each section from my note to latex.
     * ref
         * section of Forecasting Models for Coronavirus Disease (COVID‑19): A Survey of the State‑of‑the‑Art.
