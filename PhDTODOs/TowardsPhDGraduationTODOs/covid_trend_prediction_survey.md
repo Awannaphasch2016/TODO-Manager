@@ -80,6 +80,16 @@
             * Data Science/Machine Leanring Techniques
             * Discussion
             * Challenges
+    * my sections
+        * introduction
+        * here> challenges
+        * dataset
+        * Model
+            * baseline
+            * GNN based model
+        * transfer learning
+            * knowledge distillation
+        * future direction
 
 * read the following paper
     * 2 Steering a Historical Disease Forecasting Model Under a Pandemic: Case of Flu and COVID-19
