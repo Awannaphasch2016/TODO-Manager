@@ -101,11 +101,12 @@
 # TODO
 
 
-* here> apply click to all currently 'working' model.
+* here> implement xgboost for multi-step prediction
+
+* apply click to all currently 'working' model.
     * here> create command line so that I can run on cluster wihtout modifying stuff
         * here> implement gamma_apply_model_to_all_states
 
-* implement xgboost for multi-step prediction
 
 * reuse mlp implemention to the following model
     * here> 'linear regression'

@@ -744,8 +744,23 @@ password = admin
 
 Prostgres
 
-Linux | linux
+Linux 
 get ip adress = ipconfig
+
+Linux/bash shell/hotkeys
+ctrl-k = cut to the and of the line
+ctrl-y = paste what you have cut (last thing that you cut)
+ctrl-u = cut all text before cursor
+ctrl-w = kill words (delete previous word)
+
+Linux/bash shell/utility function
+tail -f <file> = 'follow' mode for tail 
+less +F <file> = follw tail of file in 'less' editor
+    ctrl + c = detach from 'follow' mode
+    shift + f = attach to 'follow' mode
+    q = quite
+ctrl-x-e = write bash command in your editor of choice (instead of writing all command in line)
+
 
 Search Everything | search everything
 search folder that contain 'test.txt' = child:test.txt
@@ -760,6 +775,7 @@ search for zip = zip:<name>
 search for audio = audio:<name>
 search for document file = doc:<name>
 search for exe = exe:<name>
+
 
 
 Wox | wox
