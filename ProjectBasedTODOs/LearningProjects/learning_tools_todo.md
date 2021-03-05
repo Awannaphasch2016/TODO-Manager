@@ -106,72 +106,6 @@
             * Developing a loader 
             * STDOUT pipe/redicrect
 
-# REFERENCES
-# REQUIREMENTS
-* here> get overview of ways taht people implement streamlit 
-    * here> create streamlit app.
-        * here> to replace jupyter notebook workflow
-            * note:
-                * example of possible workflows
-                    * Run long running backtest/ simulation and save results to file(s).
-                    * Let user select file(s) and validate input/ output if needed.
-                    * Let user select file(s) and provide interactive analytics to end user based on simulation results.
-            * for general use case (can this be imeplemneted as separated github repo? microservice approach?)
-            * here> streamlit + pandas profiling + sweetviz
-                * note: 
-                * requirements:
-                    * user requirement
-                        * user can use it to explore data
-                        * user can use it to visualize data
-                        * here> user can share app among team member
-                            * here> use Streamlit Sharing
-                                * reference:
-                                    * https://blog.streamlit.io/deploying-streamlit-apps-using-streamlit-sharing/
-                                    * https://medium.com/@thom.e.lane/streamlit-on-aws-a-fully-featured-solution-for-streamlit-deployments-ba32a81c7460
-                                * here> figure out a way for data to be viualized/epxlore once it is deployed online
-                                    * pull data from cloud service S3
-                                        * call bucket 'streamlitdata'
-                    * system requirements 
-                        * same profiling of individual dataframe or comparison between dataframe should be downloaded once.
-                            * note: 
-                                * before implement this requirement, make sure that generating delay is large enough to be cumbersome to work with.
-                            * program must be able to detect whether profile of the input data already exists.
-                                * how can this be done?
-                                    * each generated profile should have metadata attached.
-                                        * detect file name suffix/prefix
-                                            * doesn't garantee its content
-                                        * detect number of columns + number of rows
-                                            * doesn't garantee data indexed by (row, columns) position
-                                        * compare dataframe directly
-                                            * faster or slower than generated another html?
-                                            * use DataFrame equals()
-                        * the system can show analysis for each states
-                            * Given a selected state, one can inspect features
-                            * Given a selected state, one can compare features.
-
-
-# OPTIMIZATION
-* what is sysmtemd ?
-    * tragidy of sysmtemd?
-        * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
-
-* learn click
-    * ref
-        * masering click
-            * https://dbader.org/blog/mastering-click-advanced-python-command-line-apps
-
-# WAITING
-# TODO
-* learning about Autotools
-    * here> what is autotools?
-        * ref
-            * video
-                * https://www.youtube.com/watch?v=4q_inV9M_us&ab_channel=DavidA.Wheeler
-            * article
-                * https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html
-                * https://opensource.com/article/19/7/introduction-gnu-autotools
-                * https://en.wikipedia.org/wiki/GNU_Autotools
-        * hwo to use sh?
 * setting workstation
     * You could access by using Docker when using WSL 2.
         * ref
@@ -252,3 +186,67 @@
         * distributed 
             * GPU
             * 1 computer vs HPC
+
+# REFERENCES
+# REQUIREMENTS
+* here> get overview of ways taht people implement streamlit 
+    * here> create streamlit app.
+        * here> to replace jupyter notebook workflow
+            * note:
+                * example of possible workflows
+                    * Run long running backtest/ simulation and save results to file(s).
+                    * Let user select file(s) and validate input/ output if needed.
+                    * Let user select file(s) and provide interactive analytics to end user based on simulation results.
+            * for general use case (can this be imeplemneted as separated github repo? microservice approach?)
+            * here> streamlit + pandas profiling + sweetviz
+                * note: 
+                * requirements:
+                    * user requirement
+                        * user can use it to explore data
+                        * user can use it to visualize data
+                        * here> user can share app among team member
+                            * here> use Streamlit Sharing
+                                * reference:
+                                    * https://blog.streamlit.io/deploying-streamlit-apps-using-streamlit-sharing/
+                                    * https://medium.com/@thom.e.lane/streamlit-on-aws-a-fully-featured-solution-for-streamlit-deployments-ba32a81c7460
+                                * here> figure out a way for data to be viualized/epxlore once it is deployed online
+                                    * pull data from cloud service S3
+                                        * call bucket 'streamlitdata'
+                    * system requirements 
+                        * same profiling of individual dataframe or comparison between dataframe should be downloaded once.
+                            * note: 
+                                * before implement this requirement, make sure that generating delay is large enough to be cumbersome to work with.
+                            * program must be able to detect whether profile of the input data already exists.
+                                * how can this be done?
+                                    * each generated profile should have metadata attached.
+                                        * detect file name suffix/prefix
+                                            * doesn't garantee its content
+                                        * detect number of columns + number of rows
+                                            * doesn't garantee data indexed by (row, columns) position
+                                        * compare dataframe directly
+                                            * faster or slower than generated another html?
+                                            * use DataFrame equals()
+                        * the system can show analysis for each states
+                            * Given a selected state, one can inspect features
+                            * Given a selected state, one can compare features.
+
+
+# OPTIMIZATION
+* what is sysmtemd ?
+    * tragidy of sysmtemd?
+        * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
+
+* learning about Autotools
+    * here> what is autotools?
+        * ref
+            * video
+                * https://www.youtube.com/watch?v=4q_inV9M_us&ab_channel=DavidA.Wheeler
+            * article
+                * https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html
+                * https://opensource.com/article/19/7/introduction-gnu-autotools
+                * https://en.wikipedia.org/wiki/GNU_Autotools
+        * hwo to use sh?
+# WAITING
+# TODO
+
+

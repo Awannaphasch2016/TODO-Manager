@@ -70,7 +70,10 @@
 
 #TODO
 
-* here> put each section from my note to latex.
+* here> stop at 
+    * here> 'here' at Deep learing methods for forecasting COVID-19 times-series data: a comparative study.md
+
+* put each section from my note to latex.
     * ref
         * section of Forecasting Models for Coronavirus Disease (COVID‑19): A Survey of the State‑of‑the‑Art.
             * Big data 
@@ -91,11 +94,12 @@
             * knowledge distillation
         * future direction
 
-* read the following paper
+* do section pass on the following paper
     * 2 Steering a Historical Disease Forecasting Model Under a Pandemic: Case of Flu and COVID-19
         * https://arxiv.org/pdf/2009.11407.pdf
     * 3. Incorporating Expert Guidance in Epidemic Forecasting
         * https://arxiv.org/abs/2101.10247
+
 * look into the following topics. 
     * transfer learning
         * what are the types of transfer learning model?

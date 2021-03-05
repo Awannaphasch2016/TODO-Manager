@@ -33,18 +33,18 @@
             * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/ByYwSn2w9
                 * if you can't see the content, email/text me. Permission maybe incorrect.
 
--- deadline 2/28/2021 
+-- deadline 3/4/2021 
 
 * find company doing GNN with > 10 mils A series
     * figure out how to go about finding startup at all?
         * techcrush?
 
--- deadline 3/3/2021
+-- deadline 3/5/2021
 
 * try using determiend AI to run sample deep learning project.
     https://github.com/determined-ai/determined
 
--- deadline 3/6/2021
+-- deadline 3/7/2021
 
 * contribute a project tutorial to hugging face + create video/article base tutorial 
     * tools

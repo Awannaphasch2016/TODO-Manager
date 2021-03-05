@@ -97,15 +97,49 @@
     * learn AWS Deep Leanring AMIs
     * learn AWS Deep Learning Container (DLC)
 
+* fau support ticket
+    * https://helpdesk.fau.edu/TDClient/2061/Portal/Requests/TicketRequests/
+        * id 17251487
+        * keras tensorflow incompatibility
 
 # TODO
 
-* run model on fau cluster
-    * run lstm 
+* what is module in linux commnad?
+    * same as centosOS?
+    * how does module effect dynamic variable (aka environment variable)
+
+* here> learn about pipenv and pyenv
+
+* how to devleoep tensorflow with gpu and without gpu
+    * setup
+    * implementation
+* how to devleoep pytorch with gpu and without gpu
+    * setup
+    * impementationJkw;
+
+* here> can I install tensoflwo 2.4.1 on centos?
+    * here> how to install conda on centos?
+        * error
+            * PackageNotInstalledError: Package is not installed in prefix.
+              prefix: /mnt/beegfs/home/awannaphasch2016/.conda/envs/py38
+              package name: conda
+        * here> should I try to intall conda or just use virtualenv? 
+    * what is the requirements?
+    * what is tensorflow lastest version?
+
+
+* question
+    * ref
+        * https://phoenixnap.com/kb/how-to-install-tensorflow-centos
+    * what version of keras is compatile with tensorflow 2.1
+    * hwo can I upgrade tensorflwo to 2.2
+    * what is my python version
+* here> run model on fau cluster
+    * here> run lstm 
         * here> write a script to run from fau cluster
-            * install stuff
+            * here> install stuff
                 * error
-                    * keras required tensorflow 2.2 or higher.
+                    * here> keras required tensorflow 2.2 or higher.
             * write script for cluster
     * run mlp with 2000 epoch. 
 
