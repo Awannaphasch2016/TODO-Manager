@@ -71,9 +71,13 @@ response from HPC
 #== TODO 
 #=====================
 
-clean tabs
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+here> add content from 3/5/2021 meeting to todo manager
+go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+
+--- 3/5/2021 
+
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 go to Working/TA_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt

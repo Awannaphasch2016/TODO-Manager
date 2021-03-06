@@ -104,15 +104,16 @@
 
 # TODO
 
-* what is module in linux commnad?
+* here> what is module in linux commnad?
     * same as centosOS?
     * how does module effect dynamic variable (aka environment variable)
 
-* here> learn about pipenv and pyenv
+* learn about pipenv and pyenv
 
 * how to devleoep tensorflow with gpu and without gpu
     * setup
     * implementation
+
 * how to devleoep pytorch with gpu and without gpu
     * setup
     * impementationJkw;
@@ -127,6 +128,7 @@
     * what is the requirements?
     * what is tensorflow lastest version?
 
+-- 3/5/2021 
 
 * question
     * ref
