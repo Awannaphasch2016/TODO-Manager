@@ -119,5 +119,6 @@
         * Prince Ahmed
 
 # TODO
-* here> send email to all TA and split workload by name 
-    * here> how many each each class?
+* finish grading lab 0 
+* finish grading lab 1
+

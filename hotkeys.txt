@@ -611,6 +611,8 @@ vim/basic/quickfix
 
 vim/plugins
 
+vim/plugins/vimtex
+
 vim/plugins/vim-fugitive
 :GBranches = show list of git branches
 

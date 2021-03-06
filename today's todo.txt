@@ -73,6 +73,8 @@ update from window 10 home to window 10 pro
     * But Mommy I don't want to use CUDA - open source GPU compute
         * https://www.youtube.com/watch?v=ZTq8wKnVUZ8&ab_channel=linux.conf.au
 
+fix 'config' alias for doftile management
+
 #=====================
 #== WAITING
 #=====================
@@ -89,16 +91,19 @@ response from HPC
 #== TODO 
 #=====================
 
-clear out tabs to todo manager
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+go to Working/TA_todo.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
-here> add content from 3/5/2021 meeting to todo manager
 
---- 3/5/2021 
 
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+--- 3/6/2021 
+
+here> how to navigate to error in vim?
+    * vimtex
+    * program in general 
 
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
-go to Working/TA_todo.md
+
 go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 * update dotfiles on the following 

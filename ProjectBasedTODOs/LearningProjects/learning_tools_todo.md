@@ -250,4 +250,23 @@
 # WAITING
 # TODO
 
+* here> see his article/tricks and figure out what I can use
+    * ref
+        * article
+            * https://castel.dev/post/lecture-notes-1/
+            * https://castel.dev/post/lecture-notes-2/
+            * https://castel.dev/post/lecture-notes-3/
+        * github 
+            * https://github.com/gillescastel/latex-snippets
+                * code to his snippet
+    * list of snippets I should try
+        * environment
+            * begin-end
+            * math block
+            * sub- and superscript
+            * fraction
+        * Correcting spelling mistake
+        * other plugin
+            * sympy OR mathematica
+            * postfix
 

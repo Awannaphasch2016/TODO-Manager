@@ -70,12 +70,9 @@
 
 #TODO
 
-* here> stop at 
-    * here> 'here' at Deep learing methods for forecasting COVID-19 times-series data: a comparative study.md
+* here> finish putting my notes into overleaf
 
--- 3/5/2021
-
-* summarized performance of models (for all states) using 'mean'  aggregation.
+-- 3/6/2021
 
 * put each section from my note to latex.
     * ref

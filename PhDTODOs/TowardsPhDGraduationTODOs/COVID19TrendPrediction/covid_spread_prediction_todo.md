@@ -118,7 +118,10 @@
             * predicted range
                 * 1, 5, 7, 14, 30 
 
+-- 3/6/2021 
+
 * run hyperparameters optimization for all base line
+
 
 * can I install tensoflwo 2.4.1 on centos?
     * here> how to install conda on centos?
@@ -151,7 +154,6 @@
 
 * here> deploy so professor zhu can see it.
 
--- 3/6/2021 
 
 * question
     * ref
