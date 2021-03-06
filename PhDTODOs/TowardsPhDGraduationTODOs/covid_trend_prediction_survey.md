@@ -73,6 +73,10 @@
 * here> stop at 
     * here> 'here' at Deep learing methods for forecasting COVID-19 times-series data: a comparative study.md
 
+-- 3/5/2021
+
+* summarized performance of models (for all states) using 'mean'  aggregation.
+
 * put each section from my note to latex.
     * ref
         * section of Forecasting Models for Coronavirus Disease (COVID‑19): A Survey of the State‑of‑the‑Art.
@@ -80,7 +84,7 @@
             * Social Media Data
             * Other Communication Media Data
             * Stochastic Theory/Methematical Models
-            * Data Science/Machine Leanring Techniques
+            * Data Science/Machine Leanring Technique
             * Discussion
             * Challenges
     * my sections
@@ -89,7 +93,22 @@
         * dataset
         * Model
             * baseline
-            * GNN based model
+            * GNN based model ( this should be done first, as suggested by dr zhu)
+                * what is strength of graph/network?
+                * graph/network construction's approach 
+                    * node, edges, directed, weighted
+                    * heterogeneous
+                    * multi-layer
+                * graph based prediction technique 
+                    * graph embedding
+                    * graph clustering
+                    * graph classification
+                * graph based model  
+                    * basic (not for forecasting)
+                    * current model ( build for forcasting)
+                * graph prediction task
+                    * graph prediction
+                    * node classification
         * transfer learning
             * knowledge distillation
         * future direction

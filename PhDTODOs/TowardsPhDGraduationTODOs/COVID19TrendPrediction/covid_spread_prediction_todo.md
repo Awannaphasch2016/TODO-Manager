@@ -101,34 +101,57 @@
     * https://helpdesk.fau.edu/TDClient/2061/Portal/Requests/TicketRequests/
         * id 17251487
         * keras tensorflow incompatibility
-
 # TODO
 
-* here> what is module in linux commnad?
-    * same as centosOS?
-    * how does module effect dynamic variable (aka environment variable)
+* here> send dr zhu aggregated performance of the result
+    * requirement
+        * csv with aggregated performance result
+        * bar charts
+            * x-axis = sliding window length OR predicted range length
+    * send dr zhu aggregated performanceo of CURRENT result 
+    * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
+        * params to experiments with 
+            * note
+                * make sure that I need to update Folder + Files name
+            * sliding windows length.
+                * 1, 5, 7, 14, 30  
+            * predicted range
+                * 1, 5, 7, 14, 30 
 
-* learn about pipenv and pyenv
+* run hyperparameters optimization for all base line
 
-* how to devleoep tensorflow with gpu and without gpu
-    * setup
-    * implementation
-
-* how to devleoep pytorch with gpu and without gpu
-    * setup
-    * impementationJkw;
-
-* here> can I install tensoflwo 2.4.1 on centos?
+* can I install tensoflwo 2.4.1 on centos?
     * here> how to install conda on centos?
         * error
             * PackageNotInstalledError: Package is not installed in prefix.
               prefix: /mnt/beegfs/home/awannaphasch2016/.conda/envs/py38
               package name: conda
-        * here> should I try to intall conda or just use virtualenv? 
-    * what is the requirements?
-    * what is tensorflow lastest version?
+    * try to use pyenv and pipenv
+    * try to upgrade conda
+        * if can't upgrade -> submit ticket -> move on to next task
+        * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
--- 3/5/2021 
+* here> how to devleoep tensorflow with gpu and without gpu
+    * lets implement lstm with keras and ternsorflow
+        * gpu 
+        * cpu
+
+* here> how to devleoep pytorch with gpu and without gpu
+    * lets implement lstm with keras and ternsorflow
+        * gpu 
+        * cpu
+
+* run my project on the cloud. 
+    * first just make it work
+    * use signularity to run ( this way I can run the same thing on HPC cluster)
+        * use sigularity to 
+            * learn to use 
+            * use pipenv and pyend inside singularity ( does this question make sense at all?)
+                * learn about pipenv and pyenv
+
+* here> deploy so professor zhu can see it.
+
+-- 3/6/2021 
 
 * question
     * ref
@@ -145,8 +168,6 @@
             * write script for cluster
     * run mlp with 2000 epoch. 
 
-* deploy so professor zhu can see it.
-    * make sure file are search from s3 not local?
 
 
 * expeirment monitoring 

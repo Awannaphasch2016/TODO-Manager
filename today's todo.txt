@@ -55,6 +55,24 @@ read about date tiering
     https://cloudian.com/blog/introduction-data-tiering/
 
 update from window 10 home to window 10 pro
+
+* article 
+    * Rethinking PID 1
+        * http://0pointer.de/blog/projects/systemd.html 
+* video from linux.conf.au
+    * the kernel report
+        * https://www.youtube.com/watch?v=yt29BKVfI0I&ab_channel=linux.conf.au
+    * everything you need to know a about DLLs 
+        * https://www.youtube.com/watch?v=JPQWQfDhICA&ab_channel=CppCon
+    * Climbing the summit with open source and POWER9
+        * https://www.youtube.com/watch?v=j18lMp6_BaQ&ab_channel=linux.conf.au
+    * bootsting faster
+        * https://www.youtube.com/watch?v=fTLsS_QZ8us&ab_channel=linux.conf.au 
+    * how to disappear completely
+        * https://www.youtube.com/watch?v=LOulCAz4S0M&ab_channel=linux.conf.au 
+    * But Mommy I don't want to use CUDA - open source GPU compute
+        * https://www.youtube.com/watch?v=ZTq8wKnVUZ8&ab_channel=linux.conf.au
+
 #=====================
 #== WAITING
 #=====================
@@ -71,8 +89,9 @@ response from HPC
 #== TODO 
 #=====================
 
-here> add content from 3/5/2021 meeting to todo manager
+clear out tabs to todo manager
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+here> add content from 3/5/2021 meeting to todo manager
 
 --- 3/5/2021 
 
