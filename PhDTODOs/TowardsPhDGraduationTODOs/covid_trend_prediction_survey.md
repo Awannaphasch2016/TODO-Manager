@@ -71,6 +71,8 @@
 #TODO
 
 * here> finish putting my notes into overleaf
+    * here> stop at Forecasting Models for Coronavirus (COVID-19)- A Survey of the State-of-the-Art.md
+        * here> Terminology
 
 -- 3/6/2021
 
