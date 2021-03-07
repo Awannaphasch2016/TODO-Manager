@@ -118,7 +118,28 @@
     * live grading
         * Prince Ahmed
 
+## Comments 
+* lab 0 
+    * comment 
+        * you can submit both video and lab manual at the same time using attached option. or you can upload content in comment as well.
+    * rejection
+        * please keep video under 5 mins. we will follow this rule very strictly from lab 2 on ward. Failing to follow will result in submission rejection. This required you to be prepared before you film and may require you to film video few times.
+        * no lab manual. grade cannot be provided grade. Please follow. submission instruction.
+    * penalty 
+        * -0.5 b) 10 is decimal not hex.
+* lab 1 
+    * rejection 
+        * no lab manual. grade cannot be provided grade. Please follow. submission instruction.
+        * You didn't explain the code.video submission is rejected. To resubmit video, please follow 'resubmission process'. You can find it from TA's anoucement. maximum score without video submission is 75%. (only apply for coding labs)
+        * no video submission. Can't provide grade. To resubmit video, please follow 'resubmission process'. You can find it from TA's anoucement. maximum score without video submission is 75%. (only apply for coding labs)
+        * we do not accept Youtube submission. I will accept this submission for lab 1, but we will need to follow the rules from lab 2 on wards. Please see 'lab grading procedure' from TA's anncoucement.
+        * you didn't follow lab grading procedure. grade cannot be provided. please follow lab submission procedure. You can read more detail from TA's Annoucement.
+    * penalty
+        * -1 recorded value after running program is incorrect.
+        
+
+
 # TODO
-* finish grading lab 0 
-* finish grading lab 1
+* here> finish grading lab 0 
+    * here> 20 left
 

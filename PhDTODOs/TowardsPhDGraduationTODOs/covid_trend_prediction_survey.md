@@ -70,11 +70,10 @@
 
 #TODO
 
-* here> finish putting my notes into overleaf
-    * here> stop at Forecasting Models for Coronavirus (COVID-19)- A Survey of the State-of-the-Art.md
-        * here> Terminology
+* here> fix latex error
+    * here> understand underfull and overfull box warning.
 
--- 3/6/2021
+-- 3/7/2021
 
 * put each section from my note to latex.
     * ref
