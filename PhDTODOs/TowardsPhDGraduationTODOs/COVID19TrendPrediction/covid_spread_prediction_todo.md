@@ -97,11 +97,80 @@
     * learn AWS Deep Leanring AMIs
     * learn AWS Deep Learning Container (DLC)
 
-* fau support ticket
-    * https://helpdesk.fau.edu/TDClient/2061/Portal/Requests/TicketRequests/
-        * id 17251487
-        * keras tensorflow incompatibility
 # TODO
+* here> read the following 
+    * here> tensorflow (tf.keras)
+        * here> a distributed traingin with tensorflow
+            * here> https://www.tensorflow.org/guide/distributed_training
+        * multi-gpu and distributed training
+            * https://keras.io/guides/distributed_training/ 
+        * distributed training in tf.keras with weights & biases.
+            * https://towardsdatascience.com/distributed-training-in-tf-keras-with-w-b-ccf021f9322e 
+    * pytorch 
+        * welcome to weights & biases - introduction walktrhough (2020)
+            * https://www.youtube.com/watch?v=91HhNtmb0B4&ab_channel=Weights%26Biases
+        * integrate weight * biases with pytorhc
+            * https://www.youtube.com/watch?v=G7GH0SeNBMA&ab_channel=Weights%26Biases
+
+* keras gpu vs cpu implementation
+    * ref
+        * multi-gpu and distributed training 
+            * https://keras.io/guides/distributed_training/
+    * implement it in Scratch/Example/Libraries/Keras/using_gpu.py
+    * implement demo such that it can switch between gpu and cpu 
+    * add to my code 
+
+* pytorch gpu vs cpu 
+    * implement it in Scratch/Example/Libraries/Pytorch/using_gpu.py
+    * implement demo such that it can switch between gpu and cpu 
+
+* add the following naming convesion
+    * to distinguish run from 'fau_cluster' and 'laptops'
+    * gpu vs cpu 
+        * suffix
+
+* try using weight and biases 
+    * MLP 
+        * which features should I use?
+            * experiment tracking  
+                * chart
+                    * track the folloing 
+                        * epoch + evaluation metrics 
+                * system metrics
+                * model metrics
+                * standard out
+                * files
+
+* run models
+    * run mlp with 2000 epoch
+
+* create singularity container.
+    * goal
+        * so my project can be run anywhere including
+            * cloud platofrm
+            * HPC 
+                * eg
+                    * fau cluster
+            * different workstation.
+
+* can I install tensoflwo 2.4.1 on centos?
+    * ref
+        * fau support ticket
+            * https://helpdesk.fau.edu/TDClient/2061/Portal/Requests/TicketRequests/
+                * id 17251487
+                * keras tensorflow incompatibility
+            * ticket response
+                * https://mail.google.com/mail/u/0/#search/OIT/FMfcgxwLsmhNDhqWLdHJfrtlNZQjVxfp 
+    * how to install conda on centos?
+        * error
+            * PackageNotInstalledError: Package is not installed in prefix.
+              prefix: /mnt/beegfs/home/awannaphasch2016/.conda/envs/py38
+              package name: conda
+    * here> try to reproduce the result and send list of command to resnick
+    * try to use pyenv and pipenv
+    * try to upgrade conda
+        * if can't upgrade -> submit ticket -> move on to next task
+        * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
 * here> send dr zhu aggregated performance of the result
     * requirement
@@ -118,21 +187,10 @@
             * predicted range
                 * 1, 5, 7, 14, 30 
 
--- 3/7/2021 
+-- 3/8/2021 
 
 * run hyperparameters optimization for all base line
 
-
-* can I install tensoflwo 2.4.1 on centos?
-    * here> how to install conda on centos?
-        * error
-            * PackageNotInstalledError: Package is not installed in prefix.
-              prefix: /mnt/beegfs/home/awannaphasch2016/.conda/envs/py38
-              package name: conda
-    * try to use pyenv and pipenv
-    * try to upgrade conda
-        * if can't upgrade -> submit ticket -> move on to next task
-        * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
 * here> how to devleoep tensorflow with gpu and without gpu
     * lets implement lstm with keras and ternsorflow

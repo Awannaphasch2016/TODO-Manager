@@ -91,11 +91,23 @@ response from HPC
 #== TODO 
 #=====================
 
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+* think deeply of my Ultimate goal 
+    * requirement
+        * future projects should be combination of the following 
+            * competition
+            * time series forecasting
+            * expert identification 
+            * expert knowledge 
+            * graph knowledge 
+            * competition dataset
+            * MLOps
+        * for each project, consider the following
+            * clearly construct experiments to answer question about model's properties or bahavior
 
+--- 3/8/2021 
 
---- 3/7/2021 
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 
 how to navigate to error in vim?
