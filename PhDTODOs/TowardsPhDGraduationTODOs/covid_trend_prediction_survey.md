@@ -70,8 +70,9 @@
 
 #TODO
 
-* here> fix latex error
-    * here> understand underfull and overfull box warning.
+* here> summarized things from paper to markdown 
+    * a multivariate spatiotemporal spread model of COVID-19 using emnsemble of COnvLSTM networks.
+        * add related work
 
 -- 3/7/2021
 

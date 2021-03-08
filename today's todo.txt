@@ -91,18 +91,18 @@ response from HPC
 #== TODO 
 #=====================
 
-here> go to Working/TA_todo.md
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 
 
 --- 3/7/2021 
+go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 
-here> how to navigate to error in vim?
+how to navigate to error in vim?
     * vimtex
     * program in general 
 
-go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
+go to Working/TA_todo.md
 
 go to PhDTODOs/RATODOs/fau_api_todo.txt
 

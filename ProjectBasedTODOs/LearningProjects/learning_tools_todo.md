@@ -187,6 +187,7 @@
             * GPU
             * 1 computer vs HPC
 
+
 # REFERENCES
 # REQUIREMENTS
 * here> get overview of ways taht people implement streamlit 
@@ -246,6 +247,9 @@
                 * https://opensource.com/article/19/7/introduction-gnu-autotools
                 * https://en.wikipedia.org/wiki/GNU_Autotools
         * hwo to use sh?
+
+* learn grep/awk/sed/ etc from this guy video
+    * here> https://www.youtube.com/channel/UCOmCxjmeQrkB5GmCEssbvxg 
 
 # WAITING
 # TODO
