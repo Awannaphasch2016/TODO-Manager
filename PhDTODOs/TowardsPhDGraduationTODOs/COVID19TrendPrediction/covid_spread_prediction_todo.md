@@ -98,19 +98,41 @@
     * learn AWS Deep Learning Container (DLC)
 
 # TODO
-* here> read the following 
-    * here> tensorflow (tf.keras)
-        * here> a distributed traingin with tensorflow
-            * here> https://www.tensorflow.org/guide/distributed_training
-        * multi-gpu and distributed training
-            * https://keras.io/guides/distributed_training/ 
-        * distributed training in tf.keras with weights & biases.
-            * https://towardsdatascience.com/distributed-training-in-tf-keras-with-w-b-ccf021f9322e 
-    * pytorch 
-        * welcome to weights & biases - introduction walktrhough (2020)
-            * https://www.youtube.com/watch?v=91HhNtmb0B4&ab_channel=Weights%26Biases
-        * integrate weight * biases with pytorhc
-            * https://www.youtube.com/watch?v=G7GH0SeNBMA&ab_channel=Weights%26Biases
+
+* here> send dr zhu aggregated performance of the result
+    * requirement
+        * csv with aggregated performance result
+        * bar charts
+            * x-axis = sliding window length OR predicted range length
+    * send dr zhu aggregated performanceo of CURRENT result 
+    * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
+        * params to experiments with 
+            * note
+                * make sure that I need to update Folder + Files name
+            * sliding windows length.
+                * 1, 5, 7, 14, 30  
+            * predicted range
+                * 1, 5, 7, 14, 30 
+
+* goal: speed up my keras code
+    * here> read the following 
+        * here> tensorflow (tf.keras)
+            * here> a distributed traingin with tensorflow
+                * here> https://www.tensorflow.org/guide/distributed_training
+                    * here> whta is all-reduce implementation
+                        * here> read https://tech.preferred.jp/en/blog/technologies-behind-distributed-deep-learning-allreduce/#:~:text=Algorithms%20of%20AllReduce&text=AllReduce%20is%20an%20operation%20that,resultant%20array%20to%20all%20processes.&text=Each%20process%20has%20an%20array,A_%7Bp%2Ci%7D.
+                            * stop at 'Implementation and Optimization'
+            * multi-gpu and distributed training
+                * https://keras.io/guides/distributed_training/ 
+            * distributed training in tf.keras with weights & biases.
+                * https://towardsdatascience.com/distributed-training-in-tf-keras-with-w-b-ccf021f9322e 
+            * learn to optimize tensorflow GPU performance.
+                * https://www.tensorflow.org/guide/gpu_performance_analysis
+        * pytorch 
+            * welcome to weights & biases - introduction walktrhough (2020)
+                * https://www.youtube.com/watch?v=91HhNtmb0B4&ab_channel=Weights%26Biases
+            * integrate weight * biases with pytorhc
+                * https://www.youtube.com/watch?v=G7GH0SeNBMA&ab_channel=Weights%26Biases
 
 * keras gpu vs cpu implementation
     * ref
@@ -172,20 +194,6 @@
         * if can't upgrade -> submit ticket -> move on to next task
         * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
-* here> send dr zhu aggregated performance of the result
-    * requirement
-        * csv with aggregated performance result
-        * bar charts
-            * x-axis = sliding window length OR predicted range length
-    * send dr zhu aggregated performanceo of CURRENT result 
-    * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
-        * params to experiments with 
-            * note
-                * make sure that I need to update Folder + Files name
-            * sliding windows length.
-                * 1, 5, 7, 14, 30  
-            * predicted range
-                * 1, 5, 7, 14, 30 
 
 -- 3/8/2021 
 

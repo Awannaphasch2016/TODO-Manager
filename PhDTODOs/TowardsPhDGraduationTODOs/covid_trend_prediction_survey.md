@@ -40,6 +40,20 @@
         Adding a longer future days to predict. Short prediction (next day, next 5, or 7days are fairly straightforward. You can expand to next week, next 2 week, 3, week, 4 week prediction).
         Please oraganize the results in a summarized form. Currently, I had to use average to the excel file to compare them.
         * It would be good, if you can put all such data together.
+
+
+* collecting paper to fill in Graph Modeling section 
+    * paper discovery 
+        * from paper that use Graph Neural Network (or graph construction), see their next research. (
+            * list of paper 
+        * keywords
+            * transfer learning + GNN 
+            * dynamic graph 
+        * what is the state of the art of the folloing task
+            * ILI prediction?
+            * spatio temporal forcasting
+            * pandemic prediction
+            * viral content prediction
 #RESOURCES
 
 #QUESTION
@@ -70,11 +84,15 @@
 
 #TODO
 
-* here> summarized things from paper to markdown 
-    * a multivariate spatiotemporal spread model of COVID-19 using emnsemble of COnvLSTM networks.
-        * add related work
+* read 5 paper 
+    * "categorized" graph related part of these papers with pen.
+        * put info into notes 
+    * "categorized" all parts
+        * put info into notes 
 
--- 3/7/2021
+* put new notes to survey 
+
+-- 3/9/2021 12pm 
 
 * put each section from my note to latex.
     * ref

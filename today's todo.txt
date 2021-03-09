@@ -91,12 +91,18 @@ response from HPC
 #== TODO 
 #=====================
 
-go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+
+
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+go to PhDTODOs/RATODOs/fau_api_todo.txt
+
 * think deeply of my Ultimate goal 
     * requirement
         * future projects should be combination of the following 
-            * competition
+        * competition
+
+* try using weight and biases for MLP 
             * time series forecasting
             * expert identification 
             * expert knowledge 
@@ -106,7 +112,16 @@ here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
         * for each project, consider the following
             * clearly construct experiments to answer question about model's properties or bahavior
 
+
 --- 3/8/2021 
+
+* idea for my paper
+    * what is the state of the art of GNN? 
+    * what is the state of the art of time series forecasting?
+    * what is the state of the art of dynamic graph?
+    * what is the state of the art of spatio temporal model?
+
+
 
 go to ProjectBasedTODOs/LearningProjects/learning_tools_todo.md
 
@@ -116,7 +131,6 @@ how to navigate to error in vim?
 
 go to Working/TA_todo.md
 
-go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 * update dotfiles on the following 
     * latex setup

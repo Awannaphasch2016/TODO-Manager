@@ -427,6 +427,12 @@ caching
 #=====================
 #==TODO
 #=====================
+* fau crawler 
+    * here> send set of data -> put in text files (csv).
+    * create word cloud 
+    * combine corona and covid
+    * expand scope of what I am collecting
+    * collect data for hot topics 
 
 * here> use terraform and ansible to automate the instruction for reddit stream data
     * how to use terraform with ansible?
