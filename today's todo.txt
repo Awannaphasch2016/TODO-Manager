@@ -91,16 +91,20 @@ response from HPC
 #== TODO 
 #=====================
 
+* put time block for 
+    * TA hour time 
+    * new weekly progress report time 
 
+* create plot 2 and 3
+    I have 3 types of plot
+        1.  x-axis = states, y-axis = mse.
+        2.   x-axis = window_lenght,  y-axis = mse
+        3.  x-axis = predict_length,  y-axis = mse
+
+* put "Graph related" section in eassy like writing 
 
 here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
-go to PhDTODOs/RATODOs/fau_api_todo.txt
-
-* think deeply of my Ultimate goal 
-    * requirement
-        * future projects should be combination of the following 
-        * competition
 
 * try using weight and biases for MLP 
             * time series forecasting
@@ -115,6 +119,11 @@ go to PhDTODOs/RATODOs/fau_api_todo.txt
 
 --- 3/8/2021 
 
+go to PhDTODOs/RATODOs/fau_api_todo.txt
+* think deeply of my Ultimate goal 
+    * requirement
+        * future projects should be combination of the following 
+        * competition
 * idea for my paper
     * what is the state of the art of GNN? 
     * what is the state of the art of time series forecasting?

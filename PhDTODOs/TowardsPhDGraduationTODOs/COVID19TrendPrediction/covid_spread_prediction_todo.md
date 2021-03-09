@@ -105,14 +105,23 @@
         * bar charts
             * x-axis = sliding window length OR predicted range length
     * send dr zhu aggregated performanceo of CURRENT result 
+        * apply mean to performance of all states
+    * here> implement bar charts
+        * here> x-axis = sliding window length OR predicted range length
+            * here> categorized DrZhu folder to have n_in and n_out folder
+                * MultiStep vs Onestep 
+                * PredictNextN
+                * WindowLengthN
+            * save image to <Onestep>/<PredictNextN>/<WindowLengthN>/Image/barplot_<x-axis>_<y-axis>_<legend>
     * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
-        * params to experiments with 
+        *) params to experiments with 
             * note
                 * make sure that I need to update Folder + Files name
             * sliding windows length.
                 * 1, 5, 7, 14, 30  
-            * predicted range
+            * here> predicted range
                 * 1, 5, 7, 14, 30 
+                * mlp, linear_regression, mlp, previous_day, xgboost, 
 
 * goal: speed up my keras code
     * here> read the following 
