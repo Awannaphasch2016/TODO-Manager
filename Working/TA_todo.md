@@ -143,6 +143,7 @@
 
 
 # TODO
-* here> finish grading lab 0 
-    * here> 20 left
+* check and clear all email
+    * gmail 
+    * canvas
 

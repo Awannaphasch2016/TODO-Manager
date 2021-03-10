@@ -84,15 +84,9 @@
 
 #TODO
 
-* read 5 paper 
-    * "categorized" graph related part of these papers with pen.
-        * put info into notes 
-    * "categorized" all parts
-        * put info into notes 
+* put "Graph related" section in eassy like writing 
 
-* put new notes to survey 
-
--- 3/9/2021 12pm 
+-- 3/10/2021
 
 * put each section from my note to latex.
     * ref

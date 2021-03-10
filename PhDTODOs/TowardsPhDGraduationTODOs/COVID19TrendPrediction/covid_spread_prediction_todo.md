@@ -117,7 +117,8 @@
                 * the function have the following args
                 * save to s3.
     * implement bar charts
-        * here> x-axis = sliding window length OR predicted range length
+        * here> run all bar_chart of load_data_1
+        * x-axis = sliding window length OR predicted range length
             * requirements
                 * folders must group csv of the same type 
                 * save image to the following
@@ -243,7 +244,7 @@
         * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
 
--- 3/8/2021 
+-- 3/10/2021 
 
 * run hyperparameters optimization for all base line
 
