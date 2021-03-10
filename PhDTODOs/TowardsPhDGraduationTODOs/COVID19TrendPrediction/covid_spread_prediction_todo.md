@@ -106,22 +106,61 @@
             * x-axis = sliding window length OR predicted range length
     * send dr zhu aggregated performanceo of CURRENT result 
         * apply mean to performance of all states
-    * here> implement bar charts
+    * here> check that Scripts/Utils save it to s3.
+        * is there a way to refactor? 
+            * create a function (called it main_plot_func)
+                * requirement 
+                    * save_path is passed to the following
+                        * plot_func 
+                            * it should recieved save_path and save plot to save_path 
+                        * save_to_s3
+                * the function have the following args
+                * save to s3.
+    * implement bar charts
         * here> x-axis = sliding window length OR predicted range length
-            * here> categorized DrZhu folder to have n_in and n_out folder
-                * MultiStep vs Onestep 
-                * PredictNextN
-                * WindowLengthN
-            * save image to <Onestep>/<PredictNextN>/<WindowLengthN>/Image/barplot_<x-axis>_<y-axis>_<legend>
+            * requirements
+                * folders must group csv of the same type 
+                * save image to the following
+                    * <Onestep>/<PredictNextN>/<WindowLengthN>/Images/barplot_<x-axis>_<y-axis>_<legend>.png
+                    * <Onestep>/Images/barplot_<x-axis>_<y-axis>_<legend>.png
+            * here> for x-axis =  PredictNextN
+                * requirement 
+                    * each columns has the following
+                        * PredictNext1
+                            * mlp
+                            * linear regression
+                            * previous_day
+                            * xgboost
+                        * PredictNext7
+                        * PredictNext14
+                        * PredictNext30
+                * implement load_data_2
+                    * here> dataframe have to be as followed
+                        * aggr_mse
+                        * model
+                            * mlp
+                            * linear regression
+                            * previous_day
+                            * xgboost
+                        * PredictNextN
+                            * 1
+                            * 7
+                            * 14
+                            * 30
+            * loop through WindowLengthN
+                * implement load_data_3
+                    * here> dataframe have to be as followed
+
     * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
-        *) params to experiments with 
+        * params to experiments with 
             * note
                 * make sure that I need to update Folder + Files name
             * sliding windows length.
                 * 1, 5, 7, 14, 30  
             * here> predicted range
                 * 1, 5, 7, 14, 30 
-                * mlp, linear_regression, mlp, previous_day, xgboost, 
+                * here> mlp, linear_regression, previous_day, xgboost, 
+                    * here> run mlp (10 epoch)
 
 * goal: speed up my keras code
     * here> read the following 

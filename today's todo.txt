@@ -94,6 +94,12 @@ response from HPC
 * put time block for 
     * TA hour time 
     * new weekly progress report time 
+        * Tuesday on Zoom
+        * Friday on Campus
+    * explain how training and test work. 
+        * how do I separated traingig, test. 
+            * with the exact number of data nad length, ... etc.
+    * focusing on output that professor zhu can give me advice on
 
 * create plot 2 and 3
     I have 3 types of plot
