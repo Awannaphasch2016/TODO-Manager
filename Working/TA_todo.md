@@ -114,9 +114,20 @@
         * Todd lee
         * erika stone
         * Peterline Etienne
+        * eyan eubanks 
+            * 3/10/2021
 * lab 2 
     * live grading
         * Prince Ahmed
+        * Ethan Welz's 
+            * -2
+            * 3/10/2021 
+        * Erika stone
+            * 3/10/2021 
+* lab 3 
+    * live grading 
+        * Jesus Hernandez
+            * 
 
 ## Comments 
 * lab 0 

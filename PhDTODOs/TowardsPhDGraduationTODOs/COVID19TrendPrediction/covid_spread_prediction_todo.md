@@ -99,78 +99,18 @@
 
 # TODO
 
-* here> send dr zhu aggregated performance of the result
-    * requirement
-        * csv with aggregated performance result
-        * bar charts
-            * x-axis = sliding window length OR predicted range length
-    * send dr zhu aggregated performanceo of CURRENT result 
-        * apply mean to performance of all states
-    * here> check that Scripts/Utils save it to s3.
-        * is there a way to refactor? 
-            * create a function (called it main_plot_func)
-                * requirement 
-                    * save_path is passed to the following
-                        * plot_func 
-                            * it should recieved save_path and save plot to save_path 
-                        * save_to_s3
-                * the function have the following args
-                * save to s3.
-    * implement bar charts
-        * here> run all bar_chart of load_data_1
-        * x-axis = sliding window length OR predicted range length
-            * requirements
-                * folders must group csv of the same type 
-                * save image to the following
-                    * <Onestep>/<PredictNextN>/<WindowLengthN>/Images/barplot_<x-axis>_<y-axis>_<legend>.png
-                    * <Onestep>/Images/barplot_<x-axis>_<y-axis>_<legend>.png
-            * here> for x-axis =  PredictNextN
-                * requirement 
-                    * each columns has the following
-                        * PredictNext1
-                            * mlp
-                            * linear regression
-                            * previous_day
-                            * xgboost
-                        * PredictNext7
-                        * PredictNext14
-                        * PredictNext30
-                * implement load_data_2
-                    * here> dataframe have to be as followed
-                        * aggr_mse
-                        * model
-                            * mlp
-                            * linear regression
-                            * previous_day
-                            * xgboost
-                        * PredictNextN
-                            * 1
-                            * 7
-                            * 14
-                            * 30
-            * loop through WindowLengthN
-                * implement load_data_3
-                    * here> dataframe have to be as followed
+* here> read NVLink vs PCIe vs SXM2
+    * here> achieving maximum compute thourhtput: PCIe vs SXM2
+        * here> https://www.nextplatform.com/micro-site-content/achieving-maximum-compute-throughput-pcie-vs-sxm2/#:~:text=NVLink%20provides%20a%20high%2Dspeed,speed%2010X%20faster%20than%20PCIe.&text=This%20significantly%20speeds%20up%20applications,performance%20than%20GPUs%20using%20PCIe.
+            * what is HPEs server?
 
-    * send dr zhu aggregated perofrmance of results (requested by him on 3/5/2020)
-        * params to experiments with 
-            * note
-                * make sure that I need to update Folder + Files name
-            * sliding windows length.
-                * 1, 5, 7, 14, 30  
-            * here> predicted range
-                * 1, 5, 7, 14, 30 
-                * here> mlp, linear_regression, previous_day, xgboost, 
-                    * here> run mlp (10 epoch)
-
+* how to use tf.keras with NCCL (for multi-GPU and multi-node)
 * goal: speed up my keras code
     * here> read the following 
         * here> tensorflow (tf.keras)
             * here> a distributed traingin with tensorflow
                 * here> https://www.tensorflow.org/guide/distributed_training
-                    * here> whta is all-reduce implementation
-                        * here> read https://tech.preferred.jp/en/blog/technologies-behind-distributed-deep-learning-allreduce/#:~:text=Algorithms%20of%20AllReduce&text=AllReduce%20is%20an%20operation%20that,resultant%20array%20to%20all%20processes.&text=Each%20process%20has%20an%20array,A_%7Bp%2Ci%7D.
-                            * stop at 'Implementation and Optimization'
+                    * here> which strategy should I used?
             * multi-gpu and distributed training
                 * https://keras.io/guides/distributed_training/ 
             * distributed training in tf.keras with weights & biases.
