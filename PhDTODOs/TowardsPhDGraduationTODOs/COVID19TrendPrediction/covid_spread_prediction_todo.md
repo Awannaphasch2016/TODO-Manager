@@ -101,33 +101,40 @@
 
 # TODO
 
-* set up s3 storage to storfiles for nodes/local laptop to move file between each other.
-    * project should be contained inside this as well.
-
-* figure out how to do checkpoint for deep learning model
-
-* here> how to use tf.distribute with tf.keras?
-    * here> when to use tf.scope?
-        * error
-            * check warning
-        * once I figure it out, running the following for MLP 100 
-            * 1000
-            * 2000
-
 * what is /dev/sda1/
     * ref
         * https://superuser.com/questions/558156/what-does-dev-sda-in-linux-mean
 
-* how to train keras with 1 gpu?
+* here> how to train keras with 1 gpu?
     * here> login to my aws gpu online. 
         * compared using different strategy
         * here> figure out how to test cpu vs gpu speed of tf.keras.
             * here> is it really alot faster?  if so, by how much?
                 * here> create MLP models.
-                    * here> run 
-                    * then add one device strategy
-        * one device strategy example
-            * if done, load my project with github and run the program with script same as HPC.
+                    * running 100 
+                    * here> run 500 (only do it for ec2 cluster)
+                        * here> how to turn on progress bar in keras?
+                            * here> compare perforamnce of OneDeviceStrategy,MirrorStrategy,CPU. (on ec2)
+                        * implement command line to predict only certain states.
+                        * only train for 1 state
+                            * here> for all predictnextN and windowLengthN. (train on my laptops locally is fine)
+                        * do it in laptops then merge to ec2.
+                            * read Why My Multi-GPU training is slow?
+                                * https://medium.com/@c_61011/why-multi-gpu-training-is-not-faster-f439fe6dd6ec
+                            * here> try switching strategy to OneDeviceStrategy.
+                                * see if there is any speed up.
+                            * here> if optimize for single/multiple gpu doesn't work when using tf.distributed,can I use ray (or horovod) to speed up distributed training.?
+                            * error
+                                * ade sure that all my datasets (train and val) have auto_shard_policy set to tf.data.experimental.AutoShardPolicy.DATA.
+                                    * https://github.com/tensorflow/tensorflow/issues/42146#issuecomment-796802782
+                                        * when to use tf.data?
+                                            * ref 
+                                                * https://www.tensorflow.org/api_docs/python/tf/data/experimental/DistributeOptions
+                                            * what is tf.data.Dataset?
+                                                * https://www.tensorflow.org/tutorials/distribute/input#tfdistributestrategyexperimental_distribute_dataset
+                        * here> implement weight and biases to monitor models 
+                        * figure out how to do checkpoint for deep learning model
+                    * here> create delta_apply_model_to_all_states()
 
 * goal: speed up my keras code
     * here> read the following 

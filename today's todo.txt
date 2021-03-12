@@ -104,7 +104,7 @@ response from HPC
 * put /mnt/c/terng/Documents/3-9-2021_weekly_progress_report.txt into markdown notes under '*survey*'.md
 
 here> go to Working/TA_todo.md
-go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+g* o to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 
 * try using weight and biases for MLP 
