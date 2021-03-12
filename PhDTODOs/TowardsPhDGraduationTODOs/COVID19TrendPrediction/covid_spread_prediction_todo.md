@@ -75,6 +75,10 @@
 * figure out how to plot 7 days ahead.
     * not important
 
+* multi-worker (multi-threaded) vs multi-processes vs multi-nodes
+    * can I used them in combination?
+    * when to use multi-worker in keras?
+
 # Waiting
 
 * ask people from fiver for gpu setup help
@@ -87,24 +91,44 @@
             * detemrined cli 
             * determined cluster
 
-* how to submit training jobs to Amazon SageMaker?
-    * note
-        * here> manage using SageMaker Python SDK
-    * watch different people workflow on sagemaker
-        * AWS live coding
-            * https://www.youtube.com/watch?v=lO224Iec-uI&ab_channel=AmazonWebServices
-
-    * learn AWS Deep Leanring AMIs
-    * learn AWS Deep Learning Container (DLC)
+* can't use GPU
+    * error
+        *  Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: 
+        *  Not creating XLA devices, tf_xla_enable_xla_devices not set
+    * how to install cuda toolkit?
+        * nvidia driver
+    * where does added module attached to?
 
 # TODO
 
-* here> read NVLink vs PCIe vs SXM2
-    * here> achieving maximum compute thourhtput: PCIe vs SXM2
-        * here> https://www.nextplatform.com/micro-site-content/achieving-maximum-compute-throughput-pcie-vs-sxm2/#:~:text=NVLink%20provides%20a%20high%2Dspeed,speed%2010X%20faster%20than%20PCIe.&text=This%20significantly%20speeds%20up%20applications,performance%20than%20GPUs%20using%20PCIe.
-            * what is HPEs server?
+* set up s3 storage to storfiles for nodes/local laptop to move file between each other.
+    * project should be contained inside this as well.
 
-* how to use tf.keras with NCCL (for multi-GPU and multi-node)
+* figure out how to do checkpoint for deep learning model
+
+* here> how to use tf.distribute with tf.keras?
+    * here> when to use tf.scope?
+        * error
+            * check warning
+        * once I figure it out, running the following for MLP 100 
+            * 1000
+            * 2000
+
+* what is /dev/sda1/
+    * ref
+        * https://superuser.com/questions/558156/what-does-dev-sda-in-linux-mean
+
+* how to train keras with 1 gpu?
+    * here> login to my aws gpu online. 
+        * compared using different strategy
+        * here> figure out how to test cpu vs gpu speed of tf.keras.
+            * here> is it really alot faster?  if so, by how much?
+                * here> create MLP models.
+                    * here> run 
+                    * then add one device strategy
+        * one device strategy example
+            * if done, load my project with github and run the program with script same as HPC.
+
 * goal: speed up my keras code
     * here> read the following 
         * here> tensorflow (tf.keras)
