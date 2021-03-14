@@ -109,13 +109,12 @@ response from HPC
             * with the exact number of data nad length, ... etc.
     * focusing on output that professor zhu can give me advice on
 
-* put /mnt/c/terng/Documents/3-9-2021_weekly_progress_report.txt into markdown notes under '*survey*'.md
 
 * make sure that I summarized how walk_forward_validation is done. 
 
-here> go to Working/TA_todo.md
-g* o to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+here> g* o to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+go to Working/TA_todo.md
 
 * try using weight and biases for MLP 
             * time series forecasting

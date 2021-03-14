@@ -84,7 +84,17 @@
 
 #TODO
 
-* here> use table to summarized.
+* explain how training and test work. 
+    * how do I separated traingig, test. 
+        * with the exact number of data nad length, ... etc.
+
+* here> finished put the weekly_progress_report to overleaf
+    * put /mnt/c/terng/Documents/3-9-2021_weekly_progress_report.txt into markdown notes under '*survey*'.md
+
+* summayrized by current notes to markdown
+    * move from markdown to overleaf
+
+* use table to summarized.
     * here> for graph construction.
         * what is used as node?
         * what is used as edges?
