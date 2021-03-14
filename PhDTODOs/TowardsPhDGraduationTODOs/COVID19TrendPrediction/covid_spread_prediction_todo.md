@@ -79,6 +79,22 @@
     * can I used them in combination?
     * when to use multi-worker in keras?
 
+* finished the following
+    * Ray: A Distributed Execution Framework for AI | SciPy 2018 | Robert Nishihara
+        * https://www.youtube.com/watch?v=D_oz7E4v-U0&ab_channel=Enthought 
+    * Tutorial: Scalable model training with Ray Tune
+        * https://www.youtube.com/watch?v=eAWUZJe571Y&ab_channel=SoftwareUnderground
+    * Ray: A System for Scalable Python and ML |SciPy 2020| Robert Nishihara
+        * https://www.youtube.com/watch?v=XIu8ZF7RSkw&ab_channel=Enthought
+    * A Glimpse into the Ray Autoscaler by Ameer Haj Ali
+        * https://www.youtube.com/watch?v=BJ06eJasdu4&ab_channel=anyscale
+    * Distributed Deep Learning with Horovod on Ray - Travis Addair, Uber 
+        * https://www.youtube.com/watch?v=rEB3NPUoxMM&ab_channel=anyscale
+
+* what is /dev/sda1/
+    * ref
+        * https://superuser.com/questions/558156/what-does-dev-sda-in-linux-mean
+
 # Waiting
 
 * ask people from fiver for gpu setup help
@@ -101,11 +117,19 @@
 
 # TODO
 
-* what is /dev/sda1/
-    * ref
-        * https://superuser.com/questions/558156/what-does-dev-sda-in-linux-mean
+* here> implement collect data that allow for models that required different suffix to be included as a different columns
+    * here> columns should look like th following 
+        * eg of columns 
+            * | mlp | mlp_eopch=100 | previous_day| ...
+                * pass in model with params 
+                    * [{'mlp': 'epoch': ?, ..}, 'linear_regression']
 
-* here> how to train keras with 1 gpu?
+* make sure that I summarized how walk_forward_validation is done. 
+* write report 
+
+------ 2.30pm
+
+* how to train keras with 1 gpu?
     * here> login to my aws gpu online. 
         * compared using different strategy
         * here> figure out how to test cpu vs gpu speed of tf.keras.
@@ -215,8 +239,6 @@
         * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
 
--- 3/10/2021 
-
 * run hyperparameters optimization for all base line
 
 
@@ -270,18 +292,6 @@
         * do i still need to manage file name by myself?
             * for filename of mlp. add hyperparameter and parameter as suffix after mlp
                 * *_mlp_<parameters>_<hyperparameter>_*
-* summarize of report about 1-5-7-30 days (prediction length)
-    * requirement
-        * model
-            * all base line
-        * eval metric
-            * mse
-* outline survey. 
-    * eg
-        * which type of methods to predict infection prediction for covid forecasting
-* deploy 
-
--- 3/2/2021 5pm send to dr Zhu
 
 * here> speed up my scripts
     * goal:

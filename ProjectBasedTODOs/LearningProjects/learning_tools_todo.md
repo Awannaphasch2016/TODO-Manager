@@ -233,10 +233,6 @@
 
 
 # OPTIMIZATION
-* what is sysmtemd ?
-    * tragidy of sysmtemd?
-        * https://www.youtube.com/watch?v=o_AIw9bGogo&ab_channel=linux.conf.au 
-
 * learning about Autotools
     * here> what is autotools?
         * ref

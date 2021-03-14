@@ -84,9 +84,22 @@
 
 #TODO
 
-* put "Graph related" section in eassy like writing 
+* here> use table to summarized.
+    * here> for graph construction.
+        * what is used as node?
+        * what is used as edges?
+            * features
+        * what is used as graph?
+    * 3 pages per meeting.
 
--- 3/10/2021
+* put "Graph related" section in eassy like writing 
+    * here> summarized text format to overleaf
+        * finish summarized graph construction in overleaf
+        * finish summarized graph construction in text
+
+* search more papers that uses GNN.
+
+-- 3/12/2021
 
 * put each section from my note to latex.
     * ref

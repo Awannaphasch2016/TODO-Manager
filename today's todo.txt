@@ -91,6 +91,14 @@ response from HPC
 #== TODO 
 #=====================
 
+* put the following info to PaperSummary notes then to survey 
+    * problem of epidemic forecasting
+        1. few data -> models must be good at learning from low number of data
+                  eg. transfer learning
+        2. few data (from each source) + many data sources (heterogenous data) -> data from each source must be calibrated \ 
+        model must be good at learning from hetergenous data + each data sources may contains different types of noise
+        3. use similation to get more data -> model must be able to learn from simulated data + simulated data must represent "real data"
+
 * put time block for 
     * TA hour time 
     * new weekly progress report time 
@@ -102,6 +110,8 @@ response from HPC
     * focusing on output that professor zhu can give me advice on
 
 * put /mnt/c/terng/Documents/3-9-2021_weekly_progress_report.txt into markdown notes under '*survey*'.md
+
+* make sure that I summarized how walk_forward_validation is done. 
 
 here> go to Working/TA_todo.md
 g* o to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
