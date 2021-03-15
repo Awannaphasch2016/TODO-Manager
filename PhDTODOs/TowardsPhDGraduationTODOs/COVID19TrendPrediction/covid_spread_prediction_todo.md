@@ -117,68 +117,30 @@
 
 # TODO
 
-* here> implement the following 
-    * here> running my 'previous day' model and save its result on wandb
-        * make sure to use the following method
-            * config
-            * log
-    * add the following option to commandline
-    * WANDB_MODE = 'dryrun'
-
-* how to weight and biases?
-    * here> weight and biases tutorial.
-        * here> what are api or functionality I should be aware of?
-            * Dashboard
-            * Artifacts
-            * here> Sweeps
-                * still not sure how it is used. need to watch tutorial.
-            * Reports
-    * how to connect weight and biases to a project on github?
-    * how to create report in weight and biases?
-        * compared to using streamlit?
-            * what is the advantage of using streamlit for report over weight and biases?
-    * how to use weight and biases with ray?
-        * note 
-            * api
-                * WandbLoggerCallback
-                    * automatically logs metrics reported to Tune to the Wandb API.
-                * @wandb_mixing decorator
-                    * used with the function api, it automatically initialized the Wandb API with 
-                        Tune's trainign information.
-        * using ray with wandb
-            * here> https://colab.research.google.com/drive/1an-cJ5sRSVbzKVRub19TmmE4-8PUWyAi?usp=sharing#scrollTo=yKmyNQh5iXnV
-            * https://docs.ray.io/en/master/tune/examples/wandb_example.html
-            * using ray tune with wandb sweep
-                * https://github.com/wandb/examples/tree/master/examples/keras/keras-cnn-fashion
-                * https://wandb.ai/site/articles/distributed-hyperparameter-optimization-at-scale
-
-    * what is ray.Artifact?
-
-* read the following tutorial & FAQ
-    * Tune Distributed Experiments
-        * https://docs.ray.io/en/master/tune/tutorials/tune-distributed.html
-    * Tuning XGboost parameters
-        * https://docs.ray.io/en/master/tune/tutorials/tune-xgboost.html
-    * Tune's Scikit Learning Adapters
-        * https://docs.ray.io/en/master/tune/tutorials/tune-sklearn.html
-
-* here> learn to use ray with tensorflow
-    * here> read about ray
-        * here> what is the following ? which one do I care?
-            * Tasks
-            * Actors
-            * Tune
-    * go through ray totorial 
-        * using ray on laptop only cpu
-        * using ray on cloud (AWS ec2)
-        *  ray + tensorflow article on medium
-    * using ray autoscaler
-* implement collect data that allow for models that required different suffix to be included as a different columns
-    * here> columns should look like th following 
-        * eg of columns 
-            * | mlp | mlp_eopch=100 | previous_day| ...
-                * pass in model with params 
-                    * [{'mlp': 'epoch': ?, ..}, 'linear_regression']
+* here> goal: speed up my keras code
+    * here> learn to use ray to run on my AWS ec2
+        * here> go through ray totorial 
+            * here> see the following 
+                * here> https://colab.research.google.com/drive/1an-cJ5sRSVbzKVRub19TmmE4-8PUWyAi?usp=sharing#scrollTo=yKmyNQh5iXnV
+                * https://docs.ray.io/en/master/tune/examples/wandb_example.html
+            * using ray on laptop only cpu
+            * using ray on cloud (AWS ec2)
+            *  ray + tensorflow article on medium
+        * using ray autoscaler
+    * figure out how to track model performance for deep learning and non-deep learning models
+        * streamlit for non-deep learning. ( no need to know performance while it is running, only care about output)
+        * here> how to use weight and biases with ray?
+            * note 
+                * api
+                    * WandbLoggerCallback
+                        * automatically logs metrics reported to Tune to the Wandb API.
+                    * @wandb_mixing decorator
+                        * used with the function api, it automatically initialized the Wandb API with 
+                            Tune's trainign information.
+            * using ray with wandb
+                * using ray tune with wandb sweep
+                    * https://github.com/wandb/examples/tree/master/examples/keras/keras-cnn-fashion
+                    * https://wandb.ai/site/articles/distributed-hyperparameter-optimization-at-scale
 
 * make sure that I summarized how walk_forward_validation is done. 
 
@@ -213,23 +175,6 @@
                         * figure out how to do checkpoint for deep learning model
                     * here> create delta_apply_model_to_all_states()
 
-* goal: speed up my keras code
-    * here> read the following 
-        * here> tensorflow (tf.keras)
-            * here> a distributed traingin with tensorflow
-                * here> https://www.tensorflow.org/guide/distributed_training
-                    * here> which strategy should I used?
-            * multi-gpu and distributed training
-                * https://keras.io/guides/distributed_training/ 
-            * distributed training in tf.keras with weights & biases.
-                * https://towardsdatascience.com/distributed-training-in-tf-keras-with-w-b-ccf021f9322e 
-            * learn to optimize tensorflow GPU performance.
-                * https://www.tensorflow.org/guide/gpu_performance_analysis
-        * pytorch 
-            * welcome to weights & biases - introduction walktrhough (2020)
-                * https://www.youtube.com/watch?v=91HhNtmb0B4&ab_channel=Weights%26Biases
-            * integrate weight * biases with pytorhc
-                * https://www.youtube.com/watch?v=G7GH0SeNBMA&ab_channel=Weights%26Biases
 
 * keras gpu vs cpu implementation
     * ref
