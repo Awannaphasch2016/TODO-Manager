@@ -117,7 +117,23 @@
 
 # TODO
 
-* here> goal: speed up my keras code
+* here> run ray on the AWS ec2.
+    * here> what is the default computing resources?
+        * here> https://docs.ray.io/en/master/auto_examples/overview.html
+    * how to config to use all GPU and cpu on the instances?
+
+* mastering tensorboard.
+    * here> what is the advantage of wandb over tensorboard.
+        * can I use wandb with tensorboard/
+            * see https://learnopencv.com/experiment-logging-with-tensorboard-and-wandb/?ck_subscriber_id=371373457
+        * here> figure out how to use wandb with tensorboard.
+            * here> make teh following work in ~/Scratches/Examples/Libraries/RayLib/example_2.py
+                * here> https://wandb.ai/site/articles/how-to-visualize-models-in-tensorboard-with-weights-and-biases 
+                    * here> goal is to save tensorboard runs at wandb_dir.
+                        * here> what is the tensorboard dir looks like?
+                            * here> does ray have the same tensorboard dir structure as using tensorboard dir alone?
+
+* goal: speed up my keras code
     * here> learn to use ray to run on my AWS ec2
         * here> go through ray totorial 
             * here> see the following 
