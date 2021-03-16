@@ -102,9 +102,9 @@ response from HPC
         model must be good at learning from hetergenous data + each data sources may contains different types of noise
         3. use similation to get more data -> model must be able to learn from simulated data + simulated data must represent "real data"
 
-* make sure that I summarized how walk_forward_validation is done. 
 
 * create tables summarized graph construction
+
 
 here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md

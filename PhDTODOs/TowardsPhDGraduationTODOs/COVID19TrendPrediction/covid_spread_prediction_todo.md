@@ -95,6 +95,37 @@
     * ref
         * https://superuser.com/questions/558156/what-does-dev-sda-in-linux-mean
 
+* use streamlit to show data easily 
+    * here> show evaluation metrics on streamlit 
+        * no need to deploy it. ( in case deploying it have speed differences)
+    * design what I want to show on the dashboard
+        * here> create hyperparameter tuning 
+            * lets see what this is like
+        * here> work on data profiling/sweetviz + streamlit
+            * here> sweetviz
+                * ref
+                    * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
+    * deploy streamlit
+        * requirement 
+            * storage
+                * put all Outpus content to s3 storage 
+        * ref
+            * deploy streamlit with heroku
+                * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
+        * here> move Outputs/ to S3, so I can access it from my deployed application
+
+* figure out how to intepret ARIMA and understand the following does
+    * https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
+
+* learn basic of time series 
+    * https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3&ab_channel=ritvikmath
+        * what are the list of topic I need to know? 
+            * https://www.quora.com/What-math-do-you-need-for-time-series-forecasting
+            * overview of time sereies forecasting model
+                * https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb
+            * introduction to time series
+                * https://towardsdatascience.com/time-series-introduction-7484bc25739a
+
 # Waiting
 
 
@@ -113,140 +144,6 @@
     * how to install cuda toolkit?
         * nvidia driver
     * where does added module attached to?
-
-# TODO
-
-* herE> implement utils stuff
-    * progress bar.
-    * here> add loss function log  for keras
-        * run the following, and make sure that it works.
-            * here> https://colab.research.google.com/github/wandb/examples/blob/master/colabs/keras/Simple_Keras_Integration.ipynb#scrollTo=XmVkQbw_q_07
-        * add all params to wandb.config
-            * add config that I need to use to do filtering.
-                * what are list of config I want to use for filtering of each model?
-                    * linear regression
-                    * mlp
-                    * previous day
-                    *
-* run the program after on ec2
-
----- 8.30 pm
-
-* run ray on the AWS ec2.
-    * here> what is the default computing resources?
-        * here> https://docs.ray.io/en/master/auto_examples/overview.html
-    * how to config to use all GPU and cpu on the instances?
-
-* mastering tensorboard.
-    * here> what is the advantage of wandb over tensorboard.
-        * can I use wandb with tensorboard/
-            * see https://learnopencv.com/experiment-logging-with-tensorboard-and-wandb/?ck_subscriber_id=371373457
-        * here> figure out how to use wandb with tensorboard.
-            * here> make teh following work in ~/Scratches/Examples/Libraries/RayLib/example_2.py
-                * here> https://wandb.ai/site/articles/how-to-visualize-models-in-tensorboard-with-weights-and-biases 
-                    * here> goal is to save tensorboard runs at wandb_dir.
-                        * here> what is the tensorboard dir looks like?
-                            * here> does ray have the same tensorboard dir structure as using tensorboard dir alone?
-
-* goal: speed up my keras code
-    * here> learn to use ray to run on my AWS ec2
-        * here> go through ray totorial 
-            * here> see the following 
-                * here> https://colab.research.google.com/drive/1an-cJ5sRSVbzKVRub19TmmE4-8PUWyAi?usp=sharing#scrollTo=yKmyNQh5iXnV
-                * https://docs.ray.io/en/master/tune/examples/wandb_example.html
-            * using ray on laptop only cpu
-            * using ray on cloud (AWS ec2)
-            *  ray + tensorflow article on medium
-        * using ray autoscaler
-    * figure out how to track model performance for deep learning and non-deep learning models
-        * streamlit for non-deep learning. ( no need to know performance while it is running, only care about output)
-        * here> how to use weight and biases with ray?
-            * note 
-                * api
-                    * WandbLoggerCallback
-                        * automatically logs metrics reported to Tune to the Wandb API.
-                    * @wandb_mixing decorator
-                        * used with the function api, it automatically initialized the Wandb API with 
-                            Tune's trainign information.
-            * using ray with wandb
-                * using ray tune with wandb sweep
-                    * https://github.com/wandb/examples/tree/master/examples/keras/keras-cnn-fashion
-                    * https://wandb.ai/site/articles/distributed-hyperparameter-optimization-at-scale
-
-* make sure that I summarized how walk_forward_validation is done. 
-
-* how to train keras with 1 gpu?
-    * here> login to my aws gpu online. 
-        * compared using different strategy
-        * here> figure out how to test cpu vs gpu speed of tf.keras.
-            * here> is it really alot faster?  if so, by how much?
-                * here> create MLP models.
-                    * running 100 
-                    * here> run 500 (only do it for ec2 cluster)
-                        * here> how to turn on progress bar in keras?
-                            * here> compare perforamnce of OneDeviceStrategy,MirrorStrategy,CPU. (on ec2)
-                        * implement command line to predict only certain states.
-                        * only train for 1 state
-                            * here> for all predictnextN and windowLengthN. (train on my laptops locally is fine)
-                        * do it in laptops then merge to ec2.
-                            * read Why My Multi-GPU training is slow?
-                                * https://medium.com/@c_61011/why-multi-gpu-training-is-not-faster-f439fe6dd6ec
-                            * here> try switching strategy to OneDeviceStrategy.
-                                * see if there is any speed up.
-                            * here> if optimize for single/multiple gpu doesn't work when using tf.distributed,can I use ray (or horovod) to speed up distributed training.?
-                            * error
-                                * ade sure that all my datasets (train and val) have auto_shard_policy set to tf.data.experimental.AutoShardPolicy.DATA.
-                                    * https://github.com/tensorflow/tensorflow/issues/42146#issuecomment-796802782
-                                        * when to use tf.data?
-                                            * ref 
-                                                * https://www.tensorflow.org/api_docs/python/tf/data/experimental/DistributeOptions
-                                            * what is tf.data.Dataset?
-                                                * https://www.tensorflow.org/tutorials/distribute/input#tfdistributestrategyexperimental_distribute_dataset
-                        * here> implement weight and biases to monitor models 
-                        * figure out how to do checkpoint for deep learning model
-                    * here> create delta_apply_model_to_all_states()
-
-
-* keras gpu vs cpu implementation
-    * ref
-        * multi-gpu and distributed training 
-            * https://keras.io/guides/distributed_training/
-    * implement it in Scratch/Example/Libraries/Keras/using_gpu.py
-    * implement demo such that it can switch between gpu and cpu 
-    * add to my code 
-
-* pytorch gpu vs cpu 
-    * implement it in Scratch/Example/Libraries/Pytorch/using_gpu.py
-    * implement demo such that it can switch between gpu and cpu 
-
-* add the following naming convesion
-    * to distinguish run from 'fau_cluster' and 'laptops'
-    * gpu vs cpu 
-        * suffix
-
-* try using weight and biases 
-    * MLP 
-        * which features should I use?
-            * experiment tracking  
-                * chart
-                    * track the folloing 
-                        * epoch + evaluation metrics 
-                * system metrics
-                * model metrics
-                * standard out
-                * files
-
-* run models
-    * run mlp with 2000 epoch
-
-* create singularity container.
-    * goal
-        * so my project can be run anywhere including
-            * cloud platofrm
-            * HPC 
-                * eg
-                    * fau cluster
-            * different workstation.
 
 * can I install tensoflwo 2.4.1 on centos?
     * ref
@@ -267,239 +164,49 @@
         * if can't upgrade -> submit ticket -> move on to next task
         * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
+# TODO
 
+* here> write a report on weight and biases. (and shared link to dr zhu)
+    * here> list all the things I needs to write for report.
+        * here> for feedback 
+            * here> what is the current parameters for each baseline models
+            * which models is the best?
+            * data profiling.
+                * pearson correlation 
+                    * measure pearson correlation between 
+                        * current week vs next week 
+                        * traning set vs test set
+            * explain how training and test work. 
+                * make sure that I summarized how walk_forward_validation is done. 
+                    * how do I separated traingig, test. 
+                        * with the exact number of data nad length, ... etc.
+        * further explains what I have done 
+            * explains why distributed training + experiment tracking is needed 
+                * explains about how I can use distributed training
+                    * for any number of gpu and cpu.
+                * explains that experiment tracking will be tracked on W&B.
+* figure out XGboost bugs.
+    * why XGboost have same performance?
+        * see image in DrZhu/ 
 * run hyperparameters optimization for all base line
-
-
-* here> how to devleoep tensorflow with gpu and without gpu
-    * lets implement lstm with keras and ternsorflow
-        * gpu 
-        * cpu
-
-* here> how to devleoep pytorch with gpu and without gpu
-    * lets implement lstm with keras and ternsorflow
-        * gpu 
-        * cpu
-
-* run my project on the cloud. 
-    * first just make it work
-    * use signularity to run ( this way I can run the same thing on HPC cluster)
-        * use sigularity to 
-            * learn to use 
-            * use pipenv and pyend inside singularity ( does this question make sense at all?)
-                * learn about pipenv and pyenv
-
-* here> deploy so professor zhu can see it.
-
-
-* question
-    * ref
-        * https://phoenixnap.com/kb/how-to-install-tensorflow-centos
-    * what version of keras is compatile with tensorflow 2.1
-    * hwo can I upgrade tensorflwo to 2.2
-    * what is my python version
-* here> run model on fau cluster
-    * here> run lstm 
-        * here> write a script to run from fau cluster
-            * here> install stuff
-                * error
-                    * here> keras required tensorflow 2.2 or higher.
-            * write script for cluster
-    * run mlp with 2000 epoch. 
-
-
-
-* expeirment monitoring 
-    * goal: 
-        * figure out a way to monitor large number of experiment for a project..
-    * see exampel of weight and bias.
-        * how is weight and bias use for minotoring purposed.
-            * 10 mins
-        * how cna I use weight and baises for my own project.
-    * change epoch fo 2000.
-    * figure out a way to monitor the project 
-        * do i still need to manage file name by myself?
-            * for filename of mlp. add hyperparameter and parameter as suffix after mlp
-                * *_mlp_<parameters>_<hyperparameter>_*
-
-* here> speed up my scripts
-    * goal:
-        * no need to optimize for anything just make it run.
-    * here> run GPU on (windows -> koko cluster -> ec2)
-        * here> run sample code with GPU in it. 
-            * here> find simple GPU base deep learning model to run.
-                * here> how to check srun is running gpu? 
-					* here> try to run pytorch that use gpu.
-                        * ref
-                            * https://towardsdatascience.com/pytorch-switching-to-the-gpu-a7c0b21e8a99
-                * create script to run nvidia-smi 
-                    * check out what are availble modules that might activate nvidia 
-                * implement pytorch that use GPU.
-                    * here> run it on cluster (srun)
-                * figure out best practice or easy way to convert CPU to GPU
-                    * pytorch
-                    * checkout humingbird.ml
-                        * Error:
-                            * error: RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
-                                * here> hwo to check gpu from linux
-                                    * here> check gpu with cuda toolkits
-                        * goal:
-                            * speed comparison
-                        * model -> pytroch -> gpu
-            * find simple GPU base deep learning model to run.
-                * ray? 
-                * rapid?
-            * find simple cluster base deep learning model to run.
-                * ray?
-            * find simple cluster GPU based deep learning model to run. 
-                * ray? 
-                * Rapid?
-            * measure training and inference speed of model
-        * convert pandas to Dask
-
-* send my code (start with lstm model) to be run on HPC.
-    * save the following folder to s3.
-        * Outputs/
-        * Data/
-    * send my code to be run on HPC GPU.
-        * make sure I inkwo how to optimize code for GPU
-            * can I use GPU on windows?
-
-* use streamlit to show data easily 
-    * here> show evaluation metrics on streamlit 
-        * no need to deploy it. ( in case deploying it have speed differences)
-    * design what I want to show on the dashboard
-        * here> create hyperparameter tuning 
-            * lets see what this is like
-        * here> work on data profiling/sweetviz + streamlit
-            * here> sweetviz
-                * ref
-                    * https://github.com/Jcharis/Streamlit_DataScience_Apps/tree/master/EDA_app_with_Streamlit_Components
-    * deploy streamlit
-        * requirement 
-            * storage
-                * put all Outpus content to s3 storage 
-        * ref
-            * deploy streamlit with heroku
-                * here> https://towardsdatascience.com/deploy-streamlit-on-heroku-9c87798d2088
-        * here> move Outputs/ to S3, so I can access it from my deployed application
-
-* predict next 1/5/30
+* goal: speed up my keras code
+    * figure out how to use ray autoscaler.
+* create singularity container.
     * goal
-        * decide on best performance window length
-    * here> PredictNext=7
-        * here> apply it to previous_day_prediction
-            * here> validate that the follwing 
-                * here> evaluation function 
-                * plot are correct
+        * so my project can be run anywhere including
+            * cloud platofrm
+            * HPC 
+                * eg
+                    * fau cluster
+            * different workstation.
 
-    * PredictNext=30
-    * put number matric on to streamlit
-        * run streamlit
-
-
-* implement the follwing as baseline
-    * tgnn (transfer learning)
-    * here> lstm
-        * here>lstm with window sliding validation
-        * send code to be trained in FAU HPC ()
-    * gam
-    * arima
-
-
-
-* apply next day/3/5/week.
-* parameter tuning
-
-* try to set up debugging?
-    * here> try to not use it until i relaly need to (train myself to simplified things for debugging)
-* the model through all states
-    * here> create a code that will run for all cases in Models/
-        * here> apply it to all models
-            * preivous day
-            * LinearRegression
-            * XGBoost
-            * ' LSTM
-            * ' MLP
-            * ' GAM
-
-
-* here> run the same model on state level dataset
-    * note:
-        * validation process
-            * sliding window (train/val/test)
-            * expanding window (train/val/test)
-                * start with 85% (train-val) and 15% (test)
-
-    * stochastic (random walk) basline
-        * previous_day_prediciton
-    * basic baseline
-        * here> Autoregressive Integrated Moving Average (ARIMA)
-        * Linear Regression
-    * state of the art machine learning 
-        * XGBoost (gradient boosting tree.)
-    * statistical baseline model
-        * here> GAM
+* figure out if i need to implement more baseline or not
+    * eg
+        * tgnn (transfer learning)
+        * here> lstm
+            * here>lstm with window sliding validation
+            * send code to be trained in FAU HPC ()
+        * gam
             * here> see pyGAM
                 * read https://tomkealy.github.io/blog/time-series-with-gams/
-    * Deep learning baseline model
-        * MLP
-    * Deep learning time series baslines model
-        * here> LSTM
-            * save train data and then load it back
-                * here> how to predict using checkpoint model
-                    * here> read the following 
-                        * https://machinelearningmastery.com/check-point-deep-learning-models-keras/
-                            * here> how many option do i have for checkpoint?
-                                * weight only and what else?
-                                * how to load checkpoint?
-
-* how to loop through the all the states?
-* here> understand and run https://machinelearningmastery.com/xgboost-for-time-series-forecasting/ 
-* implement GAM (generalized additive model) ?
-
-* put survey on overleaf. (draft)
-    * can I automate this?
-
-* create baseline for the https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
-    * Goal: focusing on showing what I have done.
-    * here>understand detail + shape of train and test dataset.
-        * what is the traning set that is used for LSTM model
-        * when is train re-assigned.
-    * what are baseline model for regression?
-        * here> look at the papers that I have read, what are baselinesi that they used?
-        * implement 2-3 more. (should have about 1 hour to complete all) 
-            * option 
-                * basic baseline
-                    * Autoregressive (AR)
-                    * here> Moving Average (MA)
-                    * Autoregressive Moving Average (ARMA)
-                    * Autoregressive Integrated Moving Average (ARIMA)
-                    Exponential Smoothing (ES)
-                * * deep learning baseline
-                    * MLP
-                * state of art machine learning 
-                    * XGBoost (gradient boosting tree.)
-                * statistical basline model
-                    * GAM
-            * selected: 
-                * here> MA
-                    * how to use MA to predict linear reegression?
-                    * using the price of the previous day
-                * MLP
-                * XGBoost
-                * GAM
-    * once finish, with the global dataset work on USA datase
-    * should I refer to the paper I read and see what is the next direction i need to do?  
-* figure out how to intepret ARIMA and understand the following does
-    * https://www.kaggle.com/anakwanna/covid-19-forecast-baseline-model/edit
-* learn basic of time series 
-    * https://www.youtube.com/watch?v=DeORzP0go5I&list=PLvcbYUQ5t0UHOLnBzl46_Q6QKtFgfMGc3&ab_channel=ritvikmath
-        * what are the list of topic I need to know? 
-            * https://www.quora.com/What-math-do-you-need-for-time-series-forecasting
-            * overview of time sereies forecasting model
-                * https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb
-            * introduction to time series
-                * https://towardsdatascience.com/time-series-introduction-7484bc25739a
-* finish the follwoing excercise within 2 horus 
-    * https://www.w3resource.com/python-exercises/pandas/groupby/index.php  
+        * arima

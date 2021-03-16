@@ -84,74 +84,18 @@
 
 #TODO
 
-* explain how training and test work. 
-    * how do I separated traingig, test. 
-        * with the exact number of data nad length, ... etc.
-
-* here> finished put the weekly_progress_report to overleaf
-    * put /mnt/c/terng/Documents/3-9-2021_weekly_progress_report.txt into markdown notes under '*survey*'.md
-
-* summayrized by current notes to markdown
-    * move from markdown to overleaf
-
-* use table to summarized.
-    * here> for graph construction.
-        * what is used as node?
-        * what is used as edges?
-            * features
-        * what is used as graph?
+* here> use table to summarized.
     * 3 pages per meeting.
+    * collect the following for all papers
+        * note
+            * finished old papers first then move on to unread one. (do a quick scan rather than throughout reading)
+        * here> for graph construction.
+            * what is used as node?
+            * what is used as edges?
+                * features
+            * what is used as graph?
 
-* put "Graph related" section in eassy like writing 
-    * here> summarized text format to overleaf
-        * finish summarized graph construction in overleaf
-        * finish summarized graph construction in text
-
-* search more papers that uses GNN.
-
--- 3/12/2021
-
-* put each section from my note to latex.
-    * ref
-        * section of Forecasting Models for Coronavirus Disease (COVID‑19): A Survey of the State‑of‑the‑Art.
-            * Big data 
-            * Social Media Data
-            * Other Communication Media Data
-            * Stochastic Theory/Methematical Models
-            * Data Science/Machine Leanring Technique
-            * Discussion
-            * Challenges
-    * my sections
-        * introduction
-        * here> challenges
-        * dataset
-        * Model
-            * baseline
-            * GNN based model ( this should be done first, as suggested by dr zhu)
-                * what is strength of graph/network?
-                * graph/network construction's approach 
-                    * node, edges, directed, weighted
-                    * heterogeneous
-                    * multi-layer
-                * graph based prediction technique 
-                    * graph embedding
-                    * graph clustering
-                    * graph classification
-                * graph based model  
-                    * basic (not for forecasting)
-                    * current model ( build for forcasting)
-                * graph prediction task
-                    * graph prediction
-                    * node classification
-        * transfer learning
-            * knowledge distillation
-        * future direction
-
-* do section pass on the following paper
-    * 2 Steering a Historical Disease Forecasting Model Under a Pandemic: Case of Flu and COVID-19
-        * https://arxiv.org/pdf/2009.11407.pdf
-    * 3. Incorporating Expert Guidance in Epidemic Forecasting
-        * https://arxiv.org/abs/2101.10247
+-- 3/16/2021
 
 * look into the following topics. 
     * transfer learning
@@ -163,4 +107,3 @@
     * heterogenous input
     * limited dataset (low volume of dataset)
     * knowledge distillation
-

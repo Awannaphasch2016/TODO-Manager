@@ -137,6 +137,8 @@
             * 3/15/2021
         * Peterling Etienne
             * 3/15/2021
+        * Claudia Gonzalez
+            * 3/15/2021
 
 * lab 3 
     * live grading 
