@@ -97,7 +97,6 @@
 
 # Waiting
 
-* ask people from fiver for gpu setup help
 
 * learn how to use determined AI
     * here> can this fit in my gpu work flow?
@@ -117,7 +116,23 @@
 
 # TODO
 
-* here> run ray on the AWS ec2.
+* herE> implement utils stuff
+    * progress bar.
+    * here> add loss function log  for keras
+        * run the following, and make sure that it works.
+            * here> https://colab.research.google.com/github/wandb/examples/blob/master/colabs/keras/Simple_Keras_Integration.ipynb#scrollTo=XmVkQbw_q_07
+        * add all params to wandb.config
+            * add config that I need to use to do filtering.
+                * what are list of config I want to use for filtering of each model?
+                    * linear regression
+                    * mlp
+                    * previous day
+                    *
+* run the program after on ec2
+
+---- 8.30 pm
+
+* run ray on the AWS ec2.
     * here> what is the default computing resources?
         * here> https://docs.ray.io/en/master/auto_examples/overview.html
     * how to config to use all GPU and cpu on the instances?

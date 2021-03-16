@@ -116,6 +116,9 @@
         * Peterline Etienne
         * eyan eubanks 
             * 3/10/2021
+        * Alexander Daniello
+            * 3/15/2021 
+
 * lab 2 
     * live grading
         * Prince Ahmed
@@ -124,10 +127,21 @@
             * 3/10/2021 
         * Erika stone
             * 3/10/2021 
+        * Alexander Daniello
+            * 3/15/2021
+        * Adrian Echazabal
+            * 3/15/2021
+        * Peyton Rivera
+            * 3/15/2021
+        * Kristian Murphy
+            * 3/15/2021
+        * Peterling Etienne
+            * 3/15/2021
+
 * lab 3 
     * live grading 
         * Jesus Hernandez
-            * 
+        * Aaron mills
 
 ## Comments 
 * lab 0 
