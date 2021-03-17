@@ -90,10 +90,8 @@
         * note
             * finished old papers first then move on to unread one. (do a quick scan rather than throughout reading)
         * here> for graph construction.
-            * what is used as node?
-            * what is used as edges?
-                * features
-            * what is used as graph?
+            * how to create nodes in graph  
+            * how to create edges in graph
 
 -- 3/16/2021
 

@@ -166,10 +166,20 @@
 
 # TODO
 
-* here> write a report on weight and biases. (and shared link to dr zhu)
+* learn ray auto scaling
+    * configuring autoscaler for my use 
+        * ref:
+            * https://docs.ray.io/en/master/cluster/config.html#cluster-config
+        * head nodes vs worker nodes.
+            * what should head nodes have?
+* run all the results
+    * here> run linear regression and xgboost.
+
+* figure out how to inspect remote node port 
+* write a report on weight and biases. (and shared link to dr zhu)
     * here> list all the things I needs to write for report.
         * here> for feedback 
-            * here> what is the current parameters for each baseline models
+            * what is the current parameters for each baseline models
             * which models is the best?
             * data profiling.
                 * pearson correlation 
@@ -185,6 +195,7 @@
                 * explains about how I can use distributed training
                     * for any number of gpu and cpu.
                 * explains that experiment tracking will be tracked on W&B.
+
 * figure out XGboost bugs.
     * why XGboost have same performance?
         * see image in DrZhu/ 
@@ -199,6 +210,10 @@
                 * eg
                     * fau cluster
             * different workstation.
+
+
+* learn ray autoscaler.
+    * 
 
 * figure out if i need to implement more baseline or not
     * eg
