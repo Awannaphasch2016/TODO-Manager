@@ -126,6 +126,46 @@
             * introduction to time series
                 * https://towardsdatascience.com/time-series-introduction-7484bc25739a
 
+* docker vs sigularity 
+    * do i need sigularity at all? ( in which situration would I have to switch from docker to signularity)
+        * create singularity container.
+            * goal
+                * so my project can be run anywhere including
+                    * cloud platofrm
+                    * HPC 
+                        * eg
+                            * fau cluster
+                    * different workstation.
+
+* figure out if i need to implement more baseline or not
+    * eg
+        * tgnn (transfer learning)
+        * here> lstm
+            * here>lstm with window sliding validation
+            * send code to be trained in FAU HPC ()
+        * gam
+            * here> see pyGAM
+                * read https://tomkealy.github.io/blog/time-series-with-gams/
+        * arima
+
+* learn ray auto scaling
+    * configuring autoscaler for my use 
+        * ref:
+            * https://docs.ray.io/en/master/cluster/config.html#cluster-config
+        * note
+            * docker vs setup_commands
+                * use docker to pull existing image.
+                * for custom configuration that is not provided by exiting image, we can use setup_commands.
+        * head nodes vs worker nodes.
+            * what should head nodes have?
+        * here> figure out docker image that I can use. (do i even need it)
+            * what is docker image for data scientist project?
+                * pytroch project?
+                * conda project
+                * tensorflow project?
+                * ray project?
+                * 
+            * here> try running docker image (practice, so I can distinguish which error is docker and which is from ray autoscaling)
 # Waiting
 
 
@@ -166,62 +206,121 @@
 
 # TODO
 
-* learn ray auto scaling
-    * configuring autoscaler for my use 
-        * ref:
-            * https://docs.ray.io/en/master/cluster/config.html#cluster-config
-        * head nodes vs worker nodes.
-            * what should head nodes have?
-* run all the results
+* check if I need to fix run set in my report to be aligned with discription?
+    * link it to table of content
+    * figure out a way to organized experiments log.
+        * naming convention?
+            * eg Experiment/<point of disscussion>/<model>_<params>/
+                * eg <point of discussion> = observations
+    * refactor experiments into log dated 3/16/2021
+        * does content itself needs to be refactored?
+    * does info irrelevant? is it outdated?
+        * if yes, remove it
+        * if no, add more description/explaination given the run set. 
+            * then figure out how to freeze run. (so future result cannot be added)
+
+* how to implment logbook in wandb
+    * ToC
+        * I should Have table of Content to manay my prefix title .
+            * eg. weekly update, report, log.
+    * components of each log
+        * background
+            * what is the goal of the experiment?
+                * what is your hypothesis of this experiment?
+            * what is the movtivation of the experiment?
+                * with references.
+        * experimental apparatus and procedures
+            * document "how you are doing it" not just "what you are doing"
+                * documents all components required to reproduce the current experiment
+                    * tools that you have used.
+                        * eg. requirements.txt. (this should easily be tracked by going to history log on github)
+                    * parameters + hyperparameter + models
+                    * dataset
+                    * evaluation metrics
+        * dates and times
+            * write it at the beginning of each log
+            * write it at the beginning of important + interesting finding.
+        * Data and observations
+            * does the data make sense and why?
+            * what quality assurance check have you performed to catch possible mistake early?
+            * how is data visualized and labeled?
+        * data analysis
+            * describe step that I used to perform current data analysis.
+            * document uncertainties 
+                * random uncertainties
+                * systematic uncertainties
+                * or mistake caused by incorrect code implementation.
+        * thought
+            * what is your thought on the experiment?
+            * future direction?
+                * things that you want/need to explore further.
+            * challenges?
+            * improvement?
+            * confusion?
+                * things that you don't understand 
+                * things that you need learn before you can fully understand your confusion.
+
+* fix other minor error that I see from wandb
+    * eg.
+        * failed models. 
+            * what is qualified as a failed model in wandb?
+        * figure out error when running.
+            * error
+                * sklearn.r2score()
+                    * ValueError: Input contains NaN, infinity or a value too large for dtype('float32').
+            * parameter that cause error
+                * see wandb log 
+                    * /home/awannaphasch2016/Documents/Working/COVID19TrendPrediction/wandb/run-20210319_020807-1l9xixtr/logs/debug.log
+
+
+* figure out XGboost bugs.
+    * here> why XGboost have same performance?
+        * here> see image in DrZhu/ 
+
+
+* run all the results ( locally)
     * here> run linear regression and xgboost.
 
-* figure out how to inspect remote node port 
-* write a report on weight and biases. (and shared link to dr zhu)
-    * here> list all the things I needs to write for report.
-        * here> for feedback 
-            * what is the current parameters for each baseline models
-            * which models is the best?
-            * data profiling.
+* figure out a way to report performance.  
+    * here> evaluation metrics should provide the following information 
+        * here> which models is better (aggregate result for all state)
+            * here> aggreate mse for all states.
+                * here> do in need to normalized it?
+                    * here> does performance of all states have high variance?
+                        * here> normalized results given each state by factors/features that cause high variance.
+* set up 4 gpu + 32 cpu instance and run progam in it 
+    * here> figure out how to inspect remote node port 
+    * run hyperparameters optimization for all base line
+
+* how to log distribute?
+    https://www.datadoghq.com/blog/python-logging-best-practices/
+
+* here> write a report on weight and biases. (and shared link to dr zhu)
+    * here> how to freeze chart to the current result.
+    * outlineing things to write. make it a separate report.
+        * sort result by the following
+            * states
+            * PredictNextN
+            * WindowLengthN
+            * PredictNextN
+                * models (aggree with PredictNextN ranking?)
+            * WindowLengthN
+                * models (aggree with WindowLenthN ranking?)
+        * data profiling.
                 * pearson correlation 
                     * measure pearson correlation between 
                         * current week vs next week 
                         * traning set vs test set
-            * explain how training and test work. 
-                * make sure that I summarized how walk_forward_validation is done. 
-                    * how do I separated traingig, test. 
-                        * with the exact number of data nad length, ... etc.
-        * further explains what I have done 
-            * explains why distributed training + experiment tracking is needed 
-                * explains about how I can use distributed training
-                    * for any number of gpu and cpu.
-                * explains that experiment tracking will be tracked on W&B.
 
-* figure out XGboost bugs.
-    * why XGboost have same performance?
-        * see image in DrZhu/ 
-* run hyperparameters optimization for all base line
-* goal: speed up my keras code
-    * figure out how to use ray autoscaler.
-* create singularity container.
-    * goal
-        * so my project can be run anywhere including
-            * cloud platofrm
-            * HPC 
-                * eg
-                    * fau cluster
-            * different workstation.
-
-
-* learn ray autoscaler.
-    * 
-
-* figure out if i need to implement more baseline or not
-    * eg
-        * tgnn (transfer learning)
-        * here> lstm
-            * here>lstm with window sliding validation
-            * send code to be trained in FAU HPC ()
-        * gam
-            * here> see pyGAM
-                * read https://tomkealy.github.io/blog/time-series-with-gams/
-        * arima
+    * here> list all the things I needs to write for report.
+        * here> for feedback 
+            * what is the current parameters for each baseline models
+                * what is the parameters names for the following.
+                    * xgboost
+                    * linear regression
+                    * lstm
+                    * mlp
+            * which models is the best?
+                * aggregate over PredectNextN, WindowLengthN.
+            * which states perform best?
+            

@@ -91,24 +91,15 @@ response from HPC
 #== TODO 
 #=====================
 
-* pay tuition
-    * see email.
+* pay the following 
+    * rent
+        * see email.
+    * tuition
+        * see email.
 
-* put the following info to PaperSummary notes then to survey 
-    * problem of epidemic forecasting
-        1. few data -> models must be good at learning from low number of data
-                  eg. transfer learning
-        2. few data (from each source) + many data sources (heterogenous data) -> data from each source must be calibrated \ 
-        model must be good at learning from hetergenous data + each data sources may contains different types of noise
-        3. use similation to get more data -> model must be able to learn from simulated data + simulated data must represent "real data"
-
-
-* create tables summarized graph construction
-
-
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to Working/TA_todo.md
+go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 
 * try using weight and biases for MLP 
             * time series forecasting

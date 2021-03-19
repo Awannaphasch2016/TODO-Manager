@@ -84,16 +84,36 @@
 
 #TODO
 
-* here> use table to summarized.
-    * 3 pages per meeting.
-    * collect the following for all papers
-        * note
-            * finished old papers first then move on to unread one. (do a quick scan rather than throughout reading)
-        * here> for graph construction.
-            * how to create nodes in graph  
-            * how to create edges in graph
+* here> finished "edges" section -> finished "nodes" section -> finished 'table'
+    * here> finish summarizing "Cola-Gnn" first
+        * vim line limit?
+        * figure out latex link length limit 
+            * here> requirement
+                * (add line break automatically so 1 line in latex = 1 line in vim).
+                * (fit into a half a screen)
+        * figure out markdown line length as well (same requirement as latex line length limit)
+            * requirement
+                * (add line break automatically so 1 line in latex = 1 line in vim).
+                * (fit into a half a screen)
 
--- 3/16/2021
+* here> refactor papers
+    * use table to summarized.
+        * 3 pages per meeting.
+        * collect the following for all papers
+            * note
+                * finished old papers first then move on to unread one. (do a quick scan rather than throughout reading)
+            * here> for graph construction.
+                * how to create nodes in graph  
+                * how to create edges in graph
+
+* put the following info to PaperSummary notes then to survey 
+    * problem of epidemic forecasting
+        1. few data -> models must be good at learning from low number of data
+                  eg. transfer learning
+        2. few data (from each source) + many data sources (heterogenous data) -> data from each source must be calibrated \ 
+        model must be good at learning from hetergenous data + each data sources may contains different types of noise
+        3. use similation to get more data -> model must be able to learn from simulated data + simulated data must represent "real data"
+-- 3/17/2021
 
 * look into the following topics. 
     * transfer learning

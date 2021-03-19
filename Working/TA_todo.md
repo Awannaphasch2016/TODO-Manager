@@ -93,6 +93,29 @@
     * reference
         * mail 
             * https://mail.google.com/mail/u/0/#sent/FFNDWLvtksXVVHTzPjDtcWcMpgSJhVSK
+
+* how to asked for help? 
+    1. How can we replicate your error? (best if you provide step by step)
+
+    2. what is the reference you have read and tried?
+
+    *3. what have you tried?
+        * change out USB cord.
+
+    4. what are the types of error you are having?
+        * msp430 is connected.
+        * code compose can't run it.
+
+    5. does someone else having the same problem?
+
+    *6. what are things that you suspect to be causing the problem? why do you think that?
+        * USB cord may not be correct.
+
+    7. have you read the instruction clearly? 
+
+    *8. what problems are you trying to solve?
+        * figure out how to get computer to recognized MSP430
+
 ## Graded
 * lab 0
     * live grading 
@@ -139,6 +162,8 @@
             * 3/15/2021
         * Claudia Gonzalez
             * 3/15/2021
+        * Leonard Osorio 
+            * 3/17/2021
 
 * lab 3 
     * live grading 
@@ -166,8 +191,6 @@
         * you didn't follow lab grading procedure. grade cannot be provided. please follow lab submission procedure. You can read more detail from TA's Annoucement.
     * penalty
         * -1 recorded value after running program is incorrect.
-        
-
 
 # TODO
 * check and clear all email
