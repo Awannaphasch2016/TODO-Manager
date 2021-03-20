@@ -97,7 +97,7 @@ response from HPC
     * tuition
         * see email.
 
-go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to Working/TA_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt

@@ -429,11 +429,43 @@ caching
 #=====================
 
 * here> implement ec2 auto scale + monitoring
+    * read abou the follwoingj
+        * here> how to work with VPCs and subset
+            * here> https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-subnet-basics
+            * read about routing strategy 
+                * https://www.geeksforgeeks.org/types-of-routing/
+                * https://www.engineeringenotes.com/networking/4-main-strategies-used-in-routing-networking-computers/14914
+        * read about AWS load balancer 
+            * 
+        * read about ec2 auto scaling
+            * 
+        * read about AWS CodeDeploye
     * read about ec2 auto scaling 
+ ,       * https://aws.amazon.com/blogs/aws/new-ec2-auto-scaling-groups-with-multiple-instance-types-purchase-options/
+            * picture 
+                * https://ec2spotworkshops.com/running-amazon-ec2-workloads-at-scale/architecture.html
+            * what is elastic file system used for?
+                * vs s3? 
+            * An AWS CloudFormation stack, which will include:
+                An Amazon Virtual Private Cloud (Amazon VPC) with subnets in two Availability Zones
+                An AWS Cloud9 environment
+                Supporting IAM policies and roles
+                Supporting security groups
+                An Amazon EFS file system
+                An Amazon S3 bucket to use with AWS CodeDeploy
+            * An ec2 launch template
+            * an RDS database instance
+            * load balancer 
+            * ec2 auto sclaing groiup with
+                * schedule scaling action
+                * dynamic scaling policy
+            * AWS CodeDeploy application dpeloyment
+            * AWS System Manger 
+                * run commnad to emulate load on the service?
     * read about monitoring.
+* can I do distributed real-time streaming processing?
 
 * merge tags + add more tags.
-
 * fau crawler 
     * here> send set of data -> put in text files (csv).
     * create word cloud 
