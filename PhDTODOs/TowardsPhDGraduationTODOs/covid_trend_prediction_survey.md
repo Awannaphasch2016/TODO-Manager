@@ -84,7 +84,8 @@
 
 #TODO
 
-* here> finished "edges" section -> finished "nodes" section -> finished 'table'
+* here> refactor overleaf to only show sections that i am editing
+* finished "edges" section -> finished "nodes" section -> finished 'table'
     * here> finish summarizing "Cola-Gnn" first
         * vim line limit?
         * figure out latex link length limit 

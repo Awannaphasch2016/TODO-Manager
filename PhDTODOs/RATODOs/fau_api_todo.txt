@@ -427,6 +427,13 @@ caching
 #=====================
 #==TODO
 #=====================
+
+* here> implement ec2 auto scale + monitoring
+    * read about ec2 auto scaling 
+    * read about monitoring.
+
+* merge tags + add more tags.
+
 * fau crawler 
     * here> send set of data -> put in text files (csv).
     * create word cloud 

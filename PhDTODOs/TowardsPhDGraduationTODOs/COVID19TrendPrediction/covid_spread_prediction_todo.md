@@ -206,6 +206,11 @@
 
 # TODO
 
+here> read about transfer learning
+    * what is area of research of transfer learning 
+        * transfer learing for regression
+        * embsemble transfer learning
+
 * check if I need to fix run set in my report to be aligned with discription?
     * link it to table of content
     * figure out a way to organized experiments log.
