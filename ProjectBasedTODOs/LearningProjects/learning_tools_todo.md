@@ -249,7 +249,6 @@
 
 # WAITING
 # TODO
-
 * here> see his article/tricks and figure out what I can use
     * ref
         * article

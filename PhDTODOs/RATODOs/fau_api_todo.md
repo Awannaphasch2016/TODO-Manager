@@ -179,8 +179,6 @@ user requirment
 #==WAITING
 #=====================
 
-here> make reddit works
-
 how to deploy twitter kinesis with serverless (lambda)?
     ref: https://aws.amazon.com/blogs/opensource/data-processing-pipeline-kinesis-kubeless/ 
         I don't think kubeless is related to serverless.
@@ -428,40 +426,65 @@ caching
 #==TODO
 #=====================
 
+* here> create new aws account
+    * here> best way to manage account?
+* list services and names that I needs to create.
+    1. kinesis
+        * raw input stream
+            * twitter -> faucovidstream_input
+            * reddit -> faucovidstream_input_from_reddit
+    2. firehose
+        * twitter -> faucovidstream_from_kinesis_to_s3
+        * reddit -> faucovidstream_from_reddit_input_kinesis_to_s3
+    3. here> s3
+        * here> twitter -> faucovidstream
+        * reddit ->  faucovidstreamreddit
+    4. lambda
+        * twitter -> faucovidstream
+        * reddit -> faucovidstream_reddit
+    5. kinesis
+        * modified input stream (with sentiment)
+            * twitter -> faucovidstreamsentiment
+            * reddit -> faucovidstreamsentiment_reddit
+    6. dynamoDB
+        * twitter -> faucovidstream_twitter_with_sentiment 
+        * reddit -> faucovidstream_reddit_with_sentiment
+
+
+* fix the error
+    * here> error:
+        * here> botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the PutRecord operation: The security token included in the request is invalid.
+            * what is the security toekn taht it is talking about?
+                * can I change it to the main accoutn?
+            * here> what account is running it?
+                * here> is the current accoutn valid?
 * here> implement ec2 auto scale + monitoring
-    * read abou the follwoingj
-        * here> how to work with VPCs and subset
-            * here> https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-subnet-basics
-            * read about routing strategy 
-                * https://www.geeksforgeeks.org/types-of-routing/
-                * https://www.engineeringenotes.com/networking/4-main-strategies-used-in-routing-networking-computers/14914
-        * read about AWS load balancer 
-            * 
-        * read about ec2 auto scaling
-            * 
-        * read about AWS CodeDeploye
+    * here> how to migrate from ec2 to auto scaling
+        * here> create demo of docker locally on my laptop 
+        * move code from my laptop to ec2 auto scaling.
+            * here> run random code on ec2 auto scaling.
+                * ref
+                    * here> https://docs.aws.amazon.com/autoscaling/ec2/userguide/GettingStartedTutorial.html
+                * is there anything else I needs to do differntly than running code on ec2 instance?
     * read about ec2 auto scaling 
- ,       * https://aws.amazon.com/blogs/aws/new-ec2-auto-scaling-groups-with-multiple-instance-types-purchase-options/
-            * picture 
-                * https://ec2spotworkshops.com/running-amazon-ec2-workloads-at-scale/architecture.html
-            * what is elastic file system used for?
-                * vs s3? 
-            * An AWS CloudFormation stack, which will include:
-                An Amazon Virtual Private Cloud (Amazon VPC) with subnets in two Availability Zones
-                An AWS Cloud9 environment
-                Supporting IAM policies and roles
-                Supporting security groups
-                An Amazon EFS file system
-                An Amazon S3 bucket to use with AWS CodeDeploy
-            * An ec2 launch template
-            * an RDS database instance
-            * load balancer 
-            * ec2 auto sclaing groiup with
-                * schedule scaling action
-                * dynamic scaling policy
-            * AWS CodeDeploy application dpeloyment
-            * AWS System Manger 
-                * run commnad to emulate load on the service?
+        * picture 
+            * https://ec2spotworkshops.com/running-amazon-ec2-workloads-at-scale/architecture.html
+        * An AWS CloudFormation stack, which will include:
+            An Amazon Virtual Private Cloud (Amazon VPC) with subnets in two Availability Zones
+            An AWS Cloud9 environment
+            Supporting IAM policies and roles
+            Supporting security groups
+            An Amazon EFS file system
+            An Amazon S3 bucket to use with AWS CodeDeploy
+        * An ec2 launch template
+        * an RDS database instance
+        * load balancer 
+        * ec2 auto sclaing groiup with
+            * schedule scaling action
+            * dynamic scaling policy
+        * AWS CodeDeploy application dpeloyment
+        * AWS System Manger 
+            * run commnad to emulate load on the service?
     * read about monitoring.
 * can I do distributed real-time streaming processing?
 

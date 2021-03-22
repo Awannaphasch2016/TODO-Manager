@@ -862,317 +862,256 @@ shift + alt + 3 = easy
 Notion
 ctrl + shift + m = comment (+ highlighting)
 
-VSCode
-ctrl + , = open setting
-ctrl + p = switch between files in workspace
-alt + enter = use with ctrl + p to open file in split window
-f11 = full screen
-alt + b = toggle sidebar
-ctrl + shift + e = open explorer sidebar
-ctrl + shift + f = open search sidebar
-ctrl + shift + g = open source control sidebar
-ctrl + shift + d = open run sidebar
-ctrl + shift + x = open extension sidebar
-ctrl + shift + f = open search sidebar
-ctrl + shift + T = reopen close editor
-ctrl + number  = go to screen (number increase form the left starting at 1)
-ctrl + shift + o = search by symbol in the file
-shift + alt + f9 = start with debugging
-shift + f9 = start without debugging
-f9 = continue
-f7 = step Into
-f8 = step over
-ctrl + f8 = toggle breakpoint
-ctrl + f2 = go to next problem in file
+# VSCode
+ctrl + ,          = open setting
+ctrl + p          = switch between files in workspace
+alt + enter       = use with ctrl + p to open file in split window
+f11               = full screen
+alt + b           = toggle sidebar
+ctrl + shift + e  = open explorer sidebar
+ctrl + shift + f  = open search sidebar
+ctrl + shift + g  = open source control sidebar
+ctrl + shift + d  = open run sidebar
+ctrl + shift + x  = open extension sidebar
+ctrl + shift + f  = open search sidebar
+ctrl + shift + T  = reopen close editor
+ctrl + number     = go to screen (number increase form the left starting at 1)
+ctrl + shift + o  = search by symbol in the file
+shift + alt + f9  = start with debugging
+shift + f9        = start without debugging
+f9                = continue
+f7                = step Into
+f8                = step over
+ctrl + f8         = toggle breakpoint
+ctrl + f2         = go to next problem in file
 ctrl + shift + f2 = go to previous problem in file
-alt + 5 = go to debug console
-alt + 3 = select active editor
-ctrl + f4 = close editor
-ctrl + shift + 5 = split terminal
+alt + 5           = go to debug console
+alt + 3           = select active editor
+ctrl + f4         = close editor
+ctrl + shift + 5  = split terminal
 ctrl + shift + f4 = close terminal
-ctrl + \  = toggle terminal
+ctrl + \          = toggle terminal
 ctrl + shift + \  = open new terminal in current directory
-ctrl + shift + w = close all editors in group
-alt + up/down = go to previous/later location (it can also be used to get out of the sidebar)
-ctrl + l = add cursors to line ends  (only works if lines are highlighted)
-ctrl + n = create new untitled file
-shift + enter = run in python interactive console (not terminal; see vscode/code runner for running section of code in terminal )
-shift + ctrl + p = open project manager
-ctrl + shift + s = file save as
-ctrl + shift + a = arepl
-shift + alt + f = find in folder
-shift + alt + r = change all occuences
-shift + alt + f = find all references
-ctrl + shift + f = find in (all) files
-ctrl + r = replace word by word in a file
-ctrl + shift + r = replace in file
-shift + f5 = stop running
-shift + space = show parameter hints
-ctrl + space = list clipboard
-shift + k = hover
-r = rename file or folder
-a = create new file
-A = create new folder
-ctrl + shift + o = list symbol in a file
+ctrl + shift + w  = close all editors in group
+alt + up/down     = go to previous/later location (it can also be used to get out of the sidebar)
+ctrl + l          = add cursors to line ends  (only works if lines are highlighted)
+ctrl + n          = create new untitled file
+shift + enter     = run in python interactive console (not terminal; see vscode/code runner for running section of code in terminal )
+shift + ctrl + p  = open project manager
+ctrl + shift + s  = file save as
+ctrl + shift + a  = arepl
+shift + alt + f   = find in folder
+shift + alt + r   = change all occuences
+shift + alt + f   = find all references
+ctrl + shift + f  = find in (all) files
+ctrl + r          = replace word by word in a file
+ctrl + shift + r  = replace in file
+shift + f5        = stop running
+shift + space     = show parameter hints
+ctrl + space      = list clipboard
+shift + k         = hover
+r                 = rename file or folder
+a                 = create new file
+A                 = create new folder
+ctrl + shift + o  = list symbol in a file
 
-Vscode/neovim
-reference: https://www.youtube.com/watch?v=g4dXZ0RQWdw
-ctrl + h/l = go to left/right panel
-space + e = toggle explorer
-space + n = toggle highight (noh command)
-space + g = open git command
-space + m = toggle minimap
-space + t + t = toggle terminal
-ctrl + shift + . = show file in the current directory in breadcrum view
+# Vscode/neovim
+reference: https://www.youtube.com/watch?v = g4dXZ0RQWdw
+ctrl + h/l                                 = go to left/right panel
+space + e                                  = toggle explorer
+space + n                                  = toggle highight (noh command)
+space + g                                  = open git command
+space + m                                  = toggle minimap
+space + t + t                              = toggle terminal
+ctrl + shift + .                           = show file in the current directory in breadcrum view
 (breadcrum.show)
 
 
-Vscode/Go to Methods
+# Vscode/Go to Methods
 alt + m = list all methods in file
 
-Vscode/Bookmark
-alt + b = togle bookmark
+# Vscode/Bookmark
+alt + b                = togle bookmark
 alt + left/right arrow = go to next bookmark
 
-Vscode/Command Pallete
-reload = reload vscode to be insync with new updates such as enabling new environment form terminal
-docker: add docker files to workspace = add docker file to workspace
-rel = copy relative active path
-path = copy absolute path of the active path
-l/g = change langauge mode (eg. python)
-z/m = toggle zen mode
-breadcrum = open current directory in breakcrum style
-p/m/s/p = project manager: save project
-@<symbol_name> = search for symbol in the current file
-#<symbol_name> = search for symbol in all the file
+# 
 
-Vscode/foambubble
-ctrl + click (or F12) = navigate to file
-
-Vscode/spotify
-shift + alt + left/right = previous/next song
-
-Vscode/spotlify/command palatte
-s/pa = pause
-s/pl= play
-
-Vscode/code runner
-run with command =  add "code-runner.executorMap": { "python": "$pythonPath -u $fullFileName xxx" } command to setting.json. To run, ctrl + shift + p and type run by language
-run section of code or full code (in terminal) = ctrl + alt + n | ctrl + shift + p and type "run code"
-stop running code  = ctrl + alt + m | ctrl + shift + p then type " stop code run"
-select langauge to run = ctrl + shift + p then type "run by language"
-
-
-VScode/Github
-git branch = git brach from the current branch
-git branch from = git brach from any of the target branch
-git commit  =
-git commit all  =
-git push (follow tag ) =
-git push to .. =
-git push =
-
-VScode/Gitlens
-search commits =
-show commit detials =
-show current branch history =
-show file history =
-show line history =
-show repository status =
-gitlens command = show all git commands avialbes in gitlens
-
-
-Vscode/Gitlens/meaning of colors circle symbol in Repositories view of gitlens sidebars
-blue = you have local changes that you haven't commited
-green = you have changes that you haven't push
-yellow = you have changes in your local, and you have changes that you have not pull from your remote
-red = you have changes that you have not pull from remote but you don't have local
-
-Vscode/Clear File Notation (symbol is in top right corner of the editor)
-turn on clear file notation = show commit message + committed date (or heat map) for each line of code
-ctrl + click on the clear file notation = show heat map of all lines on the left side of editor
-
-Vscode/metago
-alt+ctrl+/ = add another cursor to selected position
-alt + p = send 2 cursor to surrounded symbol => add/change surronded as you wished
-
-Vscode/metago/metajump
-alt + / = ace jump to target position
-alt + backspace = delete between target and cursor (keep the current word)
-alt + delte = delete between target and cursor (also delete current word)
-
-Vscode/metago/metajump with highlight
-alt + shift + / = ace jump to target position with highlight
-example of change active selection in multiple selections = https://github.com/metaseed/metaGo/blob/master/src/metaJump/README.md#change-active-selection-in-multiple-selections
-	Note: there are 3 steps to allow selection from multiple places, highlight first target => ctrl + alt + / (create new cursor) => alt + shift + / (highlight started from new cursor)
-
-
-
-Vscode/metago/navigate between files using bookmark
-alt + ' = to toggle a bookmark at the cursor location
+lt + '   = to toggle a bookmark at the cursor location
 alt + [/] = go to previous/next bookmark
-alt + \ = list the bookmarks with management menu
+alt + \   = list the bookmarks with management menu
 
 
-WSL
-wsl -l = list all installed distro os
+# WSL
+wsl -l                  = list all installed distro os
 wsl -d <distro os name> = run <distro os name> os
-cat ~./.bashrc = open WSL config file
+cat ~./.bashrc          = open WSL config file
 
 
-text expander
-zname = my name
-zem = my email
+# text expander
+zname           = my name
+zem             = my email
 email signature = ;sig
 
-neovim
+# neovim
 
-neovim/general command
-space = neovim command menu
+# neovim/general command
+space                                           = neovim command menu
 
-neovim/code complettion
-tab/shift + tab OR ctrl+j/k = go to the next suggestion word
+# neovim/code complettion
+tab/shift + tab OR ctrl+j/k                     = go to the next suggestion word
 
-neovim/window navigation/split screen
-split screen vertically = space + v
-split screen horizontally = space + h
-go to next tab on the right = tab
+# neovim/window navigation/split screen
+split screen vertically                         = space + v
+split screen horizontally                       = space + h
+go to next tab on the right                     = tab
 go to the split screen #1 or #2 (from the left) = ctrl + 1/2/...
-go to tab #1 or #1 from the left) = alt + 1/2
+go to tab #1 or #1 from the left)               = alt + 1/2
 
-neovim/window navigation/activity bar
-open explorer = ctrl + e
-open extension = ctrl + shift + x
-close activity bar = ctrl + b
+# neovim/window navigation/activity bar
+open explorer                                   = ctrl + e
+open extension                                  = ctrl + shift + x
+close activity bar                              = ctrl + b
 
-neovim/window navigation/terminal
-from editor to terminal = ctrl + j
-from terminal to editro = ctrl + k
-go to next terminal = ctrl + \
-go to previous terminal = ctrl + shift + \
-toggle terminal = alt + \
+# neovim/window navigation/terminal
+from editor to terminal                         = ctrl + j
+from terminal to editro                         = ctrl + k
+go to next terminal                             = ctrl + \
+go to previous terminal                         = ctrl + shift + \
+toggle terminal                                 = alt + \
 
-#=====================
-#==Wolfram
-#=====================
+# Wolfram
 Wolfram/syntax
 OptionaName -> OptionValue
 
 Wolfram/Notebook
-alt + . = abort current running kernel
+alt + .               = abort current running kernel
 
 Wolfram/Notebook/search bar
-ref/<expression> = go to reference page of <expression> in the documentation
+ref/<expression>      = go to reference page of <expression> in the documentation
 tutorial/<expression> = I can't make it work
-guide/<expression> = I can't make it work
+guide/<expression>    = I can't make it work
 
 
 # FZF
 ## FZF/Terminal
-* ctrl + r = fzf executed command 
+* ctrl + r = fzf executed command
 * ctrl + t = fzf files in the current dir
 
 
 # Terminal
 # Terminal/Ubuntu/apt-get/fzf
-ctrl + t = search all files recusivly from the current dir
-ctrl + r = search from past executed command
-rm **<tab> = show all files that can be used with 'rm' (or any other command)
+ctrl + t      = search all files recusivly from the current dir
+ctrl + r      = search from past executed command
+rm **<tab>    = show all files that can be used with 'rm' (or any other command)
 
 # Terminal/Ubuntu/apt-get/visidata
 vs <any .csv> = show .csv nicely
 
 # visiddata
-shift-U shift-R  = undo/redo
-shift-S = list all active sheet (most recently used at top)
-shift-C = open columns sheets
+shift-U shift-R                               = undo/redo
+shift-S                                       = list all active sheet (most recently used at top)
+shift-C                                       = open columns sheets
 
 # visiddata/session
-ctrl-d = save the cmdlog to a *.vd file
-    * shift-d then ctrl-s = does the same thing as ctrl-d
-shift-d = view commandlog sheet 
-ctrt-s = save file with same suffix
+ctrl-d                                        = save the cmdlog to a *.vd file
+    * shift-d then ctrl-s                     = does the same thing as ctrl-d
+shift-d                                       = view commandlog sheet
+ctrt-s                                        = save file with same suffix
 
 
 # visidate/column's types
-~ = string 
-# = number
-% = float
-$ = currency
-@ = date
-z# = vlen 
+~                                             = string
+#                                             = number
+%                                             = float
+$                                             = currency
+@                                             = date
+z#                                            = vlen
     * vlen - variable-length datatype.
-z! = anytype (like object?)
+z!                                            = anytype (like object?)
 
 
 # visidata/navigation
-h,j,k,l = left/down/up/right (like vim)
-gh gj gk gl = move all the way to the left bottom top right of sheet
-< > = move up/down the current column to the next value which differ from current cell
-{ } = move up/down the current column to the next selected row
-c <columnname> = move the cursoe to the <columnname>
+h,j,k,l                                       = left/down/up/right (like vim)
+gh gj gk gl                                   = move all the way to the left bottom top right of sheet
+< >                                           = move up/down the current column to the next value which differ from current cell
+{ }                                           = move up/down the current column to the next selected row
+c <columnname>                                = move the cursoe to the <columnname>
 
 
 # visidata/filter + row&columns manipulation/basic/row
-gd = delete all selected
+gd                                            = delete all selected
     * can be paste anywhere on the sheet of the same type
-" = open a duplicate sheet which has reference to the selecte drows. Edits performed within the duplicate hseet will also propagate to the source sheet.
-z" = to open a copy of the sheeting which hs copies of the selected rwos. Any changes will not affect the source sheets
-g" = open a duplicate sheet which has referneces to al lrwos, and keeping the selected rwos selected. The selection can e modified on the parent sheets and the new sheet independenly, but any changes will be reflected on both sheets.
+"                                             = open a duplicate sheet which has reference to the selecte drows. Edits performed within the duplicate hseet will also propagate to the source sheet.
+z"                                            = to open a copy of the sheeting which hs copies of the selected rwos. Any changes will not affect the source sheets
+g"                                            = open a duplicate sheet which has referneces to al lrwos, and keeping the selected rwos selected. The selection can e modified on the parent sheets and the new sheet independenly, but any changes will be reflected on both sheets.
 
 # visidata/filter + row&columns manipulation/basic/column
-! = pins the current column on theleft as a key columns
-H L = slides the current column one position to the left/right
-gH gL = slides the current columns all the way to the left/right of its section
-_ = expand columns 
-g_ = expands all columns
-- = hide current columns (setting width size to 0)
-z- = shrink all columns to half its size 
-gv = unhide
+!                                             = pins the current column on theleft as a key columns
+H L                                           = slides the current column one position to the left/right
+gH gL                                         = slides the current columns all the way to the left/right of its section
+_                                             = expand columns
+g_                                            = expands all columns
+-                                             = hide current columns (setting width size to 0)
+z-                                            = shrink all columns to half its size
+gv                                            = unhide
 
 # visidata/filter + row&columns manipulation/columns manipulation/split
-za = create blank columns
-i  = create column contain incremental number 
-zi = create column contrain incremental number by any specified amount
-= = create expression  column 
-: = split column by patten
-; = create new columns with value extracted from other column
+za                                            = create blank columns
+i                                             = create column contain incremental number
+zi                                            = create column contrain incremental number by any specified amount
+                                              = = create expression  column
+:                                             = split column by patten
+;                                             = create new columns with value extracted from other column
 
 # visidata/filter + row&columns manipulation/move, copy and remove rows
-J K = move cursor row down/up
-gJ = move cursor row all the way to the bottom/top of the sheet
+J K                                           = move cursor row down/up
+gJ                                            = move cursor row all the way to the bottom/top of the sheet
 
 # visidata/filter + row&columns manipulation/sort rows
-[ ] = short ascending/descending by current column
-g[ g] = sorts ascending/descending by all key columns
+[ ]                                           = short ascending/descending by current column
+g[ g]                                         = sorts ascending/descending by all key columns
 
 
 # visidata/filter + row&columns manipulation/edit
-e = enter editing mode 
-ctrl+0 = while in editing mode, it open the content of the current cell in a external $EDITOR
+e                                             = enter editing mode
+ctrl+0                                        = while in editing mode, it open the content of the current cell in a external $EDITOR
 
 
 # visidata/search/within sheets
-/ ? regex = search for regex matches up/down the "current" column
-g/ g? regex = search for regex matches up/down over "all visible" columsn
-z/  z? = search by Python expr updown (with column names as variables)
+/ ? regex                                     = search for regex matches up/down the "current" column
+g/ g? regex                                   = search for regex matches up/down over "all visible" columsn
+z/  z?                                        = search by Python expr updown (with column names as variables)
     * eg 
         * tpye z/ followed by <columns name> == <some value>
 
 # visidata/search/between sheets
-Ctrl + ^ = jump to the previous sheet, without closing the current one
-q = quit the current sheet. (close it)kj:w
+Ctrl + ^                                      = jump to the previous sheet, without closing the current one
+q                                             = quit the current sheet. (close it)kj:w
 
 
 # visidata/selected row
-s t u = select/toggle/unselect "current" row
-gs gt gu = select/toggle/unselect "all" rows
-| \ regex = select/unselect rows matching regex in "current" column
-g| g\ regex = select/unselect rows mathcing regex in "any visible" column
-s| s\ expr = select/unselect row mthcing Python expr in "any visible" column
-, = select rows matching current cell in "current" columns
-g, = select rows matching entire current row in "all visible" columns
+s t u                                         = select/toggle/unselect "current" row
+gs gt gu                                      = select/toggle/unselect "all" rows
+| \ regex                                     = select/unselect rows matching regex in "current" column
+g| g\ regex                                   = select/unselect rows mathcing regex in "any visible" column
+s| s\ expr                                    = select/unselect row mthcing Python expr in "any visible" column
+,                                             = select rows matching current cell in "current" columns
+g,                                            = select rows matching entire current row in "all visible" columns
 
 
+# gmails
+select all            = shift + 8 + a
+trash selected emails = shift +3
+compose email         = c
+star                  = s
+reply all             = a
+reply to 1            = r
+discard               = ctrl + shift + d
 
+#gmail/editing 
+* cmd + b             = bold
+* cmd + I             = speed up inbox workflow
 
+# gmails/task
+open task             = G + k
+add task              = shift + t
