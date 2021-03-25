@@ -206,7 +206,12 @@
 
 # TODO
 
-here> read about transfer learning
+* here> dataset availble.
+
+* purposed my model
+    * clustering of time-series Data 
+    * Time series clustering approaches.
+* here> read about transfer learning
     * what is area of research of transfer learning 
         * transfer learing for regression
         * embsemble transfer learning

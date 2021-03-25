@@ -84,7 +84,13 @@
 
 #TODO
 
+* understand each models and summarized it in survey 
 * here> refactor overleaf to only show sections that i am editing
+    * finish node section
+        * refactor from what I have in overleaf 
+        * add details about nodes from papers that I haven't put details in the survey yet
+    * finish models
+        * summarized details from markdown 
 * finished "edges" section -> finished "nodes" section -> finished 'table'
     * here> finish summarizing "Cola-Gnn" first
         * vim line limit?

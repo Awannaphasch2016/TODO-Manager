@@ -92,8 +92,6 @@ response from HPC
 #=====================
 
 * pay the following 
-    * rent
-        * see email.
     * tuition
         * see email.
 

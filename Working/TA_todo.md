@@ -169,6 +169,14 @@
     * live grading 
         * Jesus Hernandez
         * Aaron mills
+        * Adrian Echazabal
+        * Erika Stone
+        * thiago goncalves vas
+        * ethan welz 
+
+* lab 4
+    * live grading
+        * jesus hernandez
 
 ## Comments 
 * lab 0 
@@ -193,6 +201,8 @@
         * -1 recorded value after running program is incorrect.
 
 # TODO
+* grade lab 1 and lab 2 (resubmission)
+* grade lab 3
 * check and clear all email
     * gmail 
     * canvas

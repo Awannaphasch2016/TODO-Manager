@@ -20,8 +20,10 @@
                 * change value of service in lambda to match what i have  
                     * lambda function
                         * what is the lambda 
-                    * dynamodb
-                    * s3?
+                    * here> dynamodb
+                        * can't put item. why?
+                    * kinesis create one to re
+                    <!-- * s3? -->
         * components
             1. kinesis
                 * raw input stream
