@@ -84,13 +84,21 @@
 
 #TODO
 
-* understand each models and summarized it in survey 
-* here> refactor overleaf to only show sections that i am editing
-    * finish node section
-        * refactor from what I have in overleaf 
-        * add details about nodes from papers that I haven't put details in the survey yet
-    * finish models
-        * summarized details from markdown 
+* fix points suggested by dr Zhu.
+    * ref
+        * emails
+            * https://mail.google.com/mail/u/0/#all/FMfcgxwLtGjKrPtVcGlwxftmgsfZtRhL
+        * template 
+            * https://www.overleaf.com/project/605befa3007f819a13f782bd
+    * thing to fix 
+        * change edges features to edges type/edges attribute. 
+        * edges tyupe to edges direction. and refactor self-loop to new row
+        * extend embedded edges typ intto spatio-temporal, spatial, temporal, and other.
+        * take model out of the node and edges.
+
+* here> finish network construction 
+* finish GNN model 
+    * understand each models and summarized it in survey 
 * finished "edges" section -> finished "nodes" section -> finished 'table'
     * here> finish summarizing "Cola-Gnn" first
         * vim line limit?
