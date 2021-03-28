@@ -91,10 +91,10 @@
         * template 
             * https://www.overleaf.com/project/605befa3007f819a13f782bd
     * thing to fix 
-        * change edges features to edges type/edges attribute. 
-        * edges tyupe to edges direction. and refactor self-loop to new row
-        * extend embedded edges typ intto spatio-temporal, spatial, temporal, and other.
         * take model out of the node and edges.
+* add all detail into network and model
+    * fix things related to "examing.."
+        * model -> network -> edges -> node
 
 * here> finish network construction 
 * finish GNN model 
