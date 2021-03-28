@@ -93,8 +93,13 @@
     * thing to fix 
         * take model out of the node and edges.
 * add all detail into network and model
-    * fix things related to "examing.."
-        * model -> network -> edges -> node
+    * fix things related to "STAN.."
+        * model
+            * here> reread
+            * refactor writing from other section (currently in  comment)
+        * network
+        * edges 
+        * nodes
 
 * here> finish network construction 
 * finish GNN model 
