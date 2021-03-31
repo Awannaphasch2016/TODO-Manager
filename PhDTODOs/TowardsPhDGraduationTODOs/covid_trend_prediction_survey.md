@@ -84,47 +84,20 @@
 
 #TODO
 
+
 * fix points suggested by dr Zhu.
     * ref
         * emails
             * https://mail.google.com/mail/u/0/#all/FMfcgxwLtGjKrPtVcGlwxftmgsfZtRhL
         * template 
             * https://www.overleaf.com/project/605befa3007f819a13f782bd
-    * thing to fix 
-        * take model out of the node and edges.
-* add all detail into network and model
-    * fix things related to "STAN.."
-        * model
-            * here> reread
-            * refactor writing from other section (currently in  comment)
-        * network
-        * edges 
-        * nodes
-
-* here> finish network construction 
-* finish GNN model 
-    * understand each models and summarized it in survey 
-* finished "edges" section -> finished "nodes" section -> finished 'table'
-    * here> finish summarizing "Cola-Gnn" first
-        * vim line limit?
-        * figure out latex link length limit 
-            * here> requirement
-                * (add line break automatically so 1 line in latex = 1 line in vim).
-                * (fit into a half a screen)
-        * figure out markdown line length as well (same requirement as latex line length limit)
-            * requirement
-                * (add line break automatically so 1 line in latex = 1 line in vim).
-                * (fit into a half a screen)
-
-* here> refactor papers
-    * use table to summarized.
-        * 3 pages per meeting.
-        * collect the following for all papers
-            * note
-                * finished old papers first then move on to unread one. (do a quick scan rather than throughout reading)
-            * here> for graph construction.
-                * how to create nodes in graph  
-                * how to create edges in graph
+    * fix 
+        * how they use graph and analysis to do.
+        * refactor by create subsection on.
+        * add plot and figure.
+    * refactor process
+        * reread, and mark point to compress and expand
+        * begin writing
 
 * put the following info to PaperSummary notes then to survey 
     * problem of epidemic forecasting
@@ -133,7 +106,6 @@
         2. few data (from each source) + many data sources (heterogenous data) -> data from each source must be calibrated \ 
         model must be good at learning from hetergenous data + each data sources may contains different types of noise
         3. use similation to get more data -> model must be able to learn from simulated data + simulated data must represent "real data"
--- 3/17/2021
 
 * look into the following topics. 
     * transfer learning

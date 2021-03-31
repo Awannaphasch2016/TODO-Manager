@@ -91,6 +91,7 @@ response from HPC
 #== TODO 
 #=====================
 
+* apply ta
 * pay the following 
     * tuition
         * see email.

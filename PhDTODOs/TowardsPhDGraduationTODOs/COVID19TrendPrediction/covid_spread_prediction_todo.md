@@ -206,12 +206,57 @@
 
 # TODO
 
-* here> dataset availble.
+* here> build a graph
+    * ref
+        * visidata
+            * video
+                * youtube.com/watch?v=Ozap_numsjI&list=PLxu7QdBkC7drrAGfYzatPGVHIpv4Et46W&index=3
+            * summarize
+                * https://jsvine.github.io/intro-to-visidata/basics/summarizing-data/
+            * graph
+                * https://www.visidata.org/docs/graph/
+    * how to do cluster analysis?
+        * apply basic cluster analysis
+            * ref
+                * dynamic virtual graph significnacne network for predicint influenza
+            * way 1 
+                1. split each time series into nubmer of windows
+                2. for each time series, cluster each window into groups.
+                    * create a full table 
+                3. for all time series, cluster each window into groups.
+                    * rank highest correlation and show top n.
+            * way 2
+                * the same as way 1, but apply the following model to raw data 
+                    * 2 layers mlp (256) with ELU
+            * way 3 
+                * way 1 and 2, but create tree based on events including the following
+                    * policy 
+                    * vaccine
+            * way 4
+                * begin at way 3 
+                * For each group, create a mean of each member in a group
+                * For each group, create a mean of rolling mean of each member in a group.
+        * analyze cluster result to real data/event/trigger.
+    * here> lets do data analysis of the dataset.
+        * see "interplay.." paper
+        * here> inter-temporal correlation.
+            * here> n * n matrix
+                * here> goal is to group date and state of 7 days and apply correlation.
+                    * here> for each week, apply correlation to all states.
+                        * ref
+                            * see https://stackoverflow.com/questions/54023650/finding-correlation-of-dataset-with-multilevel-column
+                        * here> summarized code into Notebook/.../data_analysis_2.py
+                        * summaried code into blog
+        * intra-temporal correlation.
+            * pearson correlation week by week. 
+                1. compute correlation for all pair of each week. 
+                2. bar plot week by week.
+        * correlation between features.
 
-* purposed my model
-    * clustering of time-series Data 
-    * Time series clustering approaches.
-* here> read about transfer learning
+    * what is the best possible way to create a graph?
+        * what are dataset availble.
+
+* read about transfer learning
     * what is area of research of transfer learning 
         * transfer learing for regression
         * embsemble transfer learning

@@ -2,6 +2,8 @@
 # WAITINGS
 # OPTIMIZATION
 # TODO
+
+* data analysis -> event trigger -> select features -> build graph
 * here> setup latex such that I can easily make conprehensive notes.
     * ref
         * Gilles Castel

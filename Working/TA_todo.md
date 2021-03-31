@@ -177,6 +177,8 @@
 * lab 4
     * live grading
         * jesus hernandez
+        * Erika Stone.
+        * David Vega Sotolongo.
 
 ## Comments 
 * lab 0 
