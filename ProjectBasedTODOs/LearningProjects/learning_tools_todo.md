@@ -249,6 +249,78 @@
 
 # WAITING
 # TODO
+
+
+* refactor TODO-MANAGER to use vimwiki
+    * ref 
+        * youtube
+            * Productivity Setup with Vimwiki, Taskwarrior and MDwiki: Part 1
+        * article
+            * create folder with vimwiki
+                * https://www.google.com/search?q=create+folder+with+vimwiki&rlz=1C1CHBF_enUS941US941&oq=create+folder+with+vimwiki&aqs=chrome..69i57.5517j0j7&sourceid=chrome&ie=UTF-8
+                * https://www.reddit.com/r/vim/comments/8xzpkz/you_probably_dont_need_vimwiki/
+                    * You (probably) don’t need Vimwiki
+                        * https://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html
+    * requirment 
+        * does it allow for fzf "folder" search.
+            * eg 'Example/something/...'
+            * if it doesn't, i need to figure it out a way to keep the folder structued of the TODOMANGER 
+                and implement additional function of vimwiki.
+                * see "Pros"
+    * Pros
+        * later on when I have lots of meeing, vimwiki have options to create current date and time note with changeable title.
+            * this will comes in handy when I start to develope "daily log system"
+                * note that 'log' refer to system to take a snapshot of important events, in this example, 
+                    it refers to meeting notes.
+* productivity setup with vim 
+    * ref
+        * https://www.youtube.com/watch?v=A1YgbAp5YRc
+            * tools
+                * tasklib (python api for taskwrrior)
+                    * pip3 install tasklib
+* figure out how to do space repetition with vim.
+    * ref
+        * space-repetition algorithm
+            * https://github.com/dahu/vim-sm2
+    * can't find vim package for this
+    * If i can't find any, create my own vim plugin?
+* learn how to manage reference 
+    * stackoverflow
+        * workflow for managing reference
+            * https://tex.stackexchange.com/questions/18848/workflow-for-managing-references 
+    * citation management workflow with vim 
+        * ref
+            * https://www.youtube.com/results?search_query=citation.vim
+            * Note and citation using vim and pandoc
+                * https://www.youtube.com/watch?v=nXgqnYVAzKk 
+                * note
+                    * it has feature that add "header" of paper when creating notes.
+                    * searchable tags system.
+                        * tags also have a page that show all paper with this tags.
+                * tool
+                    * pdf2doi
+                    * doi2bib
+            * easy academic reference paper on the command line.
+                * https://www.youtube.com/watch?v=ksAfmJfdub0
+                    * comment 
+                        * this video show how to output citation format for research paper (pdf) using command line(pdf) using command line.
+                        * "I don't think I said it in the video, but you might need to install `poppler` to get the `pdfinfo` and `pdttotext` commands."
+        * what is pdfinfo?
+    * reference management software 
+        * learn how to use Mandeley
+* learn how to use paper search engine.
+    * Google scholar
+    * how to use arxiv
+    * connected paper
+        * https://www.connectedpapers.com/main/c2519b12698187baddc889dfac9b1747cf6d2cef/ColaGNN-Crosslocation-Attention-based-Graph-Neural-Networks-for-Longterm-ILI-Prediction/derivative
+* learn how to use DVC (Data Versioning Control)
+    *  youtube.com/watch?v=UbL7VUpv1Bs
+    * https://github.com/iterative/dvc
+* compare MLops tools  
+    * ref
+        * https://www.youtube.com/watch?v=UbL7VUpv1Bs
+        * https://medium.com/analytics-and-data/modern-machine-learning-tooling-c1e8689ad6f1
+        * https://dagshub.com/blog/how-to-compare-ml-experiment-tracking-tools-to-fit-your-data-science-workflow/
 * here> see his article/tricks and figure out what I can use
     * ref
         * article
@@ -268,4 +340,4 @@
         * other plugin
             * sympy OR mathematica
             * postfix
-
+ 

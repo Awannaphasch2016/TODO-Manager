@@ -91,6 +91,9 @@ response from HPC
 #== TODO 
 #=====================
 
+* blockchain api survey for a friend
+* create a universal "paper reference collection file"
+    * what are best practices?
 * apply ta
 * pay the following 
     * tuition
