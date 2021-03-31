@@ -117,6 +117,7 @@
         * figure out how to get computer to recognized MSP430
 
 ## Graded
+
 * lab 0
     * live grading 
         * Dov Catton
@@ -203,6 +204,17 @@
         * -1 recorded value after running program is incorrect.
 
 # TODO
+* here> fix the following grade 
+    * check canvas
+        * eyan eubanks grade for lab 1. I gave her 0.
+        * Alexander Daniello
+        * Giafranco Batoni 
+        * Avigial Martinez
+        * Jordan Mayberry
+* excuse for quiz extension.
+    * Sumer Roberson
+* resubmission to check
+    * Joshua Walsworth -> lab 0 and lab 1.
 * grade lab 1 and lab 2 (resubmission)
 * grade lab 3
 * check and clear all email
