@@ -426,8 +426,28 @@ caching
 #==TODO
 #=====================
 
-* here> create new aws account
-    * here> best way to manage account?
+* here> try to destroy and recreate
+    * terraform registry
+        * https://registry.terraform.io/browse/modules
+    * here> how does module works in terraform?
+        * read the following
+            * https://www.terraform.io/docs/language/modules/develop/index.html
+        * how to start building terraform from scratch?
+            * ref 
+                * https://learn.hashicorp.com/tutorials/terraform/aws-build
+                * https://medium.com/@simon.so/7-tips-to-start-your-terraform-project-the-right-way-93d9b890721a
+            * should I do this?
+        * here> read output of terraform show
+            * here> look inside 
+        * what is the states in terraform?
+            * here> how is this important?
+            * how many states are there?
+                * how to check states?
+            * how can state cause error?
+        * fix the validate error.
+            * then try to validate -> plan -> apply -> destroy
+
+* figure out a best way to manage account?
 * list services and names that I needs to create.
     1. kinesis
         * raw input stream

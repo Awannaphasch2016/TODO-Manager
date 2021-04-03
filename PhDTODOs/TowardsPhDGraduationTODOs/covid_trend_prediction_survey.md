@@ -96,6 +96,7 @@
         * refactor by create subsection on.
         * add plot and figure.
         * 4/2/2021 
+            * reduce number of tex file
             * reference like [11] can't be used as subject.
                 * use reference to cited a subject.
                     * subjects could be the following
