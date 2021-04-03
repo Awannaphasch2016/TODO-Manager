@@ -245,8 +245,11 @@
                     * here> for each week, apply correlation to all states.
                         * ref
                             * see https://stackoverflow.com/questions/54023650/finding-correlation-of-dataset-with-multilevel-column
-                        * here> summarized code into Notebook/.../data_analysis_2.py
-                        * summaried code into blog
+                        * here> create a linear plot that include variance
+                            * here> try to redo the whole workflow using cmd instead of pandas.
+                                * here> which one of the command line tools can I used?
+                                * save multiindex pandas output into file then use command line to plot
+                               * time-seires box plot.
         * intra-temporal correlation.
             * pearson correlation week by week. 
                 1. compute correlation for all pair of each week. 

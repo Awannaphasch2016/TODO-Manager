@@ -95,9 +95,50 @@
         * how they use graph and analysis to do.
         * refactor by create subsection on.
         * add plot and figure.
+        * 4/2/2021 
+            * reference like [11] can't be used as subject.
+                * use reference to cited a subject.
+                    * subjects could be the following
+                        * modle name 
+                        * author et al.
+                    * framework to categorized Networking paper
+                        * 1: Feature Learning Models:
+                        * 2: Parameter Learning Models:
+                        * 3: learn relation between nodes (such as Attention Learning Models)
+                        * 4: Knowledge Fusion Models (transfer learning):9
+                    * fix certain concepts 
+                        * orthogonalized 
+                        * add explains on baseline model (in baseline model sections)
+            * Always ty to use a passive tesne
     * refactor process
-        * reread, and mark point to compress and expand
-        * begin writing
+        * here> reread modeling section
+        * waiting for reply and I can process to add the followiong content
+            * here> read network construction and figure out what to refactors.
+            * add the following content to modeling section
+                * Attention mechanism 
+                * spatial dependencies
+                    * learning local vs global spatial 
+                        * do i have any?
+                * temporal dependencies 
+                    * multi-scale structural information.
+                        * append GNN output from each layer together.
+                    * multi-scale temporal information
+                        * 1D dilated CNN
+                    * intra-dependencies 
+                        * if not use GNN
+                            * input is a covid case of the past few days
+                        * if used GNN
+                            * note:
+                                * GNN doesn't learn intra dependencies.
+                            * SPNN model
+                            * feature encoding 
+                                * rnn model variances.
+                    * inter-dependencies
+                        * if not used GNN 
+                            * input is a covid case of multiple location per timestep.
+                        * all GNN really with time-series features.
+                *  writing about transfer learning 
+        * refactor other network/edges/nodes construction.
 
 * put the following info to PaperSummary notes then to survey 
     * problem of epidemic forecasting

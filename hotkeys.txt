@@ -528,6 +528,11 @@ vim navigation
 ` + ^ = jump to the last insert mode position
 ctrl + w * 2 = jump between screen
 ctrl + w + h/j/k/l = go to left/above/down/right window
+
+vim/window management 
+<C-w>_ = zoom into horizontal section.
+<C-w>= = restroed from zooming .
+<C-W>| = zoom into vertical section.
 :vs <filename> = split vertically to the right
 :sp < filenae> = split horizontally below the current screen
 

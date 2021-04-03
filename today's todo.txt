@@ -91,6 +91,16 @@ response from HPC
 #== TODO 
 #=====================
 
+* check TA submission for summer (am i in it already?)
+* here> find papers related to the following 
+    * my survey 
+    * my models 
+        * transfer learning 
+        * clustering 
+        * virtual nodes/virtual edges.
+* learn how to write manifesto and write one for "inside the terminal data science tooling workflow"
+* start writing a book on "Inside the terminal Workflow for data science and developer"
+    * what should be chapters 
 * blockchain api survey for a friend
 * create a universal "paper reference collection file"
     * what are best practices?

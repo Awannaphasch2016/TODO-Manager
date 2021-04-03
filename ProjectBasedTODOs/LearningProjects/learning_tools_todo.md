@@ -251,6 +251,91 @@
 # TODO
 
 
+* here> learn how people use gist?
+    * goal 
+        * use gist as a snippet storage to use across machine.
+            * can I just use s3?
+    * ref
+        * https://www.liquidweb.com/kb/little-known-ways-to-utilize-github-gists/
+* learn Unix programming
+    * ref
+        * art of unix programming
+            * http://catb.org/~esr/writings/taoup/
+* learn data science at the command line
+    * https://github.com/jeroenjanssens/data-science-at-the-command-line
+        * note
+            * q for query data
+            * xsv for csv
+            * miller for tabular
+            * jq for jason
+            * xmlstarlet for xml
+            * Vowpal Wabbit for modeling (vs cmdstan?)
+                * read https://vowpalwabbit.org/tutorials/cmd_first_steps.html
+        * things to learn 
+            * read the following chapter
+                * chapter 1 
+                    * data science is OSEMN
+                    * Intermezzo
+                    * Command line 
+                    * why data sciecne at commnad line 
+                    * a readl-world use case 
+                    * further reading 
+                * chapter 3 
+                    * overview
+                        * read and figure out if I need to read the chapter at all
+                * chapter 4
+                    * converting one-linesr into shell scripts
+                    * createing commandl-line tools with python
+                * chapter 5: scrubbing data
+                * chapter 6: managing your data workflow
+                * chapter 7: exploring data
+                * chapter 8: parallel pipeline
+                * chapter 9: modeling
+                * chapter 10: leverage the unix commnad line elsewhere
+                * conclusion
+        * first vs second edition
+            * ref 
+                * https://github.com/jeroenjanssens/data-science-at-the-command-line/issues/101 
+            * csvkit -> xsv for csv
+            * xmlstarlet is used for xml
+            * scrape -> pup for HTML
+            * Drake -> Make
+            * Rio -> littler for R programming
+            * Weka, BigML, SKLL -> Vowpal Wabbit.
+        * check out the following tools
+            * ref
+                * https://github.com/jeroenjanssens/data-science-at-the-command-line/issues/103
+            * Rio
+            * rio-mds
+            * rio-pca
+            * rio-scatter
+            * arff2csv
+            * body
+            * cols
+            * csv2arff
+            * csv2vw
+            * drak
+            * dseq
+            * dumbplot
+            * explain
+            * pbc
+            * scrape
+            * servewd
+            * trim
+            * unpack
+            * weka
+            * weka-cluster
+* read about Data Science Toolbox.
+    * ref
+        * https://github.com/datasciencetoolbox/datasciencetoolbox 
+    * what are the essential tools for data science that I can use in my workflow?
+
+* learn MLOps from tutorial 
+    * ref
+        * youtube.com/watch?v=UbL7VUpv1Bs
+        * learn how to use DVC (Data Versioning Control)
+            * https://github.com/iterative/dvc
+
 * refactor TODO-MANAGER to use vimwiki
     * ref 
         * youtube
@@ -313,15 +398,12 @@
     * how to use arxiv
     * connected paper
         * https://www.connectedpapers.com/main/c2519b12698187baddc889dfac9b1747cf6d2cef/ColaGNN-Crosslocation-Attention-based-Graph-Neural-Networks-for-Longterm-ILI-Prediction/derivative
-* learn how to use DVC (Data Versioning Control)
-    *  youtube.com/watch?v=UbL7VUpv1Bs
-    * https://github.com/iterative/dvc
 * compare MLops tools  
     * ref
         * https://www.youtube.com/watch?v=UbL7VUpv1Bs
         * https://medium.com/analytics-and-data/modern-machine-learning-tooling-c1e8689ad6f1
         * https://dagshub.com/blog/how-to-compare-ml-experiment-tracking-tools-to-fit-your-data-science-workflow/
-* here> see his article/tricks and figure out what I can use
+* see his article/tricks and figure out what I can use
     * ref
         * article
             * https://castel.dev/post/lecture-notes-1/
