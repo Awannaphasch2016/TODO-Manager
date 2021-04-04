@@ -430,15 +430,34 @@ caching
     * terraform registry
         * https://registry.terraform.io/browse/modules
     * here> how does module works in terraform?
+        * ref 
+            * here> how to use terraform registry?
+                * https://learn.hashicorp.com/tutorials/terraform/module-use 
         * read the following
             * https://www.terraform.io/docs/language/modules/develop/index.html
-        * how to start building terraform from scratch?
+        * here> how to start building terraform from scratch?
             * ref 
-                * https://learn.hashicorp.com/tutorials/terraform/aws-build
+                * terraform best practices
+                    * https://www.terraform-best-practices.com/examples/terraform/medium-size-infrastructure
                 * https://medium.com/@simon.so/7-tips-to-start-your-terraform-project-the-right-way-93d9b890721a
-            * should I do this?
-        * here> read output of terraform show
-            * here> look inside 
+                * module in terraform 
+                    * https://medium.com/@mitesh_shamra/module-in-terraform-920257136228
+                * hands-on 
+                    * https://www.youtube.com/watch?v=Ql8RqTH8gOA&list=PLMxDdjhmPw7L5kpguJxVuMoEfoqmygOiW&ab_channel=HMInformative
+                    * https://www.youtube.com/watch?v=e_rcdTGTnt0&ab_channel=HMInformative
+        * here> figure out hwo to test lambda function locally 
+        * is there module related to what I am using?
+            * key words
+                * streaming? 
+                * kinesis 
+                * dynamodb
+                * ec2
+                * autoscaling
+        * change kinesis to be autoscaled or increase sharding.
+        * fix provider key error 
+            * here> figure out the best practicing to manage aws keys.
+                * keys rotation? 
+        * what is var.something in terrform
         * what is the states in terraform?
             * here> how is this important?
             * how many states are there?
@@ -446,6 +465,11 @@ caching
             * how can state cause error?
         * fix the validate error.
             * then try to validate -> plan -> apply -> destroy
+        * configure the following services
+            * kinesis 
+                * autoscale?
+                * what are options I can configure?
+            *
 
 * figure out a best way to manage account?
 * list services and names that I needs to create.
