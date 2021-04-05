@@ -409,6 +409,12 @@ fnigure out a way to make tweepy process faster:
 use openapi as standard for my api documentation
 update documentation to the clodu version
 
+* use the following to optimize the architecutre
+    * here> step function
+        * here> temrporal
+            * note
+                * similar to step function but more generalized
+
 #=====================
 #==RESOURCE
 #=====================
@@ -433,43 +439,38 @@ caching
         * ref 
             * here> how to use terraform registry?
                 * https://learn.hashicorp.com/tutorials/terraform/module-use 
-        * read the following
-            * https://www.terraform.io/docs/language/modules/develop/index.html
-        * here> how to start building terraform from scratch?
-            * ref 
-                * terraform best practices
-                    * https://www.terraform-best-practices.com/examples/terraform/medium-size-infrastructure
-                * https://medium.com/@simon.so/7-tips-to-start-your-terraform-project-the-right-way-93d9b890721a
-                * module in terraform 
-                    * https://medium.com/@mitesh_shamra/module-in-terraform-920257136228
-                * hands-on 
-                    * https://www.youtube.com/watch?v=Ql8RqTH8gOA&list=PLMxDdjhmPw7L5kpguJxVuMoEfoqmygOiW&ab_channel=HMInformative
-                    * https://www.youtube.com/watch?v=e_rcdTGTnt0&ab_channel=HMInformative
-        * here> figure out hwo to test lambda function locally 
-        * is there module related to what I am using?
-            * key words
-                * streaming? 
-                * kinesis 
-                * dynamodb
-                * ec2
-                * autoscaling
+            * read the following
+                * https://www.terraform.io/docs/language/modules/develop/index.html
+            * how to start building terraform from scratch?
+                * ref 
+                    * terraform best practices
+                        * https://www.terraform-best-practices.com/examples/terraform/medium-size-infrastructure
+                    * https://medium.com/@simon.so/7-tips-to-start-your-terraform-project-the-right-way-93d9b890721a
+                    * module in terraform 
+                        * https://medium.com/@mitesh_shamra/module-in-terraform-920257136228
+                    * hands-on 
+                        * https://www.youtube.com/watch?v=Ql8RqTH8gOA&list=PLMxDdjhmPw7L5kpguJxVuMoEfoqmygOiW&ab_channel=HMInformative
+                        * https://www.youtube.com/watch?v=e_rcdTGTnt0&ab_channel=HMInformative
+        * fix terrform error 
         * change kinesis to be autoscaled or increase sharding.
         * fix provider key error 
-            * here> figure out the best practicing to manage aws keys.
-                * keys rotation? 
-        * what is var.something in terrform
-        * what is the states in terraform?
-            * here> how is this important?
-            * how many states are there?
-                * how to check states?
-            * how can state cause error?
-        * fix the validate error.
-            * then try to validate -> plan -> apply -> destroy
-        * configure the following services
+            * here> add iam-policy to dynamodb table  
+                * find iam_policy  
+                * how to attach policy to a resource? 
+        * here> configure the following services
+            * here> read policy 
+                * policy
+                    * here> https://learn.hashicorp.com/tutorials/terraform/aws-iam-policy
+                * auto scaling + terraform  
+                    * https://stackoverflow.com/questions/61180364/error-creating-application-autoscaling-target-on-aws-when-using-terraform-defi
             * kinesis 
                 * autoscale?
                 * what are options I can configure?
-            *
+            * here> firehorse -> s3 -trigger -> dynamo
+                * if too much work, just put things in dynamodb
+                * here> firehorse -> s3
+            * ec2
+            * autoscaling
 
 * figure out a best way to manage account?
 * list services and names that I needs to create.

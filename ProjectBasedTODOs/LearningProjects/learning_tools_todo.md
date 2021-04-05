@@ -398,11 +398,13 @@
     * how to use arxiv
     * connected paper
         * https://www.connectedpapers.com/main/c2519b12698187baddc889dfac9b1747cf6d2cef/ColaGNN-Crosslocation-Attention-based-Graph-Neural-Networks-for-Longterm-ILI-Prediction/derivative
+
 * compare MLops tools  
     * ref
         * https://www.youtube.com/watch?v=UbL7VUpv1Bs
         * https://medium.com/analytics-and-data/modern-machine-learning-tooling-c1e8689ad6f1
         * https://dagshub.com/blog/how-to-compare-ml-experiment-tracking-tools-to-fit-your-data-science-workflow/
+
 * see his article/tricks and figure out what I can use
     * ref
         * article
