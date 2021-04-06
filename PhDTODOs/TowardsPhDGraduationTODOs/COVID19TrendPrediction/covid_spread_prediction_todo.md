@@ -206,13 +206,37 @@
 
 # TODO
 
+* write report.
+    * here> give him details 
+        * here> what I am working on.
+
+* here> follow dr zhu suggestion
+    1. here> clustering
+    2. combine 
+    3. transfer learning
+
 * run virtual graph 
-    * how to add path to usr/bin/env/ 
-        * learn to use Ag.
-            * how to search for content only?
-            * what are other options that will useful to me ?
-            * here> how to ssearch file content only and exclude filename?
+    * status
+        * pause due to error
+    * error
+        * when applying the model on florida_state data, loss increases
+            * I need to figure out how ili rate is computed -> apply the same calculation to florida data 
+                -> I can continoue the work. 
     * here> try running rvgsn_trainer.py 
+        * here> use my dataset
+            * here> error
+                * here> why loss increases?
+                    * here> is data input correct
+                * to continue with the virtual graph 
+        * add virtual graph in my weight and biases.
+            * here> fix tags 
+                * add epoch
+                * change from test to real value
+        * write report about virtual graph and compare results.
+        * implement ray 
+            * see ray with python
+                * here> https://docs.ray.io/en/master/raysgd/raysgd_pytorch.html
+
 * here> build a graph
     * ref
         * visidata

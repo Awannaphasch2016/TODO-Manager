@@ -251,7 +251,6 @@
 # WAITING
 # TODO
 
-
 * here> learn how people use gist?
     * goal 
         * use gist as a snippet storage to use across machine.
