@@ -206,6 +206,13 @@
 
 # TODO
 
+* run virtual graph 
+    * how to add path to usr/bin/env/ 
+        * learn to use Ag.
+            * how to search for content only?
+            * what are other options that will useful to me ?
+            * here> how to ssearch file content only and exclude filename?
+    * here> try running rvgsn_trainer.py 
 * here> build a graph
     * ref
         * visidata

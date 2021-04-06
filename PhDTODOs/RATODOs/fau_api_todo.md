@@ -431,7 +431,7 @@ caching
 #=====================
 #==TODO
 #=====================
-
+* add more keywords.
 * here> try to destroy and recreate
     * terraform registry
         * https://registry.terraform.io/browse/modules
@@ -464,13 +464,19 @@ caching
                 * auto scaling + terraform  
                     * https://stackoverflow.com/questions/61180364/error-creating-application-autoscaling-target-on-aws-when-using-terraform-defi
             * kinesis 
-                * autoscale?
+                * no autoscale natively avialble
+                    * solution 
+                        * https://aws.amazon.com/blogs/big-data/scale-your-amazon-kinesis-stream-capacity-with-updateshardcount/
+                            * use cloudwatch alarm -> send sns topic -> execute call to 
+                                UpdatedShardCount API
                 * what are options I can configure?
             * here> firehorse -> s3 -trigger -> dynamo
                 * if too much work, just put things in dynamodb
-                * here> firehorse -> s3
             * ec2
-            * autoscaling
+                * error
+                    * ec2 turns off when I tried to ssh (after turned it on)
+                * how to code to ec2 with terraform?
+                * here> create ec2 with autoscaling
 
 * figure out a best way to manage account?
 * list services and names that I needs to create.

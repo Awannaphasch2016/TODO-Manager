@@ -59,6 +59,7 @@
             * edit Contents 
             * aggregation
             * Grouping data and sdescriptie statistics
+                * https://www.visidata.org/docs/group/
     * what is data toolkit?
     * what is data visualization?
     * Toc
