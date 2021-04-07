@@ -209,9 +209,19 @@
 * write report.
     * here> give him details 
         * here> what I am working on.
+* write blog about DMT
+* write log about the 
+    * here> running virtual graph experiment where los function end up increasing over time.
 
 * here> follow dr zhu suggestion
     1. here> clustering
+        * how to cluster time series?
+            * dynamic warping 
+                * how to do recursive with tablej
+                    * here> dynamic programming
+                        * here> implement it myself
+            * k-means
+                * https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
     2. combine 
     3. transfer learning
 

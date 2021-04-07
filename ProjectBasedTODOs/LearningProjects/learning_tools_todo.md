@@ -250,8 +250,30 @@
 
 # WAITING
 # TODO
+* note taking tools base on commandline 
+    * zk
+        * https://github.com/mkaz/zk
+            * the author use the following to syncning between computer using instead
+                of google-drive etc.
+                * https://syncthing.net/ 
+* here> spark (sparkline tools)
+    * https://github.com/holman/spark/wiki/Wicked-Cool-Usage
+        * here> display stock data for S&P500
+            * differnet betwen curl and wget? 
+                * https://daniel.haxx.se/docs/curl-vs-wget.html
+                    * how to pipe curl
+                        * here> https://stackoverflow.com/questions/5427454/how-do-i-pipe-or-redirect-the-output-of-curl-v/5427484
 
-* here> learn how people use gist?
+* learn gnuplot and feedgnuplot
+    * https://medium.com/introduction-into-bash/gnuplot-plot-albert-einstein-with-terminal-15dd8ea9ae91
+    * https://www.youtube.com/watch?v=-jR64x8SHLk&ab_channel=StillpointX
+    * find a list of script to do plots
+        * https://www.google.com/search?q=gnuplot+script+for+data+science&rlz=1C1CHBF_enUS941US941&oq=gnuplot+script+for+data+science&aqs=chrome..69i57j33i299.10645j0j7&sourceid=chrome&ie=UTF-8
+        * here> https://towardsdatascience.com/10-viz-every-ds-should-know-4e4118f26fc3
+        * confusion matrix
+        * heat matrix
+        * what else?
+* learn how people use gist?
     * goal 
         * use gist as a snippet storage to use across machine.
             * can I just use s3?
@@ -264,6 +286,8 @@
 * learn data science at the command line
     * https://github.com/jeroenjanssens/data-science-at-the-command-line
         * note
+            * vnlog for tabular data  
+                * it is as flexible as awk, before it is awk's wrapper
             * q for query data
             * xsv for csv
             * miller for tabular
