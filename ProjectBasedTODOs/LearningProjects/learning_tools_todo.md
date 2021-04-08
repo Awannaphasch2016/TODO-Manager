@@ -1,4 +1,5 @@
 # NOTES
+
 * workflow of data science project
     1. Discovery (25%)
     2. Exploration ( 10%)
@@ -188,6 +189,18 @@
             * GPU
             * 1 computer vs HPC
 
+* data visualization
+    * spark (sparkline tools)
+        * https://github.com/holman/spark/wiki/Wicked-Cool-Usage
+            * here> display stock data for S&P500
+                * differnet betwen curl and wget? 
+                    * https://daniel.haxx.se/docs/curl-vs-wget.html
+                        * how to pipe curl
+                            * here> https://stackoverflow.com/questions/5427454/how-do-i-pipe-or-redirect-the-output-of-curl-v/5427484
+    * termgraph
+        * work on the following esxmple 
+            * https://github.com/mkaz/termgraph
+
 
 # REFERENCES
 # REQUIREMENTS
@@ -256,23 +269,31 @@
             * the author use the following to syncning between computer using instead
                 of google-drive etc.
                 * https://syncthing.net/ 
-* here> spark (sparkline tools)
-    * https://github.com/holman/spark/wiki/Wicked-Cool-Usage
-        * here> display stock data for S&P500
-            * differnet betwen curl and wget? 
-                * https://daniel.haxx.se/docs/curl-vs-wget.html
-                    * how to pipe curl
-                        * here> https://stackoverflow.com/questions/5427454/how-do-i-pipe-or-redirect-the-output-of-curl-v/5427484
 
-* learn gnuplot and feedgnuplot
+* here> learn gnuplot and feedgnuplot
+    * here> work on the following example 
+        * here> https://github.com/dkogan/feedgnuplot
     * https://medium.com/introduction-into-bash/gnuplot-plot-albert-einstein-with-terminal-15dd8ea9ae91
     * https://www.youtube.com/watch?v=-jR64x8SHLk&ab_channel=StillpointX
     * find a list of script to do plots
         * https://www.google.com/search?q=gnuplot+script+for+data+science&rlz=1C1CHBF_enUS941US941&oq=gnuplot+script+for+data+science&aqs=chrome..69i57j33i299.10645j0j7&sourceid=chrome&ie=UTF-8
-        * here> https://towardsdatascience.com/10-viz-every-ds-should-know-4e4118f26fc3
-        * confusion matrix
-        * heat matrix
-        * what else?
+        * see https://github.com/dkogan/feedgnuplot/blob/master/guide/guide.org 
+        * here> heat matrix
+            * here> gnuplot script
+                * here> https://riptutorial.com/gnuplot/example/14015/simple-script-file
+            * heatmap
+                * http://gnuplot.sourceforge.net/demo_5.2/heatmaps.html 
+                    * figure out how to use gnuplot script.
+        * histograms
+        * bar/pie cahrts
+        * scatter/lines plots 
+        * tiems siers
+        * relationship maps
+        * geo maps
+        * 3-D plots 
+        * higher-ddeminsion plots
+        * word clouds
+
 * learn how people use gist?
     * goal 
         * use gist as a snippet storage to use across machine.
@@ -283,6 +304,7 @@
     * ref
         * art of unix programming
             * http://catb.org/~esr/writings/taoup/
+* here> read https://www.datascienceatthecommandline.com/2e/chapter-7-exploring-data.html#bar-chart 
 * learn data science at the command line
     * https://github.com/jeroenjanssens/data-science-at-the-command-line
         * note
@@ -292,6 +314,9 @@
             * xsv for csv
             * miller for tabular
             * jq for jason
+            * feedgnuplot and rush for visualization 
+                * rush 
+                    * https://www.datascienceatthecommandline.com/2e/chapter-7-exploring-data.html#creating-visualizations
             * xmlstarlet for xml
             * Vowpal Wabbit for modeling (vs cmdstan?)
                 * read https://vowpalwabbit.org/tutorials/cmd_first_steps.html

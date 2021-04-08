@@ -177,7 +177,7 @@
         * thiago goncalves vas
         * ethan welz 
 
-* lab 4
+* lab 
     * live grading
         * jesus hernandez
         * Erika Stone.
@@ -188,6 +188,12 @@
         * Aaron mils
         * Prince Ahmed. 
         * michael niebauer
+* lab 6 
+    * group 1 
+        * Mohammad Chowdhury
+        * Jamal Grant
+        * Prince Ahmed
+        * Rami Radwan
     
 ## Comments 
 * lab 0 
