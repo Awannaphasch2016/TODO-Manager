@@ -25,6 +25,8 @@ learn about MLOps
 # OPTIMIZATION
 # WAITING
 # TODO
+* best practicing for deploying + implementing deep learning 
+    * https://github.com/microsoft/ai
 * here> MLOPs tutorial
     * here> https://www.youtube.com/watch?v=9BgIDqAzfuA&list=PL7WG7YrwYcnDBDuCkFbcyjnZQrdskFsBz 
 * watch https://www.youtube.com/watch?v=pmAnPdyKCDc&ab_channel=edureka%21

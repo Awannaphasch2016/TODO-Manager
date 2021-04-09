@@ -204,19 +204,80 @@
         * if can't upgrade -> submit ticket -> move on to next task
         * if succesfully upgrade, but still can't fix the error -> submit ticket -> move on the next task
 
-# TODO
 
+# TODO
+* learn DAGs
+* learn grpahviz
+    * plot step by step pipeline. (dvc?)
+        1. here> clean us-state.csv data to have 2 col (state, case)
+        2. use tslearn to cluster them
+            * ref
+                * https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
+            * how to get time-series representation of the cluster? 
+                * optimize 
+                    * try different methods to pick time-series representation of the cluster
+                        * can we combine them?
+                        * if pick form sample, pick the one closest to the centroid.
+                * here> just pick one member from the group 
+        3. Select 1 cluster to work with -> apply mlp models to the following
+            * apply 500 epoch mlp to the model 
+        4. apply transfer learning to member of the cluster
+            * read the following to start 
+                * https://towardsdatascience.com/transfer-learning-for-time-series-forecasting-51f023bc159c
+                * here> https://mlatgt.blog/2018/04/29/learning-to-cluster/
+            * optimize
+                * learning to cluster in order to transfer across domains and tasks
+                    * https://openreview.net/pdf?id=ByRWCqvT-
+                * Sequential transfer learning based on hierarchical clustering for improved performance in deep learning based food segmentation
+                    * https://www.nature.com/articles/s41598-020-79677-1
+    * components
+        * data processing node
+        * exploration node (leaf) 
+        * modeling node
+        * reporting node
+        * data output node 
+        * data input node 
+* here> use diemnsionality reduction + clustering + regression commandline to models 
+    * here> start with clustering multiple states together.
+        * cluster time series
+            * see my Notes/
+* usecase of clustering time series for numer.ai
+    * https://forum.numer.ai/t/meta-analysis-clustering-model-performances/1653
+* transfer learning for time series
+    * article
+        * https://towardsdatascience.com/transfer-learning-for-time-series-prediction-4697f061f000
+    * paper
+        * https://openreview.net/pdf?id=BklhkI1wz
+* figure out pipeline that I want to feed data into. consider the following
+    * these steps should be connected via DVC
+    * components
+        * data processing node
+        * exploration node (leaf) 
+        * modeling node
+        * reporting node
+        * data output node 
+        * data input node 
+    * where do you want to output data (in the middle of the pipeline)
+    * where do you want to output report 
+    * where 
 * write report.
     * here> give him details 
         * here> what I am working on.
-* write blog about DMT
+
 * write log about the 
     * here> running virtual graph experiment where los function end up increasing over time.
 
 * here> follow dr zhu suggestion
     1. here> clustering
-        * how to cluster time series?
-            * dynamic warping 
+        * tools 
+            * tslearn
+                * https://github.com/tslearn-team/tslearn
+        * here> how to cluster time series? 
+            * aka
+                * time series 
+            * here>dynamic warping 
+                * here> read the following 
+                    * here> https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
                 * how to do recursive with tablej
                     * here> dynamic programming
                         * here> implement it myself

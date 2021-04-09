@@ -91,25 +91,26 @@ response from HPC
 #== TODO 
 #=====================
 
+* here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
+* go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 * check TA submission for summer (am i in it already?)
-* here> find papers related to the following 
+* find papers related to the following 
     * my survey 
     * my models 
         * transfer learning 
         * clustering 
         * virtual nodes/virtual edges.
+
 * learn how to write manifesto and write one for "inside the terminal data science tooling workflow"
 * start writing a book on "Inside the terminal Workflow for data science and developer"
     * what should be chapters 
 * blockchain api survey for a friend
 * create a universal "paper reference collection file"
     * what are best practices?
-* apply ta
 * pay the following 
     * tuition
         * see email.
 
-here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 go to Working/TA_todo.md
 go to PhDTODOs/RATODOs/fau_api_todo.txt
