@@ -182,7 +182,10 @@ ctrl + ; + right arrow = go to end of the line
 ctrl + ; + up arrow = go to the first character
 (ctrl + ;) press twice = go to the w
 ord and highlight them; if the word is a function, it will go into the function
+* makefile vs cmake?
+* inside-terminal
 alt+ctr+t = surround block by conditional block such as if-else while
+
 ctrl+shift+M = move caret to matching bracket
 ctrl + l = clone caret up
 ctrl + shift + l = clone caret down

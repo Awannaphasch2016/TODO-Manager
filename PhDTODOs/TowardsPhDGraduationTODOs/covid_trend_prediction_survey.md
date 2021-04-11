@@ -84,7 +84,8 @@
 
 #TODO
 
-
+* here> print survey papers
+    * here> use list of paper i have and feed it in connected papers.
 * fix points suggested by dr Zhu.
     * ref
         * emails

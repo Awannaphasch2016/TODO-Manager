@@ -206,7 +206,12 @@
 
 
 # TODO
-* learn DAGs
+
+* use dvc for my project
+    * learn the following 4 videos series 
+        * https://www.youtube.com/watch?v=iduHPtBncBk&ab_channel=DVCorg
+    * create stages (refer to graphviz)
+
 * learn grpahviz
     * plot step by step pipeline. (dvc?)
         1. here> clean us-state.csv data to have 2 col (state, case)

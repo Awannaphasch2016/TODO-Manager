@@ -1,5 +1,44 @@
 # TODO
-* figure out how to embed gist inside of markdown
+
+* write about dvc 
+
+* make the note online and share
+    * link to the notes taking one
+
+* write about my principle of learning 
+    * title 'Principles\Princple of Leanring' 
+    * inputs 
+        * validate qualification of expert 
+            * note 
+                * this step is to validate quality of info from individual expert.
+            * 2 types of experts
+                * ref
+                    * book
+                        * blackswarn
+                * categorized by fields
+                    * fields with feedback loop
+                    * fields without feedbak loop
+                        * properties
+                            * prediction cannot be 
+            * mental checklist
+                * is field of a topic 
+        * validate creditbility of source
+            1. proof by example
+            2. proof by transfer of credit from expert 
+                * this required you to validate qualifiation of expert.
+            3. 
+    * outputs
+
+* wrtie about my data science pipeline 
+    * status 
+        * [[IN PROGRESS]]
+    * title 'Workflows\Datascience\'
+    * ref
+        * how to manage your machine leanring workflwo with DVC, weight nad & biases, and docker?
+            * https://towardsdatascience.com/how-to-manage-your-machine-learning-workflow-with-dvc-weights-biases-and-docker-5529ea4e59e0
+    * what are its components?
+        * logging
+
 * here> finish writing blog about Data science inside-terminal tools
     * add sections about the following
         * tools for graph 
