@@ -206,42 +206,63 @@
 
 
 # TODO
+* 
+* impelment the following 
+    1. clean us-state.csv data to have 2 col (state, case)
+    2. use tslearn to cluster them
+        * ref
+            * https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
+        * how to get time-series representation of the cluster? 
+            * optimize 
+                * try different methods to pick time-series representation of the cluster
+                    * can we combine them?
+                    * if pick form sample, pick the one closest to the centroid.
+            * just pick one member from the group 
+        * prepared data from raw curated case to rate of chage.
+        * smooth it out with rolling mean of 2. (suffix = roll_2)
+            * try 10 
+            * save rolling mean 2 and 10 (save 10 only if 10 looks good)
+    3. Select 1 cluster to work with -> apply mlp models to the following
+            * train on  Florida
+            * test on the following 
+                * Louisiana
+                    * lower rate 
+                * Tennessee
+                    * middle rate 
+                * Oklahoma
+                    * about the same as florida
+            * cluster 1
+                * oklahoma
+                * Missouri
+                * Tennessee
+                * Texas
+                * West Virginia
+                * Kentucky
+                * Idaho
+                * Louisiana
+                * South Carolina
+                * Florida
+                * Georgia
+        * compare rate of change performance of MLP_epoch=500 against raw cases
+        * here> implement commandline to save model checkpoint.
+            * here> run mlp=500 on 2 types of data
+                * here> did i save running on raw cases?
+        * implement commandline to pass model_checkpoint path and use it as a begining of the new run.
+    4. apply transfer learning to member of the cluster
+        * read the following to start 
+            * https://towardsdatascience.com/transfer-learning-for-time-series-forecasting-51f023bc159c
+            * https://mlatgt.blog/2018/04/29/learning-to-cluster/
+        * optimize
+            * learning to cluster in order to transfer across domains and tasks
+                * https://openreview.net/pdf?id=ByRWCqvT-
+            * Sequential transfer learning based on hierarchical clustering for improved performance in deep learning based food segmentation
+                * https://www.nature.com/articles/s41598-020-79677-1
 
-* use dvc for my project
-    * learn the following 4 videos series 
-        * https://www.youtube.com/watch?v=iduHPtBncBk&ab_channel=DVCorg
-    * create stages (refer to graphviz)
-
-* learn grpahviz
-    * plot step by step pipeline. (dvc?)
-        1. here> clean us-state.csv data to have 2 col (state, case)
-        2. use tslearn to cluster them
-            * ref
-                * https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
-            * how to get time-series representation of the cluster? 
-                * optimize 
-                    * try different methods to pick time-series representation of the cluster
-                        * can we combine them?
-                        * if pick form sample, pick the one closest to the centroid.
-                * here> just pick one member from the group 
-        3. Select 1 cluster to work with -> apply mlp models to the following
-            * apply 500 epoch mlp to the model 
-        4. apply transfer learning to member of the cluster
-            * read the following to start 
-                * https://towardsdatascience.com/transfer-learning-for-time-series-forecasting-51f023bc159c
-                * here> https://mlatgt.blog/2018/04/29/learning-to-cluster/
-            * optimize
-                * learning to cluster in order to transfer across domains and tasks
-                    * https://openreview.net/pdf?id=ByRWCqvT-
-                * Sequential transfer learning based on hierarchical clustering for improved performance in deep learning based food segmentation
-                    * https://www.nature.com/articles/s41598-020-79677-1
-    * components
-        * data processing node
-        * exploration node (leaf) 
-        * modeling node
-        * reporting node
-        * data output node 
-        * data input node 
+    5. writing report
+        * ref
+            * see the following as a reference on who to write a good report.
+                *
+                wandb.ai/covid/covid_forecast/reports/Transferring-Knowledge-on-Time-Series-with-the-Transformer--VmlldzoxNDEzOTk
 * here> use diemnsionality reduction + clustering + regression commandline to models 
     * here> start with clustering multiple states together.
         * cluster time series

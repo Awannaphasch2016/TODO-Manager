@@ -91,8 +91,8 @@ response from HPC
 #== TODO 
 #=====================
 
-* here> go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
-* go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+* here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+* go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 * check TA submission for summer (am i in it already?)
 * find papers related to the following 
     * my survey 

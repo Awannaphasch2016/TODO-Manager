@@ -1,10 +1,5 @@
 # TODO
 
-* write about dvc 
-
-* make the note online and share
-    * link to the notes taking one
-
 * write about my principle of learning 
     * title 'Principles\Princple of Leanring' 
     * inputs 

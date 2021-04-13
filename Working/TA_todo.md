@@ -177,17 +177,21 @@
         * thiago goncalves vas
         * ethan welz 
 
-* lab 
+* lab 4
     * live grading
         * jesus hernandez
         * Erika Stone.
         * David Vega Sotolongo.
+        * Joash Romain
+        * Adrian Echazabal
+        * Peterling Etienne
 
 * lab 5 
     * live grading  
         * Aaron mils
         * Prince Ahmed. 
         * michael niebauer
+
 * lab 6 
     * group 1 
         * Mohammad Chowdhury

@@ -1123,3 +1123,29 @@ discard               = ctrl + shift + d
 # gmails/task
 open task             = G + k
 add task              = shift + t
+
+
+# Bash
+## note: python console use bash key kinding
+### ref:
+https://superuser.com/questions/662454/navigating-to-beginning-end-of-words-lines-in-the-python-console#:~:text=control%2DE%3A%20go%20to%20end%20of%20line 
+
+# Bash/movment
+<c-a>   = move to the front of the line
+<c-e>   = move to the end of the line
+<Alt-b> = move backward a word
+<Alt-f> = move forward a word
+<c-b>   = move back by 1 character
+<c-f>   = move forward by 1 character
+
+# Bash/text manipulation
+<c-d>     = delete character under the cursor
+<c-u>     = kill to the front of the line
+<c-k>     = kill (delete) from the curren cursoe to the end of the line
+<c-w>     = Kill from the cursor to the previous whitespace.
+<c-y>     = Yank the most recently killed text back into the buffer at the cursor.
+<Alt-d>   = Kill from the cursor the start of the current word
+<Alt-del> = Kill from the cursor to the end of the current word,
+
+# Bash/undo
+<c-x><c-u> = undo
