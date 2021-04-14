@@ -206,7 +206,22 @@
 
 
 # TODO
-* 
+* [2021-04-13 16:58:36]
+    * fix hour for writing.
+    * add new baseline 
+        * here> 1D convolution 
+    * here> use terraform to create EC2 instances
+        * set up twitch.
+        * here> create GPU instances
+            * create VPN too, why not 
+            * here> how to create cluster on AWS
+            * system requirement
+                * 3 gpus, 1 master
+        * create docker for my covid19 project.
+        * use docker in EC2 instances
+    * fix loss function
+    * capture test/validation loss ass well.
+    * optimize other baseline
 * impelment the following 
     1. clean us-state.csv data to have 2 col (state, case)
     2. use tslearn to cluster them
@@ -246,7 +261,6 @@
         * compare rate of change performance of MLP_epoch=500 against raw cases
         * here> implement commandline to save model checkpoint.
             * here> run mlp=500 on 2 types of data
-                * here> did i save running on raw cases?
         * implement commandline to pass model_checkpoint path and use it as a begining of the new run.
     4. apply transfer learning to member of the cluster
         * read the following to start 

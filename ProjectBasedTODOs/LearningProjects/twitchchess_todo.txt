@@ -1,0 +1,90 @@
+===========
+=== IMPROVEMNT
+===========
+
+* Value function in play.py/ClassicValuator, plenty of room for improvement.
+* Add Quiescence search to play decent endgame
+
+=====================
+== note
+=====================
+
+array size = (8*8*5)
+each array element have the following state
+    [1-7] - WHITE
+    1-6 = represents each peices on the board
+    7 = castling right
+
+
+    [9-15] - BLACK
+    9-14 = represents each peices on the board
+    15 = castling right
+
+
+
+===========
+=== TODO
+===========
+* George Hotz | Programming | twitchchess | a simple neural chess AI | Part1 
+    * ref
+        * https://www.youtube.com/watch?v=RFaFmkCEGEs&ab_channel=georgehotzarchive
+    what is ep_squre?
+    what are the following bstate
+        0, 8 , 56, 63
+    what are possible value of ep_square other than None?
+
+
+    re-implement twitchchcess. Do the follwoing in order.
+        run the code by parseing PGN from the data taht I have
+            figure it what does each state do?
+
+                why do nwe need to use >> ?
+                assign 5 state to each board positions.
+                    0
+                    1
+                    2
+                    3
+                    4 = whose turn it is
+
+        visulaized chess pieces on the board.
+        train chess on cloud or somewhere?
+        reimplement other model, train them and let them compete between each
+            other.
+
+
+
+    * Roll out search beyond 1-ply
+    * Make trainer multi GPU
+    * Train on more data **
+    * Add RL self play learning support
+
+--------------------------------------------------------
+=====================
+== Questions
+=====================
+>> what is serialized used for?
+
+
+================
+== What to Test/DO
+================
+* refactor code
+
+find chess related data to train from internet
+
+
+>>  Train on more data
+    * how is data generated?
+    * where can I get data from?
+    * how is data trained?
+
+
+================
+== HOw does the code work?
+================
+
+
+================
+== Unit testing
+================
+*

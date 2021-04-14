@@ -93,25 +93,8 @@
         * template 
             * https://www.overleaf.com/project/605befa3007f819a13f782bd
     * fix 
-        * how they use graph and analysis to do.
-        * refactor by create subsection on.
         * add plot and figure.
-        * 4/2/2021 
-            * reduce number of tex file
-            * reference like [11] can't be used as subject.
-                * use reference to cited a subject.
-                    * subjects could be the following
-                        * modle name 
-                        * author et al.
-                    * framework to categorized Networking paper
-                        * 1: Feature Learning Models:
-                        * 2: Parameter Learning Models:
-                        * 3: learn relation between nodes (such as Attention Learning Models)
-                        * 4: Knowledge Fusion Models (transfer learning):9
-                    * fix certain concepts 
-                        * orthogonalized 
-                        * add explains on baseline model (in baseline model sections)
-            * Always ty to use a passive tesne
+    * here> collect papers from connected papers.
     * refactor process
         * here> reread modeling section
         * waiting for reply and I can process to add the followiong content
