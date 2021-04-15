@@ -180,7 +180,7 @@
 * can't use GPU
     * error
         *  Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: 
-        *  Not creating XLA devices, tf_xla_enable_xla_devices not set
+        * Not creating XLA devices, tf_xla_enable_xla_devices not set
     * how to install cuda toolkit?
         * nvidia driver
     * where does added module attached to?
@@ -211,10 +211,23 @@
     * add new baseline 
         * here> 1D convolution 
     * here> use terraform to create EC2 instances
-        * set up twitch.
         * here> create GPU instances
-            * create VPN too, why not 
-            * here> how to create cluster on AWS
+            * here> read about the follwoing 
+                * what is vCPU?
+                * here> what is CPU credit?jK:w
+                * write shell script to run each task from.
+                    * shell script should accept the following argument 
+                        * --turn_off
+                            * boolean
+                            * requirement 
+                                * when turn_off=True & computer is current off, then 
+                                    start computer -> run -> turn off.
+                                * when turn_off=False & computer is current off, thne
+                                    start computer -> run.
+            * here> how to filter by tags using -filter
+            * how to stop ec2 from command line 
+            * create tags system for aws source
+            * how to create cluster on AWS
             * system requirement
                 * 3 gpus, 1 master
         * create docker for my covid19 project.

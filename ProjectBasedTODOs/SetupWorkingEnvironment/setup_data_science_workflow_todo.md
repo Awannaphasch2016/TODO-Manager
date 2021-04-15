@@ -37,9 +37,22 @@
 
 # TODO
 
-* setup datascience workstation (jupyter notebook) with AWS EC2
+* here> using gpu on window
+    * here> install cuda and cudnn
+        * here> install cuda on window
+        * here> install cudnn on window
+        * check if cuda and cudnn install.
+    * figure out how to run gpu in windows.
+        * here> how to access wsl folder from outside of wsl?
+            * can powershell access folder in wsl? 
+            * can I use symbolic link to link to window system and access it?
+
+* get a good understnad of how to launch service directly (unmanaged by an init system).
+    * https://unix.stackexchange.com/questions/197437/what-exactly-does-init-do
+
+* setup ec2 autoscaling
     * ref 
-        * kmedium.com/@junseopark/from-zero-to-aws-ec2-for-data-science-62e7a22d4579
+        * https://hands-on.cloud/terraform-recipe-managing-auto-scaling-groups-and-load-balancers/
 * use Uberzug to view image in vifm.
     * ref: 
         * https://www.youtube.com/watch?v=qgxsduCO1pE&ab_channel=DistroTube

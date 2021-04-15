@@ -185,12 +185,14 @@
         * Joash Romain
         * Adrian Echazabal
         * Peterling Etienne
+        * Gianfranco Batoni
 
 * lab 5 
     * live grading  
         * Aaron mils
         * Prince Ahmed. 
         * michael niebauer
+        * Adrian Echazabal
 
 * lab 6 
     * group 1 
