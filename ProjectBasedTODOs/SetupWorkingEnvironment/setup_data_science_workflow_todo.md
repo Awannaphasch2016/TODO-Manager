@@ -36,16 +36,65 @@
                 * https://stackoverflow.com/questions/64092534/opencv-4-4-0-qt-qpa-xcb-could-not-connect-to-display-on-a-remote-ec2-instance
 
 # TODO
-
-* here> using gpu on window
-    * here> install cuda and cudnn
-        * here> install cuda on window
-        * here> install cudnn on window
-        * check if cuda and cudnn install.
-    * figure out how to run gpu in windows.
-        * here> how to access wsl folder from outside of wsl?
-            * can powershell access folder in wsl? 
-            * can I use symbolic link to link to window system and access it?
+* here> what is the data sahape for conv1D?
+* set up gpu for data science project 
+    * here> can I create docker to run pytorch and tensorflow on Linux and window
+        * here> error
+            * docker space is full 
+                * read the following 
+                    * https://aws.amazon.com/blogs/compute/amazon-ecs-and-docker-volume-drivers-amazon-ebs/
+            * pip error: dick space is full
+        * 
+        * how to start docker project 
+            * here> git clone my current project to window's equivalent location 
+        * here> find container for data-science (that can be easily extensible by me)
+            * requirement 
+                * user requirement 
+                    * I want to send program to be run in docker containers.
+                    * devloperment will be done in my laptops
+                * system requirement 
+                    * everything, program is send to run in docker, no new packages should be 
+                        installed, it could just run the program.
+                        * ref
+                            *
+                            https://stackoverflow.com/questions/25305788/how-to-avoid-reinstalling-packages-when-building-docker-image-for-python-project
+        * try the following 
+            * run docker -> install requirement files 
+        * how to install additional packages from the following 
+            * https://github.com/anibali/docker-pytorch 
+        * create docker in linux that run pytorch 
+            * build basic pytorch model. (prebuilt). get it from example .
+    * install nvidia-driver for tensorflow-gpu
+        * error
+            * I have cuda toolkit 11.3, but tensorflow-gpu required 11.0
+            * here> tensorflow no moudle found. tensorflow-gpu 
+                * here> https://github.com/tensorflow/tensorflow/issues/34318
+        * note 
+            * check if cudatoolkit is install using 'nvidia-smi'
+            * check cuda version using 'nvcc -v'
+            * check if cuda can be detected using ( assume that torch works)
+                 ```
+                    >>> import torch
+                    >>> if torch.cuda.is_available():
+                    ...   dev = "cuda:0"
+                    ... else:
+                    ...   dev = "cpu"
+                    ...
+                    >>> dev
+                    'cuda:0'
+                    >>> device = torch.device(dev)
+                    >>> a = torch.zeros(4,3)
+                    >>> a = a.to(device)
+                ```
+        * here> https://www.tensorflow.org/install/gpu#linux_setup
+            * cuda toolkit 11.0
+                * https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
+    * using gpu on window
+        * here> install cuda and cudnn
+        * figure out how to run gpu in windows.
+            * here> how to access wsl folder from outside of wsl?
+                * can powershell access folder in wsl? 
+                * can I use symbolic link to link to window system and access it?
 
 * get a good understnad of how to launch service directly (unmanaged by an init system).
     * https://unix.stackexchange.com/questions/197437/what-exactly-does-init-do

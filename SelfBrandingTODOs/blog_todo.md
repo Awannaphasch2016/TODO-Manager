@@ -1,5 +1,8 @@
 # TODO
 
+* explain how to set up ec2 with terraform and ssh-key 
+    * note
+        * ssh-key is not key fully automated by terraform. I created with aws cli .
 * write about my principle of learning 
     * title 'Principles\Princple of Leanring' 
     * inputs 

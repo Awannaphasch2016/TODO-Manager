@@ -206,10 +206,30 @@
 
 
 # TODO
+
+* read deep learning rule of thumb when trying to optimize for performance.
 * [2021-04-13 16:58:36]
     * fix hour for writing.
+        * here> 1 hours for this
     * add new baseline 
         * here> 1D convolution 
+            * here> fix the following before move on
+                * here> 1 loss per epoch ( not 1 loss per batch)
+                    * why do i see loss per batch with spike value?
+                    * implement stop loss if loss value doesn't improve for x amount of time.
+                            * 10 
+                    * here> how any batches am I running?
+                        * how to run batch with lstm 
+                        * here> how to train Dense with batch?
+                            * here> check if my time-series shape for Dense is correct
+                                * https://keras.io/api/layers/core_layers/dense/
+                                * (batch_size, d0, d1)
+                                * how to specify keras input shape
+                                    *
+                                    https://datascience.stackexchange.com/questions/53609/how-to-determine-input-shape-in-keras
+                                * 
+                                * here> if still stuck, learn keras basic of how to specify input shape
+                                    * https://keras.io/examples/timeseries/timeseries_weather_forecasting/
     * here> use terraform to create EC2 instances
         * here> create GPU instances
             * here> read about the follwoing 
