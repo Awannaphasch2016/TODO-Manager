@@ -415,23 +415,6 @@ update documentation to the clodu version
             * note
                 * similar to step function but more generalized
 
-#=====================
-#==RESOURCE
-#=====================
-caching 
-    database caching 
-        https://www.youtube.com/results?search_query=databash+caching+with+redis
-
-    DataBase - Difference between In-Memory Database, Normal DataBase & Caching | In Memory Database #2
-        https://www.youtube.com/watch?v=4pW_DUimJV0&ab_channel=TechTalkDebu
-
-    Supercharge Query Caching with AWS Database Services - AWS Online Tech Talks
-
-
-#=====================
-#==TODO
-#=====================
-* add more keywords.
 * here> try to destroy and recreate
     * terraform registry
         * https://registry.terraform.io/browse/modules
@@ -477,6 +460,41 @@ caching
                     * ec2 turns off when I tried to ssh (after turned it on)
                 * how to code to ec2 with terraform?
                 * here> create ec2 with autoscaling
+
+* learn to use aws cli cloudwatch to inspect stuff. (I am so done with console.)
+#=====================
+#==RESOURCE
+#=====================
+caching 
+    database caching 
+        https://www.youtube.com/results?search_query=databash+caching+with+redis
+
+    DataBase - Difference between In-Memory Database, Normal DataBase & Caching | In Memory Database #2
+        https://www.youtube.com/watch?v=4pW_DUimJV0&ab_channel=TechTalkDebu
+
+    Supercharge Query Caching with AWS Database Services - AWS Online Tech Talks
+
+
+#=====================
+#==TODO
+#=====================
+
+* reddit 
+    * currently i am getting comment.
+        * is there a way to get more than comments?
+            * eg reply?
+* here> twitter 
+    * here> create script to do the following
+        * get top n 
+        * get samples
+    <!-- * add dynamoDB api to get top 10 ... --> 
+* best computer spec for straming.
+    * get dynamodb 
+* here> add more keywords for reddit and twitter
+    * here> script to get dynamodb
+        * 
+* what do i need to send to zhabiz?
+    * send script to zhabiz to pull dynamodb data  
 
 * figure out a best way to manage account?
 * list services and names that I needs to create.

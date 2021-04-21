@@ -84,8 +84,12 @@
 
 #TODO
 
-* here> print survey papers
-    * here> use list of paper i have and feed it in connected papers.
+* use plot to show design of few important models.
+* add content from the follwoing paper to the survey
+    * "sterring a historical disease forcasting model .."
+    * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"
+* read about he following 
+    * google the following "deep learning epidemic simulation"
 * fix points suggested by dr Zhu.
     * ref
         * emails

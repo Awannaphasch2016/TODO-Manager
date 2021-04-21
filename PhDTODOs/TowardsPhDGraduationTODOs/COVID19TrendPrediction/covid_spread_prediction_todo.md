@@ -207,53 +207,21 @@
 
 # TODO
 
-* read deep learning rule of thumb when trying to optimize for performance.
-* [2021-04-13 16:58:36]
-    * fix hour for writing.
-        * here> 1 hours for this
-    * add new baseline 
-        * here> 1D convolution 
-            * here> fix the following before move on
-                * here> 1 loss per epoch ( not 1 loss per batch)
-                    * why do i see loss per batch with spike value?
-                    * implement stop loss if loss value doesn't improve for x amount of time.
-                            * 10 
-                    * here> how any batches am I running?
-                        * how to run batch with lstm 
-                        * here> how to train Dense with batch?
-                            * here> check if my time-series shape for Dense is correct
-                                * https://keras.io/api/layers/core_layers/dense/
-                                * (batch_size, d0, d1)
-                                * how to specify keras input shape
-                                    *
-                                    https://datascience.stackexchange.com/questions/53609/how-to-determine-input-shape-in-keras
-                                * 
-                                * here> if still stuck, learn keras basic of how to specify input shape
-                                    * https://keras.io/examples/timeseries/timeseries_weather_forecasting/
-    * here> use terraform to create EC2 instances
-        * here> create GPU instances
-            * here> read about the follwoing 
-                * what is vCPU?
-                * here> what is CPU credit?jK:w
-                * write shell script to run each task from.
-                    * shell script should accept the following argument 
-                        * --turn_off
-                            * boolean
-                            * requirement 
-                                * when turn_off=True & computer is current off, then 
-                                    start computer -> run -> turn off.
-                                * when turn_off=False & computer is current off, thne
-                                    start computer -> run.
-            * here> how to filter by tags using -filter
-            * how to stop ec2 from command line 
-            * create tags system for aws source
-            * how to create cluster on AWS
-            * system requirement
-                * 3 gpus, 1 master
-        * create docker for my covid19 project.
-        * use docker in EC2 instances
+* [2021-04-20 16:52:00]
+    * here> evaluate model on all test data 
+    * train on all the data continuously for all runs.
+* raed the follwoing 
+     * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
+         based food segmentation"
+         * https://www.nature.com/articles/s41598-020-79677-1
+* here> [2021-04-13 16:58:36]
+    * here> capture test/validation loss ass well.
+        * here> how to get test loss?
+            * here> how to calculate mse as loss function
+                * here> training vs test loss
+    * how to do batch for windwo sliding for time series
+    * optimize mlp, lstm, conv1d
     * fix loss function
-    * capture test/validation loss ass well.
     * optimize other baseline
 * impelment the following 
     1. clean us-state.csv data to have 2 col (state, case)
