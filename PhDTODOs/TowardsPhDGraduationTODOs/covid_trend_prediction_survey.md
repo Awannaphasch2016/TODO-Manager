@@ -84,7 +84,8 @@
 
 #TODO
 
-* use plot to show design of few important models.
+* here> use plot to show design of few important models.
+    * here> pick papers that I should add photos
 * add content from the follwoing paper to the survey
     * "sterring a historical disease forcasting model .."
     * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"

@@ -207,9 +207,28 @@
 
 # TODO
 
-* [2021-04-20 16:52:00]
-    * here> evaluate model on all test data 
+* here> [2021-04-20 16:52:00]
+    * here> evaluate 1 model on all test data 
+        * requirement 
+            * 1 model train only on 85 percent training data 
+        * here> create new args 
+            * [done] train_model_with_1_run
+                * here> when it is true, model is train with 1 run with 85 percent training data.
+                    * here> how can I have obtain the original model.
+                        * here> separate model initalization from model_forecast
+                        * can I change all *_model into class?
+                            * how much code do i need to change?
+                * when it is false, model is train with multiple run where new test data is added every run.
+            * here> train_model_with_train_test_dataset
+                * here> implement code for 1 model train on train + test data.
+            * [done] dont_create_new_model_on_each_run.
+                * when it is true, 1 model is used to train. (no new model is created)
+        * check that all evaluated output are collected and correct.
+            * mse of test data is average over all test data
     * train on all the data continuously for all runs.
+        * requirement 
+            * 1 model train on training + test data.
+        * 1 model 
 * raed the follwoing 
      * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
          based food segmentation"
