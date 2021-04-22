@@ -207,8 +207,12 @@
 
 # TODO
 
+* [2021-04-21 23:58:55]
+    * here> mse on all test instances.
+        * here> get test value per training epoch.
+    * get total mse for each training model run.
 * here> [2021-04-20 16:52:00]
-    * here> evaluate 1 model on all test data 
+    * evaluate 1 model on all test data 
         * requirement 
             * 1 model train only on 85 percent training data 
         * here> create new args 
