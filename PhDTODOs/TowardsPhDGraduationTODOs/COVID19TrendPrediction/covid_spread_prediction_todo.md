@@ -213,9 +213,15 @@
          * https://www.nature.com/articles/s41598-020-79677-1
 * [2021-04-23 15:54:27]
     * here> convert other model to use the same structure including 
-        * here> previous day prediction.
-        * linear regression 
-        * xgboost model
+        * [done] previous day prediction.
+        * [done] linear regression 
+            * fix
+                * get train mse on each prediction .
+        * here> xgboost model
+            * here> figuoure out hwo xgboost is trained nad what its output lok like 
+            * what is the expected output
+                * can i get validation loss from it? (does it train iteratively?)
+                    * if yes, get train/validation/test loss.
         * [Optional] lazy predict
     * goal: who does better jobs. (that is it)
         * summarized result in tables (previent using dashboard.)
