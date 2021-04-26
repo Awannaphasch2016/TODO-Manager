@@ -207,45 +207,49 @@
 
 # TODO
 
-* [2021-04-21 23:58:55]
-    * here> mse on all test instances.
-        * here> get test value per training epoch.
-    * get total mse for each training model run.
-* here> [2021-04-20 16:52:00]
-    * evaluate 1 model on all test data 
-        * requirement 
-            * 1 model train only on 85 percent training data 
-        * here> create new args 
-            * [done] train_model_with_1_run
-                * here> when it is true, model is train with 1 run with 85 percent training data.
-                    * here> how can I have obtain the original model.
-                        * here> separate model initalization from model_forecast
-                        * can I change all *_model into class?
-                            * how much code do i need to change?
-                * when it is false, model is train with multiple run where new test data is added every run.
-            * here> train_model_with_train_test_dataset
-                * here> implement code for 1 model train on train + test data.
-            * [done] dont_create_new_model_on_each_run.
-                * when it is true, 1 model is used to train. (no new model is created)
-        * check that all evaluated output are collected and correct.
-            * mse of test data is average over all test data
-    * train on all the data continuously for all runs.
-        * requirement 
-            * 1 model train on training + test data.
-        * 1 model 
 * raed the follwoing 
      * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
          based food segmentation"
          * https://www.nature.com/articles/s41598-020-79677-1
-* here> [2021-04-13 16:58:36]
-    * here> capture test/validation loss ass well.
-        * here> how to get test loss?
-            * here> how to calculate mse as loss function
-                * here> training vs test loss
-    * how to do batch for windwo sliding for time series
-    * optimize mlp, lstm, conv1d
-    * fix loss function
-    * optimize other baseline
+* [2021-04-23 15:54:27]
+    * here> convert other model to use the same structure including 
+        * here> previous day prediction.
+        * linear regression 
+        * xgboost model
+        * [Optional] lazy predict
+    * goal: who does better jobs. (that is it)
+        * summarized result in tables (previent using dashboard.)
+            * what do i need to summarize?
+                * table 1 
+                    * include the following parameter.
+                        * epoch
+                        * run ( fix to 1 for now)
+                        * mse performance.
+                * table 2 
+                    * number of parameters of each model
+            * test set
+            * validation set
+            * note
+                * focus on 1 runs.
+        <!-- * visualization validation. -->
+        * here> visualize prediction + real data.
+            * here> implement this  
+                * waiting for wandb website to work again.
+        * aligned test_loss_per_run where epoch start from 0.
+            * ref
+                * https://docs.wandb.ai/ref/app/features/panels/line-plot
+    * here> get result that average over multiple run.
+        * here> create flag for this, call it "repeat_model"
+            * here> average over 10 runs 
+    * what are availble api for wandb?
+        * checkout the following App ui features
+            * sweeps
+        * here> checkout the following App ui chart option
+            * parallel coordinates
+            * run comparer
+            * vega ?
+            * here> parameters importance
+
 * impelment the following 
     1. clean us-state.csv data to have 2 col (state, case)
     2. use tslearn to cluster them

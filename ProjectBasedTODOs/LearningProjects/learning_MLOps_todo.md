@@ -25,9 +25,13 @@ learn about MLOps
 # OPTIMIZATION
 # WAITING
 # TODO
+* here> good ass article to get overview of usecases of wandb
+    *
+    here> https://towardsdatascience.com/how-i-learned-to-stop-worrying-and-track-my-machine-learning-experiments-d9f2dfe8e4b3
+        * here> follow the article and set up s3 for commonly used dataset
 * best practicing for deploying + implementing deep learning 
     * https://github.com/microsoft/ai
-* here> MLOPs tutorial
+* MLOPs tutorial
     * here> https://www.youtube.com/watch?v=9BgIDqAzfuA&list=PL7WG7YrwYcnDBDuCkFbcyjnZQrdskFsBz 
 * watch https://www.youtube.com/watch?v=pmAnPdyKCDc&ab_channel=edureka%21
 * finish the full stack deep learning course

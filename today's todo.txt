@@ -90,8 +90,11 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
-
-* here> go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
+* here> clear all emails.
+* here> use space repeition for deep learning rule of thumbs.
+* hidden technical debt in machine leanring systems
+    * https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+* go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt
 * go to PhDTODOs/TowardsPhDGraduationTODOs/covid_trend_prediction_survey.md
 * check TA submission for summer (am i in it already?)
 * find papers related to the following 
