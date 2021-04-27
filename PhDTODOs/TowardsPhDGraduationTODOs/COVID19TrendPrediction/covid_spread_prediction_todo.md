@@ -211,18 +211,7 @@
      * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
          based food segmentation"
          * https://www.nature.com/articles/s41598-020-79677-1
-* [2021-04-23 15:54:27]
-    * here> convert other model to use the same structure including 
-        * [done] previous day prediction.
-        * [done] linear regression 
-            * fix
-                * get train mse on each prediction .
-        * here> xgboost model
-            * here> figuoure out hwo xgboost is trained nad what its output lok like 
-            * what is the expected output
-                * can i get validation loss from it? (does it train iteratively?)
-                    * if yes, get train/validation/test loss.
-        * [Optional] lazy predict
+* here> [2021-04-23 15:54:27]
     * goal: who does better jobs. (that is it)
         * summarized result in tables (previent using dashboard.)
             * what do i need to summarize?
@@ -247,6 +236,20 @@
     * here> get result that average over multiple run.
         * here> create flag for this, call it "repeat_model"
             * here> average over 10 runs 
+                * here> need average training, val, test loss and predicted value
+                    * here> implement the following 
+                        *
+                        https://stackoverflow.com/questions/47079111/create-keras-callback-to-save-model-predictions-and-targets-for-each-batch-durin/60787957#60787957
+            * how to write my own callbackAPI
+    * [SKIP] implement the following visualization 
+        * fix 
+            * test loss per run vs test loss per step
+                * should I replace test_loss_per_run with test_loss_per_step
+        * x = "per epoch", "per step", "per run"
+            * val_loss per x 
+            * loss per x 
+            * test loss per epoch
+    * delete all value after freeze date from log and rerun the whole things
     * what are availble api for wandb?
         * checkout the following App ui features
             * sweeps
