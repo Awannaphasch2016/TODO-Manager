@@ -207,57 +207,46 @@
 
 # TODO
 
+* [2021-04-27 17:31:42]
+    * here> check if eval_metric is correct.
+        * here> from dr zhu caclulation, error doesn't match the calcualtion
+            * here> check eval metric of 1 days prediction .
+                * here> figure out why lstm and conv1d mse are still incorrect.
+
+* summarized result in tables (previent using dashboard.)
+    * mention that xgboost only predict 1 values given this dataset
+    * what do i need to summarize?
+        * table 1 
+            * include the following parameter.
+                * epoch
+                * run ( fix to 1 for now)
+                * mse performance.
+        * table 2 
+            * number of parameters of each model
+    * test set
+    * validation set
+    * note
+        * focus on 1 runs.
+
+* continue working on transfer learning model 
 * raed the follwoing 
      * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
          based food segmentation"
          * https://www.nature.com/articles/s41598-020-79677-1
-* here> [2021-04-23 15:54:27]
-    * goal: who does better jobs. (that is it)
-        * summarized result in tables (previent using dashboard.)
-            * what do i need to summarize?
-                * table 1 
-                    * include the following parameter.
-                        * epoch
-                        * run ( fix to 1 for now)
-                        * mse performance.
-                * table 2 
-                    * number of parameters of each model
-            * test set
-            * validation set
-            * note
-                * focus on 1 runs.
-        <!-- * visualization validation. -->
-        * here> visualize prediction + real data.
-            * here> implement this  
-                * waiting for wandb website to work again.
-        * aligned test_loss_per_run where epoch start from 0.
-            * ref
-                * https://docs.wandb.ai/ref/app/features/panels/line-plot
-    * here> get result that average over multiple run.
-        * here> create flag for this, call it "repeat_model"
-            * here> average over 10 runs 
-                * here> need average training, val, test loss and predicted value
-                    * here> implement the following 
-                        *
-                        https://stackoverflow.com/questions/47079111/create-keras-callback-to-save-model-predictions-and-targets-for-each-batch-durin/60787957#60787957
-            * how to write my own callbackAPI
-    * [SKIP] implement the following visualization 
-        * fix 
-            * test loss per run vs test loss per step
-                * should I replace test_loss_per_run with test_loss_per_step
-        * x = "per epoch", "per step", "per run"
-            * val_loss per x 
-            * loss per x 
-            * test loss per epoch
-    * delete all value after freeze date from log and rerun the whole things
-    * what are availble api for wandb?
-        * checkout the following App ui features
-            * sweeps
-        * here> checkout the following App ui chart option
-            * parallel coordinates
-            * run comparer
-            * vega ?
-            * here> parameters importance
+
+* here> run vairation of conv1d
+* try on number of new case data, instead of cumulated case.
+    * tag 'dataset' must be changed
+* move TMP/scratch.py to approapriate folder
+* get result that average over multiple run.
+    * here> create flag for this, call it "repeat_model"
+        * here> use average option on wandb.
+            * here>  fix lstm, conv1d
+        <!-- * average over 10 runs --> 
+        <!--     * need average training, val, test loss and predicted value -->
+
+
+
 
 * impelment the following 
     1. clean us-state.csv data to have 2 col (state, case)
@@ -274,7 +263,7 @@
         * smooth it out with rolling mean of 2. (suffix = roll_2)
             * try 10 
             * save rolling mean 2 and 10 (save 10 only if 10 looks good)
-    3. Select 1 cluster to work with -> apply mlp models to the following
+    3. here> Select 1 cluster to work with -> apply mlp models to the following
             * train on  Florida
             * test on the following 
                 * Louisiana
@@ -295,10 +284,8 @@
                 * South Carolina
                 * Florida
                 * Georgia
-        * compare rate of change performance of MLP_epoch=500 against raw cases
-        * here> implement commandline to save model checkpoint.
-            * here> run mlp=500 on 2 types of data
-        * implement commandline to pass model_checkpoint path and use it as a begining of the new run.
+        * here> run for Tennessee, Louisiana, Florida
+            * here> why are there 300 + for test loss per run?
     4. apply transfer learning to member of the cluster
         * read the following to start 
             * https://towardsdatascience.com/transfer-learning-for-time-series-forecasting-51f023bc159c

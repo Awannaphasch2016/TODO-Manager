@@ -335,6 +335,7 @@
         ;you start with value n in R6, then multiply with n-1, n-2, ..1
         ;use the MULT subroutine to multiply R5 to R6 registers
         make sure you add (0!=1) since i starts from a to end with 0
+
 * lab 4
     * note:
         * check people who has score = 0.
