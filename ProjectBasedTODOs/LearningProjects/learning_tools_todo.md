@@ -355,6 +355,7 @@
             * 3-D plots 
             * higher-ddeminsion plots
             * word clouds
+
 * learn how people use gist?
     * goal 
         * use gist as a snippet storage to use across machine.
@@ -366,6 +367,7 @@
         * art of unix programming
             * http://catb.org/~esr/writings/taoup/
 * here> read https://www.datascienceatthecommandline.com/2e/chapter-7-exploring-data.html#bar-chart 
+
 * learn data science at the command line
     * https://github.com/jeroenjanssens/data-science-at-the-command-line
         * note

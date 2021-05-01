@@ -1,5 +1,85 @@
 # TODO
 
+* inside-terminal
+    * ref
+        * data science at command line .
+            * https://www.datascienceatthecommandline.com/1e/chapter-9-modeling-data.html#running-the-experiment
+    * speed up run time
+        * learn parallel pipelines chapter from "data science at command line"
+    * modeling 
+        * dimensionality reduction
+            * learn tapkee
+        * classification
+            * learn BigML
+        * online learning
+            * learn vowpal wabbit 
+                * youtube
+                    * https://www.youtube.com/watch?v=gyCjancgR9U&ab_channel=YuryKashnitsky
+                    * https://www.youtube.com/watch?v=N-x86zHUDaI&ab_channel=MicrosoftResearch
+                * article
+                    * https://github.com/VowpalWabbit/vowpal_wabbit/wiki
+    * tools for graph 
+        * data format for graph is in different format standard
+            * ref
+                * article
+                    * convert csv file to graphml
+                        * https://qizeresearch.wordpress.com/2013/11/21/converting-csv-file-to-graphml-format-for-graph-mining-for-unweighted-and-undirected-graph/
+                * conference talk
+                    * why graph database?
+                        * https://www.youtube.com/watch?v=GekQqFZm7mA&ab_channel=CodingTech 
+            * csv 
+            * GraphML
+        * [selected] Amazon Neptun
+            * note
+                * Neptune uses DGL
+            * ref
+                * article 
+                    * tutorial
+                        * Neptune ML + GNN
+                            * https://julsimon.medium.com/a-primer-on-graph-neural-networks-with-amazon-neptune-and-the-deep-graph-library-5ce64984a276
+        * neo4j shell
+            * section from a book.
+                * https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781783287253/1/ch01lvl1sec14/importing-data-from-the-csv-format-to-neo4j
+            * neo4j for data science
+                * https://neo4j.com/developer/graph-data-science/node-classification/
+    * learn MLOps from tutorial 
+        * ref
+            * youtube.com/watch?v=UbL7VUpv1Bs
+            * learn how to use DVC (Data Versioning Control)
+                * https://github.com/iterative/dvc
+
+    * note taking tools base on commandline 
+        * zk
+            * https://github.com/mkaz/zk
+                * the author use the following to syncning between computer using instead
+                    of google-drive etc.
+                    * https://syncthing.net/ 
+
+    * here> learn gnuplot and feedgnuplot
+        * here> work on the following example 
+            * here> https://github.com/dkogan/feedgnuplot
+        * https://medium.com/introduction-into-bash/gnuplot-plot-albert-einstein-with-terminal-15dd8ea9ae91
+        * https://www.youtube.com/watch?v=-jR64x8SHLk&ab_channel=StillpointX
+        * find a list of script to do plots
+            * https://www.google.com/search?q=gnuplot+script+for+data+science&rlz=1C1CHBF_enUS941US941&oq=gnuplot+script+for+data+science&aqs=chrome..69i57j33i299.10645j0j7&sourceid=chrome&ie=UTF-8
+            * see https://github.com/dkogan/feedgnuplot/blob/master/guide/guide.org 
+            * here> heat matrix
+                * here> gnuplot script
+                    * https://stackoverflow.com/questions/17543386/pipe-plot-data-to-gnuplot-script
+                    * here> https://riptutorial.com/gnuplot/example/14015/simple-script-file
+                * heatmap
+                    * http://gnuplot.sourceforge.net/demo_5.2/heatmaps.html 
+                        * figure out how to use gnuplot script.
+            * histograms
+            * bar/pie cahrts
+            * scatter/lines plots 
+            * tiems siers
+            * relationship maps
+            * geo maps
+            * 3-D plots 
+            * higher-ddeminsion plots
+            * word clouds
+
 * explain how to set up ec2 with terraform and ssh-key 
     * note
         * ssh-key is not key fully automated by terraform. I created with aws cli .

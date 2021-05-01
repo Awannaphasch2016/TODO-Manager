@@ -206,14 +206,20 @@
 
 
 # TODO
-* error: tensorflow takes long time to start
-    * what is tensorflow nightly?
-* learning about time series 
-    * deep learning for time series | dimitry Larko | kaggle days 
-        * https://youtu.be/svNwWSgz2NM?t=457
-* here> test lstm, mlp, conv1d with linear line 
+
+* test lstm, mlp, conv1d with linear line 
     * here> use more training and test data.
-* here> figure out if I answer all the question that I could from dashbaord, what is left?
+
+* here> lets use new case per day  
+    * here> lets plot what new case per day looks like
+        * here> plot daily-case with correct tags.
+        * fix previous case bug
+        * run the following models lstm 100, previous case, daily-new-cases, linear regression, conv1d.
+            * if training and test still differe alot, figure out away to predict at the point where roc has
+                changed.
+    * previous_day
+    * linear regression 
+* figure out if I answer all the question that I could from dashbaord, what is left?
     * add more observation to the following
         * "Log: 4/30/2021 Experiments/Groups Observation/ parameters: state = 'Oklahoma',
             model-name = [previous-val, linear regression, mlp, lstm, conv1d], epoch = [10,100]"
@@ -226,14 +232,7 @@
     * here> survey
         * adding details in survey. (more math)
         * condense into subsections.
-* here> summaized result in covid19 spread
-    * Oklahomo
-        * WindowLengthN
-        * PredictNExtN
-        * models
-    * Lousiana 
-* implement code to run specific state
-* here> check what i have to reruns to complete all combination of the following  
+* check what i have to reruns to complete all combination of the following  
     * note
         * states  
             * Florida, Louisiana, Tennessee, Oklahoma
