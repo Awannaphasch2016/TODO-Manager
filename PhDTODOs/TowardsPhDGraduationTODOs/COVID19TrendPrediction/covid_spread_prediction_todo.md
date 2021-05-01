@@ -206,12 +206,105 @@
 
 
 # TODO
+* error: tensorflow takes long time to start
+    * what is tensorflow nightly?
+* learning about time series 
+    * deep learning for time series | dimitry Larko | kaggle days 
+        * https://youtu.be/svNwWSgz2NM?t=457
+* here> test lstm, mlp, conv1d with linear line 
+    * here> use more training and test data.
+* here> figure out if I answer all the question that I could from dashbaord, what is left?
+    * add more observation to the following
+        * "Log: 4/30/2021 Experiments/Groups Observation/ parameters: state = 'Oklahoma',
+            model-name = [previous-val, linear regression, mlp, lstm, conv1d], epoch = [10,100]"
+    * conclude result to "Log: 4/30/2021 Experiments/Groups Observation/ parameters: state = 'Oklahoma',
+        model-name = [previous-val, linear regression, mlp, lstm, conv1d], epoch = [10,100]"
+* what questions am I trying to answer when viewing dashboard?
+    * behavior of each models as value of WindowLengthN changes.
+    * behavior of each models as value of PredictNextN changes.
+* [2021-04-29 15:41:49]
+    * here> survey
+        * adding details in survey. (more math)
+        * condense into subsections.
+* here> summaized result in covid19 spread
+    * Oklahomo
+        * WindowLengthN
+        * PredictNExtN
+        * models
+    * Lousiana 
+* implement code to run specific state
+* here> check what i have to reruns to complete all combination of the following  
+    * note
+        * states  
+            * Florida, Louisiana, Tennessee, Oklahoma
+        * WindowLengthN
+            * 7, 14, 30 
+        * PredictNextN 
+            * 1,7,14,30
+        * epoch 
+            * 10, 100
+        * models 
+            * preivous_val, linear_regression, mlp, lstm, conv1d
+    * things to run   
+        * [done] Oklahoma
+        * here> Lousiana
+            * WindowLength7
+                * [done] PredictNext1
+                * PredictNext7
+                    * all
+                * Predict 14
+                    * all
+                * Predict 30
+                    * all
+            * WindowLength14
+                * PredictNext1
+                    * linear regression 
+                    * [mlp, conv1d, lstm] + [epoch 10, epoch 100]
+                * [done] PredictNext7
+                * [done] Predict 14
+                * [done] Predict 30
+                    <!-- * linear regression --> 
+                    <!-- * [mlp, conv1d, lstm] + [epoch 10, epoch 100] -->
+            * WindowLength30
+                * PredictNext1 
+                    * [mlp, conv1d, lstm] + [epoch 10, epoch 100]
+                * Predict 7
+                * Predict 14 
+                    * previous value 
+                * Predict 30
+                    * previous value 
 
+* phd progress report timeline 
+    * writing survey papers.
+    * develope research proposal.
+    * baseline implementation.
+    * Literature review.
+    * implement research idea.
 * [2021-04-27 17:31:42]
     * here> check if eval_metric is correct.
         * here> from dr zhu caclulation, error doesn't match the calcualtion
             * here> check eval metric of 1 days prediction .
                 * here> figure out why lstm and conv1d mse are still incorrect.
+                * add pearson correlation
+                * [done] run the following to complete the first loop 
+                    * n_in = 7, n_out = 1 
+                        * conv1d + epoch 10 + tenesse + 3 times (to complete 10 repeat)
+                        * lstm + epoch 10 + all states + 10 times.
+                        * previous_val + all states + 10 times.
+                * [done] run all epoch 10
+                    * n_in = [30], n_out = [7, 14, 30]
+                        * all models + all states + 3 times.
+                    * here> write summary on the results  
+                * [skip] run all epoch 100 
+                    * n_in = [14, 30], n_out = [7, 14, 30]
+                        * all models + all states + 3 times.
+                * run on new cases dataset.
+                    * implement new cases dataset 
+        * figure out a way to use transfer learning to a group of cluster 
+            * here> see 'within domain transfer learning '
+                * reread task definition 
+            * take a look at this 
+                * https://www.connectedpapers.com/search?q=APPLIED%20TIME-SERIES%20TRANSFER%20LEARNING
 
 * summarized result in tables (previent using dashboard.)
     * mention that xgboost only predict 1 values given this dataset
@@ -228,11 +321,6 @@
     * note
         * focus on 1 runs.
 
-* continue working on transfer learning model 
-* raed the follwoing 
-     * "Sequential transfer learning based on hierarchical clustering for improved performance in deep learning
-         based food segmentation"
-         * https://www.nature.com/articles/s41598-020-79677-1
 
 * here> run vairation of conv1d
 * try on number of new case data, instead of cumulated case.
@@ -244,8 +332,6 @@
             * here>  fix lstm, conv1d
         <!-- * average over 10 runs --> 
         <!--     * need average training, val, test loss and predicted value -->
-
-
 
 
 * impelment the following 
