@@ -1,5 +1,26 @@
 # TODO
 
+* write about how to determine whether time series is stationary. 
+    * ref
+        * https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd-1f/
+            * Granger Causality test
+                * test casulity vs correlation.
+        * https://towardsdatascience.com/why-does-stationarity-matter-in-time-series-analysis-e2fb7be74454
+            * transformation process toward stationary time series
+                * difference transformation
+                * logarithmic transformaiton
+                    * note 
+                        * logarithmic transformation must always be followed by difference transformation.
+            * ADF test
+                * null hypothesis = if failed to be rejected, it suggests the time series has a unit root,
+                    meaning it is non-stationary.
+        * towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
+            * plot predict vs real.
+                * to see error distribution.
+                * alternatively, you can plot distribution of error directly.
+            * plot cross correlation
+                * to detect, autocorrelation.
+
 * inside-terminal
     * ref
         * data science at command line .
