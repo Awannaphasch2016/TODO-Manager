@@ -253,12 +253,28 @@
                                 * goal
                                     * goal is to make mlp performance better than linear regression
                                 * here> focus on window [7, 30], predictNext = [1,7,14,30]
-                                    * here> run experiment 1 with windowLenght= 14 and PredictNext = 1
-                                        * here> does mlp,lstm performs better?
-                                            * here> does early stopping works? (epoch 150)
-                                                * try using hyperparameter optimization for epoch. 
-                                                * once all model is runs, and linear regression is still better, move
-                                                    on to 'lets run my models on kaggle'
+                                    * note
+                                        * why step size == 1 is bad when doing walk forward evaluation? 
+                                        * I think I should have train,val,test for each steps. currently I
+                                            have train, test.
+                                            * I only lose 1 value. 
+                                    * how to know if time series is stationary?
+                                        * can I use detrend instead of differencing with exponential curve.?
+                                        * check mean and variance over time.
+                                        * here> how to predict exponential growth 
+                                            *
+                                            https://towardsdatascience.com/modeling-exponential-growth-49a2b6f22e1f
+                                            *
+                                            https://www.google.com/search?q=how+to+predict+exponential+growth+model+&rlz=1C1CHBF_enUS941US941&sxsrf=ALeKk02rZcXCP3cYtClrYwpIxuzXIll3eQ%3A1620004469366&ei=dU6PYJjdFeKf_Qb3zIzoBw&oq=how+to+predict+exponential+growth+model+&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgcIABBHELADOgYIABAWEB46BQgAEIYDUIMqWIUxYJ8yaAFwAngAgAHOAYgBggiSAQUwLjcuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwjY67j3qqzwAhXiT98KHXcmA30Q4dUDCA4&uact=5
+                                    * here> write summary about the following
+                                        * model performance on diff2-daily-new-case data  
+                                        * diff2 vs diff3 are soooo similar 
+                                        * send dr zhu, update on it, when finished.
+
+                                    * run experiment 1 with windowLenght= 14 and PredictNext = 1
+                                        * try using hyperparameter optimization for epoch. 
+                                        * once all model is runs, and linear regression is still better, move
+                                            on to 'lets run my models on kaggle'
                             * lets run my models on kaggle 
                                 * goal
                                     * to validate that all of my baseline model is working as expected.
