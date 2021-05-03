@@ -88,8 +88,10 @@
     * error
         * compilation error
             * fix it later
+    * here> compress writing to assemble survey papers style
+        * what is basis evalaution?
     * add equations
-    * compress writing to assemble survey papers style
+        * ignore old equation and focus on writing + how to add new equation.
     * add plots 
         * use plot to show design of few important models.
             * here> pick papers that I should add photos

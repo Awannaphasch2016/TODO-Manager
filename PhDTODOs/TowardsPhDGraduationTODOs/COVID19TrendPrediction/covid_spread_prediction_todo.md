@@ -235,7 +235,7 @@
                         * here> why linear regression perform better ( there are trend?)
                             * check that time series has no trend.
                             * read kaggle/research paper on basci time seires analysis on epidemic curve.
-                                * reesearch paper
+                                * research paper
                                 * kaggle should helps 
                                     * ref
                                         * https://www.kaggle.com/c/covid19-global-forecasting-week-1/discussion
@@ -257,6 +257,12 @@
                                         have train, test.
                                         * I only lose 1 value. 
                                     * all of them should be able to predict straightline.
+                                        * 
+                                        1. Generate a linear line, see how each method perform
+                                        2. Add a little bit random noise to the lines, and check how model
+                                            perform
+                                        3. Generate an high order line (such as a x^2 functio), and check how
+                                            model perform
                                 * test how similar is training and test set 
                                     * ref
                                         * https://www.kdnuggets.com/2018/06/how-dissimilar-train-test-data.html
