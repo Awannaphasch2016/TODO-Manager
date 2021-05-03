@@ -209,12 +209,72 @@
 
 * test lstm, mlp, conv1d with linear line 
     * here> use more training and test data.
+* here> fix preprocess to fit more for time series
+    * why is it bad to evaluate with step size of one 
+    * here> how to do stationary
+        * here> when and how to do detrend or differencing?
+            * ref
+                *
+                https://www.google.com/search?q=detrending+and+differencing&rlz=1C1CHBF_enUS941US941&oq=detrend+vs+differ&aqs=chrome.1.69i57j0i10i22i30.9032j1j4&sourceid=chrome&ie=UTF-8
+            * is the trend staionary or difference sttaiontry.
+            * if its trend stationary then detranding is th way to go .
+            * if its difference statioanry, then differencing is thw way to go.
+            * here> do we need to make time series stationary before predicting it?
+                * here> deep learning vs time series analysis in general.
+                    * ref
+                        * best pracitice
+                            *
+                            https://www.google.com/search?q=time+series+forecasitn+best+practicing&rlz=1C1CHBF_enUS941US941&oq=time+series+forecasitn+best+practicing+&aqs=chrome..69i57j0i13l2j0i22i30.5590j0j7&sourceid=chrome&ie=UTF-8
+                    * lets read about theory and best practicing before proceeding.
+                        * implement the following
+                            * ref
+                                *
+                                https://towardsdatascience.com/how-not-to-use-machine-learning-for-time-series-forecasting-avoiding-the-pitfalls-19f9d7adf424
+                            * autocorrelation plot on raw covid19 case
+                            * plot predict value vs real value.
+                        * here> why linear regression perform better ( there are trend?)
+                            * check that time series has no trend.
+                            * read kaggle/research paper on basci time seires analysis on epidemic curve.
+                                * reesearch paper
+                                * kaggle should helps 
+                                    * ref
+                                        * https://www.kaggle.com/c/covid19-global-forecasting-week-1/discussion
+                                    * goal 
+                                        * what is metric used?
+                                        * what is best model performance?
+                                        * how is data preprocess done for epidemic time series?
+                                            * compartmental 
+                                            * statistical
+                                            * deep learning
+                                    * best model 
+                                    * lstm 
+                                    * regression trees
+                            * here> figure out why linear regression model performs so well
+                                * goal
+                                    * goal is to make mlp performance better than linear regression
+                                * here> focus on window [7, 30], predictNext = [1,7,14,30]
+                                    * here> run experiment 1 with windowLenght= 14 and PredictNext = 1
+                                        * here> does mlp,lstm performs better?
+                                            * here> does early stopping works? (epoch 150)
+                                                * try using hyperparameter optimization for epoch. 
+                                                * once all model is runs, and linear regression is still better, move
+                                                    on to 'lets run my models on kaggle'
+                            * lets run my models on kaggle 
+                                * goal
+                                    * to validate that all of my baseline model is working as expected.
+                                    * learn from the teams thats performs best.
+                                        * ref 
+                                            * https://www.kaggle.com/dott1718/cv19-by-growth-rate-v5-09 
+                                        * how do they performs data preprocessing
+                                        * what model do they use?
+                                        * focus on deep learning based models.
+                                        * how do they performs hyperpameter tuning?
+                                * experiment "kaggle: COVID19 Global Forecasting (Week 1)"
 
-* here> lets use new case per day  
+* lets use new case per day  
     * here> lets plot what new case per day looks like
-        * here> plot daily-case with correct tags.
         * fix previous case bug
-        * run the following models lstm 100, previous case, daily-new-cases, linear regression, conv1d.
+        * here> run the following models lstm 100, previous case, daily-new-cases, linear regression, conv1d.
             * if training and test still differe alot, figure out away to predict at the point where roc has
                 changed.
     * previous_day
