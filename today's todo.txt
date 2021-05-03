@@ -91,7 +91,7 @@ response from HPC
 #== TODO 
 #=====================
 
-
+* figure out why i got billed for 300 + on AWS?
 * hidden technical debt in machine leanring systems
     * https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
 * go to PhDTODOs/TowardsPhDGraduationTODOs/COVID19TrendPrediction/covid_spread_prediction_todo.txt

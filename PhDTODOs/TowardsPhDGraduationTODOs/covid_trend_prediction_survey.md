@@ -84,8 +84,15 @@
 
 #TODO
 
-* here> use plot to show design of few important models.
-    * here> pick papers that I should add photos
+* here> editing to dr zhu style, so I can get feedback faster from him
+    * error
+        * compilation error
+            * fix it later
+    * add equations
+    * compress writing to assemble survey papers style
+    * add plots 
+        * use plot to show design of few important models.
+            * here> pick papers that I should add photos
 * add content from the follwoing paper to the survey
     * "sterring a historical disease forcasting model .."
     * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"
@@ -101,7 +108,6 @@
         * add plot and figure.
     * here> collect papers from connected papers.
     * refactor process
-        * here> reread modeling section
         * waiting for reply and I can process to add the followiong content
             * here> read network construction and figure out what to refactors.
             * add the following content to modeling section
