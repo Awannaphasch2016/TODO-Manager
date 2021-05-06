@@ -91,6 +91,12 @@ response from HPC
 #== TODO 
 #=====================
 
+* encoding vs embeding
+    *  https://www.google.com/search?q=encoding+vs+embedding&rlz=1C1CHBF_enUS941US941&oq=encoder+vs+embe&aqs=chrome.1.69i57j0i10i22i30.5636j0j7&sourceid=chrome&ie=UTF-8
+* look into casual graph for time series.
+    * https://towardsdatascience.com/use-causal-graphs-4e3af630cf64
+    * https://arxiv.org/pdf/2006.08380.pdf
+    * https://scholar.google.com/scholar?hl=en&as_sdt=0%2C10&q=casual+graph+for+time+series+&btnG=
 * figure out why i got billed for 300 + on AWS?
 * hidden technical debt in machine leanring systems
     * https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf

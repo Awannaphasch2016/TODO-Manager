@@ -207,9 +207,11 @@
 
 # TODO
 
-* test lstm, mlp, conv1d with linear line 
+* here> test lstm, mlp, conv1d with linear line 
     * here> use more training and test data.
-* here> fix preprocess to fit more for time series
+        * here> test it with tmp/scratch1.py code. 
+            * here> it should behave the exact same as my code.
+* fix preprocess to fit more for time series
     * why is it bad to evaluate with step size of one 
     * here> how to do stationary
         * here> when and how to do detrend or differencing?
