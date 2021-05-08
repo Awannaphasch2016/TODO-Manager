@@ -84,20 +84,56 @@
 
 #TODO
 
-* here> introduction fixes
-    * here> add citation
-    * reread.
-    * here> https://mail.google.com/mail/u/0/#inbox/QgrcJHrhxnlBBDbfZPTXGVlBgkGCGJzNdcg
-        * what are the major components of pandemics (such as pathogens, hosts, interactions etc).
-        * here> Explain that networks and interactions are the key for pandemics outbreaks.
-            * It also decides the outbreak and spread speed of the pandemics.
-                * For example, explain traditional SIR model, explain that the contact networks was
-                    nherently assumed.
-        * Explain that recent study has advanced networks to more advanced fields (in addition to
-            traditional SIR, or ESIR models). Explain what networks can be done to advance pandemics
-            study, such as prediction of the infections, study drug repoposing etc.
-        * Explain what are the motivation of this survey (many works have been done in this area.
-            This study try to provide a comprehensive survey, caregorize different methods etc).
+* here> add content as I read
+    * here> finished reading + summarized.
+        * here> condense content from the papers to survey.
+    * about related work 
+        * most of the survey don't consider network scale.
+            * network modeling
+                * analyze patterns/properties within networks.
+                * reveal features of networks.
+                * graph theory.
+                * social science.
+            * network analytics
+                * predictive model (this is what I have content on)
+            * input network construction 
+    * I need to gather information for > 1 scale before I can add content
+        * here> try to summarize what I have in introduction and content to the papers
+
+* introduction fixes
+    * https://mail.google.com/mail/u/0/#inbox/QgrcJHrhxnlBBDbfZPTXGVlBgkGCGJzNdcg
+        * comment 
+            * You need to have a clear logic when writing a survey paper. Work out an
+                architecture of the Introduciton in your mind, then carry out the writing. It
+                should speak out like a story with logics advancing from one paragraph to
+                another paragraph.
+        * here> introduction   
+            * Explain that networks and interactions are the key for pandemics outbreaks.
+                * It also decides the outbreak and spread speed of the pandemics.
+                    * For example, explain traditional SIR model, explain that the contact networks was
+                        nherentljy assumed.
+            * here> what are the major components of pandemics (such as pathogens, hosts, interactions etc).
+            * Explain that recent study has advanced networks to more advanced fields (in addition to
+                traditional SIR, or ESIR models). Explain what networks can be done to advance pandemics
+                study, such as prediction of the infections, study drug repoposing etc.
+                * add more content of this to related works too.
+            * Explain what are the motivation of this survey (many works have been done in this area.
+                This study try to provide a comprehensive survey, caregorize different methods etc).
+        * related works 
+            * Review the paper about pandemics and networks (rather raditional approach reviewing
+                networks for pandemics). Explain different of your paper from those existing work.
+        * networks and epidemic models
+            * This is the section you will propose four tier network survey architecture.
+    * https://mail.google.com/mail/u/0/#inbox/QgrcJHrhxnlBBDbfZPTXGVlBgkGCGJzNdcg 
+        * Instead, focus on scientific characteristics of pandemics vs. epidemics
+        * I need to add details about: what are the major components of pandemics (such as
+            pathogens, hosts, interactions etc).  How they function together, with similar
+            networking mechanism. This motivates researchers to consider different pandemics models.
+        * Explain that recent study has advanced networks to more advanced fields (in
+            addition to traditional SIR, or ESIR models). Explain what networks can be done to
+            advance pandemics study, such as prediction of the infections, study drug repoposing
+            etc.
+
 * add content from the follwoing paper to the survey
     * "sterring a historical disease forcasting model .."
     * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"
