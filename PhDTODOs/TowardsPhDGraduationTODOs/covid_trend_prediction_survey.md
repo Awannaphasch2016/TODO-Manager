@@ -84,17 +84,8 @@
 
 #TODO
 
-* here> editing to dr zhu style, so I can get feedback faster from him
-    * error
-        * compilation error
-            * fix it later
-    * here> compress writing to assemble survey papers style
-        * what is basis evalaution?
-    * add equations
-        * ignore old equation and focus on writing + how to add new equation.
-    * add plots 
-        * use plot to show design of few important models.
-            * here> pick papers that I should add photos
+* here> network modeling vs network analystic 
+
 * add content from the follwoing paper to the survey
     * "sterring a historical disease forcasting model .."
     * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"

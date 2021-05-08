@@ -208,9 +208,23 @@
 # TODO
 
 * here> test lstm, mlp, conv1d with linear line 
-    * here> use more training and test data.
-        * here> test it with tmp/scratch1.py code. 
-            * here> it should behave the exact same as my code.
+    * here> conv1d doesn't work correctly
+        * here> use more training and test data.
+            * here> test it with tmp/scratch1.py code. 
+                * here> it should behave the exact same as my code.
+                    * here> conv1d can't predict level 
+                        * see literature that use conv1d.
+                        * here> follow this tutorial
+                            *
+                            https://machinelearningmastery.com/cnn-models-for-human-activity-recognition-time-series-classification/
+                                * number of filter 
+                                * size of kernel
+                            * here> use wandb sweep for conv1d
+                                * here> use ray-tune with wandb sweep 
+                                    * ref
+                                        * https://docs.wandb.ai/guides/sweeps/ray-tune
+                                * create a model at the root call it run_models.py
+
 * fix preprocess to fit more for time series
     * why is it bad to evaluate with step size of one 
     * here> how to do stationary
