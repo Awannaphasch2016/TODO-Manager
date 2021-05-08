@@ -84,8 +84,20 @@
 
 #TODO
 
-* here> network modeling vs network analystic 
-
+* here> introduction fixes
+    * here> add citation
+    * reread.
+    * here> https://mail.google.com/mail/u/0/#inbox/QgrcJHrhxnlBBDbfZPTXGVlBgkGCGJzNdcg
+        * what are the major components of pandemics (such as pathogens, hosts, interactions etc).
+        * here> Explain that networks and interactions are the key for pandemics outbreaks.
+            * It also decides the outbreak and spread speed of the pandemics.
+                * For example, explain traditional SIR model, explain that the contact networks was
+                    nherently assumed.
+        * Explain that recent study has advanced networks to more advanced fields (in addition to
+            traditional SIR, or ESIR models). Explain what networks can be done to advance pandemics
+            study, such as prediction of the infections, study drug repoposing etc.
+        * Explain what are the motivation of this survey (many works have been done in this area.
+            This study try to provide a comprehensive survey, caregorize different methods etc).
 * add content from the follwoing paper to the survey
     * "sterring a historical disease forcasting model .."
     * here> "how to stop epidemics: controling grpah dynamics with reinforecment lenaring and graph neurla netowrk"
