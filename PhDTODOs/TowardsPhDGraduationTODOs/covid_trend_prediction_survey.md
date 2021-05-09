@@ -84,13 +84,24 @@
 
 #TODO
 
-* here> add content as I read
+* here> put content in the following 
+    * here> related work
+        * put content to create structure to put content from read papers
+    * Networks for Epidemics and Pandemic Study.
+        * put content from both papers
+    * Network Modleing and Anlaytics for Epidmics and Pandemics
+        * put content from both paper in  
+
+* add content as I read
     * add content from "influenza spread on context- specific networks lifetd fro interaction-based
         diary data" to the survey.
         * here> put it in micro graph 
     * here> finished reading + summarized.
         * here> https://www.pnas.org/content/118/19/e2025581118/tab-article-info
-            * here> read supplementary mateiral on information about graph
+            * here> put content into the following
+                * related work.
+                * mini network modeling.
+                * node and edges construction
         * https://www.pnas.org/content/pnas/118/19/e2025581118.full.pdf 
         * https://arxiv.org/pdf/2007.00576.pdf
     * about related work 
