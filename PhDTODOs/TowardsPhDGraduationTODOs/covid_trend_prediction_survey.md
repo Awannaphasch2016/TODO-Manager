@@ -85,11 +85,12 @@
 #TODO
 
 * here> put content in the following 
-    * here> related work
+    * related work
+        * figure out how survey papers write related work sections
         * put content to create structure to put content from read papers
-    * Networks for Epidemics and Pandemic Study.
-        * put content from both papers
-    * Network Modleing and Anlaytics for Epidmics and Pandemics
+    * here> Networks for Epidemics and Pandemic Study.
+        * here> put content from both papers
+    * [done] Network Modleing and Anlaytics for Epidmics and Pandemics
         * put content from both paper in  
 
 * add content as I read
