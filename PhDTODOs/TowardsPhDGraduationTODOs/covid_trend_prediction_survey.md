@@ -85,8 +85,14 @@
 #TODO
 
 * here> add content as I read
+    * add content from "influenza spread on context- specific networks lifetd fro interaction-based
+        diary data" to the survey.
+        * here> put it in micro graph 
     * here> finished reading + summarized.
-        * here> condense content from the papers to survey.
+        * here> https://www.pnas.org/content/118/19/e2025581118/tab-article-info
+            * here> read supplementary mateiral on information about graph
+        * https://www.pnas.org/content/pnas/118/19/e2025581118.full.pdf 
+        * https://arxiv.org/pdf/2007.00576.pdf
     * about related work 
         * most of the survey don't consider network scale.
             * network modeling
@@ -101,6 +107,10 @@
         * here> try to summarize what I have in introduction and content to the papers
 
 * introduction fixes
+    * ref
+        * summay of networks typesk, scale table
+            *
+            https://mail.google.com/mail/u/0/#starred/FMfcgxwLtstGHGvpxpdbcSSPZQjQnJWR?projector=1&messagePartId=0.1
     * https://mail.google.com/mail/u/0/#inbox/QgrcJHrhxnlBBDbfZPTXGVlBgkGCGJzNdcg
         * comment 
             * You need to have a clear logic when writing a survey paper. Work out an
