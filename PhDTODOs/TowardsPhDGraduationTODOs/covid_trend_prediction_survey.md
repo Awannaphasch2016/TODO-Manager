@@ -88,10 +88,24 @@
     * related work
         * figure out how survey papers write related work sections
         * put content to create structure to put content from read papers
-    * here> Networks for Epidemics and Pandemic Study.
+    * here> network medicine framwork for identifiying drug-repurpsoing opportunities for COVID-19
         * here> put content from both papers
-    * [done] Network Modleing and Anlaytics for Epidmics and Pandemics
-        * put content from both paper in  
+            * scale and objective.
+            * nodes and edges construction 
+            * micro network modeling
+
+    * Networks for Epidemics and Pandemic Study.
+        * here> put content from both papers
+            * scale and objective.
+            * nodes and edges construction 
+            * mezzo network modeling
+
+    * Network Modleing and Anlaytics for Epidmics and Pandemics
+        * put content from both paper in
+            * scale and objective.
+            * nodes and edges construction 
+            * mezzo network modeling
+
 
 * add content as I read
     * add content from "influenza spread on context- specific networks lifetd fro interaction-based
