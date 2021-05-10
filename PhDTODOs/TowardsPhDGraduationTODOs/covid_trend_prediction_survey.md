@@ -84,13 +84,21 @@
 
 #TODO
 
+* here> "You need to add details about: what are the major components of pandemics (such
+as pathogens, hosts, interactions etc).  How they function together, with
+similar networking mechanism. This motivates researchers to consider different
+pandemics models."
+    * here> motivation that reseachre consider different pandemics models
+        * here> what is pathogen, hosts, interactions? 
+        * here> how they fucntions togehter as a network?
+
 * here> put content in the following 
     * related work
         * figure out how survey papers write related work sections
         * put content to create structure to put content from read papers
     * here> network medicine framwork for identifiying drug-repurpsoing opportunities for COVID-19
         * here> put content from both papers
-            * scale and objective.
+            * here> scale and objective.
             * nodes and edges construction 
             * micro network modeling
 
