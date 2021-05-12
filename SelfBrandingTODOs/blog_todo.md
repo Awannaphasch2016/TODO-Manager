@@ -1,5 +1,8 @@
 # TODO
-
+* write about about content of the following podcast
+    * "you can read 10 mins instead of watching 1 hours"
+    * ref 
+        * https://www.youtube.com/watch?v=zzMbi5IDiyM
 * write about how to determine whether time series is stationary. 
     * ref
         * https://www.linkedin.com/pulse/how-use-machine-learning-time-series-forecasting-vegard-flovik-phd-1f/

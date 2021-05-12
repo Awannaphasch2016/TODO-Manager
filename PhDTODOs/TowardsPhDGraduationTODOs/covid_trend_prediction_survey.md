@@ -83,19 +83,61 @@
         * understand basic Latex 
 
 #TODO
+* https://mail.google.com/mail/u/0/#inbox/QgrcJHsBpWgbDwJPGvTfWNZHzXNXsTLKCmQ 
+    * "I include some comments (marked in red) in introduction. You can add some content to reflect
+    recent work on modeling muzzo and macro networks. This part should be mainly related to the
+    recent efforts.
+
+     For the section 3.1 (scale and objectives), please add more work related to the Mini networks.
+     There are many work in this catgory (such as protein-protein, protein-disease network etc.
+     There are also works related to drug reposising etc.).
+
+      For the node contruction and edge construction, you may also consider separating content with
+      respect to the four tier networks (e.g., mini, micro, muzzao, and macro). For example, what
+      are edge relationships for mini networks (they are typical interactions between diseasese,
+      genes, proteins. The interactions can also be quantified as different context, such as
+      citation relationship, e.g., a paper mentioned a disease and a gene, or other relationships).
+
+       When you are writing the first draft, try your very best to add reference."
+           * read protein-protein, protein-disease network etc. 
 
 * here> rewrite 
-    * here> network construction in general.
-        * here> what are dataset used in all the papers I mentioned?
-            * here> read content that I have in mini network, micro network, and network construction, and
-                get data from there.
-            * get data from my notes.
     * add subsection for mini and micro networks.
         * based on Objective.
     * pairwise network 
     * write about emergence network 
     * write about theoritical network 
     * read paper on mezzo and macro
+    * here> network construction in general.
+        * here> what are dataset used in all the papers I mentioned?
+            * here> read content that I have in mini network, micro network, and network construction, and
+                get data from there.
+                * here> add citattion for PPIs and drug-target from  "Network medicine framework for identifying
+                    drug-repurposing opportunities for COVID-19
+                    "
+                    * here> read this
+                        https://www.pnas.org/content/pnas/suppl/2021/04/27/2025581118.DCSupplemental/pnas.2025581118.sapp.pdf 
+                        * here> put content in dataset or node construction
+                            * here> take a look into datset
+                                * here> read dataset comments, check what i am missing, and add those
+                                    content
+                                    * mini network 
+                                    * here> micro network
+                                        * figure out how these data are
+                                        constructed/collected/generated 
+                                        * here> reread edges sections 
+                                            * here> if content are taling about network without
+                                                ifnormation about nodes nad edgse. it should be
+                                                refactor or removed.
+                                                * here> transmission from network to node and edge are
+                                                    fine
+                                        * here> node
+                                    * mezzo network
+                                        * put content from the following papre int nodes and edges  construction 
+                                            * "Influenza spread on context-specific networks lifted
+                                            from interaction-based diary data"
+
+            * get data from my notes.
 
 * read 2 papers.
 * plan out wandb.
