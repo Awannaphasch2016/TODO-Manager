@@ -84,25 +84,61 @@
 
 #TODO
 
-* here> "You need to add details about: what are the major components of pandemics (such
+* here> rewrite 
+    * here> network construction in general.
+        * here> what are dataset used in all the papers I mentioned?
+            * here> read content that I have in mini network, micro network, and network construction, and
+                get data from there.
+            * get data from my notes.
+    * add subsection for mini and micro networks.
+        * based on Objective.
+    * pairwise network 
+    * write about emergence network 
+    * write about theoritical network 
+    * read paper on mezzo and macro
+
+* read 2 papers.
+* plan out wandb.
+* clean up
+
+
+
+* " You need to mention them, because many work in the traditional disease modeling uses such ideal
+network (such as random network, where each person is assumed to have each number of
+change/opportunity to contact others).
+    In real-world (such as social network setting), this is not true. So, you can find that mobility
+ network or other networks are created from real=world data.
+    We need to highlight the movement of research from such ideal network to a real=world network"
+    * here> read about traditional network.
+    * what is the motivation of using traditional network?
+    * when to choose real network over traditional networks?
+
+
+* [done] "You need to add details about: what are the major components of pandemics (such
 as pathogens, hosts, interactions etc).  How they function together, with
 similar networking mechanism. This motivates researchers to consider different
 pandemics models."
-    * here> motivation that reseachre consider different pandemics models
-        * here> what is pathogen, hosts, interactions? 
+    * [done] Infectious Disease Epidemiology Transmission Dynamics
+        *
+        https://nau.edu/wp-content/uploads/sites/79/ID-Epidemiology-Bootcamp-session-1_final-Compatibility-Mode-1.pdf
+    * [done] motivation that reseachre consider different pandemics models
         * here> how they fucntions togehter as a network?
+            * here> how can drugs effect pathogens?
+                * how does antibody works?
+            * how can proteins be used by drugs and pathogens?
 
-* here> put content in the following 
+* put content in the following 
     * related work
         * figure out how survey papers write related work sections
         * put content to create structure to put content from read papers
-    * here> network medicine framwork for identifiying drug-repurpsoing opportunities for COVID-19
+    * network medicine framwork for identifiying drug-repurpsoing opportunities for COVID-19
         * here> put content from both papers
             * here> scale and objective.
+                * mezzo
             * nodes and edges construction 
             * micro network modeling
 
-    * Networks for Epidemics and Pandemic Study.
+    * here> Networks for Epidemics and Pandemic Study.
         * here> put content from both papers
             * scale and objective.
             * nodes and edges construction 
@@ -113,7 +149,6 @@ pandemics models."
             * scale and objective.
             * nodes and edges construction 
             * mezzo network modeling
-
 
 * add content as I read
     * add content from "influenza spread on context- specific networks lifetd fro interaction-based

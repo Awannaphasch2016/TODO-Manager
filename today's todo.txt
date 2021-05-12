@@ -91,6 +91,19 @@ response from HPC
 #== TODO 
 #=====================
 
+* here> read about weight and biasese and find one position that I can work toward to apply
+    * start writing my resume
+
+* figure out email of prof_jtaylor ( he has his webiste i remember)
+    * send email to prof_jtaylor about my interestg in numerai 
+        * I have hear you mentioned that you have 3 of your students that participat in numerai.
+        * is there clubs?
+        * how would you suggest me to get started learning numerai?
+            * would learning from your podcast/interview on numerai channle be enough?
+        * what is the best way to get in touch with you and your students?
+        * my area of research is using graph, but now I want to narrow down to use graph for time series
+          prediction.
+
 * encoding vs embeding
     *  https://www.google.com/search?q=encoding+vs+embedding&rlz=1C1CHBF_enUS941US941&oq=encoder+vs+embe&aqs=chrome.1.69i57j0i10i22i30.5636j0j7&sourceid=chrome&ie=UTF-8
 * look into casual graph for time series.
