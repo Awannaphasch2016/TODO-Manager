@@ -83,6 +83,8 @@
         * understand basic Latex 
 
 #TODO
+
+
 * https://mail.google.com/mail/u/0/#inbox/QgrcJHsBpWgbDwJPGvTfWNZHzXNXsTLKCmQ 
     * "I include some comments (marked in red) in introduction. You can add some content to reflect
     recent work on modeling muzzo and macro networks. This part should be mainly related to the
@@ -102,11 +104,6 @@
            * read protein-protein, protein-disease network etc. 
 
 * here> rewrite 
-    * add subsection for mini and micro networks.
-        * based on Objective.
-    * pairwise network 
-    * write about emergence network 
-    * write about theoritical network 
     * read paper on mezzo and macro
     * here> network construction in general.
         * here> what are dataset used in all the papers I mentioned?
@@ -123,27 +120,19 @@
                                     content
                                     * mini network 
                                     * here> micro network
-                                        * figure out how these data are
-                                        constructed/collected/generated 
-                                        * here> reread edges sections 
-                                            * here> if content are taling about network without
-                                                ifnormation about nodes nad edgse. it should be
-                                                refactor or removed.
-                                                * here> transmission from network to node and edge are
-                                                    fine
-                                        * here> node
-                                    * mezzo network
-                                        * put content from the following papre int nodes and edges  construction 
-                                            * "Influenza spread on context-specific networks lifted
+                                        * here> put content from the following papre int nodes and edges  construction 
+                                            * here> "Influenza spread on context-specific networks lifted
                                             from interaction-based diary data"
-
+                                                * here> pairwise network 
+                                                * write about emergence network 
+                                                -- 1 pm 
+                                                * write about theoritical network 
+                                    * mezzo network
+                                        * here> add informaiton from papers that are in gnn.text file 
             * get data from my notes.
-
 * read 2 papers.
 * plan out wandb.
 * clean up
-
-
 
 * " You need to mention them, because many work in the traditional disease modeling uses such ideal
 network (such as random network, where each person is assumed to have each number of
