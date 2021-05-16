@@ -91,7 +91,18 @@ response from HPC
 #== TODO 
 #=====================
 
-* here> read about weight and biasese and find one position that I can work toward to apply
+* list of category for ledger
+    * grocery, gas, dining, car-maintenance (transportation), non-recurring importance, non-recurring
+        unimportance stuff, recurring importance, non-recurring, importnatn
+    * budget: half after tax salary.
+
+* automate bloggin creating process
+    * create file name.
+    * create header.
+
+* how to choose broker?
+    * what are list of criterias I need to look for?
+* read about weight and biasese and find one position that I can work toward to apply
     * start writing my resume
 
 * figure out email of prof_jtaylor ( he has his webiste i remember)

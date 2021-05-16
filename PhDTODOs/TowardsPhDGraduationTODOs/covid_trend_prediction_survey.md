@@ -1,5 +1,8 @@
 
 #NOTE
+* streaming 
+    * Finish a survey paper in 2 weeks: day 6/14
+
 * survey format
     * Zhabiz
         * introduction
@@ -83,6 +86,40 @@
         * understand basic Latex 
 
 #TODO
+* read survey on network 
+* [2021-05-14 15:39:55]
+    * here> introduction
+        * section a
+            * reference more types of methods.
+            * for micro network, mentioned for research field liek SIE, AVRE, ESZR, agent based model.j
+            * task 
+                * infection esimtaiton
+                * visualiaiont 
+                * quanratine
+            * explain about approach. why are eg. SIS estimate based on individuals level. 
+        * section b 
+            * motiation of considering mezzo and macro instead micro
+            * micro -> mezzo & macro
+                * movtivated by privacy.
+                * task 
+                    * high level estimation.
+                        * esimate cohort district
+                        * resource planning
+                        * number of beds.
+                        * create networks (nodes - idstricts, edges ..) 
+        * section C
+            * mini network.
+                * in additon to micro, mezzo, macro network, reseach also try to achieve other goal by
+                    model relationship at somatic items scales.
+                    * eg.
+                        * gene, disease, drugs, and virus.
+                * task
+                    * druge repurposeing
+    * network construction
+        * create tables 
+            * row example 
+                * ineteraction, PPIs, [what is the interactions.]
+            * create for each network.
 
 
 * https://mail.google.com/mail/u/0/#inbox/QgrcJHsBpWgbDwJPGvTfWNZHzXNXsTLKCmQ 
@@ -123,16 +160,13 @@
                                         * here> put content from the following papre int nodes and edges  construction 
                                             * here> "Influenza spread on context-specific networks lifted
                                             from interaction-based diary data"
-                                                * here> pairwise network 
-                                                * write about emergence network 
-                                                -- 1 pm 
-                                                * write about theoritical network 
+                                                * here> write about theoritical network 
+                                                    * here> what is higher-order network
+                                                    * putting content into network construction
+                                                        section.
+                                                    * create able for this.
                                     * mezzo network
-                                        * here> add informaiton from papers that are in gnn.text file 
-            * get data from my notes.
-* read 2 papers.
-* plan out wandb.
-* clean up
+                                        * here> add informaiton from papers that are in gnn.tex file 
 
 * " You need to mention them, because many work in the traditional disease modeling uses such ideal
 network (such as random network, where each person is assumed to have each number of
