@@ -1149,3 +1149,54 @@ https://superuser.com/questions/662454/navigating-to-beginning-end-of-words-line
 
 # Bash/undo
 <c-x><c-u> = undo
+
+
+# Windows/Bug.n
+# note: it uses AutoHotKey
+## terminology
+### ref: https://github.com/fuhsjr00/bug.n/blob/master/doc/Default_hotkeys.md
+! = Alt
+^ = ctrl 
+# = win / LWin, the left Windows key
++ = Shift
+
+## Window/Bug.n/hotkeys
+#y = show the command GUI, which allows you to enter bug.n functions
+#Space = show /hide the Window Taskbar
+#^q = quit bug.n and restore all windows and windows UI elements.
+
+### Window/Bug.n/hotkeys/switching layout modes
+#Tab = switch to previous set layout
+#t = switch to tile mode.
+#f = switch to float model.
+#m = switch to monocle model.
+
+### Window/Bug.n/hotkeys/switching windows focus
+#up/down = go to window that on the next clockwise position/counter-clockwise position.
+
+### Window/Bug.n/hotkeys/change layout styles
+[[doesn't work for me]]#^t = rotate the layout axis. 
+[[doesn't work for me]]#^Enter = mirror the layout axis
+#Backspace = turn off stack area of the layout.
+
+### Window/Bug.n/hotkeys/window resizing
+#Right/Left = enlarge/reduce the size of the active vie 
+
+### Window/Bug.n/hotkey/master and stack related
+#^Tab = rotate master axis
+#^+Tab = rotate stack axis.
+#^Up/Down = Increase/Decrease the master Y dimension
+#^Right/Left = Increase/Decrease the master X dimension
+
+# Virual Window Desktop
+Window + Ctrl + D = create new virtual desktop and switch to it
+Window + ctrl + f4 = close current virtual desktop 
+Window + ctrl + left/right = switch to virtual desktop on the left or right.
+
+# Virual Window Desktop/Window 10 Virtual Desktop Enhancer 
+Win + Ctrl + Shift + Left/Right = move your app to left/right virtual desktop
+
+# Latex/Beamer
+## ref: https://defkey.com/zathura-shortcuts
+ctrl + b = go to previous page
+ctrl + f = go to next page

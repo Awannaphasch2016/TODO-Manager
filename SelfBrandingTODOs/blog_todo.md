@@ -1,5 +1,11 @@
 # TODO
-* write about about content of the following podcast
+* write about latex.
+    * presentation with beamer 
+        * ref
+            *  youtube.com/watch?v=zEjBCQhND2c
+        * ~/Scratches/Examples/Libraries/Latex/Beamer/
+
+* write about content of the following podcast
     * "you can read 10 mins instead of watching 1 hours"
     * ref 
         * https://www.youtube.com/watch?v=zzMbi5IDiyM
