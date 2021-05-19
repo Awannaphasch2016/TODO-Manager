@@ -86,12 +86,46 @@
         * understand basic Latex 
 
 #TODO
-* read survey on network 
+* graph + functional/structural properties of COVID19 
+    * structure-based drug discovery paradigm
+* here> drug discovery based on finger print?
+    * binding affinities with graph
+        * GNN with binding affinity
+            * use connected paper to expand
+        * here> read about the whole drug discovery process
+        * what can you do with molecular structure?
+            * strucute-based drug discovery 
+    * how finger print is used for drug discovery?
+        * here> https://arxiv.org/pdf/1509.09292.pdf 
+            * here> drug efficacy?
+        * https://arxiv.org/pdf/1603.00856.pdf
+    * screening 
+        * virtual screening/HTS + graph + pathogen/covid19/other virus
+        * affinity prediction 
+            * what is factor that predict binding affinities?
+* here> list all model that applied on graph
+    * here> DrugDiscovery/Machine learning in chemoinformatics and drug discovery.md
+    * what is application of molecular fingerprint?
 * [2021-05-14 15:39:55]
     * here> introduction
+        * requirment
+            * motivatiton
+            * here> application
+                * micro
+                * here> mezzo
+                * macro
         * section a
             * reference more types of methods.
-            * for micro network, mentioned for research field liek SIE, AVRE, ESZR, agent based model.j
+                * ref 
+                    *
+                    https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIRD_model
+                    * https://link.springer.com/content/pdf/10.1007%2F978-3-540-78911-6_2.pdf
+                    *
+                    https://pdf.sciencedirectassets.com/271979/1-s2.0-S0025556410X00050/1-s2.0-S0025556410000143/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDELjujTY8I9ie8UR4EuSuG9Y6i7KwiV8UMzO3ouwpgJgIgDeTzr6E%2BvSLAaEKTI7uuzbt%2FEQkxAq6SEA4WzQdIGP0qtAMIYBADGgwwNTkwMDM1NDY4NjUiDFBeLCOPky%2FOVZ7eEiqRAw3SQ3pwqO%2BaI4GoI6OxH8AFXbZdHlE9rZTKj%2FR84wB7fkbspW%2BjeFAFU6poBEUZ%2FjhBwGlxbdkuuY36oK7ZPfqQ0eAfM9Gh5P4rlBs4LCYCw61V2q20Hcc0kctezAGymvqzR54JL31hb%2BCCY7QBjZQm1HFlCKFl7z8skREUr%2BaKQrBJrT7%2FmhJL6bYsB0dtQv76L6S8bRkn8s0vFwNkyTSvI9Xw6Xir3IqMyO6hCDUPueabZw6uawMsEYwPj1wv421VYq970%2BabT3giFY0KutPZgSEzSymDHdCgOSKAXT%2Ba2w0hUcgT%2FjBaB%2BXEulARxAARRlUUT4ALPirl3dULHIeKLLQ7H%2FaRWrFrdYs2Q3kZsi%2Bvbnbd3LpkD5WpCWA%2FMY4IkaHz%2BAlbUMmUszPoGWWsXX2of
+            * read epidemic survey
+            * for micro network, mentioned for research field liek SIE, AVRE, ESZR, agent based model.
+                * what are command methods used to predict epidemic?
+                    * ARIMA
             * task 
                 * infection esimtaiton
                 * visualiaiont 
@@ -107,20 +141,31 @@
                         * resource planning
                         * number of beds.
                         * create networks (nodes - idstricts, edges ..) 
+                        * risk assessment
         * section C
             * mini network.
+                * ref
+                    * https://link.springer.com/content/pdf/10.1007/s42600-021-00135-6.pdf
+                * what are keywords for this?
                 * in additon to micro, mezzo, macro network, reseach also try to achieve other goal by
                     model relationship at somatic items scales.
                     * eg.
                         * gene, disease, drugs, and virus.
                 * task
-                    * druge repurposeing
-    * network construction
+                    * druge repurposeing vs drug discovery?
+                    * drug screening?
+                    * drug encoder
+                    * feature extraction based on circular fingerprint
+                * what is fingerprint?
+
+    * here> network construction
         * create tables 
             * row example 
                 * ineteraction, PPIs, [what is the interactions.]
             * create for each network.
 
+* read the following paper
+    * https://link.springer.com/content/pdf/10.1007/s42600-021-00135-6.pdf
 
 * https://mail.google.com/mail/u/0/#inbox/QgrcJHsBpWgbDwJPGvTfWNZHzXNXsTLKCmQ 
     * "I include some comments (marked in red) in introduction. You can add some content to reflect

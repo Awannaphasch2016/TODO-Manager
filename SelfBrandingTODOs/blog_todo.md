@@ -1,9 +1,16 @@
 # TODO
+* write about flashcard in vim
+    * just use roam. too many problem with anki + imge + wsl + markdown.
+
 * write about latex.
     * presentation with beamer 
         * ref
             *  youtube.com/watch?v=zEjBCQhND2c
         * ~/Scratches/Examples/Libraries/Latex/Beamer/
+    * citation workflow for markdown and latex
+        * ref
+            * https://www.youtube.com/watch?v=nO4T8JDNYG0
+        * autocomplete
 
 * write about content of the following podcast
     * "you can read 10 mins instead of watching 1 hours"
