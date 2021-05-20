@@ -1,7 +1,8 @@
 
 #NOTE
 * streaming 
-    * Finish a survey paper in 2 weeks: day 6/14
+    * Finish a survey paper in 2 weeks: day 8/14
+
 
 * survey format
     * Zhabiz
@@ -86,26 +87,9 @@
         * understand basic Latex 
 
 #TODO
-* graph + functional/structural properties of COVID19 
-    * structure-based drug discovery paradigm
-* here> drug discovery based on finger print?
-    * binding affinities with graph
-        * GNN with binding affinity
-            * use connected paper to expand
-        * here> read about the whole drug discovery process
-        * what can you do with molecular structure?
-            * strucute-based drug discovery 
-    * how finger print is used for drug discovery?
-        * here> https://arxiv.org/pdf/1509.09292.pdf 
-            * here> drug efficacy?
-        * https://arxiv.org/pdf/1603.00856.pdf
-    * screening 
-        * virtual screening/HTS + graph + pathogen/covid19/other virus
-        * affinity prediction 
-            * what is factor that predict binding affinities?
-* here> list all model that applied on graph
-    * here> DrugDiscovery/Machine learning in chemoinformatics and drug discovery.md
-    * what is application of molecular fingerprint?
+* read the following about mini network
+    * here> https://levelup.gitconnected.com/graph-neural-networks-for-binding-affinity-prediction-6e7d9ab9c58b
+
 * [2021-05-14 15:39:55]
     * here> introduction
         * requirment

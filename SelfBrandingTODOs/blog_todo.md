@@ -1,4 +1,8 @@
 # TODO
+* explore the following channel
+    * https://www.youtube.com/watch?v=R8BE6CdEPiY
+        * how can I automate notification process when I post content on my blog and upload video on
+            youtube.
 * write about flashcard in vim
     * just use roam. too many problem with anki + imge + wsl + markdown.
 

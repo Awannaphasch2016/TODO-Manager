@@ -1200,3 +1200,4 @@ Win + Ctrl + Shift + Left/Right = move your app to left/right virtual desktop
 ## ref: https://defkey.com/zathura-shortcuts
 ctrl + b = go to previous page
 ctrl + f = go to next page
+

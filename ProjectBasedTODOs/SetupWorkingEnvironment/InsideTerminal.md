@@ -36,7 +36,6 @@
 
 * space repetition 
     * here> [selected] test neuralcache with roam 
-        * try this shit
         * how to connect iphone to computer?
 
     * anki-vim 
