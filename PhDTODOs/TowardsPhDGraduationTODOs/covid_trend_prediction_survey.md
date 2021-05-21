@@ -169,15 +169,8 @@
        When you are writing the first draft, try your very best to add reference."
            * read protein-protein, protein-disease network etc. 
 
-* here> read deep learning + simulation + epidemic.
-    * summaried other read paper.
-        * what are other papers that I haven't summarized into latex?
-        * merge from old content
-    * what is the process of drug repurposing.
-    * redo/add content/adjust content of {table:a summary of mini/micro/mezzo and macro network}
 
-* rewrite 
-    * read paper on mezzo and macro
+* do the following  
     * here> network construction in general.
         * here> what are dataset used in all the papers I mentioned?
             * here> read content that I have in mini network, micro network, and network construction, and
@@ -190,14 +183,23 @@
                         * here> put content in dataset or node construction
                             * here> take a look into datset
                                 * here> read dataset comments, check what i am missing, and add those
-                                    content
-                                    * mini network 
-                                    * here> micro network
-                                        * here> put content from the following papre int nodes and edges  construction 
-                                            * here> "Influenza spread on context-specific networks lifted
-                                            from interaction-based diary data"
-                                    * mezzo network
-                                        * here> add informaiton from papers that are in gnn.tex file 
+                                content
+    * here> read + write deep learning + simulation + epidemic. (micro, mezzo, and macro)
+        * write 
+            * here> fix network construction tables.
+                * see picture.
+            * mini network 
+            * micro network
+                * here> put content from the following papre int nodes and edges  construction 
+                    * here> "Influenza spread on context-specific networks lifted from interaction-based diary data"
+                        * here> make note on SIR section 
+                        * put SIR content in the survey
+            * mezzo network
+                * here> add informaiton from papers that are in gnn.tex file 
+        * summaried other read paper.
+            * here> merge from old content
+        * what is the process of drug repurposing.
+        * redo/add content/adjust content of {table:a summary of mini/micro/mezzo and macro network}
 
 * " You need to mention them, because many work in the traditional disease modeling uses such ideal
 network (such as random network, where each person is assumed to have each number of
