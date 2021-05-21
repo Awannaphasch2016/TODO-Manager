@@ -169,7 +169,14 @@
        When you are writing the first draft, try your very best to add reference."
            * read protein-protein, protein-disease network etc. 
 
-* here> rewrite 
+* here> read deep learning + simulation + epidemic.
+    * summaried other read paper.
+        * what are other papers that I haven't summarized into latex?
+        * merge from old content
+    * what is the process of drug repurposing.
+    * redo/add content/adjust content of {table:a summary of mini/micro/mezzo and macro network}
+
+* rewrite 
     * read paper on mezzo and macro
     * here> network construction in general.
         * here> what are dataset used in all the papers I mentioned?
@@ -189,11 +196,6 @@
                                         * here> put content from the following papre int nodes and edges  construction 
                                             * here> "Influenza spread on context-specific networks lifted
                                             from interaction-based diary data"
-                                                * here> write about theoritical network 
-                                                    * here> what is higher-order network
-                                                    * putting content into network construction
-                                                        section.
-                                                    * create able for this.
                                     * mezzo network
                                         * here> add informaiton from papers that are in gnn.tex file 
 
