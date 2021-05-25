@@ -1,8 +1,7 @@
 
 #NOTE
 * streaming 
-    * Finish a survey paper in 2 weeks: day 8/14
-
+    * Finish a survey paper in 2 weeks: day 10/14
 
 * survey format
     * Zhabiz
@@ -87,6 +86,40 @@
         * understand basic Latex 
 
 #TODO
+
+* here> finish old writing.
+    * where did i left off
+        * simualtion 
+        * put content from paper to the survey
+            * here> list all the paper here
+
+
+* [2021-05-21 15:38:58]
+    * mini network
+        * summarized interaction of dataset network.
+            * types?
+            * mechanism?
+            * how they interacts.?
+    * here> network construction
+        * table should provide some answer.
+            * what would you want reader to know?
+            * what information would be helpful for users?
+    * linear programming
+        * what are constraints?
+            * intuitive explaination of each constraint.s
+    * related work
+        * what are other survey?
+        * why this survey is needed?
+            * what content do other surveys not have?
+    * pictures
+        * example 
+            * hand drawing is allowed.
+        * picture that cover bigget topics
+    * dr zhu review
+        * pictures
+        * better survey sturcutre
+
+
 * read the following about mini network
     * here> https://levelup.gitconnected.com/graph-neural-networks-for-binding-affinity-prediction-6e7d9ab9c58b
 
@@ -171,7 +204,7 @@
 
 
 * do the following  
-    * here> network construction in general.
+    * network construction in general.
         * here> what are dataset used in all the papers I mentioned?
             * here> read content that I have in mini network, micro network, and network construction, and
                 get data from there.
@@ -196,8 +229,20 @@
                         * put SIR content in the survey
             * mezzo network
                 * here> add informaiton from papers that are in gnn.tex file 
-        * summaried other read paper.
+        * here> summaried other read paper.
             * here> merge from old content
+                * how should I structure it ?
+                * here> feature learning model.
+                    * cola
+                    * here> Spectral temporal graph neural network for multivariate time-series
+                        forecasting
+                        * here> discussing about result.
+                    * Using Mobility Data to Understand and Forecast COVID19 Dynamics
+                    * Dynamic Virtual Graph Significance Networks for Predicting Influenza
+                * Parameter Estimation model
+                * Attention leanring model
+                    * should each of these sections have machine learning section?
+                * knowledge fusion
         * what is the process of drug repurposing.
         * redo/add content/adjust content of {table:a summary of mini/micro/mezzo and macro network}
 

@@ -1,4 +1,27 @@
 # TODO
+* just in case learning vs just in time leanring 
+    * just in case leanring 
+        * just in case = reasearch/second brain .
+        * write about 3 groups of people for just in case learning.
+            * content creator
+                * extract + deliver + store to second brain 
+            * memorizer 
+                * extract + deliver + store to second brain + deliver + store to your brain
+            * researcher
+                * no easy way to extract, 
+                * emac 
+                    * most people in research use emac to optimize task to be specific to their workflow
+                        and specific to their topic research.
+                    * emac in do not talk to outside world really well.
+                    * high learning curve
+                    * niche target 
+                * problem
+                    * symbolic heavy which pdf or text base can't deal well with it.
+                        * common problem as you see there are lots of markdown and latex styles.
+    * just in time learning 
+        * just in time = enterprineur, engineer, jobs/task with time constraint.
+        * https://www.youtube.com/watch?v=Kq1d2kISsNw 
+
 * explore the following channel
     * https://www.youtube.com/watch?v=R8BE6CdEPiY
         * how can I automate notification process when I post content on my blog and upload video on

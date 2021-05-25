@@ -8,26 +8,27 @@ vesta * at*t prepaid  (call austin and ask him how to check it)
         https://mail.google.com/mail/u/0/#drafts?compose=GTvVlcRwRrwJHKvJTXbcNQjFzvnqzDmkVKHBdrTXVvhGlQKqvgRRbpWVFmBVWrdCCFMFjwRrhGNNs
 
 Security NATL in Des:INS paymt ID:G00  on august  24
-    146.68 dollars
+146.68 dollars
 
 
 #=====================
 #== Resources
 #=====================
 daily read
-    blog post related to data science
-        https://medium.com/kaggle-blog
-        I train a model. What is next?
-            https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
+blog post related to data science
+    https://medium.com/kaggle-blog
+    I train a model. What is next?
+        https://medium.com/kaggle-blog/i-trained-a-model-what-is-next-d1ba1c560e26
 
 interesting video
-    finance
-        tock Price Prediction And Forecasting Using Stacked LSTM- Deep Learning
-            https://www.youtube.com/watch?v=H6du_pfuznE&ab_channel=KrishNaik
-        Webinar: How to Forecast Stock Prices Using Deep Neural Networks
-            https://www.youtube.com/watch?v=RMh8AUTQWQ8&ab_channel=LucenaResearch%2CInc.
-        NumerAI
-            https://www.youtube.com/watch?v=jKI5dalRpn0&ab_channel=Numerai
+finance
+    tock Price Prediction And Forecasting Using Stacked LSTM- Deep Learning
+        https://www.youtube.com/watch?v=H6du_pfuznE&ab_channel=KrishNaik
+    Webinar: How to Forecast Stock Prices Using Deep Neural Networks
+        https://www.youtube.com/watch?v=RMh8AUTQWQ8&ab_channel=LucenaResearch%2CInc.
+    NumerAI
+        https://www.youtube.com/watch?v=jKI5dalRpn0&ab_channel=Numerai
+
 #=====================
 #==Questions
 #=====================
@@ -90,12 +91,65 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
+* figure out the following routine
+    * reading routine (storing raw content to second brain)
+        * goal
+            * the goal is to categorized raw content into category and optimize a way for my future
+              self to link back the idea.
+        * types
+            * for research
+                * routine
+                    * morning read, after writing.
+            * for non-research
+                * routine
+                    * before bed.
+    * writine routing (refining + store creative content to second brain) 
+        * goal
+            * the goal is not to consume new content but synthesize already stored content.
+                * dont categorize at this stag, you may safe content (to instapaper) to be
+                  categorized after the writing is finished.
+        * types 
+            * content for technical blog/research
+                * routine 
+                    * first thing after wake up.
+            * content for non-technical (mindset, psycology, trendy event, history, politics) blog 
+                * 
+    * active recall
+        * goal
+            * try to remember stuff that relevant for "deeper" understanding
+        * routine
+            * do this after reading.
+
+* Zotero plugin 
+    * BetterBibTex
+        * automatically creates well-formated bib files and manages reference keys in a systematic
+          ways. 
+* figure out what to buy from watching this
+    * https://www.youtube.com/watch?v=vQBhSZGq6ns
+* figure out a systematic way to publish and write article.
+    * https://www.google.com/search?q=how+to+come+up+with+idea+for+article&rlz=1C1CHBF_enUS941US941&oq=how+to+come+up+with+idea+for+article&aqs=chrome..69i57.17500j0j7&sourceid=chrome&ie=UTF-8
+    * https://www.youtube.com/results?search_query=how+to+pick+article+to+write
+* watch https://www.youtube.com/watch?v=qrhRfPY4F4w
+* read https://opensource.com/article/19/11/products-open-source-projects
+* morning routine. 
+    * active recall
+    * synthesize
+        * figure out a workflow to synthesize or linking idea between papers.
+            * create a page call "Synthesize: <what every you want to know>." 
+                * note
+                    * can I use this as a light morning brain excerise?
+                * create reference tags
+                    * link papers/article/website/video that I want to syntehsize on a certain topics. 
+                    * list keywords.
+* watch connor shorten content
+* is emac org-roam is roam research in terminal?
+    * is this everything I need?
+* figure out a way to use git version control with roam research
 
 * list of category for ledger
     * grocery, gas, dining, car-maintenance (transportation), non-recurring importance, non-recurring
         unimportance stuff, recurring importance, non-recurring, importnatn
     * budget: half after tax salary.
-
 * automate bloggin creating process
     * create file name.
     * create header.

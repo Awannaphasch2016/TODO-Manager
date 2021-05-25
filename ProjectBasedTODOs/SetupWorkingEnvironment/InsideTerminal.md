@@ -1,6 +1,31 @@
 # TODO
+* here> emacs rabbit hole
+    * here> tutorial 
+        * here> Emacs from scratch #1
+            * here> https://www.youtube.com/watch?v=74zOY-vgkyw
+        * git
+            * https://github.com/nobiot/Zero-to-Emacs-and-Org-roam
+    * usecase
+        * org-mode usecase 
+            * daily journal + calenday
+                * https://www.youtube.com/watch?v=3V3wIJgMeqE
+            * pdf-tools workflow 
+                * note
+                    * annotation on pdf (pretty cool)
+                * https://www.youtube.com/watch?v=LFO2UbzbZhA
+        * swithcing from vim to emas in 20 mins 
+            * https://www.youtube.com/watch?v=V27zOhfN8Ys
+        * replacing terminal based program with emacs
+            * https://www.youtube.com/watch?v=HzFqZ0Gl0aw
+        * list of exapmles on using emac with tmux
+            * https://www.reddit.com/r/emacs/comments/5j89xn/tmux_emacs/
+        * chrome + emac
+            * https://www.youtube.com/watch?v=wyPZws66Sic
+                * atomic chrome
+        * emac + data science
+            * https://ahsanijaz.github.io/2016-09-20-Emacs/
 
-* here> create UltiSnips for latex for the following
+* create UltiSnips for latex for the following
     * tables
     * citation
 
