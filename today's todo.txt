@@ -91,6 +91,20 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
+
+* buy food at 8.00 am 
+* figure out things about car
+    * how much for car towing?
+    * how much can I sell it for?
+        * should I keep the car?
+            * how much do i need to fix the car?
+            * if i keep the car, how can I get the license?
+                * can I get it today if not when?
+
+* here> plot to see how visibility graph changes over time 
+* use infranodus to visualized your idea
+    * https://www.youtube.com/watch?v=ePLNXN_cg-w&ab_channel=NodusLabs
+
 * figure out the following routine
     * reading routine (storing raw content to second brain)
         * goal

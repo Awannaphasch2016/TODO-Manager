@@ -1,4 +1,8 @@
 # TODO
+* here> read transfer learning 
+    * here> read about technique to use in transfer learning 
+* transfer learning for forcasting  
+
 * just in case learning vs just in time leanring 
     * just in case leanring 
         * just in case = reasearch/second brain .

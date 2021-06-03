@@ -1,7 +1,7 @@
 
 #NOTE
 * streaming 
-    * Finish a survey paper in 2 weeks: day 10/14
+    * Finish a survey paper in 2 weeks: day 16/14
 
 * survey format
     * Zhabiz
@@ -87,11 +87,97 @@
 
 #TODO
 
-* here> finish old writing.
+* here> create reference from 'multilayer network' paper
+
+* finish adding content from "Vaccination allocation in large dynamic networks"
+    * here> read related work of "Vaccination allocation in large dynamic networks"    
+    * here> defined graph protection, node immunization, vaccine allocation, maximum influence
+        * here> merge connect at {Graph Protection, Node immunization and Influence Maximization} section 
+            * here> merge the first \comment{~/adjust} comment
+    * merge the main content to survey
+
+* add last bit of content from multilayer network 
+    * add content from section that I haven't yet included 
+
+* create tables for micro, mezzo, macro network using words
+    * note
+        * here> ciaperoni2020relevance
+    * table 1  
+        * notes
+            * cells in last columns are list of papers.
+        * columns
+            * graph type 
+        * rows
+            * objectives 
+    * table 2 
+        * columns  
+            * dataset 
+                * large vs small 
+                * graph types 
+                    * large vs small
+                    * theoritical vs practical entwork 
+                    * simutation vs real 
+                        * simultated real vs simulated theoritical
+                        * real data of small cohort vs real data representing the whole population. 
+                    * multiplex network (a type of multilayer network) vs single layer network
+                    * homogeneous nodes vs heterogeneous nodes 
+                    * homogeneous edges vs heterogeneous edges 
+        * rows
+            * objectives?
+
+* finish old writing.
+    * picture of graph protection
+    * picture of epidmeic threshold?
+        * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/lWzz1KSL7
     * where did i left off
-        * simualtion 
+        * finish merging?
+        * add types of network
         * put content from paper to the survey
-            * here> list all the paper here
+            * mezzo network 
+                * here> Reinforced Epidemic Control: Saving Both Lives and Economy
+                    * here> finish making notes in [[Architecture]], [[Challenges]], Experiment, Data, and Evaluation sections 
+                        * then summarized content.
+            * macro network 
+            * micro network 
+                * Scalable vaccine distribution in large graphs given uncertain data
+                * TDEFSI: theory-guided deep learning-based epidemic forecasting with synthetic
+                    information
+        * mini netowrk  
+            * graphDelta: MPNN scoring function for the affinity prediction of protein--ligand complexes
+        * create tables categorized by data construction, methods, objectives. 
+
+* read the following 
+    * A study on graph-structured recurrent neural networks and sparsification with application to
+        epidemic forecasting.
+    * early detection
+        * loclaized epidemic detection in networks with overwhileming noise.
+    * spread control
+        *  Optimizing influenza vaccine distribution
+            * note
+                * don't read if it doens't use graph.
+    * generalize design on dynamic graph
+        * Towards explainable representation of time-evolving graphs via spatialtemporal graph
+            attention networks.
+        * Temporal
+            graph networks for deep learning on dynamic graphs
+        *  Towards fine-grained temporal network representation via time-reinforced random walk
+        * EvolveGCN: Evolving Graph Convolutional Networks for
+        Dynamic Graphs.
+    * survey
+        * Representation Learning for Dynamic Graphs.
+            * note
+                * doesn't focus on epidemic dynamic graph.
+                    * only 1 matching words were found.
+            * https://arxiv.org/pdf/1905.11485.pdf
+        * firefighter survey
+            * The Firefighter Problem: A survey of results, directions and
+            questions
+                * identify bottleneck
+                    * Targeted Pandemic
+                    Containment Through Identifying Local Contact Network Bottlenecks.
+                * allocating resource
+                    * Optimal Containment of Epidemics in Temporal and Adaptive
+                    Networks
 
 
 * [2021-05-21 15:38:58]
