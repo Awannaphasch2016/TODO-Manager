@@ -1,7 +1,7 @@
 
 #NOTE
 * streaming 
-    * Finish a survey paper in 2 weeks: day 16/14
+    * Finish a survey paper in 2 weeks: day 20/14
 
 * survey format
     * Zhabiz
@@ -102,11 +102,17 @@
             * https://www.tandfonline.com/doi/pdf/10.1080/17513758.2010.503376
 
 #TODO
+* here> read and rewrite the following section 
+    * here> Predict Infected Cases and infected distribution
+        * note
+            * here> it is the same as predicting number of case in each class.
+        * check if i mentioned multilayer graph construction in the survye
+        * the paper talk about "testing" what are those?
 
-
-* here> create tables for micro, mezzo, macro network using words
+* separate mezzo and macro setion
+* create tables for micro, mezzo, macro network using words
     * note
-        * A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys.md
+        * here> "A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys"
     * table 1  
         * notes
             * cells in last columns are list of papers.
