@@ -85,23 +85,28 @@
     * Goal
         * understand basic Latex 
 
+* epidemic + graph + modeling  survey 
+    * here> create and send picture (to be added) to dr zhu. 
+        * add "types of contact sequence edges labeling" 
+            * explains "contact sequence" 
+                * why are there two types of edge representation .
+            * create picture of "continouse" (no intra-layer edges) and "discrete" (no inter-layer edges) temporal network.
+                * ever expanding graph
+        * create a picture showing how snapshot of dynamic graph can be taken.
+
+    * after I finish list of things that I send to dr zhu, read the following and fill out content accrodingly
+        * dynamic network analysis
+            * http://www.casos.cs.cmu.edu/projects/book/DNA-Book_Draft.pdf 
+        * The dynamic nature of contact networks in
+        infectious disease epidemiology
+            * https://www.tandfonline.com/doi/pdf/10.1080/17513758.2010.503376
+
 #TODO
 
-* here> create reference from 'multilayer network' paper
 
-* finish adding content from "Vaccination allocation in large dynamic networks"
-    * here> read related work of "Vaccination allocation in large dynamic networks"    
-    * here> defined graph protection, node immunization, vaccine allocation, maximum influence
-        * here> merge connect at {Graph Protection, Node immunization and Influence Maximization} section 
-            * here> merge the first \comment{~/adjust} comment
-    * merge the main content to survey
-
-* add last bit of content from multilayer network 
-    * add content from section that I haven't yet included 
-
-* create tables for micro, mezzo, macro network using words
+* here> create tables for micro, mezzo, macro network using words
     * note
-        * here> ciaperoni2020relevance
+        * A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys.md
     * table 1  
         * notes
             * cells in last columns are list of papers.
@@ -124,6 +129,19 @@
                     * homogeneous edges vs heterogeneous edges 
         * rows
             * objectives?
+
+* merge content from macro networks (deep learning stuff).
+
+* add information of the following paper
+    * 'scalable vaccine distribution in large graphs given uncertain data'
+    * how to stop epidemic
+
+* read the following 
+    * 'Systematic comparison between methods for the detection of influential spreaders in complex
+    networks'
+    * https://dl.acm.org/doi/pdf/10.1145/2588555.2593668
+        * construction of uncertain graph
+            * figure out if I  can add these contents in my surveys.
 
 * finish old writing.
     * picture of graph protection
