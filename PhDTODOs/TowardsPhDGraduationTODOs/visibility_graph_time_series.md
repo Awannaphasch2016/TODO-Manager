@@ -2,8 +2,16 @@
 * streaming 
     * Finish implementing and writing new research idea in 2 weeks: day 1/14
 
-# TODO
-* plto embedding of all the visibility graph.
-    * how to run pytorch model
-    * create train function and refactor so training, test, evaluate can be reused by visibility graph
+# references
+* first gcn paper 
+    * https://arxiv.org/pdf/1609.02907.pdf
+* first lstm paper
+    * 
 
+# TODO
+
+* here> compare performance of purposed methods to the baseline methods  
+    * here> implement lstm and GRU baseline
+        * here> baseline is GRU on stock prediction
+            * herE> https://medium.com/swlh/stock-price-prediction-with-pytorch-37f52ae84632#:~:text=Stock%20market%20prediction%20is%20the,value%20of%20a%20company%20stock.&text=Here%20we%20are%20going%20to,terms%20of%20time%20and%20efficiency.
+    * implement purposed model 
