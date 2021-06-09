@@ -102,13 +102,15 @@
             * https://www.tandfonline.com/doi/pdf/10.1080/17513758.2010.503376
 
 #TODO
+
 * here> read and rewrite the following section 
     * here> Predict Infected Cases and infected distribution
-        * note
-            * here> it is the same as predicting number of case in each class.
+        * here> add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
+        * merge old contents of macro model + deep learning.
         * check if i mentioned multilayer graph construction in the survye
         * the paper talk about "testing" what are those?
 
+* add content about graph simulation.
 * separate mezzo and macro setion
 * create tables for micro, mezzo, macro network using words
     * note
