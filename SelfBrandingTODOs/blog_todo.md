@@ -1,4 +1,8 @@
 # TODO
+
+* here> add to my blog
+    * here> plot animation of embedded changes in time.
+
 * write about "curse of intelligence"
     * the idea is that people are not satisfied with tasks that doesn't challenge their intelligent which left the feeling of unfulfilled life. however, domain that required high intelligent required "a lot more prior knowledge about the fields" (It takes long time to discover and create creative, but it takes alot shorter time for people to "understand" or absorbs this ideas, just enough to expand on this idea.)
         * therefore, intelligent people must compete for this highly competitive space to gain all rewards, the rest of them failed and remain unfullfilled.
