@@ -106,7 +106,13 @@
 * here> read and rewrite the following section 
     * here> Predict Infected Cases and infected distribution
         * here> add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
+            * reading
+                * here> read RL section and Flow GNN
+            * writing 
+                * mention about rl-rward requirements.
+        * add comment to mezzo section in location where I want to add more content
         * merge old contents of macro model + deep learning.
+        * fix introduction, add content to related work and conclustion 
         * check if i mentioned multilayer graph construction in the survye
         * the paper talk about "testing" what are those?
 

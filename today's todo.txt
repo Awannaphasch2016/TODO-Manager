@@ -92,7 +92,6 @@ response from HPC
 #== TODO 
 #=====================
 
-* buy food at 8.00 am 
 * figure out things about car
     * how much for car towing?
     * how much can I sell it for?
