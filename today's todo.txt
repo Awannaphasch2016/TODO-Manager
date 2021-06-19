@@ -91,9 +91,48 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
+* figure out a way to connect with this guy
+    * https://www.youtube.com/watch?v=PHJSTV5s2cI
+    
+
+* things I want to learn
+    * system-design-primer
+        * https://github.com/donnemartin/system-design-primer/blob/master/README.md
+    * discussion
+        * https://www.reddit.com/r/learnprogramming/comments/9gkssa/need_some_book_recommendations_on_thinking_like_a/
+    * search 
+        * book on advance graph analysis with python 
+            * https://www.google.com/search?q=book+on+advance+graph+analysis+with+python&rlz=1C1CHBF_enUS941US941&sxsrf=ALeKk00eT2AhseLShdQwahZvePZtw9huTA%3A1624012100569&ei=RHXMYNSNIu6a_QbQ5YKABg&oq=book+on+advance+graph+analysis+with+python&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANQwoUBWMeLAWCajQFoAXACeACAAX2IAagGkgEDNS4zmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwjUv_XC_KDxAhVuTd8KHdCyAGAQ4dUDCA4&uact=5
+        * book on advance time series analysis with python
+            * https://www.google.com/search?q=book+on+advance+time+series+analysis+with+python+&rlz=1C1CHBF_enUS941US941&sxsrf=ALeKk03R94sPRLgGRFJSGudeEsxwmsuFrQ%3A1624012083315&ei=M3XMYJbLEu-IggeShqDACw&oq=book+on+advance+time+series+analysis+with+python+&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeOgQIIxAnOgQIABBDOgUIABCRAjoHCAAQhwIQFDoKCAAQhwIQsQMQFDoHCAAQyQMQQzoLCC4QsQMQxwEQowI6BQgAELEDOgcIABCxAxBDOgoILhCHAhCxAxAUOgUILhCxAzoICAAQsQMQgwE6AggAOgIILjoGCAAQFhAeOgUIIRCgAToHCCEQChCgAToFCCEQqwI6BwghEAoQqwI6CgghEBYQChAdEB5Q1BlY2HhgsHpoB3ACeAGAAfUBiAGKLJIBBzMxLjIzLjGYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=gws-wiz&ved=0ahUKEwjWsNi6_KDxAhVvhOAKHRIDCLgQ4dUDCA4&uact=5
+        * book on MLOps
+            * https://www.google.com/search?q=book+on+MLOps&rlz=1C1CHBF_enUS941US941&oq=book+on+MLOps+&aqs=chrome..69i57j0i22i30.5970j0j9&sourceid=chrome&ie=UTF-8
+    * book 
+        * machine learning 
+            * hands-on machine learning with scikit-learn, keras & tensorflow
+            * machine learning design pattern: 
+                * https://www.amazon.com/Machine-Learning-Design-Patterns-Preparation/dp/1098115783/ref=asc_df_1098115783/?tag=hyprod-20&linkCode=df0&hvadid=459440273404&hvpos=&hvnetw=g&hvrand=6619439663252028457&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9012015&hvtargid=pla-943743647161&psc=1
+            * clearning data for effective data science: doing the other 80% of the work with
+              python, R and command-line tools.
+                * https://www.amazon.com/dp/1801071292/ref=sspa_dk_detail_2?psc=1&pd_rd_i=1801071292&pd_rd_w=K2EvF&pf_rd_p=91afecf5-8b2e-41e2-9f11-dc6992c6eaa1&pd_rd_wg=ITvJ6&pf_rd_r=VYVRTHE4G9EKZ9CSVQZJ&pd_rd_r=0f1bb5c0-030f-4897-9180-338a2c4c8995&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzU05HT1VDQk5BUEtHJmVuY3J5cHRlZElkPUEwMjM5NDA4WVhaWDZWRlE4TUxHJmVuY3J5cHRlZEFkSWQ9QTA0ODY4NzEzVFdJTzRUVVkzV1ZBJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ== 
+
+* learn latex
+
+* here> read second brain stuff
+    * here> https://fortelabs.co/start-here/
+    * 1 hours of reading + notes.
+* how to add github username and password, so I don't have to type it every single times.
+* at 9 read 1 paper from I link I have lefted open.
+    * 1 hours
+
+
+* figure out a way to get content from AI weekly news.
+    * ref
+        * https://lionbridge.ai/articles/the-best-ai-machine-learning-newsletters-to-subscribe-to/ 
 
 * figure out things about car
     * how much for car towing?
+        * s
     * how much can I sell it for?
         * should I keep the car?
             * how much do i need to fix the car?

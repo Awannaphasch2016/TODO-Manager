@@ -93,7 +93,6 @@
             * create picture of "continouse" (no intra-layer edges) and "discrete" (no inter-layer edges) temporal network.
                 * ever expanding graph
         * create a picture showing how snapshot of dynamic graph can be taken.
-
     * after I finish list of things that I send to dr zhu, read the following and fill out content accrodingly
         * dynamic network analysis
             * http://www.casos.cs.cmu.edu/projects/book/DNA-Book_Draft.pdf 
@@ -103,16 +102,52 @@
 
 #TODO
 
-* here> read and rewrite the following section 
+* things to discuss
+    * all real network + social-connection can be put in edges of micro network because micro network ignore node features.
+
+* add section about social-connection (social network and collaboration network)
+* here> read the following 
+    * here> paper
+        * here> https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6729640
+
+* summary wang and deng.
+    * here> finish the following sections.
+        * here> network construction
+            * node construction
+                * here> micro network 
+                    * here> summarized it from micro network section
+                * mezzo network 
+            * here> edges construction 
+                * here> micro network
+                    * here> summarized it from micro network section
+                        * collect paper.
+                        * here> rewrite the existing paragraph to focus on edges.
+                            * check if the followin paper explain dataset that they use 
+                                * read "Sexually Transmitted Diseases and Sexual Behavior: Insights from Mathematical
+                                Models"
+                * check if mezzo network needs to be refactors.
+        * macro network/Predict Infected Cases and infected distribution
+    * include infecting network, tracing network, and daily base network image.
+
+
+* add double graph network that author use to disprove previous assumption about epidemic spread  from meirom2020stop
+
+* refactors note from macro GNN. 
+    * remove feature learning section.
+    * here> create new section section called "constructing network from node or edges embedding" in Network/Node/Edges construction.
+        * 
+
+* read and rewrite the following section 
     * here> Predict Infected Cases and infected distribution
-        * here> add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
+        * add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
             * reading
                 * here> read RL section and Flow GNN
             * writing 
                 * mention about rl-rward requirements.
         * add comment to mezzo section in location where I want to add more content
         * merge old contents of macro model + deep learning.
-        * fix introduction, add content to related work and conclustion 
+        * here> fix introduction, add content to related work and conclustion 
+            * here> continoing fixing introduction
         * check if i mentioned multilayer graph construction in the survye
         * the paper talk about "testing" what are those?
 

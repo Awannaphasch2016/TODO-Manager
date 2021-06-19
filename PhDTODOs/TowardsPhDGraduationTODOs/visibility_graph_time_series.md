@@ -1,3 +1,8 @@
+# FAQs
+
+* how do i know if graph embedding learn about graph structure?
+    * what defined structure of a graph?
+
 # NOTE
 * streaming 
     * Finish implementing and writing new research idea in 2 weeks: day 1/14
@@ -9,7 +14,7 @@
     * 
 
 # Experimental LOG
-*  experiment 1: testing visibility graph on stock market and straight line 
+* [DONE] experiment 1: testing visibility graph on stock market and straight line 
     * observation 
         * I applied visibility graph to time series with/without normalized, it doesn't seem like embedding helps learning at all.
             * note that no hyperparameters are tuned at this point
@@ -38,7 +43,39 @@
                     * should node embedding of the current timestep predict next or current edges of visibility graph?
                     * here> can node embedding do this?
 
+* experiment 5: get performance of the model but using graph2vec embedding as the graph embedding components.
+    * faqs
+        * should I use static or dynamic graph2vec?
+    * 
+
+* experiment 6: apply graph cluster to graph2vec.
+    * goal 
+        * goal is to observe whether similar graph embedded is generated from time series window with similar properties?
+            * expectation
+                * I expect to see a smoothing shift of graph embedding as time windows slides forward
+    * note
+        * After graph2vec is applied to all ts data, apply
+
+    * system requirement 
+        * graph needs to be smoothly change as time increases.
+            * possible solution
+                * here> I can stack up visibility graph embedding from multiple time steps. 
+                * try dynamic graph embedding (embedding graph from multiple time step) 
+            * I need to convert time series to graph such as graph is not dramatically changed in the next time step. 
+                * currently visibility graph doesn't have this properties
+                    * for example 
+                        * here> a local peak "peak" dramatically block "view" of the immediate next time step.  
+    * todo 
+        * investigate again what graph looks like before and after peak.
+            * is there a scenario where all nodes are disconnected? (value at time step right after peak.)
+                * if there are, how do we solve this problem? 
+                * can "inverse visibility graph" be used for this?
+
 # TODO
+
+* write dr zhu about this experiments.
+    * write purposed model.
+        * hand writting it
 
 * here> compare performance of purposed methods to the baseline methods  
     * implement lstm and GRU baseline
@@ -51,7 +88,7 @@
                 * here> implement lstm and separate price and features
         * note
             * node2vec doesn't really work.
-        * try experiment 4 (see experimental log)
+        * here> try experiment 6 
         * figure out a way to extends node2vec to GCN.
             * see example of how other paper add GCN in their 
                 * cola gnn 

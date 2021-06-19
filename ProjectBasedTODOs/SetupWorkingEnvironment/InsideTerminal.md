@@ -1,29 +1,80 @@
 # TODO
+* 
+
 * here> emacs rabbit hole
-    * here> tutorial 
-        * here> Emacs from scratch #1
-            * here> https://www.youtube.com/watch?v=74zOY-vgkyw
-        * git
-            * https://github.com/nobiot/Zero-to-Emacs-and-Org-roam
-    * usecase
-        * org-mode usecase 
+    * note
+        * usecase
+            * org-mode usecase 
+                * daily journal + calenday
+                    * https://www.youtube.com/watch?v=3V3wIJgMeqE
+                * pdf-tools workflow 
+                    * note
+                        * annotation on pdf (pretty cool)
+                    * https://www.youtube.com/watch?v=LFO2UbzbZhA
+            * swithcing from vim to emas in 20 mins 
+                * https://www.youtube.com/watch?v=V27zOhfN8Ys
+            * replacing terminal based program with emacs
+                * https://www.youtube.com/watch?v=HzFqZ0Gl0aw
+            * list of exapmles on using emac with tmux
+                * https://www.reddit.com/r/emacs/comments/5j89xn/tmux_emacs/
+            * chrome + emac
+                * https://www.youtube.com/watch?v=wyPZws66Sic
+                    * atomic chrome
+            * emac + data science
+                * https://ahsanijaz.github.io/2016-09-20-Emacs/
+            * emacs for math
+                * https://www.reddit.com/r/emacs/comments/jacnfq/emacs_and_math/
+            * emacs agenda workflow 
+                * https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html
+                * http://cachestocaches.com/2016/9/my-workflow-org-agenda/
+        * tutorial 
+            * here> Emacs from scratch #1
+                * https://www.youtube.com/watch?v=74zOY-vgkyw
+            * git
+                * here> https://github.com/nobiot/Zero-to-Emacs-and-Org-roam
+    * todo
+        * here> try to replace roam research with org-roam?
+            * read minor modes 
+                * https://www.gnu.org/software/emacs/manual/html_node/emacs/Minor-Modes.html
+            * read major mode
+                * https://www.gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html
+            * here> watch https://www.youtube.com/watch?v=GK3fij-D1G8&ab_channel=NiklasCarlsson
+                * here> read basic of emacs  
+                    * https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html#Top
+                        * here> list processing
+                            * https://www.gnu.org/software/emacs/manual/html_node/eintr/List-Processing.html
+                        * writing defuns
+                        * buffer walk through
+                        * more complex
+                        * narrowing & widening
+                        * readying a graph
+                        * 
+                * what are packages doom adds?
+                    * learn the following 
+                        * treemacs 
+                        * projectile
+        * replace todo manager with org-mode?
+        * connect emacs to external tools. 
+            * to enable automation of extract, deliver, storing.
+        * try the following 
             * daily journal + calenday
                 * https://www.youtube.com/watch?v=3V3wIJgMeqE
             * pdf-tools workflow 
                 * note
-                    * annotation on pdf (pretty cool)
-                * https://www.youtube.com/watch?v=LFO2UbzbZhA
-        * swithcing from vim to emas in 20 mins 
-            * https://www.youtube.com/watch?v=V27zOhfN8Ys
-        * replacing terminal based program with emacs
-            * https://www.youtube.com/watch?v=HzFqZ0Gl0aw
-        * list of exapmles on using emac with tmux
-            * https://www.reddit.com/r/emacs/comments/5j89xn/tmux_emacs/
-        * chrome + emac
-            * https://www.youtube.com/watch?v=wyPZws66Sic
-                * atomic chrome
-        * emac + data science
-            * https://ahsanijaz.github.io/2016-09-20-Emacs/
+                        * annotation on pdf (pretty cool)
+        * list of things to learn
+            * ref 
+                * https://www.quora.com/What-are-good-ways-to-migrate-from-vim-to-emacs
+            * Learn the basics text navigation commands (C-p, C-n,C-f,C-n,C-a,C-s)
+            * Learn the basic management commands (C-x-f,C-x-s,C-x-b)
+            * Learn macro commands to edit stuff like multiple cursors mode in Sublime (C-x-(,C-x-),F4)
+            * here> Learn your major mode commands
+            * For Clojure Cider it is: (C-x-e,C-c-M-j,C-c-z,C-c-M-c)
+            * For Paredit it is C-)
+            * Learn M-x command for anything else
+            * You are good to go. ~3 days is enough to fully transition to Emacs.
+            * learn lisp to read configuration.
+        * can or should I replace all vim configuration with emacs?
 
 * create UltiSnips for latex for the following
     * tables

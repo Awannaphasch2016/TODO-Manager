@@ -1201,3 +1201,13 @@ Win + Ctrl + Shift + Left/Right = move your app to left/right virtual desktop
 ctrl + b = go to previous page
 ctrl + f = go to next page
 
+# Doom Emacs
+* ref 
+    * list of doom shortcuts
+        * https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
+* ctrl + z = switch mode.
+* M-x = search list of commands
+
+#$ Doom Emacs/projecttile
+* space + pp = search projects.
+* space + ff = search files
