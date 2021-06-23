@@ -1,4 +1,14 @@
+# NOTE
+* people to interview
+    * Karl Voit 
+        * https://github.com/novoid
+    * author of this post 
+        * https://www.reddit.com/r/emacs/comments/5jhwlu/getting_things_from_outside_emacs_into/
+    * createor of doom emacs
+        * Henrik Lissner
+
 # TODO
+
 * Inside-Terminal
     * interview people who use cli in interesting way.
         * automation for trade with cli

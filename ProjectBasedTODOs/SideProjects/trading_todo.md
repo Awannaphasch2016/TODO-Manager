@@ -11,6 +11,7 @@
         * https://github.com/andmarti1424/sc-im
 
 # OPTIMIZATION
+
 * install 
     * excel in vim 
         * error 
@@ -19,11 +20,9 @@
             * https://github.com/andmarti1424/sc-im
 
 # TODO 
-* here> learn hwo to use tradingview.
-    * here> what tools will i need for tradingview?
-        * 
-    * how to zoom out? 
-    * can I not use mouse to be effective?
+
+* here> back test 
+    * here> pick 1 strategy and back test for the last 3 years 
 
 * template for backtesting  
     * ref

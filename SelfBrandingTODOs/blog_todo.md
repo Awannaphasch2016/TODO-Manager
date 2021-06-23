@@ -1,13 +1,36 @@
 # TODO
 
-* here> add to my blog
-    * here> plot animation of embedded changes in time.
-
+* write an idealized concept of curated knowledge IDE that enhance Human-AI 
+    * read and make notes from Garun_todo.md
+    * requirement 
+        * write manifesto of what second brain IDE should be.
+        * purposed a syntax for "asking question to knowledge base" by searching/filtering/querying
+            * note
+                * refer to principle of sql language.
+        * mentioned list of tools that are availble in the market
+            * extract 
+                * summarizing tools
+            * deliver 
+                * automation tools like zapier
+            * store
+                * curated based knowledge based 
+            * interact
+                * requirement
+                    * a tools that provide workflow optimized for certain usecase with optimize features for various markets 
+                        * example of use case 
+                            * research (explore and connect)
+                            * analyze (compress and summarize)
+                        * example for markets 
+                            * finance 
+                            * marketing
+                            * machine learning
+                            * etc.
+                    * workflow to enhance interactions between human and AI experts of that markets
+    
 * write about "curse of intelligence"
     * the idea is that people are not satisfied with tasks that doesn't challenge their intelligent which left the feeling of unfulfilled life. however, domain that required high intelligent required "a lot more prior knowledge about the fields" (It takes long time to discover and create creative, but it takes alot shorter time for people to "understand" or absorbs this ideas, just enough to expand on this idea.)
         * therefore, intelligent people must compete for this highly competitive space to gain all rewards, the rest of them failed and remain unfullfilled.
-* here> read transfer learning 
-    * here> read about technique to use in transfer learning 
+
 * transfer learning for forcasting  
 
 * just in case learning vs just in time leanring 

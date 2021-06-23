@@ -640,7 +640,7 @@ vim/Markdown
 * zr = increase foldlevel by one
 
 # applied on block level 
-za = toggle current fold
+* za = toggle current fold
 * zo = open current fold
 * zc = close current fold
 * zO = recursively open current fold
@@ -1201,13 +1201,148 @@ Win + Ctrl + Shift + Left/Right = move your app to left/right virtual desktop
 ctrl + b = go to previous page
 ctrl + f = go to next page
 
+# Emacs/
+* note
+    * C-M-v required ctrl + Meta (real one not Alt) + v 
+        * it is equivalent of <Esc> ctrl-v
+* C-g = stop command 
+* C-x C-c = quit emacs
+* C-l = move window focus around the cursor (cursor at the top/middle/bottom)
+* M-x eval-expression = eval an expression
+* C-s = forward search 
+* C-r = reverse search
+
+# Emacs/Helps 
+* C-h m               = open help documentation of the current mode
+* C-h k               = search command by using key binding  (describe-keys)
+* M-x                 = search command by name (describe-binding)
+* C-h c <Key binding> = show the most basic description of <key binding> command
+* C-h k <Key binding> = show documentation of the command attached to the <key binding>
+* C-h f               = describe function
+* C-h v               = descrbie variable
+* C-h a <keyword>     = list all the command whose description of that command contain the keyword
+* C-i                 = open emacs manual
+
+
+# Emacs/Major Mode/Text Mode
+* C-x f = change auto fille max length
+* Meta-q = reformat paragaph with auto fill
+
+# Emacs/basic movment (motion command)
+* C-v = scroll down 
+* Meta-v = scroll up 
+* C-p = move to line above
+* C-n = move to line below
+* C-f = forward 
+* C-b = backward 
+* c-a = move to beginning of the line 
+* c-e = move to the end of the line 
+* Meta-a = move to previous sentence
+* Meta-e = move to next snetence
+* Meta-< = move to the top of the file
+* Meta-> = move to the end of the file
+* C-u <number> <motion command> = repat <motion command> <number> of times
+* C-k = kill until the ened of line 
+* <Del> = delete previuos character
+* C-d = delect next character 
+* Meta-d = kill next word after cursor
+* Meta-<Del> = kill previous word before cursor
+* C-<Space> = enable moment with highlight
+    * C-w = kill highlighted content 
+    * Meta-w = copy highlighted content 
+* C-y = yank
+* Meta-y  = yank previouly stored content
+* C-/ OR C-_ OR C-x u  = undo
+* M-x repl s<Return>change<Return>altered<Return> = replace all 'change' with 'altered'
+
+# Emacs/Windows Managing
+* C-x 1 = make the current window full screen and delete the rest of the window
+* c-x 2 = split window horizontally
+* C-h k C-f = split scree vertically
+* c-x o = switching to "other" window
+
+# Emacs/File Managing
+* C-x C-f = search file
+* C-x C-s = save file
+* C-x C-b = list buffer
+* C-x b = search buffer
+
+# Emacs/Buffer
+* note 
+    * default buffers
+        * *Scratch* buffer
+        * *Warning* buffer 
+        * *Message* buffer 
+
+# Emacs/Daemons
+
+* emacs --daemon    = run emacs daemon
+* emacs --fg-daemon = use for debugging
+* emacs --daemon=my-other-daemon = start daemon named 'my-other-daemon'
+* emacs -c = connect to daemon 
+* emacsclient -e "(kill-emacs)" = kill current client
+    * emacsclient -e "(kill-emacs)" -s another-server = kill client name "another-server"
+
 # Doom Emacs
 * ref 
     * list of doom shortcuts
         * https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
-* ctrl + z = switch mode.
-* M-x = search list of commands
+* ctrl + z      = switch mode.
+* M-x           = search list of commands
+* space + h + f = search function defintion
+* space + h + v = search variable defintion
+* C-x C-x       = close emacs
+* emacs -q -l <path to init.el> = open doom without dooms
 
-#$ Doom Emacs/projecttile
+# Doom Emacs/files navigation 
+* space + q + K = save and close (kill) files.
+* directory navigation?
+
+# Doom Emacs/project navigation/projecttile
 * space + pp = search projects.
 * space + ff = search files
+
+# Doom Emacs/org modes
+* space-mll = insert link
+* space-nl = store link to a link
+* <s + tabs = create code snippet block
+* space-oat = list all agenda with todo status
+* space-oam = list only contents with matched tags.
+* space-mq = search and create tags 
+* space + mt = list all todo status key words
+* space-mss "sprase-tree" 
+* ctrl-c + ctrl-c = convert the whole list to list type of the line where cursor is on
+* space-mll = insert link to highted word  
+
+# Doom Emacs/dired 
+* ( = toggle between full name and simple name 
+* - = go to parent directory
+* = = create directory
+* d-x  = select and delete
+* o = toggle sort style 
+* O = change ownership
+* M = change directory mode 
+    * type u-w = remove writing from users priviledge
+    * type u+w = add writing to users priviledge
+* *-/ = select all directory 
+    * t = toggle between select all directory and all files
+* U = unslect all selected entities
+* m = select entities
+* R = rename 
+
+# Doom Emacs/Buffer 
+* space + bb = list all currently opened buffers
+* space + , = list all currently opened buffers
+
+# Doom Emacs/Workspace
+* space + Tabs + n = create new tabs (equivalent of tmux new session)
+* space + Tabs + r = rename
+* C-x 0 = close
+* space + tabs + s  = save
+* space + tabs + x = kill session
+* space + tabs + [/] = switch left/right
+* space + tabs + number = switch to with with that number 
+
+# Doom Emacs/evy
+* gs + space = jump to characters.
+
