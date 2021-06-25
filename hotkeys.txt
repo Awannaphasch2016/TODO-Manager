@@ -1210,7 +1210,14 @@ ctrl + f = go to next page
 * C-l = move window focus around the cursor (cursor at the top/middle/bottom)
 * M-x eval-expression = eval an expression
 * C-s = forward search 
-* C-r = reverse search
+* C-r = re)verse search
+* C-x C-e = evaluate highlighted expression (when no highlight, evaluate code above the current line)
+* c-M-x = evaluate next block of code
+
+# Emacs/Python
+* C-c C-z = open a python shell
+* C-c C-c = run the content of the buffer in the opened python shell
+* C-c C-r = run the selected region in the python shell
 
 # Emacs/Helps 
 * C-h m               = open help documentation of the current mode
@@ -1222,7 +1229,7 @@ ctrl + f = go to next page
 * C-h v               = descrbie variable
 * C-h a <keyword>     = list all the command whose description of that command contain the keyword
 * C-i                 = open emacs manual
-
+* M-x find-library = go to source code of library.
 
 # Emacs/Major Mode/Text Mode
 * C-x f = change auto fille max length
@@ -1287,12 +1294,14 @@ ctrl + f = go to next page
 * ref 
     * list of doom shortcuts
         * https://gist.github.com/hjertnes/9e14416e8962ff5f03c6b9871945b165
-* ctrl + z      = switch mode.
-* M-x           = search list of commands
-* space + h + f = search function defintion
-* space + h + v = search variable defintion
-* C-x C-x       = close emacs
+* ctrl + z                      = switch mode.
+* M-x                           = search list of commands
+* space + h + f                 = search function defintion
+* space + h + v                 = search variable defintion
+* C-x C-x                       = close emacs
 * emacs -q -l <path to init.el> = open doom without dooms
+* spc-b-X                       = switch to *scratch* buffer
+* M-: OR spc-;                  = eval expression
 
 # Doom Emacs/files navigation 
 * space + q + K = save and close (kill) files.

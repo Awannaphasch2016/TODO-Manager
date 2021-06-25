@@ -4,7 +4,12 @@
     * note 
         * there are so much stuff in doom emacs. it is difficult to know which error cause by emacs and which error caused by the additional layers)
 
+
 # Reference 
+
+* Threads 
+    * advice on how to learns source code in emacs 
+        * https://www.reddit.com/r/emacs/comments/7i2alo/how_to_read_and_understand_gnu_emacs_source_code/ 
 
 * Tutorial 
     - eshell tutorial
@@ -21,8 +26,10 @@
 
 # TODO 
 
+* what is activate-power-mode?
+* what is serial link?
 - here> learn elisp
-    - here> ttps://www.youtube.com/watch?v=RQK_DaaX34Q
+    - here> https://www.youtube.com/watch?v=RQK_DaaX34Q
 
 - here> read basic of emacs  
     - https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html#Top
@@ -48,6 +55,9 @@
         * it is necessary to learn emacs key binding from scratch. With this, I can be sure that no unnecessary packages can cause error 
 
 * Project: learn how emacs connects to external tools 
+    * here> lets fix the visual color
+        * here> change background color
     * see reference for workflow that I want to know how it works
         - to enable automation of extract, deliver, storing.
+        - learn  
 

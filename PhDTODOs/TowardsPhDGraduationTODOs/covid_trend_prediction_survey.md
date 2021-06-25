@@ -59,9 +59,28 @@
             - spatio temporal forcasting
             - pandemic prediction
             - viral content prediction
+
 #RESOURCES
 
-#QUESTION
+#REFERENCE
+
+- more paper to read 
+    - goal 
+        - gather more information about epidemic network simulation
+    - paper 
+        - simulation 
+            - Epidemic Random Network Simulations in a Distributed Computing Environment
+            - Using a real-world network to model localized COVID-19 control strategies
+            - A High Resolution Realistic Social Contact
+            Network Construction 
+    - book 
+        - https://oxford.universitypressscholarship.com/view/10.1093/0199269017.001.0001/acprof-9780199269013
+    - survey 
+        - Analysis and Control of Epidemics: A Survey of Spreading Processes on Complex Networks 
+            - file:///C:/Users/terng/Downloads/jp07%20(1).pdf
+    - search
+        - epidemic newtork simulation survey
+            - https://www.google.com/search?q=epidemic+network+simulation+survey&rlz=1C1CHBF_enUS941US941&oq=epidemic+network+simulation+survey+&aqs=chrome..69i57j33i160l2.5371j0j4&sourceid=chrome&ie=UTF-8
 
 #WAITING
 
@@ -79,6 +98,7 @@
             - Are output behavior the same?
 
 #OPTIMIZATION
+
 
 - here> practice hotkeys for vim-tex 
     - requirements
@@ -102,149 +122,134 @@
         infectious disease epidemiology
             - https://www.tandfonline.com/doi/pdf/10.1080/17513758.2010.503376
 
+* other things to model
+    * immunity 
+        * herd immunity
+            * does graph protection care about herd immunity?
+        * here> how to models cross immunity?
+            * ref 
+                * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
 
-- here> things to discuss
-    - here> all real network + social-connection can be put in edges of micro network because micro network ignore node features.
+* here> Goal: by 6/25/2021, I want to finish introduction and network construction. +
+    include all relevant paper into related works section
 
-- add section about social-connection (social network and collaboration network)
-
-
-- here> truely understand SIR model and differential equation.
-    - here> understanding differential equation of SIR.
-        - goal
-            - understand how to think about equation from SIR differential equation.
-
-- read the following 
-    - here> paper
-        - here> seed_reading(DEFSI paper)
-            - goal
-                - complete guideline of simulation sections.
-                    - what are methods 
-            - review networks and epidemic models 
-                - did they cover EPIFAST or alike in their simulation
-                - network-based simulation are limited 
-            - read about EPIFAST
-                - goal 
-                    - to understand how model-based network simulated works.
-                    - to collect content and add them to ~/network construction/simulation/micro network
-                - here> read section 2 
-                - read section 3
-            - here> read Stochastic epidemic models: A survey
-                - https://reader.elsevier.com/reader/sd/pii/S0025556410000143?token=94B7C5A217FF9B9E56E351F9FEC66EA7AD0CC200461BF37C4798677D2E79F1C38BE601963EC0E484D3466D0FB29C89DA&originRegion=us-east-1&originCreation=20210621183653
-                    - here> add section about deterministci and stochastic epidemic models.
-            - read Modeling, Analysis and Comparison of Large Scale Social Contact
-            Networks for Epidemic Studie
-                - goal
-                    - get list of network-based simulation models 
-            - a paper that use climate information
-                - goal 
-                    - to learn how climate information can be used in Simulation.
-
-- get list of dataset from here 
-    - Epidemic spreading over social networks using large-scale
-    biosensors: a Survey 
-        - https://pdf.sciencedirectassets.com/282073/1-s2.0-S2212017312X00069/1-s2.0-S2212017312005336/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDjm3SvjmGPfPWAU2RgEsxXq9XAycBBHCw8ej3DmmbQYgIgGdp85ik0xTrGywrM1UARM5AnDjIrlUTLc5FwhnEiHZQqgwQIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNTkwMDM1NDY4NjUiDHJtJKftu8Q3kyuvoSrXAwSsXl62CvuFCy9p1Dde6nH9rQ4cpbvsVK6oL7lVU2kTM50FtThEiRn4UqrrzojSkOXDUi2C9%2FP5CuuyvVtPVx8vyrYIsEkesjvnnkPIad1JzjRBYydjPTwZGwhPhMvuQPy%2BWICL6unf%2FegR%2FUgg2uOXaArPVFVjjWIoZ6LU%2FGZvLr53So2iXhaoC7QfZNIeRjYQo0WwiTPnS3izehn2V%2Bap5VEVxqJTQOGnRjbbJLeVTsMYwV5YB7UGGz2aIz23qn8IFfkXFzDwhyYnehjySHvgvRa99iy4TsMmYGH%2B8aOU%2F9lwC4ja6ekXNwlQTORjEQh7R6gWOT2TbNhGrQozYsxzKzmBVc3XIdP5pyYGwueC1zl8KO4JPeXv5Isn56RZszKC2WuiTWStu3HJtrWslbE8KaN%2BXy%2F26Eq628rLiAmhtO5nr55d0Rm5gCFtc4eAhRqP53aDpZhM3QCfCjAyiTZ2%2BYRqs7A6yezfPfaRXSbpYRVEXcDPvx0iaLtNcVmhU6szJpwvTevnywWxengkoTmifh9x7RfKGGv8%2F3ahzXDO39yRp66VEuCpdKlcX%2B1Ya%2BRUIy6zYpx1K9Wfu1VRGfL0unYrcmRZ22PfrvandgI3kZYf%2BSBIajDE%2BsKGBjqlAXAObEsRlOW5taQqz0%2B68koHbEPU%2F%2B2bYEUqKAktRvgfE%2B%2F0zq183HRlR32nUta7bY%2FfsXrtTlrn2FK50HoNnIaawG5RDAFMmriAjZn1A%2FZ9otfkLVuWnrdQxcxuGhNLl86rmqxNTBfYefnQqcTAeOrMwNG7U8xP%2FuaBy9jteiR%2BluLkkeep37GYGmMHH4It6YiWx6sEL569mvL6QAu5crJFu84WEQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210621T173009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVEL5WSOH%2F20210621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7f14f05ca090b0dc7f80e99a61b93838590ecbebe34e7143992527be90743&hash=de23b99a718824ce1dca8ffaf9506706d48a4e1bd1b2536f104a0e62bd3ac216&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2212017312005336&tid=spdf-834bff9c-2f0b-4e05-8148-2f689cb36c64&sid=ce7a034c4ac1c94bdf2a5d20e299d262ae01gxrqa&type=client
-
-- more paper to read 
-    - goal 
-        - gather more information about epidemic network simulation
-    - paper 
-        - simulation 
-            - Epidemic Random Network Simulations in a Distributed Computing Environment
-            - Using a real-world network to model localized COVID-19 control strategies
-            - A High Resolution Realistic Social Contact
-            Network Construction 
-    - book 
-        - https://oxford.universitypressscholarship.com/view/10.1093/0199269017.001.0001/acprof-9780199269013
-    - survey 
-        - Analysis, Prediction, and Control of Epidemics: A
-        Survey from Scalar to Dynamic Network Models
-            - https://arxiv.org/pdf/2103.00181.pdf
-        - Analysis and Control of Epidemics: A Survey of Spreading Processes on Complex Networks 
-            - file:///C:/Users/terng/Downloads/jp07%20(1).pdf
-    - search
-        - epidemic newtork simulation survey
-            - https://www.google.com/search?q=epidemic+network+simulation+survey&rlz=1C1CHBF_enUS941US941&oq=epidemic+network+simulation+survey+&aqs=chrome..69i57j33i160l2.5371j0j4&sourceid=chrome&ie=UTF-8
+    * here> merge simulation/mezzo content
+    * add textbf comment to node and edges construction.
+        * here> add more content to it
+    - Analysis, Prediction, and Control of Epidemics: A
+    Survey from Scalar to Dynamic Network Models
+        - here> https://arxiv.org/pdf/2103.00181.pdf
+            * here> 1.2 read extension and limitation
+    * types of agent base network?
+    * refactor related work page.
+    - add section about social-connection (social network and collaboration network)
+        * note
+            - all real network + social-connection can be put in edges of micro network because micro network ignore node features.
+        * lets read survey papers on this.
+    * mention about Theoritical Guided Data Science (TGDS) in introduction.
+        * TGDS -> use information that we learn from epidemic to choose types of tranmission dynamic + types of network + deep learning architecture design.
+    - summary wang and deng.
+        - here> finish the following sections.
+            - here> network construction
+                - node construction
+                    - here> micro network 
+                        - here> summarized it from micro network section
+                    - mezzo network 
+                - here> edges construction 
+                    - here> micro network
+                        - here> summarized it from micro network section
+                            - collect paper.
+                            - here> rewrite the existing paragraph to focus on edges.
+                                - check if the followin paper explain dataset that they use 
+                                    - read "Sexually Transmitted Diseases and Sexual Behavior: Insights from Mathematical
+                                    Models"
+                    - check if mezzo network needs to be refactors.
+            - macro network/Predict Infected Cases and infected distribution
+        - include infecting network, tracing network, and daily base network image.
+    - add double graph network that author use to disprove previous assumption about epidemic spread  from meirom2020stop
+    * read graph embedding survey :)
 
 
-- summary wang and deng.
-    - here> finish the following sections.
-        - here> network construction
-            - node construction
-                - here> micro network 
-                    - here> summarized it from micro network section
-                - mezzo network 
-            - here> edges construction 
-                - here> micro network
-                    - here> summarized it from micro network section
-                        - collect paper.
-                        - here> rewrite the existing paragraph to focus on edges.
-                            - check if the followin paper explain dataset that they use 
-                                - read "Sexually Transmitted Diseases and Sexual Behavior: Insights from Mathematical
-                                Models"
-                - check if mezzo network needs to be refactors.
-        - macro network/Predict Infected Cases and infected distribution
-    - include infecting network, tracing network, and daily base network image.
+* goal: finish modeling 
+    - summarize macro_network section (merge it with the old content)
+    * explore VAE, encoder-decoder architecture on graph 
+    * add the following to main content
+        - read the following 
+            - here> paper
+                - here> seed_reading(DEFSI paper)
+                    - goal
+                        - complete guideline of simulation sections.
+                            - what are methods 
+                    - review networks and epidemic models 
+                        - did they cover EPIFAST or alike in their simulation
+                        - network-based simulation are limited 
+                    - read about EPIFAST
+                        - goal 
+                            - to understand how model-based network simulated works.
+                            - to collect content and add them to ~/network construction/simulation/micro network
+                        - here> read section 2 
+                        - read section 3
+                    - a paper that use climate information
+                        - goal 
+                            - to learn how climate information can be used in Simulation.
+    - refactors note from macro GNN. 
+        - remove feature learning section.
+        - here> create new section section called "constructing network from node or edges embedding" in Network/Node/Edges construction.
+            - 
+    - read and rewrite the following section 
+        - here> Predict Infected Cases and infected distribution
+            - add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
+                - reading
+                    - here> read RL section and Flow GNN
+                - writing 
+                    - mention about rl-rward requirements.
+            - add comment to mezzo section in location where I want to add more content
+            - merge old contents of macro model + deep learning.
+            - here> fix introduction, add content to related work and conclustion 
+                - here> continoing fixing introduction
+            - check if i mentioned multilayer graph construction in the survye
+            - the paper talk about "testing" what are those?
+    - create tables for micro, mezzo, macro network using words
+        - note
+            - here> "A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys"
+        - table 1  
+            - notes
+                - cells in last columns are list of papers.
+            - columns
+                - graph type 
+            - rows
+                - objectives 
+        - table 2 
+            - columns  
+                - dataset 
+                    - large vs small 
+                    - graph types 
+                        - large vs small
+                        - theoritical vs practical entwork 
+                        - simutation vs real 
+                            - simultated real vs simulated theoritical
+                            - real data of small cohort vs real data representing the whole population. 
+                        - multiplex network (a type of multilayer network) vs single layer network
+                        - homogeneous nodes vs heterogeneous nodes 
+                        - homogeneous edges vs heterogeneous edges 
+            - rows
+                - objectives?
+    - add information of the following paper
+        - 'scalable vaccine distribution in large graphs given uncertain data'
+        - how to stop epidemic
 
-
-- summarize macro_network section (merge it with the old content)
-
-
-- add double graph network that author use to disprove previous assumption about epidemic spread  from meirom2020stop
-
-- refactors note from macro GNN. 
-    - remove feature learning section.
-    - here> create new section section called "constructing network from node or edges embedding" in Network/Node/Edges construction.
-        - 
-
-- read and rewrite the following section 
-    - here> Predict Infected Cases and infected distribution
-        - add content to mezzo/Balancing trade off caused by epidemic/DECURLA.
-            - reading
-                - here> read RL section and Flow GNN
-            - writing 
-                - mention about rl-rward requirements.
-        - add comment to mezzo section in location where I want to add more content
-        - merge old contents of macro model + deep learning.
-        - here> fix introduction, add content to related work and conclustion 
-            - here> continoing fixing introduction
-        - check if i mentioned multilayer graph construction in the survye
-        - the paper talk about "testing" what are those?
-
-- add content about graph simulation.
-- separate mezzo and macro setion
-- create tables for micro, mezzo, macro network using words
-    - note
-        - here> "A framework for identifying regional outbreak and spread of COVID-19 from one-minute population-wide surveys"
-    - table 1  
-        - notes
-            - cells in last columns are list of papers.
-        - columns
-            - graph type 
-        - rows
-            - objectives 
-    - table 2 
-        - columns  
-            - dataset 
-                - large vs small 
-                - graph types 
-                    - large vs small
-                    - theoritical vs practical entwork 
-                    - simutation vs real 
-                        - simultated real vs simulated theoritical
-                        - real data of small cohort vs real data representing the whole population. 
-                    - multiplex network (a type of multilayer network) vs single layer network
-                    - homogeneous nodes vs heterogeneous nodes 
-                    - homogeneous edges vs heterogeneous edges 
-        - rows
-            - objectives?
-
-- merge content from macro networks (deep learning stuff).
-
-- add information of the following paper
-    - 'scalable vaccine distribution in large graphs given uncertain data'
-    - how to stop epidemic
+* content to improve precision of details.
+    * read more on data preprocessing on graph.
+        * how do they due with noise, uncertainty etc.
+            * smoothing data
+            * calibration for forecasting
+            * remove some data to control for noise
+    * check out dataset.tex. if enough dataset can be used. then no more reading on data
+        - get list of dataset from here 
+            - Epidemic spreading over social networks using large-scale
+            biosensors: a Survey 
+                - https://pdf.sciencedirectassets.com/282073/1-s2.0-S2212017312X00069/1-s2.0-S2212017312005336/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDjm3SvjmGPfPWAU2RgEsxXq9XAycBBHCw8ej3DmmbQYgIgGdp85ik0xTrGywrM1UARM5AnDjIrlUTLc5FwhnEiHZQqgwQIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgwwNTkwMDM1NDY4NjUiDHJtJKftu8Q3kyuvoSrXAwSsXl62CvuFCy9p1Dde6nH9rQ4cpbvsVK6oL7lVU2kTM50FtThEiRn4UqrrzojSkOXDUi2C9%2FP5CuuyvVtPVx8vyrYIsEkesjvnnkPIad1JzjRBYydjPTwZGwhPhMvuQPy%2BWICL6unf%2FegR%2FUgg2uOXaArPVFVjjWIoZ6LU%2FGZvLr53So2iXhaoC7QfZNIeRjYQo0WwiTPnS3izehn2V%2Bap5VEVxqJTQOGnRjbbJLeVTsMYwV5YB7UGGz2aIz23qn8IFfkXFzDwhyYnehjySHvgvRa99iy4TsMmYGH%2B8aOU%2F9lwC4ja6ekXNwlQTORjEQh7R6gWOT2TbNhGrQozYsxzKzmBVc3XIdP5pyYGwueC1zl8KO4JPeXv5Isn56RZszKC2WuiTWStu3HJtrWslbE8KaN%2BXy%2F26Eq628rLiAmhtO5nr55d0Rm5gCFtc4eAhRqP53aDpZhM3QCfCjAyiTZ2%2BYRqs7A6yezfPfaRXSbpYRVEXcDPvx0iaLtNcVmhU6szJpwvTevnywWxengkoTmifh9x7RfKGGv8%2F3ahzXDO39yRp66VEuCpdKlcX%2B1Ya%2BRUIy6zYpx1K9Wfu1VRGfL0unYrcmRZ22PfrvandgI3kZYf%2BSBIajDE%2BsKGBjqlAXAObEsRlOW5taQqz0%2B68koHbEPU%2F%2B2bYEUqKAktRvgfE%2B%2F0zq183HRlR32nUta7bY%2FfsXrtTlrn2FK50HoNnIaawG5RDAFMmriAjZn1A%2FZ9otfkLVuWnrdQxcxuGhNLl86rmqxNTBfYefnQqcTAeOrMwNG7U8xP%2FuaBy9jteiR%2BluLkkeep37GYGmMHH4It6YiWx6sEL569mvL6QAu5crJFu84WEQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210621T173009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVEL5WSOH%2F20210621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fdb7f14f05ca090b0dc7f80e99a61b93838590ecbebe34e7143992527be90743&hash=de23b99a718824ce1dca8ffaf9506706d48a4e1bd1b2536f104a0e62bd3ac216&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2212017312005336&tid=spdf-834bff9c-2f0b-4e05-8148-2f689cb36c64&sid=ce7a034c4ac1c94bdf2a5d20e299d262ae01gxrqa&type=client
 
 - read the following 
     - 'Systematic comparison between methods for the detection of influential spreaders in complex

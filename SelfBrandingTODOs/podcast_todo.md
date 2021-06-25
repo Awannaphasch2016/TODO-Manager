@@ -6,6 +6,11 @@
         * https://www.reddit.com/r/emacs/comments/5jhwlu/getting_things_from_outside_emacs_into/
     * createor of doom emacs
         * Henrik Lissner
+    * people with intersting workflow I found from thread.
+        * Kappclose 
+        * FVIIIvWF
+        * oantolin
+
 
 # TODO
 

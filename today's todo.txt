@@ -91,8 +91,12 @@ response from HPC
 #=====================
 #== TODO 
 #=====================
+
+* learn latex ecosystem + options.
+
 * figure out a way to connect with this guy
     * https://www.youtube.com/watch?v=PHJSTV5s2cI
+
 
 * things I want to learn
     * system-design-primer
