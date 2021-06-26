@@ -209,6 +209,8 @@ understand and analzye how the following people manage their notes
 
 # TODO
 
+* learn GNU guix. (for better understanding of how to interact with underlying OS)
+    * https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU&ab_channel=SystemCrafters
 - learn rem-note and implement the following 
     - ref
         - https://www.youtube.com/c/NabhanPhD/videos

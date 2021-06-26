@@ -92,7 +92,9 @@ response from HPC
 #== TODO 
 #=====================
 
-* learn latex ecosystem + options.
+* learn latex
+    * learn latex ecosystem + options.
+    * learn to be faster on latex
 
 * figure out a way to connect with this guy
     * https://www.youtube.com/watch?v=PHJSTV5s2cI

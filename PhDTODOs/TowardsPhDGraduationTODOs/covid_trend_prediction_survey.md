@@ -131,17 +131,61 @@
                 * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
 
+* [2021-06-25 15:32:17]
+    * ways to put pictures
+        * show concept of somthign in detilas
+            * use picture when its hard to explains in text.
+        * show details comparisons of multiple models 
+            * be clear of what you want to compare.
+                * avoid showing adhoc.
+    * fix 
+        * fig 2 
+            * try draw example with draw.io.
+        * idealized network
+            * add scale free networks.
+        * 6.3.2
+            * avoid append paper one by one.
+    * tools
+        * try using viso professional. (is it good enough?)
+    * tips
+        * list question for each sections, and let it guide the writing.
+
+
+* try to make introduction fill 1 page.
+* focus on introduction and related work.
+* lets focus on generate figure first. 
+    * learn to use new visualized 
+
 * here> Goal: by 6/25/2021, I want to finish introduction and network construction. +
     include all relevant paper into related works section
-
-    * here> merge simulation/mezzo content
-    * add textbf comment to node and edges construction.
-        * here> add more content to it
     - Analysis, Prediction, and Control of Epidemics: A
     Survey from Scalar to Dynamic Network Models
         - here> https://arxiv.org/pdf/2103.00181.pdf
             * here> 1.2 read extension and limitation
-    * types of agent base network?
+    * here> fill out tables (as I go) the following tables.
+        * refactors network types, fill up mezzo
+            networks (multilayer), and fix macro network.
+
+        * simulation 
+            * types of agent base network? () 
+                * here> EPISIM from eubank2004modelling
+            * here> mezzo simulation network table.
+                * here> read the following section.
+                    * here> simulation section
+                        * expands content of halloran2002containing
+                        * finish reading and fill out the tables.
+                    * multilayer section
+                    * temporal section
+
+        * categorized multilayer network and temporal network into tables.
+    * about pictures.
+        * add more picture.
+        * here> check if any picture needs to be redraw.
+        * check label of pictures.
+    * rewrite equations to not exceed its boundary
+    * node and edges construction stuff
+        * add textbf comment to node and edges construction.
+            * here> add more content to it
     * refactor related work page.
     - add section about social-connection (social network and collaboration network)
         * note
@@ -169,6 +213,10 @@
         - include infecting network, tracing network, and daily base network image.
     - add double graph network that author use to disprove previous assumption about epidemic spread  from meirom2020stop
     * read graph embedding survey :)
+    * create new tabes 
+        * how should I classify micro/mezzo/macro nodes and edges into tables?
+        * how should I classify graph embedding into tables? 
+    * lets draw table properly
 
 
 * goal: finish modeling 

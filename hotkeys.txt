@@ -1213,6 +1213,8 @@ ctrl + f = go to next page
 * C-r = re)verse search
 * C-x C-e = evaluate highlighted expression (when no highlight, evaluate code above the current line)
 * c-M-x = evaluate next block of code
+* g-r =  Evaluate selection or sends it to the open REPL, if available. 
+* Meta-q = reformat paragaph with auto fill
 
 # Emacs/Python
 * C-c C-z = open a python shell
@@ -1233,7 +1235,6 @@ ctrl + f = go to next page
 
 # Emacs/Major Mode/Text Mode
 * C-x f = change auto fille max length
-* Meta-q = reformat paragaph with auto fill
 
 # Emacs/basic movment (motion command)
 * C-v = scroll down 

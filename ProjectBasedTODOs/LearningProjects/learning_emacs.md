@@ -18,6 +18,8 @@
 
     - Emacs from scratch #1
         - https://www.youtube.com/watch?v=74zOY-vgkyw
+* Lisp documentation 
+    - https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html#Top
 
 # GOAL 
 
@@ -26,38 +28,35 @@
 
 # TODO 
 
-* what is activate-power-mode?
-* what is serial link?
-- here> learn elisp
-    - here> https://www.youtube.com/watch?v=RQK_DaaX34Q
-
-- here> read basic of emacs  
-    - https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html#Top
-        - here> learn to use org-mode
-            - ref 
-                - https://www.youtube.com/watch?v=hZpDdbflt8c&list=RDCMUCzgkOWKcwy0uhYilE6bd1Lg&index=6&ab_channel=Zaiste
-        - learn to use org-agenda
-        - read the following 
-            - list processing
-                - https://www.gnu.org/software/emacs/manual/html_node/eintr/List-Processing.html
-            - writing defuns
-            - buffer walk through
-            - more complex
-            - narrowing & widening
-            - readying a graph
-        - what are packages doom adds?
-            - learn the following 
-                - treemacs 
-                - projectile
-
-- lets build emacs from scratch.
-    * requirement
-        * it is necessary to learn emacs key binding from scratch. With this, I can be sure that no unnecessary packages can cause error 
-
-* Project: learn how emacs connects to external tools 
-    * here> lets fix the visual color
-        * here> change background color
-    * see reference for workflow that I want to know how it works
+* here> Ultimate Goal: use emacs to create an app that can perfectly express by Garun workflow 
+    * note
         - to enable automation of extract, deliver, storing.
-        - learn  
+    * here> fix colors of emacs 
+    * learn how to configure emacs configuration
+        * https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&ab_channel=SystemCrafters
+    * make it better than vim 
+        * do what vim does well 
+            * lets make python IDE
+                * https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN&ab_channel=SystemCrafters 
+            * writing research paper (latex)
+        * expands beyound vim
+            * interact with web browser
+            * remote work with TRAMP
+    * Project: learn to build emacs pacakges from scratch 
+        * https://www.youtube.com/watch?v=EqgkAUHw0Yc&ab_channel=SystemCrafters
+            * continues at 53.35 am: start using lisp to interact with dot files
+    - lets build emacs from scratch.
+        * requirement
+            * lets use emacs for window for this.
+            - know what packages doom has add?
+                - learn the following 
+                    - treemacs 
+                    - projectile
+            * know how doom emacss communicate with emacs?
+    * Project: lets recreate org-roam (to be like roam research)
+    * Project: learn how emacs connects to external tools 
+        * see reference for workflow that I want to know how it works
+            * pdftools
+                * dependency 
+                    * needs to learn latex first
 
