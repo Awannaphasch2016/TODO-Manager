@@ -1208,13 +1208,19 @@ ctrl + f = go to next page
 * C-g = stop command 
 * C-x C-c = quit emacs
 * C-l = move window focus around the cursor (cursor at the top/middle/bottom)
-* M-x eval-expression = eval an expression
+* M-x eval-expression = search and execute command   
+* M-: eval-expression = evaluate express
 * C-s = forward search 
 * C-r = re)verse search
 * C-x C-e = evaluate highlighted expression (when no highlight, evaluate code above the current line)
 * c-M-x = evaluate next block of code
 * g-r =  Evaluate selection or sends it to the open REPL, if available. 
 * Meta-q = reformat paragaph with auto fill
+* M-s h r . = highlight word at a point
+
+# Emacs/Macro 
+* F3 = start macro 
+* F3 = finish/define macro
 
 # Emacs/Python
 * C-c C-z = open a python shell
@@ -1230,7 +1236,7 @@ ctrl + f = go to next page
 * C-h f               = describe function
 * C-h v               = descrbie variable
 * C-h a <keyword>     = list all the command whose description of that command contain the keyword
-* C-i                 = open emacs manual
+* C-i                 = o)pen emacs manual
 * M-x find-library = go to source code of library.
 
 # Emacs/Major Mode/Text Mode
@@ -1307,6 +1313,7 @@ ctrl + f = go to next page
 # Doom Emacs/files navigation 
 * space + q + K = save and close (kill) files.
 * directory navigation?
+* c-x c-f = open file
 
 # Doom Emacs/project navigation/projecttile
 * space + pp = search projects.
@@ -1346,6 +1353,7 @@ ctrl + f = go to next page
 
 # Doom Emacs/Workspace
 * space + Tabs + n = create new tabs (equivalent of tmux new session)
+* space + Tab + Tab = show workspace panels.
 * space + Tabs + r = rename
 * C-x 0 = close
 * space + tabs + s  = save

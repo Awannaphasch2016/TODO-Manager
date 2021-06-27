@@ -31,17 +31,49 @@
 * here> Ultimate Goal: use emacs to create an app that can perfectly express by Garun workflow 
     * note
         - to enable automation of extract, deliver, storing.
-    * here> fix colors of emacs 
+
     * learn how to configure emacs configuration
+        * how to change config.el to .org
+            * what does it mean by export source code?
+            * here> what is relation betwen .doom.d and .emacs?
         * https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ&ab_channel=SystemCrafters
-    * make it better than vim 
-        * do what vim does well 
-            * lets make python IDE
-                * https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN&ab_channel=SystemCrafters 
-            * writing research paper (latex)
-        * expands beyound vim
-            * interact with web browser
-            * remote work with TRAMP
+            * what is straight.el?
+            * here> read the following 
+                * what is cookies?
+                * package management in doom
+                    * https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#package-management
+                        * what is package!?
+                             * how to defind macros?
+        * how to deal with error in emacs ?
+        * evaluate elsip on the fly
+            * error
+                * not found [lisp] language information
+    * goal: install smooth-scrolling.el  
+        * ref
+            * https://github.com/aspiers/smooth-scrolling 
+
+    * here> goal: use scimax + doom emacs 
+        * ref 
+            * https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+            * https://dotemacs.readthedocs.io/en/latest/
+        * here> scimax + doom?
+            * here> just load packages used in scimax to doom. 
+                * here> read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+                * what ppackages do scimax use?
+                    * https://github.comtchin/scimax/blob/master/scimax.org/
+                    * https://github.comtchin/scimax/blob/master/scimax-ipython.org/
+        * make it better than vim 
+            * here> do what vim does well 
+                * here> lets make python IDE
+                    * here> https://www.youtube.com/watch?v=6BlTGPsjGJk&ab_channel=thoughtbot
+                    * https://www.youtube.com/watch?v=jPXIP46BnNA&ab_channel=SystemCrafters
+                    * https://www.youtube.com/watch?v=E-NAM9U5JYE&list=PLEoMzSkcN8oNvsrtk_iZSb94krGRofFjN&ab_channel=SystemCrafters
+                * writing research paper (latex)
+            * expands beyound vim
+                * interact with web browser
+                * remote work with TRAMP
+    * learn to use bash command with emacs
+        * https://www.youtube.com/watch?v=3vQYHJ_RvjI&ab_channel=SahasSubramanian
     * Project: learn to build emacs pacakges from scratch 
         * https://www.youtube.com/watch?v=EqgkAUHw0Yc&ab_channel=SystemCrafters
             * continues at 53.35 am: start using lisp to interact with dot files
