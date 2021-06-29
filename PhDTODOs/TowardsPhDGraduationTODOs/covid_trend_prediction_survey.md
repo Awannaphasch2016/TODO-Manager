@@ -131,7 +131,36 @@
                 * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
 
+* create website for the group.
+* manage file in discord.
+    * create google drive.
+
 * [2021-06-25 15:32:17]
+    * here> work on related work section.
+        * note
+            * I may consider making paragraph instead of full subsection
+        * here> lets read graph embeding.
+            * here> read the following sections
+                * here> section 4: dynamic graph embedding application
+        * combine related work section with micro/mezzo/macro network modelling.
+        * Survey on Temporal Network
+            * here> what are types of temporal network?
+            * when is this paper published?
+            * what is it oobjective?
+            * why is it necessayr to have publish this paper?
+
+        * take a look at the following paper 
+            *  ref
+                * google search
+                    * https://www.google.com/search?q=heterogenous+networks+survey+%5D&rlz=1C1CHBF_enUS941US941&oq=heterogenous+networks+survey+%5D&aqs=chrome..69i57j0i22i30j0i8i13i30.19562j0j7&sourceid=chrome&ie=UTF-8
+                        * found the following paper 
+                            * A Survey of Heterogeneous Information Network Analysis - arXiv
+
+        * Survey on Analysis, Prediction, and Control of Epidemic
+            * I need to read these paper first.
+        * Survey on Network Embedding
+        * Survey on Related Applications
+
     * ways to put pictures
         * show concept of somthign in detilas
             * use picture when its hard to explains in text.

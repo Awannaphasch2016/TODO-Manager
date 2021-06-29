@@ -59,6 +59,21 @@
         * here> scimax + doom?
             * here> just load packages used in scimax to doom. 
                 * here> read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+                    * here> emacs-jupyter vs ob-ipython vs emacs-ipython-notebook (ein)
+                        * here> what does add-hook actually do?
+                            * here> understand hook and flag
+                                * symbols vs variables vs objects?
+                                    * what is interns?
+                                        * what is canonical symbol?
+                                            * what does lisp reader do?
+                                                * what are different things that are being processed in the "read" vs " eval" phases of lisp excution.
+                                                    * what is obarray?
+                                                        * https://www.gnu.org/software/emacs/manual/html_node/elisp/Creating-Symbols.html 
+                                                            * command loop?
+                                                                * change cursor insert mode.
+                                                                * what is tellescope?
+                                                                * what is treesitter?
+                                                                * what is lsp?
                 * what ppackages do scimax use?
                     * https://github.comtchin/scimax/blob/master/scimax.org/
                     * https://github.comtchin/scimax/blob/master/scimax-ipython.org/

@@ -1238,6 +1238,7 @@ ctrl + f = go to next page
 * C-h a <keyword>     = list all the command whose description of that command contain the keyword
 * C-i                 = o)pen emacs manual
 * M-x find-library = go to source code of library.
+* c-h i = document browser
 
 # Emacs/Major Mode/Text Mode
 * C-x f = change auto fille max length
