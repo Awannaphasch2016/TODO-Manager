@@ -135,13 +135,26 @@
 * manage file in discord.
     * create google drive.
 
+* add definition of temporal network in temporal network section.
+    * I somehow forget to define temporal network.
 * [2021-06-25 15:32:17]
     * here> work on related work section.
         * note
             * I may consider making paragraph instead of full subsection
         * here> lets read graph embeding.
             * here> read the following sections
-                * here> section 4: dynamic graph embedding application
+                * here> Is there a concept from dynamic graph embedding paper that I can generalized in my paper
+                    * here> look for node/edge ranking related tasks
+                        * can graph reconstruction be useful in graph protection?
+                            * how is the ranking mechanism actually works?
+                            * include graph embedding that are for graph protections
+                    * the paper doesn't mention reachability graph, line graph, and tranmission graph
+                    * It doesn't cover embedding that could apply to tmeporal network construction and multilayer network construction 
+                * research on node ranking in general
+                    *  a surveys on network node ranking algorithms
+                        * https://link.springer.com/article/10.1007/s11431-020-1683-2
+                    * embedding on node ranking
+                        * https://arxiv.org/abs/1902.03964
         * combine related work section with micro/mezzo/macro network modelling.
         * Survey on Temporal Network
             * here> what are types of temporal network?
