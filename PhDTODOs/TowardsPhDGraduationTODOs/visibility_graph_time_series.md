@@ -32,6 +32,7 @@
     * goal 
         * to figure out if node2vec of all straight line.
 
+
 * experiment 3: run ndoe2vec on weighted visiblity graph
 
 * experiment 4: evaluate good scheme "good embedding" for next time step prediction.
@@ -70,6 +71,10 @@
             * is there a scenario where all nodes are disconnected? (value at time step right after peak.)
                 * if there are, how do we solve this problem? 
                 * can "inverse visibility graph" be used for this?
+
+* experiment 7: for node2vec embedding, calculate stability dynamic network embedding.
+    * ref
+        * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/bbxs1fqN7 
 
 # TODO
 

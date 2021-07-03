@@ -131,48 +131,58 @@
                 * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
 
-* create website for the group.
-* manage file in discord.
-    * create google drive.
+* weekly ai news
+    * create website for the group.
+    * manage file in discord.
+        * create google drive.
 
 * add definition of temporal network in temporal network section.
     * I somehow forget to define temporal network.
+    * FAQs
+        * here> what is the differences between their definition of "temporal graph" compared to ours.
+            * here> read future direction
+
+
+* research on node ranking in general
+    *  a surveys on network node ranking algorithms
+        * https://link.springer.com/article/10.1007/s11431-020-1683-2
+    * embedding on node ranking
+        * https://arxiv.org/abs/1902.03964
+
+
 * [2021-06-25 15:32:17]
     * here> work on related work section.
-        * note
-            * I may consider making paragraph instead of full subsection
-        * here> lets read graph embeding.
-            * here> read the following sections
-                * here> Is there a concept from dynamic graph embedding paper that I can generalized in my paper
-                    * here> look for node/edge ranking related tasks
-                        * can graph reconstruction be useful in graph protection?
-                            * how is the ranking mechanism actually works?
-                            * include graph embedding that are for graph protections
-                    * the paper doesn't mention reachability graph, line graph, and tranmission graph
-                    * It doesn't cover embedding that could apply to tmeporal network construction and multilayer network construction 
-                * research on node ranking in general
-                    *  a surveys on network node ranking algorithms
-                        * https://link.springer.com/article/10.1007/s11431-020-1683-2
-                    * embedding on node ranking
-                        * https://arxiv.org/abs/1902.03964
+        * In simulation section, add simulation with counter-measure mechanism.
+            * FAQs
+                * can simulation with counter-measure be used with control models or predictive models?
+                    * I should ask dr Zhu for this.
+            * by simulation with counter-measure mechanism, I mean that the underlying tranmission dynamics are simulated with counter-measure mechanims ()
+                *  mechanism include the following
+                     * given observed number of members of compartment classes,
+                     certain actions were enforce (manually
+                     or reactively) to reverse the infective rate or dead rate.
+        * rewriting mind maps 
+            * redo old mind maps
+            * create mindmaps for graph embedding?
         * combine related work section with micro/mezzo/macro network modelling.
-        * Survey on Temporal Network
-            * here> what are types of temporal network?
-            * when is this paper published?
-            * what is it oobjective?
-            * why is it necessayr to have publish this paper?
-
-        * take a look at the following paper 
-            *  ref
-                * google search
-                    * https://www.google.com/search?q=heterogenous+networks+survey+%5D&rlz=1C1CHBF_enUS941US941&oq=heterogenous+networks+survey+%5D&aqs=chrome..69i57j0i22i30j0i8i13i30.19562j0j7&sourceid=chrome&ie=UTF-8
-                        * found the following paper 
-                            * A Survey of Heterogeneous Information Network Analysis - arXiv
-
-        * Survey on Analysis, Prediction, and Control of Epidemic
-            * I need to read these paper first.
-        * Survey on Network Embedding
-        * Survey on Related Applications
+        * read about calibration of infected case estimation .
+            * ref 
+                * https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-020-05737-6
+        * read A survey of heterogeneous information entwork anlaysis
+            * ref
+                * https://arxiv.org/pdf/1511.04854.pdf
+            * goal
+                * comparing its defintiion of heterogeneous to mine and generalized the concept.
+        * survey on related objective tasks 
+            * read the following 
+                * The challenges
+                of modeling and forecasting the spread of COVID-19
+                * Modelling COVID-19
+                * How control theory can help us control
+                Covid-19,” IEEE Spectrum
+        * add challenges sections
+            * read the following paper
+                * Eight challenges for network epidemic models,
 
     * ways to put pictures
         * show concept of somthign in detilas

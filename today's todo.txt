@@ -92,9 +92,7 @@ response from HPC
 #== TODO 
 #=====================
 
-* learn latex
-    * learn latex ecosystem + options.
-    * learn to be faster on latex
+* talk to jetbrain team 
 
 * figure out a way to connect with this guy
     * https://www.youtube.com/watch?v=PHJSTV5s2cI
