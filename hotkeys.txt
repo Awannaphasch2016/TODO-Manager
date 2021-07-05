@@ -507,6 +507,8 @@ V32k = select current line to 32 lines above the current line
 ctrl + ^ = switch to last opened file.
 ctrl + o = jump backward in history action
 ctrl + i = jump forward in history action
+U = uppercase hightlighted word
+u = lowercase hightlighted word
 
 vim/navigation
 ` + . = last change in crrent buffer
@@ -1216,7 +1218,7 @@ ctrl + f = go to next page
 * c-M-x = evaluate next block of code
 * g-r =  Evaluate selection or sends it to the open REPL, if available. 
 * Meta-q = reformat paragaph with auto fill
-* M-s h r . = highlight word at a point
+* M-s h . = highlight word at a point
 
 # Emacs/Macro 
 * F3 = start macro 
@@ -1297,6 +1299,11 @@ ctrl + f = go to next page
 * emacs -c = connect to daemon 
 * emacsclient -e "(kill-emacs)" = kill current client
     * emacsclient -e "(kill-emacs)" -s another-server = kill client name "another-server"
+
+# Emacs/Magit
+* c-x g = launch the status interafce with the magit-status
+* g = refresh
+* ? = open help windows
 
 # Doom Emacs
 * ref 

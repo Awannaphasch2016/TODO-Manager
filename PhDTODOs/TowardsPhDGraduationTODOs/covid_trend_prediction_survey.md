@@ -140,7 +140,7 @@
     * I somehow forget to define temporal network.
     * FAQs
         * here> what is the differences between their definition of "temporal graph" compared to ours.
-            * here> read future direction
+            * here> read future directi)on
 
 
 * research on node ranking in general
@@ -149,6 +149,27 @@
     * embedding on node ranking
         * https://arxiv.org/abs/1902.03964
 
+* review + edit the following sections
+    * note
+        * distinguish between infected rate, transmitted rate
+    * related work
+        * differences between individuals-mixing and community-mixing.
+            * see pictures.
+            * implicit and explicit
+                * individuals heterogeniety model vs group-heterogeneity model
+                    * for group-heterogeneity.
+                        * multilayer-comunity mixing vs singlelayer community mixing?
+                            * here> read mezzo network single layer and multilayer then fix content if required
+
+    * Survey on Epidemic Network Analysis
+    * Survey on Network Constructions
+
+* complete the following tags
+    * ~/add content
+    * ~/added content
+    * ~/merge
+    * ~/refactor
+    * ~/adjust
 
 * [2021-06-25 15:32:17]
     * here> work on related work section.

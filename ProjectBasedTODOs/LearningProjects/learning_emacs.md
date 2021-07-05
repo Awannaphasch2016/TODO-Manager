@@ -51,29 +51,55 @@
     * goal: install smooth-scrolling.el  
         * ref
             * https://github.com/aspiers/smooth-scrolling 
-
+    
     * here> goal: use scimax + doom emacs 
         * ref 
             * https://sqrtminusone.xyz/posts/2021-05-01-org-python/
             * https://dotemacs.readthedocs.io/en/latest/
         * here> scimax + doom?
             * here> just load packages used in scimax to doom. 
-                * here> read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
-                    * here> emacs-jupyter vs ob-ipython vs emacs-ipython-notebook (ein)
-                        * what is case changes?
-                        * here> what does add-hook actually do?
-                            * here> understand hook and flag
-                                * symbols vs variables vs objects?
-                                    * what is kill ring?
-                                    * what is case changes?
-                                    * what is interns?
-                                        * what is canonical symbol?
-                                            * what does lisp reader do?
-                                                * what are different things that are being processed in the "read" vs " eval" phases of lisp excution.
-                * what ppackages do scimax use?
-                    * https://github.comtchin/scimax/blob/master/scimax.org/
-                    * https://github.comtchin/scimax/blob/master/scimax-ipython.org/
-        * make it better than vim 
+                * here> what packages do scimax use?
+                    * here> ob-ipython
+                        * try to under org-mode
+                            * try to understand header
+                                * what is property? what is drawer?
+                                    * what is logbook?
+                                        * here> where is entry notes (lookbook) saved to?
+                                            * what is org-log
+                                                * here> trying to understand code that is refered in the following ref
+                                                    * ref
+                                                        * here> https://emacs.stackexchange.com/questions/17282/org-mode-logbook-note-entry-without-logbook-drawer 
+                                                            * understand it.
+                                                * read Easy customization interface
+                                                    * ref 
+                                                        * https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html
+
+            * read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+                * should I learn org-babel?
+                * here> emacs-jupyter vs ob-ipython vs emacs-ipython-notebook (ein)
+                    * installing emacs-jupyter
+                        * error
+                            * 'modules are not support' when I run jupyter-run-repl
+                                * here> how to debug with backtrace? 
+                                    * here> https://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Debugger.html
+                                * how to pretty print backtrace?
+                                    * how to format backtraces?
+                                        * https://emacs.stackexchange.com/questions/54311/can-emacs-show-formatted-backtraces
+                                    * how to format elisp block?
+                                        * https://emacs.stackexchange.com/questions/283/command-that-formats-prettifies-elisp-code
+                * here> how to turn off evil mode?
+        * make it suitable for my note taking research workflow.
+            * dependencies
+                * I may need to learn the following
+                    * bibtex
+                    * pdftools
+                    * org-noter
+            * here> try scimax first
+            * jreddit.com/r/emacs/comments/oc8mj3/integrated_bibtex_references_between_firefox_and/
+                * bibtex references + firefox + org-mode + org-noter + pdftools
+                    * https://www.reddit.com/r/emacs/comments/oc8mj3/integrated_bibtex_references_between_firefox_and/
+                * zotero + bibtex-action + org-noter + pdftools
+        * make it better than vim.
             * here> do what vim does well 
                 * here> lets make python IDE
                     * here> https://www.youtube.com/watch?v=6BlTGPsjGJk&ab_channel=thoughtbot
