@@ -92,6 +92,17 @@ response from HPC
 #== TODO 
 #=====================
 
+* how to add github username and password, so I don't have to type it every single times.
+* analyze character in "Nevertheless" series
+* ask reddit about the following
+    * how to build knowledge base for rigorous subject like math?
+        * how can ideas be linked?
+            * by examples?
+            * by usecase?
+            * by theorem? 
+            * by proof?
+            * by domains?
+
 * talk to jetbrain team 
 
 * figure out a way to connect with this guy
@@ -124,7 +135,6 @@ response from HPC
 * here> read second brain stuff
     * here> https://fortelabs.co/start-here/
     * 1 hours of reading + notes.
-* how to add github username and password, so I don't have to type it every single times.
 * at 9 read 1 paper from I link I have lefted open.
     * 1 hours
 

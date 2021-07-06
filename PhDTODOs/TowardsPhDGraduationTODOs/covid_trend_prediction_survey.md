@@ -152,17 +152,46 @@
 * review + edit the following sections
     * note
         * distinguish between infected rate, transmitted rate
-    * related work
-        * differences between individuals-mixing and community-mixing.
-            * see pictures.
-            * implicit and explicit
-                * individuals heterogeniety model vs group-heterogeneity model
-                    * for group-heterogeneity.
-                        * multilayer-comunity mixing vs singlelayer community mixing?
-                            * here> read mezzo network single layer and multilayer then fix content if required
-
-    * Survey on Epidemic Network Analysis
-    * Survey on Network Constructions
+    * transmission dynamic should be below network/node/edge construction.
+    * here> network construction
+        * here> rewrite mutlilayer network section
+            * here> read multilayer network on epidemic.
+                * goal 
+                    * here> to understand, how the paper categorize multilayer network into sections.
+            * read multilevel network in multilayer networks.
+        * scale and objective 
+            * pros and cons of each scale
+            * main usecase of each scale.
+            * list all the tables to be aware of 
+                * order table correctly.
+                    * overview of network types based on micro, mezzo, and macro scale. 
+                    * dataset
+                        * types of real network data.
+                    * simulation
+                        * idealized network and its properties 
+                        * types of micro network simulations
+                        * here> types of mezzo network simulations
+                            * here> merge it with the following table 
+                                * types of multilayer networks for epidemic tasks.
+                                * types of mezzo networks.?
+                            * differences between individuals-mixing and community-mixing.
+                                * see pictures.
+                                * implicit and explicit
+                                    * individuals heterogeniety model vs group-heterogeneity model
+                                        * for group-heterogeneity.
+                                            * multilayer-comunity mixing vs singlelayer community mixing?
+                                                * here> read mezzo network single layer and multilayer then fix content if required
+                                                * fix fig 3.
+                                                    * add picture of multilayer-comunity mixing
+                                                    * add color for same group/layer!.
+                    * node construction
+                        * micro network nodes features  
+                        * mezzo network nodes features 
+                        * macro network nodes features 
+                    * edges construction
+                        * micro network edges features  
+                        * mezzo network edges features 
+                        * macro network edges features 
 
 * complete the following tags
     * ~/add content
