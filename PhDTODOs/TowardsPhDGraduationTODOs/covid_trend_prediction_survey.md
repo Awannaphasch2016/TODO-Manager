@@ -149,16 +149,101 @@
     * embedding on node ranking
         * https://arxiv.org/abs/1902.03964
 
+* here> do the following 
+    * here> refactors simulation into new sections.
+    * read and rewrite the following 
+        * here> stop at network scale/macro
+    * move the following to be under network construction 
+        * dataset/pairwise approximation ( where exactly should this be? merge to other subsection?)
+        * dataset/idealized network.
+    * dataset and real network should merge.
+
+
+* create illustration of hwo to apply the framwork to solve epidemic tasks
+    * select tasks
+    * select input 
+    * network evolution?
+        * topological evolution 
+        * features evolution
+    * pick embedding
+    * network process on top on the network evolution
+        * deterministic vs stochastic modeling?
+    * implicit vs explicit graph based on given input ? 
+
+* read and revise network-based solution to practical epoidemic problems
+
+* categoring concept into tables
+    * here> multilayer networks
+        * here> read multilayer networks  
+            * node-colored network and edge-colored network can be mapped back and forth using multilayer network as an intermidiate mapping.
+                * create a picture that convert between node colored, multilayer, edge colored network with temporal dimension.
+            * factors necessary to categorize types of network
+                * labeling (type)
+                    * node 
+                    * edge 
+                    * layer
+                * edges dependencies 
+    * dynamic behaviors of graph ( this is not simulation because it generalized nature of input graph behavior over time) 
+        * here> how is this related to temporal network 
+            * temporal network is one stack of graph while dynamci behavior of graph concerns how graph is changes over time (1 time interval window = 1 stack)
+        * ref 
+            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/FLbwqaROj
+        * topological evolution.
+            * SELECTED node evolution
+            * SELECTED edges evolution
+        * features evolution.
+            * ? label evolution 
+            * ? information evolution
+        * network process 
+            * SELECTED diffusion cascade
+                * content from simulation is moved to here.
+                    * ref 
+                        * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/NhTNJu7zl
+                    * implicit graph vs explicit graph 
+                    * deterministic model vs stochastic model
+                    * simulation base on stack of networks (each stack can be static or temporal network.)
+                        * don't know what this is anymore.
+                    * simulation assumptions
+                        * time-scale separation
+                        * temporal-switching network
+                        * activity-driven networks
+                        * edge-markovian dynamic graphs
+            * role evolution
+
+    * temporal network is a single layer network with time-varying path.
+        * discrete time vs continous time.
+            * can I just include discrete time? 
+    * node and edges features 
+        * ways to categorize this is still not clear. Maybe it doesn't need to be future categorized because survey on graph embedding pretty much sum up all possible options node/edges features can be embedding.
+            * see https://roamresearch.com/#/app/AdaptiveGraphStucture/page/FLbwqaROj
+
 * review + edit the following sections
     * note
         * distinguish between infected rate, transmitted rate
     * transmission dynamic should be below network/node/edge construction.
+    * mention types of epidemic models on dynamic networks in explicit network simulation.
+        * ref 
+            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/glPBUFrfK
     * here> network construction
+        * change from nodes and edges construction to nodes and edges features.
+        * get 
         * here> rewrite mutlilayer network section
+            * If I need more paper to reference, get it from the following paper 
+                * Interacting Spreading Processes in Multilayer
+                Networks: A Systematic Review
+                    * https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8955870
+                * The physics of spreading processes in multilayer networks
+                    * https://www.nature.com/articles/nphys3865
+            * check the following definition 
+                * multi-host
             * here> read multilayer network on epidemic.
                 * goal 
                     * here> to understand, how the paper categorize multilayer network into sections.
-            * read multilevel network in multilayer networks.
+            * Get definition of the following network 
+                * correlation network
+                * multilevel network
+                    * read multilevel network in multilayer networks.
+                * see the following for all pages
         * scale and objective 
             * pros and cons of each scale
             * main usecase of each scale.
