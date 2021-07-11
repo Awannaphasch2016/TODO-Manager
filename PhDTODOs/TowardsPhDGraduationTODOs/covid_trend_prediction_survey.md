@@ -150,9 +150,59 @@
         * https://arxiv.org/abs/1902.03964
 
 * here> do the following 
+    * note
+        * 2 main challenges of epidimiology
+            1. study of epidemic models on network structures.
+            2. optimize network structure design for epidemic containments.
+    * here> FAQs
+        * here> what are challenges proposed in the paper?
+            * read the following
+                * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238691/pdf/main.pdf
+                * https://bdataanalytics.biomedcentral.com/track/pdf/10.1186/s41044-020-00046-0.pdf
+                    * spreading processes and disease behavior networks section
+            * can I group these challenges in to categories?
+    * is network evolution a general terminology?
+        * if it is a generally known concept, what is it exactly? 
+        * what is concrete tasks that are used for network evolution?dataset
+            * here> what is the effect of diffusion information when value of edges are zero?
+                * here> what are ways diffusion dyanmics can be implemented on graph?
+                    * note
+                        * lets try to understand this shit in-dept for once in my life.
+                    * static graph
+                        * compartment
+                    * dynamic graph
+                        * dynamic property
+                            * discrete vs continous time process
+                            * linear vs nonlinear 
+                            * network evolutions?
+                            * 
+                        * assumption (models)
+                            * here> time-scale separation
+                            * temporal-switching network
+                                * FAQs
+                                    * how does this connect to compartmental model? [71]
+                                    * [72], sufficient conditions for stability 
+                                        * switching arbitrarily among a set of topologies according to stochastic mechanimms. (Markov switching rule)
+                                            * markov switching rule?
+                                            * sufficent condition?
+                                    * [73] = survey on temporal-switching network
+                                * terminology
+                                    * time-varying vs temporal-switching?
+                                        * same thing?
+                                    * discrete-time process vs continuous-time process?
+                                    * stability analysis?
+                                    * commutes?
+                            * activity-driven network
+                            * edge-markovian dyanmic
+
+    * lets put the following concept into the my current general framework
+        * topological evolution
+        * features evolution
+    * networks constructions sections
     * here> refactors simulation into new sections.
     * read and rewrite the following 
         * here> stop at network scale/macro
+            * clean up all comments in the sections of network scale before moving on..
     * move the following to be under network construction 
         * dataset/pairwise approximation ( where exactly should this be? merge to other subsection?)
         * dataset/idealized network.
