@@ -148,6 +148,14 @@
         * https://link.springer.com/article/10.1007/s11431-020-1683-2
     * embedding on node ranking
         * https://arxiv.org/abs/1902.03964
+* paper on community detection 
+    * Epidemic spreading on complex
+    networks with community
+    structures
+        * https://www.nature.com/articles/srep29748.pdf 
+    * A Comprehensive Survey on Community Detection
+    with Deep Learning
+        * https://arxiv.org/pdf/2105.12584.pdf
 
 * here> do the following 
     * note
@@ -157,10 +165,14 @@
     * here> FAQs
         * here> what are challenges proposed in the paper?
             * read the following
-                * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8238691/pdf/main.pdf
+                * here> https://www.nature.com/articles/s41598-021-87987-1.pdf
                 * https://bdataanalytics.biomedcentral.com/track/pdf/10.1186/s41044-020-00046-0.pdf
                     * spreading processes and disease behavior networks section
-            * can I group these challenges in to categories?
+                * https://dl.acm.org/doi/pdf/10.1145/2601412?casa_token=zCfqhAtyXiUAAAAA:92zcfquWoo22XPf9mhGZyzEfNbt3ZAVGRo5wW2gaN621koGuvrkJZKVEaZQxpt2-6JRlE9gEx2C49Q 
+                * file:///C:/Users/terng/Downloads/G-2003-80.pdf
+            * after finish reading, write about relationship between micro/mezzo/macro network and spatial networks.
+            * here> summarized challenges and categorized them 
+              
     * is network evolution a general terminology?
         * if it is a generally known concept, what is it exactly? 
         * what is concrete tasks that are used for network evolution?dataset
