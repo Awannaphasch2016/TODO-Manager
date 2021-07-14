@@ -157,12 +157,13 @@
     with Deep Learning
         * https://arxiv.org/pdf/2105.12584.pdf
 
-* here> do the following 
+
+* do the following 
     * note
         * 2 main challenges of epidimiology
             1. study of epidemic models on network structures.
             2. optimize network structure design for epidemic containments.
-    * here> FAQs
+    * FAQs
         * here> what are challenges proposed in the paper?
             * read the following
                 * here> https://www.nature.com/articles/s41598-021-87987-1.pdf
@@ -170,9 +171,10 @@
                     * spreading processes and disease behavior networks section
                 * https://dl.acm.org/doi/pdf/10.1145/2601412?casa_token=zCfqhAtyXiUAAAAA:92zcfquWoo22XPf9mhGZyzEfNbt3ZAVGRo5wW2gaN621koGuvrkJZKVEaZQxpt2-6JRlE9gEx2C49Q 
                 * file:///C:/Users/terng/Downloads/G-2003-80.pdf
-            * after finish reading, write about relationship between micro/mezzo/macro network and spatial networks.
-            * here> summarized challenges and categorized them 
-              
+    * collect papers for the following
+        * micro network
+        * here> mezzo network
+        * macro networks 
     * is network evolution a general terminology?
         * if it is a generally known concept, what is it exactly? 
         * what is concrete tasks that are used for network evolution?dataset
@@ -187,7 +189,6 @@
                             * discrete vs continous time process
                             * linear vs nonlinear 
                             * network evolutions?
-                            * 
                         * assumption (models)
                             * here> time-scale separation
                             * temporal-switching network
@@ -206,20 +207,19 @@
                                     * commutes?
                             * activity-driven network
                             * edge-markovian dyanmic
-
-    * lets put the following concept into the my current general framework
-        * topological evolution
-        * features evolution
-    * networks constructions sections
-    * here> refactors simulation into new sections.
+    * here> complete the following tags
+        * here> ~/add content
+            * multilayer section
+                * from existing content, read papers and write better transitions.
+        * ~/added content
+        * ~/merge
+        * ~/refactor
+        * ~/adjust
     * read and rewrite the following 
-        * here> stop at network scale/macro
-            * clean up all comments in the sections of network scale before moving on..
-    * move the following to be under network construction 
-        * dataset/pairwise approximation ( where exactly should this be? merge to other subsection?)
-        * dataset/idealized network.
-    * dataset and real network should merge.
-
+        * dataset
+            * micro  
+            * mezzo
+                * haven't collect data that is specifically for mezzo
 
 * create illustration of hwo to apply the framwork to solve epidemic tasks
     * select tasks
@@ -279,73 +279,6 @@
         * ways to categorize this is still not clear. Maybe it doesn't need to be future categorized because survey on graph embedding pretty much sum up all possible options node/edges features can be embedding.
             * see https://roamresearch.com/#/app/AdaptiveGraphStucture/page/FLbwqaROj
 
-* review + edit the following sections
-    * note
-        * distinguish between infected rate, transmitted rate
-    * transmission dynamic should be below network/node/edge construction.
-    * mention types of epidemic models on dynamic networks in explicit network simulation.
-        * ref 
-            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/glPBUFrfK
-    * here> network construction
-        * change from nodes and edges construction to nodes and edges features.
-        * get 
-        * here> rewrite mutlilayer network section
-            * If I need more paper to reference, get it from the following paper 
-                * Interacting Spreading Processes in Multilayer
-                Networks: A Systematic Review
-                    * https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8955870
-                * The physics of spreading processes in multilayer networks
-                    * https://www.nature.com/articles/nphys3865
-            * check the following definition 
-                * multi-host
-            * here> read multilayer network on epidemic.
-                * goal 
-                    * here> to understand, how the paper categorize multilayer network into sections.
-            * Get definition of the following network 
-                * correlation network
-                * multilevel network
-                    * read multilevel network in multilayer networks.
-                * see the following for all pages
-        * scale and objective 
-            * pros and cons of each scale
-            * main usecase of each scale.
-            * list all the tables to be aware of 
-                * order table correctly.
-                    * overview of network types based on micro, mezzo, and macro scale. 
-                    * dataset
-                        * types of real network data.
-                    * simulation
-                        * idealized network and its properties 
-                        * types of micro network simulations
-                        * here> types of mezzo network simulations
-                            * here> merge it with the following table 
-                                * types of multilayer networks for epidemic tasks.
-                                * types of mezzo networks.?
-                            * differences between individuals-mixing and community-mixing.
-                                * see pictures.
-                                * implicit and explicit
-                                    * individuals heterogeniety model vs group-heterogeneity model
-                                        * for group-heterogeneity.
-                                            * multilayer-comunity mixing vs singlelayer community mixing?
-                                                * here> read mezzo network single layer and multilayer then fix content if required
-                                                * fix fig 3.
-                                                    * add picture of multilayer-comunity mixing
-                                                    * add color for same group/layer!.
-                    * node construction
-                        * micro network nodes features  
-                        * mezzo network nodes features 
-                        * macro network nodes features 
-                    * edges construction
-                        * micro network edges features  
-                        * mezzo network edges features 
-                        * macro network edges features 
-
-* complete the following tags
-    * ~/add content
-    * ~/added content
-    * ~/merge
-    * ~/refactor
-    * ~/adjust
 
 * [2021-06-25 15:32:17]
     * here> work on related work section.
