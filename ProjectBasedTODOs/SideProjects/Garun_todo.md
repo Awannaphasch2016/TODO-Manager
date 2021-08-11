@@ -49,14 +49,21 @@
 # NOTES
 
 understand and analzye how the following people manage their notes 
-     Linus Pauling
+    Linus Pauling
         http://scarc.library.oregonstate.edu/coll/pauling/rnb/13/13-004-large.html
-     Charles Darwin
+    Charles Darwin
         http://darwin-online.org.uk/EditorialIntroductions/vanWyhe_notebooks.html
-     Alexander Graham Bell
+    Alexander Graham Bell
         https://www.loc.gov/search/?in=&q=Notebook+by+Alexander+Graham+Bell&new=true&st=
-     Thomas Edison
+    Thomas Edison
         http://edison.rutgers.edu/index.htm
+    Janus (from semnosis)
+    Shane Mallani (from semnosis)
+    Mukul Khanna
+        * https://www.youtube.com/watch?v=9gTDHLbtjrU&ab_channel=MukulKhanna
+        
+
+        
 
 - list of packagess of distrotubek
     - all-the-icons-dired 
@@ -208,6 +215,12 @@ understand and analzye how the following people manage their notes
     - browser in emacs with qutebrowser
 
 # TODO
+
+* carnonical company that create unbuntu
+    * see their buisness model.
+
+* create ciriculum to remember "subject" that you want to relearn or remember
+    * use space repetition.
 
 * learn GNU guix. (for better understanding of how to interact with underlying OS)
     * https://www.youtube.com/watch?v=iBaqOK75cho&list=PLEoMzSkcN8oNxnj7jm5V2ZcGc52002pQU&ab_channel=SystemCrafters

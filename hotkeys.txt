@@ -509,6 +509,8 @@ ctrl + o = jump backward in history action
 ctrl + i = jump forward in history action
 U = uppercase hightlighted word
 u = lowercase hightlighted word
+gJ = join line.
+
 
 vim/navigation
 ` + . = last change in crrent buffer
@@ -1264,7 +1266,7 @@ ctrl + f = go to next page
 * C-d = delect next character 
 * Meta-d = kill next word after cursor
 * Meta-<Del> = kill previous word before cursor
-* C-<Space> = enable moment with highlight
+* C-x <Space> = enable moment with highlight
     * C-w = kill highlighted content 
     * Meta-w = copy highlighted content 
 * C-y = yank

@@ -28,10 +28,40 @@
 
 # TODO 
 
-* here> Ultimate Goal: use emacs to create an app that can perfectly express by Garun workflow 
+* how to create new letters subscriptions?
+    * https://www.google.com/search?q=how+to+create+newsletter+subscription&rlz=1C1CHBF_enUS941US941&sxsrf=ALeKk01nLHb4Aktc2rAG2hXTK4VLovtT5A%3A1626650068410&ei=1LX0YIbHGKS0ggeGqYjAAw&oq=how+to+create+newsletter+subscription&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAcQHjIICAAQCBAHEB4yCAgAEAgQBxAeMggIABAIEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjoHCAAQRxCwAzoHCAAQsAMQQzoCCAA6BggAEAgQHkoECEEYAFCYQFiOTGCsTWgBcAJ4AoABwwGIAdEOkgEDNS45mAEAoAEBqgEHZ3dzLXdpesgBCsABAQ&sclient=gws-wiz&ved=0ahUKEwiGgYHc3-3xAhUkmuAKHYYUAjgQ4dUDCA4&uact=5
+
+* learn the following.
+    * do i want to learn code completion mechanism?
+    * simple gpt-3 projects.
+        * list of gpt-3 projects.
+
+* lets learn some web devloping in emacs.
+
+* here> Goal: work on pen.el
+    * here> finish pen.el tutorial.
+        * what is recursive editing level?
+        * here> how to install .el modules to doom emacs?
+            * here> what is example of recipe?
+                * here> figure out how pen.el is built?
+                    * here> create recipe for pen.el.
+                        * here> how to build pen.el so that it appear in doom?
+    * install gpu driver for wsl.
+    * can I run docker directly in emacs? 
+        * lets investigate docker ?
+            * why do i need to conenct docker.el with emacs?
+                * how to run docker?
+            * lets create openai key.
+                * here> lets play around with playground.
+
+* here> learn all features of scimax 
+
+* here> Garun Goal: use emacs to create an app that can perfectly express by Garun workflow 
     * note
         - to enable automation of extract, deliver, storing.
 
+
+    * supermemo in emacs.
     * learn how to configure emacs configuration
         * how to change config.el to .org
             * what does it mean by export source code?
@@ -52,31 +82,18 @@
         * ref
             * https://github.com/aspiers/smooth-scrolling 
     
-    * here> goal: use scimax + doom emacs 
+    * goal: use scimax + doom emacs 
         * ref 
             * https://sqrtminusone.xyz/posts/2021-05-01-org-python/
             * https://dotemacs.readthedocs.io/en/latest/
         * here> scimax + doom?
-            * here> just load packages used in scimax to doom. 
-                * here> what packages do scimax use?
-                    * here> ob-ipython
-                        * try to under org-mode
-                            * try to understand header
-                                * what is property? what is drawer?
-                                    * what is logbook?
-                                        * here> where is entry notes (lookbook) saved to?
-                                            * what is org-log
-                                                * here> trying to understand code that is refered in the following ref
-                                                    * ref
-                                                        * here> https://emacs.stackexchange.com/questions/17282/org-mode-logbook-note-entry-without-logbook-drawer 
-                                                            * understand it.
-                                                * read Easy customization interface
-                                                    * ref 
-                                                        * https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html
-
-            * read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+            * here> read https://sqrtminusone.xyz/posts/2021-05-01-org-python/
+                * here> configure it 
+                    * can I list all availble env?
+                    * error
+                        * here> only conda "base" is detected. I can't get conda.el to detect other environments
                 * should I learn org-babel?
-                * here> emacs-jupyter vs ob-ipython vs emacs-ipython-notebook (ein)
+                * emacs-jupyter vs ob-ipython vs emacs-ipython-notebook (ein)
                     * installing emacs-jupyter
                         * error
                             * 'modules are not support' when I run jupyter-run-repl
@@ -87,7 +104,7 @@
                                         * https://emacs.stackexchange.com/questions/54311/can-emacs-show-formatted-backtraces
                                     * how to format elisp block?
                                         * https://emacs.stackexchange.com/questions/283/command-that-formats-prettifies-elisp-code
-                * here> how to turn off evil mode?
+                * how to turn off evil mode?
         * make it suitable for my note taking research workflow.
             * dependencies
                 * I may need to learn the following

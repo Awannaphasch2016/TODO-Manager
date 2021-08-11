@@ -142,7 +142,6 @@
         * here> what is the differences between their definition of "temporal graph" compared to ours.
             * here> read future directi)on
 
-
 * research on node ranking in general
     *  a surveys on network node ranking algorithms
         * https://link.springer.com/article/10.1007/s11431-020-1683-2
@@ -158,7 +157,7 @@
         * https://arxiv.org/pdf/2105.12584.pdf
 
 
-* do the following 
+* here> do the following 
     * note
         * 2 main challenges of epidimiology
             1. study of epidemic models on network structures.
@@ -171,10 +170,76 @@
                     * spreading processes and disease behavior networks section
                 * https://dl.acm.org/doi/pdf/10.1145/2601412?casa_token=zCfqhAtyXiUAAAAA:92zcfquWoo22XPf9mhGZyzEfNbt3ZAVGRo5wW2gaN621koGuvrkJZKVEaZQxpt2-6JRlE9gEx2C49Q 
                 * file:///C:/Users/terng/Downloads/G-2003-80.pdf
-    * collect papers for the following
-        * micro network
-        * here> mezzo network
-        * macro networks 
+    * here> do the following
+        * note
+            * start to clean up comment along the way
+        * epidemic control vs epidemic mitigation?
+        * parameter estimation == hybrid models + feature encoding?
+        * what is the purposed of MPNN?
+            * advantage and usecase?
+            * any specific adaptation to epidemic task.
+        * here> add picture to compare different of diffusion between disease propagation network and information propagation network.
+        * include stemGNN
+        * reinforcement learning with different actions
+            * node removal.
+            * mobility restriction.
+        * MVC stuff
+            * note
+                * MVC vs node ranking?
+            * wang2020risk
+                * what is WUG model?
+            * here> wijayanto2019effective
+                * do nodes have feautres?
+                * tasks is to computer surviving ratio of nodes that remain uninfected at the ned of epidemics.
+                    * the task is equivalent to vaccine allocation with multi-turn budget.
+                * perturb network can sometimes improve performance. Perturbing network by removing exiting edges of snapshot of network make the models more robust to uncertainty from data collection and less sensitive to epidemic parameters (propagation rate, infection rate, and recovery rate.)
+                * model performance on aggregated network is different from the dynamic network.
+                    * we found that the multiple-turns time-based
+                    strategies are beneficial and more effective than the aggregate-based strategies
+        * refactor multilayer network from mezzo network and put multilayer  content to micro and mezzo network.
+            * here> refactor modelling 
+                * here> read referenced paper in sections/epidemic containment and identify content for TGDS.
+                    * here> I consider content of simulation with explicit graph structure a theory-guided.
+                        * model dynamic behavior on graph/model-based on scale.
+                            * do simulation generated graph or transition on graph?
+                                * if it is a generated model, do nodes have features?  
+                                * can these models be applied on rigid graph?
+                                * here> what is multi-model graph?
+                                * what is the differeces between simulation on implicit vs explicit graph ?
+                                    * what does it to be faster when comparing epidemic evolution and network evolution?
+                                        * reaction-diffusion process.
+                                        * read EPIDEMIC PROCESSES IN TEMPORAL NETWORKS 
+                                        * what is fig 11?
+                                        * read the following 
+                                            * https://arxiv.org/pdf/1710.11431.pdf
+                                                * penalize network structure.
+                                            * https://faculty.sites.iastate.edu/hliu/files/inline-files/PINN_RPK_2019_1.pdf
+                                    * here> is this even a thing?
+                                        * here> read the following 
+                                            * here> http://www.cs.cmu.edu/~jure/pub/diffusion-paper.pdf
+                                            * https://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf
+                                        * modeling based on dynamic behavior on graph
+                                            * how is this fit into the survey?
+
+                    * figure out if post-emptive and pre-emptive are theory-guided.
+        * read Real-time Epidemic Forecasting: Challenges and Opportunities 
+            * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6708259/ 
+            * https://www.pnas.org/content/117/46/28549
+            * The challenges
+            of modeling and forecasting the spread of COVID-19,
+        * remove or fix the existing figure. 
+            * check all the commented figures and tables as well.
+        * write future direction and conclusion.
+        * here> read the paper 
+            * figure out what figure I want to add
+            * check content for individual and community mixing if they are accurate.
+            * draw picture of 
+            * fix fig: transmission states of compartmental models
+                * show interesting data assimilation.
+            * ask the following question in new_taxonomy. 
+                * how each networks types are generated?
+            * here> move content from dataset to network characterized by scale. 
+
     * is network evolution a general terminology?
         * if it is a generally known concept, what is it exactly? 
         * what is concrete tasks that are used for network evolution?dataset
@@ -207,19 +272,96 @@
                                     * commutes?
                             * activity-driven network
                             * edge-markovian dyanmic
-    * here> complete the following tags
+    * complete the following tags
         * here> ~/add content
             * multilayer section
-                * from existing content, read papers and write better transitions.
+                * Immunization strategy for epidemic spreading based onmembership (m) over a multilayer network
+                    * literature survey section.
+            * here> figure out if there exists contents from recently added multilayer network that can be in the following sections.
+                * single layer mezzo edges/nodes.
+                * multilayer mezzo edges/nodes.
         * ~/added content
         * ~/merge
         * ~/refactor
         * ~/adjust
-    * read and rewrite the following 
-        * dataset
-            * micro  
-            * mezzo
-                * haven't collect data that is specifically for mezzo
+        * ~/fix
+        * ~/reference
+            * for more information about multilayer network + immunization strategy
+                * read 
+
+    * read the following paper
+        * key words to search for modeling section
+            * data-driven 
+            * epidemic containment
+                * node immunization 
+                * epidemic control
+                * graph protection
+                * community detection
+
+    * work on "Data-driven Network based solution to practical epidemic problems"
+        * read commented out section at the end of network construct section.
+        * here> survey 
+            * Network-based ranking in social systems: three challenges
+        * read "Data-driven Network based solution to practical epidemic problems"
+            * commented out (exclude) content that are not data-driven
+            * add more data-driven network base paper.
+                * read about correlation graph.
+                * Data-driven efficient network and surveillance-based
+                immunization
+                * Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting
+                * DISCRETE GRAPH STRUCTURE LEARNING FOR FORECASTING MULTIPLE TIME SERIES
+                    * https://arxiv.org/pdf/2101.06861.pdf
+                * Using data-driven agent-based models for forecasting emerging infectious diseases
+                * A hierarchical approach for influential node ranking in complex social networks
+                * Effective and scalable methods for
+                graph protection strategies against
+                epidemics on dynamic networks
+    * here> synthesize tgds + graph input structure.
+        * here> create nodes and edges features 
+            * how to refactor diffusion cascade models?
+            * here> read and fix Diffusion Cascade Models subsection and below sections.
+    * what are NLP "tasks" that prompt engineer can solve. 
+    * how to do embedding for temporal graph?
+    * merge old content
+        * here> resection the papers.
+            * introduction
+            * related work
+            * Network Characterisation taxonomy
+            * epidemic/pandemic network construction
+            * epidemic/pandemic modeling
+                * information diffusion
+                * temporal network
+                * predictions
+            * merge Data-driven Network Based Solution to Practical Epidemics Problems with 
+            * here> merge model_GNN to TGDS
+                * read ~/model_GNN/Network construction and figure out if i can merge any of the content
+                * read papers that use GNN and condense the content in TGDS. 
+        * fill out \comment{} under feature encoding
+        * read new papers 
+            * need more paper for mutli-layer stuff. (try data-driven?)
+    * where can I find content about weight initialization? 
+        * TGDS + initialize.
+            * read edges construction/graph construction section?
+        * TGDS + models
+            * kapoor2020examining
+            * cao2020spectral
+            * wang2020using
+            * deng2020cola
+            * ma2020adacare
+            * yu2015multi
+            * zhang2021dynamic
+            * gao2020stan
+            * fritz2021combining
+            * la2020epidemiological
+
+
+
+
+
+
+
+
+
 
 * create illustration of hwo to apply the framwork to solve epidemic tasks
     * select tasks
@@ -233,52 +375,6 @@
     * implicit vs explicit graph based on given input ? 
 
 * read and revise network-based solution to practical epoidemic problems
-
-* categoring concept into tables
-    * here> multilayer networks
-        * here> read multilayer networks  
-            * node-colored network and edge-colored network can be mapped back and forth using multilayer network as an intermidiate mapping.
-                * create a picture that convert between node colored, multilayer, edge colored network with temporal dimension.
-            * factors necessary to categorize types of network
-                * labeling (type)
-                    * node 
-                    * edge 
-                    * layer
-                * edges dependencies 
-    * dynamic behaviors of graph ( this is not simulation because it generalized nature of input graph behavior over time) 
-        * here> how is this related to temporal network 
-            * temporal network is one stack of graph while dynamci behavior of graph concerns how graph is changes over time (1 time interval window = 1 stack)
-        * ref 
-            * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/FLbwqaROj
-        * topological evolution.
-            * SELECTED node evolution
-            * SELECTED edges evolution
-        * features evolution.
-            * ? label evolution 
-            * ? information evolution
-        * network process 
-            * SELECTED diffusion cascade
-                * content from simulation is moved to here.
-                    * ref 
-                        * https://roamresearch.com/#/app/AdaptiveGraphStucture/page/NhTNJu7zl
-                    * implicit graph vs explicit graph 
-                    * deterministic model vs stochastic model
-                    * simulation base on stack of networks (each stack can be static or temporal network.)
-                        * don't know what this is anymore.
-                    * simulation assumptions
-                        * time-scale separation
-                        * temporal-switching network
-                        * activity-driven networks
-                        * edge-markovian dynamic graphs
-            * role evolution
-
-    * temporal network is a single layer network with time-varying path.
-        * discrete time vs continous time.
-            * can I just include discrete time? 
-    * node and edges features 
-        * ways to categorize this is still not clear. Maybe it doesn't need to be future categorized because survey on graph embedding pretty much sum up all possible options node/edges features can be embedding.
-            * see https://roamresearch.com/#/app/AdaptiveGraphStucture/page/FLbwqaROj
-
 
 * [2021-06-25 15:32:17]
     * here> work on related work section.
