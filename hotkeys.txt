@@ -624,6 +624,21 @@ vim/basic/quickfix
 vim/plugins
 
 vim/plugins/vimtex
+vim/plugins/vimtex/text objects
+ic OR ac = commands 
+id OR ad = Delimiters 
+ie OR ae = latex environments 
+i$ OR a$ = Inline math structure  
+iP OR aP = Sections  
+im OR am = Items 
+tsd = toggle between () and \left(\right)
+tse = toggle starred command or environment with tsc/tse
+csc/cse/cs$/csd = surrounding command, environment or delimiter with 
+dsc/dse/ds$/dsd = delete the surrounding command, environment or delimiter with 
+]] = close the current environment/delimiter in insert mode 
+<F7> = insert new command 
+
+
 
 vim/plugins/vim-fugitive
 :GBranches = show list of git branches

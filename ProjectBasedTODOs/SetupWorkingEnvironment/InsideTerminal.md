@@ -24,7 +24,7 @@
         * requirement
             * from list of pdf, it can generate list of citation
             * from list of name, it can generate list of citation
-        * here> just follow this shit https://www.youtube.com/watch?v=nXgqnYVAzKk
+        * just follow this shit https://www.youtube.com/watch?v=nXgqnYVAzKk
             * use and read his script. 
         * create commandline to get bibtex.
             * see section bibtex in https://scholarly.readthedocs.io/en/latest/quickstart.html#usage 

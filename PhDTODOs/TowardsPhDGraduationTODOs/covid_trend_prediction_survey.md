@@ -99,8 +99,9 @@
 
 #OPTIMIZATION
 
+* here> mastering G-suite
 
-- here> practice hotkeys for vim-tex 
+- practice hotkeys for vim-tex 
     - requirements
         - (do not overly custermised, use things that can alwasy be used forever)
 - read LatexCheatSheet
@@ -130,6 +131,80 @@
             * ref 
                 * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
+
+* here> learn altex basic just to get by.
+    * mastering vimtex hotkeys.
+    * latex has doesn't 
+    * how does vimtex works?
+        * note
+            * vimtex use target.vim to define "text object"
+        * here> learn vimtex hotkeys.
+            * create Ultisnip snippet 
+                * image
+                * bullet point
+                * equation
+                * aligned
+            * here> learn to jump from subsection to subsection.
+            * how to use fold-expression.
+                * what is the best folding for vimlatex.
+            * what are all avaiable options?
+                * here> what is target.vim?
+                    * example?
+                        * what is the different between cin) and ci) (provided from vim?)
+                        * what is seeking.
+
+* here> do the following
+    * explore this page to find risk estimation paper that use graph. if I can't find any, send emails to dr zhu.
+        * fix tables and its description.
+    * add title to tables (on the top of the tables)
+    * add content to risk estimation. (paper that dr zhu recommends have to be added too. its simple but its qualified.)
+    * table macro networks edges features
+        * add edges relation 
+            * colocation
+            * mobility 
+            * correlations.
+    * Fig Three node-aligned 
+        * create more space for diffusion columns. make it looks like each one belong to one 
+    * Fig Epidemic Triangle
+        * use dash circle for vectors.
+    * here> align equation.
+        * how to center it?
+        * here> what is gathered comand in latex?
+            * ref 
+                * How to laign a set of multines equation
+                    * https://tex.stackexchange.com/questions/44450/how-to-align-a-set-of-multiline-equations
+    * add GNN section under MPNN.
+        * use this pciture as template.
+
+    * keyword 
+        * covid risk estiamtion using graph
+        * epidemic analysis
+        * hybrid deep leanring.
+            * Hybrid Deep Learning-Based Epidemic Prediction Framework of COVID-19: South Korea Case
+                * https://www.mdpi.com/2076-3417/10/23/8539/htm
+                * fix references.
+        * A mathematical model for simulating the
+        phase-based transmissibility of a novel
+        coronavirus
+            * add it to implicit network construction or something like that.
+    * fill up other table.
+        * table: very high overview of network types based on micro, mezzo, and macro scale
+            * what are types of relationship that I could use.
+        * epidemic model
+            * note
+                * add network size
+            * graph protection table
+                * how is diffusion assume per each time step
+                    * mobility-infection as multi-turn and intervention is intervened at higher step. 
+                * length of the experiment. (time step)
+                    * e.g. 10 days, 1000 days
+                * objective function.
+                * for RL
+                    * state, action, and reward.
+                    * here> exploration stratgies.
+                    
+    * finished the bold text.
+        * here> create micro/mezzo/macro networ)k
 
 * weekly ai news
     * create website for the group.
@@ -174,11 +249,17 @@
         * note
             * start to clean up comment along the way
         * epidemic control vs epidemic mitigation?
+        * talk about virtual graph.
+        * explain the following 
+            * here> location aware attention
+            * dilated convolutions
+            * virtual nodes and virtual edges.
+            * within and in-between season 
         * parameter estimation == hybrid models + feature encoding?
         * what is the purposed of MPNN?
             * advantage and usecase?
             * any specific adaptation to epidemic task.
-        * here> add picture to compare different of diffusion between disease propagation network and information propagation network.
+        * here> try to fill all the table, and add more picture in modeling section.
         * include stemGNN
         * reinforcement learning with different actions
             * node removal.
