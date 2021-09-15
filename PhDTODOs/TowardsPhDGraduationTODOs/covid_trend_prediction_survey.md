@@ -133,10 +133,10 @@
 #TODO
 
 * here> do the following
+    * use t as a super 
     * explore this page to find risk estimation paper that use graph. if I can't find any, send emails to dr zhu.
     * add content to risk estimation. (paper that dr zhu recommends have to be added too. its simple but its qualified.)
         * add content from the paper that he suggested.
-    * here> use t as a super 
     * rewrite node embedding to follow taxonomy of [[Foundations and Modeling of Dynamic Networks Using Dynamic Graph Neural Networks: A Survey]]
         * add some equation into it.
         * write about basic of RNN.
@@ -145,17 +145,16 @@
     * fix comparison of reinforcement algorithm (Objective function.)
     * get 1 more paper in pandemic risk estimation
     * remake google maps.
-    * fix the rest of the paper.
-        * here> fix content suggested by dr zhu.
+    * here> fix the rest of the paper.
+        * fix content suggested by dr zhu.
             * section 5, more details to descript the formula
                 * PRS_t
                     * define the size of the mian symbol
                         * dimentionionaltiy 
                     * explain the main meaning of the key formualt
                         * here> what is the motivation of 
-        * fix the references 
-            * what is this htp vs h things on figure 
-        * how to donwload subcapture?
+        * here> fix the references 
+            * here> what is this htp vs h things on figure 
     * add more description of R_0.
 
     * keyword 

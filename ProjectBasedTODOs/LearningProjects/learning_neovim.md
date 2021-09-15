@@ -22,3 +22,6 @@
     * how to send command to lsp?
     * do i have to create luaconfig myself?
 
+* find gist for all the language documentaion
+    * note
+        * there is a video from primegion that write script to pull cheatsheet file from gist.
