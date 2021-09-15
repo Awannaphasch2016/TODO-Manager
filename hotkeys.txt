@@ -624,6 +624,17 @@ vim/basic/quickfix
 vim/plugins
 
 vim/plugins/vimtex
+im/plugins/vimtex/tmotion
+[[, [], ][, [[ = move between section boundaries 
+[m, [M, ]m, ]M = move between environment boundaries 
+[n, [N, ]n, ]n = move between math environment boundaries
+            * what is documentation??
+            * create emmet.vim.
+[r, [R, ]r, ]R = move bewteen frame environment boundaries 
+
+[*, ]* = move bewteen comment boundaries 
+% = move between matching delimiter.
+
 vim/plugins/vimtex/text objects
 ic OR ac = commands 
 id OR ad = Delimiters 
@@ -637,6 +648,7 @@ csc/cse/cs$/csd = surrounding command, environment or delimiter with
 dsc/dse/ds$/dsd = delete the surrounding command, environment or delimiter with 
 ]] = close the current environment/delimiter in insert mode 
 <F7> = insert new command 
+
 
 
 

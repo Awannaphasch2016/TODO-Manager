@@ -132,49 +132,31 @@
                 * https://www.sciencedirect.com/science/article/pii/S1755436514000176
 #TODO
 
-* here> learn altex basic just to get by.
-    * mastering vimtex hotkeys.
-    * latex has doesn't 
-    * how does vimtex works?
-        * note
-            * vimtex use target.vim to define "text object"
-        * here> learn vimtex hotkeys.
-            * create Ultisnip snippet 
-                * image
-                * bullet point
-                * equation
-                * aligned
-            * here> learn to jump from subsection to subsection.
-            * how to use fold-expression.
-                * what is the best folding for vimlatex.
-            * what are all avaiable options?
-                * here> what is target.vim?
-                    * example?
-                        * what is the different between cin) and ci) (provided from vim?)
-                        * what is seeking.
-
 * here> do the following
     * explore this page to find risk estimation paper that use graph. if I can't find any, send emails to dr zhu.
-        * fix tables and its description.
-    * add title to tables (on the top of the tables)
     * add content to risk estimation. (paper that dr zhu recommends have to be added too. its simple but its qualified.)
-    * table macro networks edges features
-        * add edges relation 
-            * colocation
-            * mobility 
-            * correlations.
-    * Fig Three node-aligned 
-        * create more space for diffusion columns. make it looks like each one belong to one 
-    * Fig Epidemic Triangle
-        * use dash circle for vectors.
-    * here> align equation.
-        * how to center it?
-        * here> what is gathered comand in latex?
-            * ref 
-                * How to laign a set of multines equation
-                    * https://tex.stackexchange.com/questions/44450/how-to-align-a-set-of-multiline-equations
-    * add GNN section under MPNN.
-        * use this pciture as template.
+        * add content from the paper that he suggested.
+    * here> use t as a super 
+    * rewrite node embedding to follow taxonomy of [[Foundations and Modeling of Dynamic Networks Using Dynamic Graph Neural Networks: A Survey]]
+        * add some equation into it.
+        * write about basic of RNN.
+        * mention temporal smoothing as a by product of input network reconstruction.
+        * explain self-attention.
+    * fix comparison of reinforcement algorithm (Objective function.)
+    * get 1 more paper in pandemic risk estimation
+    * remake google maps.
+    * fix the rest of the paper.
+        * here> fix content suggested by dr zhu.
+            * section 5, more details to descript the formula
+                * PRS_t
+                    * define the size of the mian symbol
+                        * dimentionionaltiy 
+                    * explain the main meaning of the key formualt
+                        * here> what is the motivation of 
+        * fix the references 
+            * what is this htp vs h things on figure 
+        * how to donwload subcapture?
+    * add more description of R_0.
 
     * keyword 
         * covid risk estiamtion using graph
@@ -202,7 +184,6 @@
                 * for RL
                     * state, action, and reward.
                     * here> exploration stratgies.
-                    
     * finished the bold text.
         * here> create micro/mezzo/macro networ)k
 

@@ -92,6 +92,21 @@ response from HPC
 #== TODO 
 #=====================
 
+* recreate daily templates use similar structure as shown in sep 13.
+    * include the following things 
+        * roam research manager
+        * space everything schedule (time dependent)
+        * space repeition scheedule (time independent)
+            * Leitnex Box Schedule
+        * memo mnumanic (or something that sound like this)
+
+* car 
+    * make an appointment for car registration
+    * buy car insurance
+* looking for roomate 
+    * check on the person who has contacted me on facebook
+    * figure out channels of info that I can find roomate 
+
 * how to add github username and password, so I don't have to type it every single times.
 * analyze character in "Nevertheless" series
 * ask reddit about the following

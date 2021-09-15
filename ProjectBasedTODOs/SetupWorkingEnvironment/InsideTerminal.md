@@ -1,8 +1,31 @@
 # TODO
 
-* create UltiSnips for latex for the following
-    * tables
-    * citation
+* vim-orgmode
+* here> vim-ledger
+
+
+* Goal: talking to codeX 
+    * speech-to-text 
+        * ref
+            * https://www.youtube.com/watch?v=YRyYIIFKsdU&ab_channel=Channel2600
+    * learn how to use codeX
+        * experiment with codeX and find its limitation for data science related tasks 
+            * use titanic dataset 
+
+* here> goal: learn to use 'entr'
+    * here> see what I can do with 'entr'
+        * lets figure out a way to view images in vim or terminal.
+* explore emacs.
+* goal: be good enough at data science at command line.
+    * pick a project from kaggle.
+
+* learn to use stratify to the fulliest
+* try to store everything in cloud storage.
+* vim and sql? 
+* snippet at command line ( for bash)
+    * ref
+        * https://stackoverflow.com/questions/9186906/snippets-for-bash-command-line 
+* master data science at command line.
 
 * research util
     * latex stuff
